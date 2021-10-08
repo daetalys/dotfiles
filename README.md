@@ -1,0 +1,3 @@
+# dotCFG
+
+.cfg files
