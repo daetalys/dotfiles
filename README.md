@@ -1,3 +1,3 @@
 # dotCFG
 
-.cfg files
+my personal .cfg files
