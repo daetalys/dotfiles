@@ -1,0 +1,13 @@
+0000000000000000000000000000000000000000 2c8189095e014a610c83e4c1b8ef99ec1a3a0940 Dætalys <89952063+daetalys@users.noreply.github.com> 1636835077 -0600	commit (initial): Add package list
+2c8189095e014a610c83e4c1b8ef99ec1a3a0940 6a00174d5a1dd9456650a0181d9605d6ca4b07c8 Dætalys <89952063+daetalys@users.noreply.github.com> 1636835193 -0600	commit: add package list
+6a00174d5a1dd9456650a0181d9605d6ca4b07c8 16392ec1a0ec2c9a14fe26af734fafb5c8415b92 Dætalys <89952063+daetalys@users.noreply.github.com> 1636835931 -0600	commit: add package list
+16392ec1a0ec2c9a14fe26af734fafb5c8415b92 1fb9f259e43273339056cfce6af66603cbe970c9 Dætalys <89952063+daetalys@users.noreply.github.com> 1636835956 -0600	commit: add package list
+1fb9f259e43273339056cfce6af66603cbe970c9 c15f8bdcef68233bcf4ec7966268f667bed2d937 Dætalys <89952063+daetalys@users.noreply.github.com> 1636836198 -0600	commit: add bashrc
+c15f8bdcef68233bcf4ec7966268f667bed2d937 d649ccdf082b3e202990ce16a011b01e04e6832c Dætalys <89952063+daetalys@users.noreply.github.com> 1636836239 -0600	commit: add gitconfig
+d649ccdf082b3e202990ce16a011b01e04e6832c ec626e63f5fbcaea14ded1da497aabf29c03e822 Dætalys <89952063+daetalys@users.noreply.github.com> 1636836434 -0600	commit: add npmrc
+ec626e63f5fbcaea14ded1da497aabf29c03e822 98a51818dd6e16a43c8211c3002b9eaf659984ff Dætalys <89952063+daetalys@users.noreply.github.com> 1636836434 -0600	commit: add wavemonrc
+98a51818dd6e16a43c8211c3002b9eaf659984ff 274126bef34dc595c0b7cf29ca12d56dca8bb3ec Dætalys <89952063+daetalys@users.noreply.github.com> 1636836434 -0600	commit: add yarnrc
+274126bef34dc595c0b7cf29ca12d56dca8bb3ec bf7f8bf33aa8df4d9f44257215b7b2be52c3b4da Dætalys <89952063+daetalys@users.noreply.github.com> 1636836434 -0600	commit: add zshrc
+bf7f8bf33aa8df4d9f44257215b7b2be52c3b4da 4bae5ed3327c170e6e9830ab73dfb7b9454817ae Dætalys <89952063+daetalys@users.noreply.github.com> 1636837013 -0600	commit: updated gitconfig
+4bae5ed3327c170e6e9830ab73dfb7b9454817ae ed0eb7fe979aa61c267d4774e562fe06645f9ee6 Dætalys <89952063+daetalys@users.noreply.github.com> 1636837013 -0600	commit: add git-credentials
+ed0eb7fe979aa61c267d4774e562fe06645f9ee6 4e2f59b508b275e1ff19ddda0544e9a7104a3d78 Dætalys <89952063+daetalys@users.noreply.github.com> 1636837208 -0600	commit: add config folder
