@@ -6,3 +6,5 @@
 [user]
 	name = Dætalys
 	email = 89952063+daetalys@users.noreply.github.com
+[credential]
+	helper = store
