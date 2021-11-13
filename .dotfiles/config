@@ -1,9 +1,0 @@
-[core]
-	repositoryformatversion = 0
-	filemode = true
-	bare = true
-[status]
-	showUntrackedFiles = no
-[remote "dotCFG"]
-	url = https://gitlab.com/daetalys/dotfiles.git
-	fetch = +refs/heads/*:refs/remotes/dotCFG/*
