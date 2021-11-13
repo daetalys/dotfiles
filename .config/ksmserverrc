@@ -1,0 +1,23 @@
+[$Version]
+update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=1014814fe3d3000163642602000000006070005
+clientId2=1014814fe3d3000163673089100000007760007
+clientId3=1014814fe3d3000163673091100000007760009
+count=3
+program1=/usr/lib/DiscoverNotifier
+program2=pulseaudio
+program3=/usr/bin/firewall-applet
+restartCommand1=/usr/lib/DiscoverNotifier,-session,1014814fe3d3000163642602000000006070005_1636736113_979514
+restartCommand2=
+restartCommand3=/usr/bin/firewall-applet,-session,1014814fe3d3000163673091100000007760009_1636736114_134894,-name,firewall-applet
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+userId1=daetalys
+userId2=daetalys
+userId3=daetalys

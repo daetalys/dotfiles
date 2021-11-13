@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "configVersion": "1.0.0",
+    "exodusVersionCreated": "21.10.25",
+    "exodusVersionUpdated": "21.10.25",
+    "createdAt": "Sat Oct 30 2021 11:19:32 GMT-0500 (Central Daylight Time)",
+    "updatedAt": "Sat Oct 30 2021 12:12:59 GMT-0500 (Central Daylight Time)"
+  },
+  "data": {
+    "fiat": {
+      "unit": "USD"
+    },
+    "theme": {
+      "name": "origin"
+    },
+    "notifications": {
+      "tx": {
+        "received": {
+          "enabled": true
+        }
+      }
+    },
+    "portfolio": {
+      "sort": {
+        "order": "balance",
+        "direction": "normal"
+      },
+      "filter": {
+        "with-balance": false,
+        "only-favorite": false
+      }
+    },
+    "lockDuration": null,
+    "hardware": {
+      "listenForNewDevices": true,
+      "rememberDevices": true,
+      "hiddenWalletAccounts": {}
+    },
+    "moneroCustomNodeUrl": null,
+    "moneroInitialHeight": 2448868,
+    "moneroCursor": 2482425,
+    "moneroSubaddressesEnabled": true,
+    "sounds": {
+      "all": {
+        "enabled": true,
+        "volume": 1
+      }
+    },
+    "undefined": false,
+    "dapps": {
+      "installedDapps": {}
+    },
+    "favorite-assets": {},
+    "earnRewards": {
+      "dashboardView": "grid"
+    },
+    "settings": {
+      "assets": {
+        "sort": {
+          "order": "name",
+          "direction": "normal"
+        }
+      }
+    },
+    "wallet": {
+      "navigation-settings": {
+        "sort": "default",
+        "filters": []
+      },
+      "layout": "v1",
+      "showAdvanced": true,
+      "showNav": true
+    },
+    "marketHistory": {
+      "bumpVersion": "v1"
+    },
+    "advanced": {
+      "advancedMode": {
+        "assets": {
+          "bitcoin": true,
+          "ethereum": true
+        }
+      }
+    },
+    "ftx": {
+      "slippageTolerance_v2": 0.02
+    },
+    "assets": {
+      "monero": {
+        "disabled": false
+      },
+      "ontology": {
+        "disabled": false
+      },
+      "ontologygas": {
+        "disabled": false
+      },
+      "shibainu": {
+        "disabled": false
+      }
+    }
+  }
+}

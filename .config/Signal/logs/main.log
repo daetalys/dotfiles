@@ -1,0 +1,105 @@
+{"level":30,"time":"2021-10-30T05:05:07.533Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: updateSchema:\n  Current user_version: 41;\n  Most recent db schema: 42;\n  SQLite version: 3.34.1;\n  SQLCipher version: 4.4.3 community;\n  (deprecated) schema_version: 206;\n"}
+{"level":30,"time":"2021-10-30T05:05:07.539Z","pid":9692,"hostname":"asterionus","msg":"app ready"}
+{"level":30,"time":"2021-10-30T05:05:07.540Z","pid":9692,"hostname":"asterionus","msg":"starting version 5.22.0"}
+{"level":30,"time":"2021-10-30T05:05:07.540Z","pid":9692,"hostname":"asterionus","msg":"media access status [object Undefined] [object Undefined]"}
+{"level":30,"time":"2021-10-30T05:05:07.665Z","pid":9692,"hostname":"asterionus","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-10-30T05:05:07.666Z","pid":9692,"hostname":"asterionus","msg":"getSystemTraySetting had no flags and did no DB lookups. Returning DoNotUseSystemTray"}
+{"level":30,"time":"2021-10-30T05:05:07.667Z","pid":9692,"hostname":"asterionus","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":800,\"height\":610,\"minWidth\":680,\"minHeight\":550,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"backgroundColor\":\"#3a76f0\",\"webPreferences\":{\"devTools\":false,\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"contextIsolation\":false,\"enableRemoteModule\":true,\"preload\":\"[REDACTED]/preload.bundle.js\",\"nativeWindowOpen\":true,\"spellcheck\":true,\"backgroundThrottling\":false,\"enablePreferredSizeMode\":true},\"icon\":\"[REDACTED]/images/signal-logo-desktop-linux.png\",\"x\":404,\"y\":189}"}
+{"level":30,"time":"2021-10-30T05:05:07.862Z","pid":9692,"hostname":"asterionus","msg":"spellcheck: user locale: en-US"}
+{"level":30,"time":"2021-10-30T05:05:07.862Z","pid":9692,"hostname":"asterionus","msg":"spellcheck: available spellchecker languages:  [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2021-10-30T05:05:07.863Z","pid":9692,"hostname":"asterionus","msg":"spellcheck: setting languages to:  [\"en-US\"]"}
+{"level":30,"time":"2021-10-30T05:05:09.116Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: updateToSchemaVersion42: success!"}
+{"level":30,"time":"2021-10-30T05:05:09.118Z","pid":9692,"hostname":"asterionus","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-10-30T05:05:09.133Z","pid":9692,"hostname":"asterionus","msg":"System tray service: created"}
+{"level":30,"time":"2021-10-30T05:05:09.134Z","pid":9692,"hostname":"asterionus","msg":"System tray service: updating main window. Previously, there was not a window, and now there is"}
+{"level":30,"time":"2021-10-30T05:05:09.134Z","pid":9692,"hostname":"asterionus","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2021-10-30T05:05:09.134Z","pid":9692,"hostname":"asterionus","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2021-10-30T05:05:09.138Z","pid":9692,"hostname":"asterionus","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2021-10-30T05:05:09.142Z","pid":9692,"hostname":"asterionus","msg":"Finish ensuring permissions in 8ms"}
+{"level":30,"time":"2021-10-30T05:05:15.116Z","pid":9692,"hostname":"asterionus","msg":"main window is ready-to-show"}
+{"level":30,"time":"2021-10-30T05:05:15.116Z","pid":9692,"hostname":"asterionus","msg":"showing main window"}
+{"level":30,"time":"2021-10-30T05:05:15.119Z","pid":9692,"hostname":"asterionus","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2021-10-30T05:05:15.786Z","pid":9692,"hostname":"asterionus","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":800,\"height\":610,\"x\":408,\"y\":217}"}
+{"level":30,"time":"2021-10-30T05:05:15.787Z","pid":9692,"hostname":"asterionus","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-10-30T05:05:16.918Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query createOrUpdateItem duration=313ms"}
+{"level":30,"time":"2021-10-30T05:05:17.561Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query createOrUpdateItem duration=642ms"}
+{"level":30,"time":"2021-10-30T05:05:17.648Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query createOrUpdateItem duration=88ms"}
+{"level":30,"time":"2021-10-30T05:05:17.693Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query createOrUpdateItem duration=44ms"}
+{"level":30,"time":"2021-10-30T05:05:17.744Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: removeKnownAttachments: About to iterate through 1 messages"}
+{"level":30,"time":"2021-10-30T05:05:17.745Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: removeKnownAttachments: Done processing 1 messages"}
+{"level":30,"time":"2021-10-30T05:05:17.745Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: removeKnownAttachments: About to iterate through 13 conversations"}
+{"level":30,"time":"2021-10-30T05:05:17.747Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: removeKnownAttachments: Done processing 13 conversations"}
+{"level":30,"time":"2021-10-30T05:05:17.748Z","pid":9692,"hostname":"asterionus","msg":"deleteAll: deleted 0 files"}
+{"level":30,"time":"2021-10-30T05:05:17.777Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: removeKnownStickers: About to iterate through 219 stickers"}
+{"level":30,"time":"2021-10-30T05:05:17.780Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: removeKnownStickers: Done processing 219 stickers"}
+{"level":30,"time":"2021-10-30T05:05:17.780Z","pid":9692,"hostname":"asterionus","msg":"deleteAllStickers: deleted 0 files"}
+{"level":30,"time":"2021-10-30T05:05:17.783Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: removeKnownDraftAttachments: About to iterate through 13 conversations"}
+{"level":30,"time":"2021-10-30T05:05:17.784Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: removeKnownDraftAttachments: Done processing 13 conversations"}
+{"level":30,"time":"2021-10-30T05:05:17.784Z","pid":9692,"hostname":"asterionus","msg":"deleteAllDraftAttachments: deleted 0 files"}
+{"level":30,"time":"2021-10-30T05:05:17.785Z","pid":9692,"hostname":"asterionus","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2021-10-30T05:05:17.786Z","pid":9692,"hostname":"asterionus","msg":"sending `database-ready`"}
+{"level":30,"time":"2021-10-30T05:05:17.834Z","pid":9692,"hostname":"asterionus","msg":"Ensuring file permissions for 452 files"}
+{"level":50,"time":"2021-10-30T05:05:17.842Z","pid":9692,"hostname":"asterionus","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/SingletonCookie'"}
+{"level":50,"time":"2021-10-30T05:05:17.842Z","pid":9692,"hostname":"asterionus","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/SingletonLock'"}
+{"level":30,"time":"2021-10-30T05:05:17.900Z","pid":9692,"hostname":"asterionus","msg":"Finish ensuring permissions in 115ms"}
+{"level":30,"time":"2021-10-30T05:05:18.577Z","pid":9692,"hostname":"asterionus","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2021-10-30T05:05:19.028Z","pid":9692,"hostname":"asterionus","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":792,\"height\":836,\"x\":4,\"y\":60}"}
+{"level":30,"time":"2021-10-30T05:05:19.028Z","pid":9692,"hostname":"asterionus","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-10-30T05:05:19.263Z","pid":9692,"hostname":"asterionus","msg":"App loaded - time: 12052"}
+{"level":30,"time":"2021-10-30T05:05:19.264Z","pid":9692,"hostname":"asterionus","msg":"SQL init - time: 1908"}
+{"level":30,"time":"2021-10-30T05:05:19.264Z","pid":9692,"hostname":"asterionus","msg":"Preload - time: 5367"}
+{"level":30,"time":"2021-10-30T05:05:19.264Z","pid":9692,"hostname":"asterionus","msg":"WebSocket connect - time: 2244"}
+{"level":30,"time":"2021-10-30T05:05:19.264Z","pid":9692,"hostname":"asterionus","msg":"Processed count: 0"}
+{"level":30,"time":"2021-10-30T05:05:19.264Z","pid":9692,"hostname":"asterionus","msg":"Messages per second: 0"}
+{"level":30,"time":"2021-10-30T05:05:19.415Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query commitSessionsAndUnprocessed duration=107ms"}
+{"level":30,"time":"2021-10-30T05:05:19.750Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query createOrUpdateItem duration=333ms"}
+{"level":30,"time":"2021-10-30T05:05:19.793Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query createOrUpdateSignedPreKey duration=44ms"}
+{"level":30,"time":"2021-10-30T05:05:19.915Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query createOrUpdateItem duration=122ms"}
+{"level":30,"time":"2021-10-30T05:05:20.137Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query insertSentProto duration=222ms"}
+{"level":30,"time":"2021-10-30T05:05:20.393Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query commitSessionsAndUnprocessed duration=256ms"}
+{"level":30,"time":"2021-10-30T05:05:20.604Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query createOrUpdateItem duration=211ms"}
+{"level":30,"time":"2021-10-30T05:05:21.171Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query createOrUpdateSignedPreKey duration=565ms"}
+{"level":30,"time":"2021-10-30T05:05:21.271Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query insertSentProto duration=99ms"}
+{"level":30,"time":"2021-10-30T05:05:21.315Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query commitSessionsAndUnprocessed duration=44ms"}
+{"level":30,"time":"2021-10-30T05:05:21.360Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query createOrUpdateItem duration=44ms"}
+{"level":30,"time":"2021-10-30T05:05:21.426Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query insertSentProto duration=56ms"}
+{"level":30,"time":"2021-10-30T05:05:21.482Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query commitSessionsAndUnprocessed duration=56ms"}
+{"level":30,"time":"2021-10-30T05:05:21.582Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query insertSentProto duration=45ms"}
+{"level":30,"time":"2021-10-30T05:05:21.626Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query commitSessionsAndUnprocessed duration=41ms"}
+{"level":30,"time":"2021-10-30T05:05:21.727Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query insertSentProto duration=45ms"}
+{"level":30,"time":"2021-10-30T05:05:23.516Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query commitSessionsAndUnprocessed duration=511ms"}
+{"level":30,"time":"2021-10-30T05:05:23.816Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query createOrUpdateItem duration=296ms"}
+{"level":30,"time":"2021-10-30T05:05:24.027Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query removeUnprocessed duration=211ms"}
+{"level":30,"time":"2021-10-30T05:05:24.649Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query createOrUpdateItem duration=579ms"}
+{"level":30,"time":"2021-10-30T05:05:26.182Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query commitSessionsAndUnprocessed duration=646ms"}
+{"level":30,"time":"2021-10-30T05:05:26.260Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query createOrUpdateItem duration=67ms"}
+{"level":30,"time":"2021-10-30T05:05:26.338Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query removeUnprocessed duration=76ms"}
+{"level":30,"time":"2021-10-30T05:05:26.394Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query updateConversations duration=54ms"}
+{"level":30,"time":"2021-10-30T05:05:26.449Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query commitSessionsAndUnprocessed duration=55ms"}
+{"level":30,"time":"2021-10-30T05:05:26.494Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query updateStickerPackStatus duration=41ms"}
+{"level":30,"time":"2021-10-30T05:05:26.549Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query updateStickerPackStatus duration=56ms"}
+{"level":30,"time":"2021-10-30T05:05:26.594Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query updateStickerPackStatus duration=44ms"}
+{"level":30,"time":"2021-10-30T05:05:26.649Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query removeUnprocessed duration=54ms"}
+{"level":30,"time":"2021-10-30T05:05:26.705Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query createOrUpdateItem duration=54ms"}
+{"level":30,"time":"2021-10-30T05:05:26.760Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query commitSessionsAndUnprocessed duration=56ms"}
+{"level":30,"time":"2021-10-30T05:05:26.816Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query createOrUpdateItem duration=56ms"}
+{"level":30,"time":"2021-10-30T05:05:26.871Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query createOrUpdateItem duration=55ms"}
+{"level":30,"time":"2021-10-30T05:05:27.305Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query createOrUpdateItem duration=434ms"}
+{"level":30,"time":"2021-10-30T05:05:27.472Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query createOrUpdateItem duration=166ms"}
+{"level":30,"time":"2021-10-30T05:05:27.749Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query createOrUpdateItem duration=278ms"}
+{"level":30,"time":"2021-10-30T05:05:28.027Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query createOrUpdateItem duration=278ms"}
+{"level":30,"time":"2021-10-30T05:05:28.105Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query createOrUpdateItem duration=78ms"}
+{"level":30,"time":"2021-10-30T05:05:28.449Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query commitSessionsAndUnprocessed duration=344ms"}
+{"level":30,"time":"2021-10-30T05:05:28.494Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query updateConversations duration=45ms"}
+{"level":30,"time":"2021-10-30T05:05:28.538Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query removeUnprocessed duration=44ms"}
+{"level":30,"time":"2021-10-30T05:05:28.583Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query createOrUpdateItem duration=44ms"}
+{"level":30,"time":"2021-10-30T05:05:28.805Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query removeUnprocessed duration=42ms"}
+{"level":30,"time":"2021-10-30T05:06:18.601Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query getNextAttachmentDownloadJobs duration=42ms"}
+{"level":30,"time":"2021-10-30T05:06:53.891Z","pid":9692,"hostname":"asterionus","msg":"close event {\"readyForShutdown\":false,\"shouldQuit\":false}"}
+{"level":30,"time":"2021-10-30T05:06:53.892Z","pid":9692,"hostname":"asterionus","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2021-10-30T05:06:53.892Z","pid":9692,"hostname":"asterionus","msg":"requestShutdown: Requesting close of mainWindow..."}
+{"level":30,"time":"2021-10-30T05:06:55.392Z","pid":9692,"hostname":"asterionus","msg":"MainSQL: slow query close duration=1493ms"}
+{"level":30,"time":"2021-10-30T05:06:55.393Z","pid":9692,"hostname":"asterionus","msg":"requestShutdown: Response received"}
+{"level":30,"time":"2021-10-30T05:06:55.396Z","pid":9692,"hostname":"asterionus","msg":"before-quit event {\"readyForShutdown\":true,\"shouldQuit\":false}"}
+{"level":30,"time":"2021-10-30T05:06:55.397Z","pid":9692,"hostname":"asterionus","msg":"close event {\"readyForShutdown\":true,\"shouldQuit\":true}"}
+{"level":30,"time":"2021-10-30T05:06:55.401Z","pid":9692,"hostname":"asterionus","msg":"System tray service: updating main window. Previously, there was a window, and now there is not"}

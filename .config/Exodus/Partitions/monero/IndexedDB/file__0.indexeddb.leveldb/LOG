@@ -1,0 +1,1811 @@
+2021/10/30-11:43:42.920 6d18 Reusing MANIFEST /home/daetalys/.config/Exodus/Partitions/monero/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2021/10/30-11:43:42.920 6d18 Recovering log #3
+2021/10/30-11:43:42.920 6d18 Reusing old log /home/daetalys/.config/Exodus/Partitions/monero/IndexedDB/file__0.indexeddb.leveldb/000003.log 
+2021/10/30-11:45:44.402 797a Level-0 table #5: started
+2021/10/30-11:45:44.480 797a Level-0 table #5: 1868 bytes OK
+2021/10/30-11:45:44.624 797a Delete type=0 #3
+2021/10/30-11:45:44.625 797a Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/10/30-11:45:57.235 79bc Level-0 table #7: started
+2021/10/30-11:45:57.336 797b Current memtable full; waiting...
+2021/10/30-11:45:57.559 79bc Level-0 table #7: 4132107 bytes OK
+2021/10/30-11:45:57.660 79bc Delete type=0 #4
+2021/10/30-11:45:57.664 79bc Level-0 table #9: started
+2021/10/30-11:45:58.158 79bc Level-0 table #9: 4131874 bytes OK
+2021/10/30-11:45:58.626 79bc Delete type=0 #6
+2021/10/30-11:46:01.362 797c Level-0 table #11: started
+2021/10/30-11:46:01.468 79d2 Current memtable full; waiting...
+2021/10/30-11:46:01.492 797c Level-0 table #11: 3953074 bytes OK
+2021/10/30-11:46:01.837 797c Delete type=0 #8
+2021/10/30-11:46:01.839 797c Level-0 table #13: started
+2021/10/30-11:46:02.093 797c Level-0 table #13: 4120016 bytes OK
+2021/10/30-11:46:03.130 797c Delete type=0 #10
+2021/10/30-11:46:05.535 79d7 Level-0 table #15: started
+2021/10/30-11:46:05.629 79d1 Current memtable full; waiting...
+2021/10/30-11:46:05.948 79d7 Level-0 table #15: 3979965 bytes OK
+2021/10/30-11:46:06.161 79d7 Delete type=0 #12
+2021/10/30-11:46:06.163 79d7 Level-0 table #17: started
+2021/10/30-11:46:06.223 79d1 Current memtable full; waiting...
+2021/10/30-11:46:06.738 79d7 Level-0 table #17: 4111536 bytes OK
+2021/10/30-11:46:07.141 79d7 Delete type=0 #14
+2021/10/30-11:46:07.142 79d7 Compacting 5@0 + 1@1 files
+2021/10/30-11:46:07.142 79d7 Level-0 table #20: started
+2021/10/30-11:46:07.282 79d7 Level-0 table #20: 4125466 bytes OK
+2021/10/30-11:46:07.472 79d7 Delete type=0 #16
+2021/10/30-11:46:07.838 79d7 Generated table #19@0: 7489 keys, 2125076 bytes
+2021/10/30-11:46:08.485 79d7 Generated table #21@0: 110 keys, 2108334 bytes
+2021/10/30-11:46:08.915 79d7 Generated table #22@0: 155 keys, 2162630 bytes
+2021/10/30-11:46:09.026 79d7 Generated table #23@0: 166 keys, 2116445 bytes
+2021/10/30-11:46:09.104 79d7 Generated table #24@0: 187 keys, 2117347 bytes
+2021/10/30-11:46:09.182 79d7 Generated table #25@0: 168 keys, 2118542 bytes
+2021/10/30-11:46:09.259 79d7 Generated table #26@0: 154 keys, 2115930 bytes
+2021/10/30-11:46:09.337 79d7 Generated table #27@0: 134 keys, 2114861 bytes
+2021/10/30-11:46:09.760 79d7 Generated table #28@0: 165 keys, 2106175 bytes
+2021/10/30-11:46:09.940 79d2 Current memtable full; waiting...
+2021/10/30-11:46:10.071 79d7 Generated table #29@0: 152 keys, 2105159 bytes
+2021/10/30-11:46:10.071 79d7 Level-0 table #31: started
+2021/10/30-11:46:10.982 79d7 Level-0 table #31: 3969426 bytes OK
+2021/10/30-11:46:11.173 79d7 Delete type=0 #18
+2021/10/30-11:46:11.176 79d7 Level-0 table #34: started
+2021/10/30-11:46:11.382 79d7 Level-0 table #34: 4137406 bytes OK
+2021/10/30-11:46:11.529 79d7 Delete type=0 #30
+2021/10/30-11:46:11.728 79d7 Generated table #32@0: 137 keys, 2142484 bytes
+2021/10/30-11:46:11.860 79d7 Generated table #35@0: 1926 keys, 939336 bytes
+2021/10/30-11:46:11.860 79d7 Compacted 5@0 + 1@1 files => 24272319 bytes
+2021/10/30-11:46:12.549 79d7 compacted to: files[ 3 12 1 0 0 0 0 ]
+2021/10/30-11:46:12.549 79d7 Delete type=2 #7
+2021/10/30-11:46:12.549 79d7 Delete type=2 #9
+2021/10/30-11:46:12.549 79d7 Delete type=2 #11
+2021/10/30-11:46:12.549 79d7 Delete type=2 #13
+2021/10/30-11:46:12.549 79d7 Delete type=2 #15
+2021/10/30-11:46:12.549 79d7 Delete type=2 #17
+2021/10/30-11:46:12.558 79d7 Compacting 1@1 + 1@2 files
+2021/10/30-11:46:13.850 79d7 Generated table #36@1: 1503 keys, 2076067 bytes
+2021/10/30-11:46:13.850 79d7 Compacted 1@1 + 1@2 files => 2076067 bytes
+2021/10/30-11:46:14.138 79d7 compacted to: files[ 3 11 1 0 0 0 0 ]
+2021/10/30-11:46:14.139 79d7 Delete type=2 #5
+2021/10/30-11:46:14.139 79d7 Delete type=2 #19
+2021/10/30-11:46:14.282 79d7 Moved #21 to level-2 2108334 bytes OK: files[ 3 10 2 0 0 0 0 ]
+2021/10/30-11:46:14.327 79d7 Moved #22 to level-2 2162630 bytes OK: files[ 3 9 3 0 0 0 0 ]
+2021/10/30-11:46:14.393 79d7 Moved #23 to level-2 2116445 bytes OK: files[ 3 8 4 0 0 0 0 ]
+2021/10/30-11:46:14.704 79d7 Moved #24 to level-2 2117347 bytes OK: files[ 3 7 5 0 0 0 0 ]
+2021/10/30-11:46:14.749 79d7 Moved #25 to level-2 2118542 bytes OK: files[ 3 6 6 0 0 0 0 ]
+2021/10/30-11:46:14.793 79d7 Moved #26 to level-2 2115930 bytes OK: files[ 3 5 7 0 0 0 0 ]
+2021/10/30-11:46:14.793 79d7 Level-0 table #38: started
+2021/10/30-11:46:14.960 79d7 Level-0 table #38: 4010660 bytes OK
+2021/10/30-11:46:15.039 79d7 Delete type=0 #33
+2021/10/30-11:46:15.040 79d7 Compacting 4@0 + 5@1 files
+2021/10/30-11:46:15.061 79d7 Level-0 table #41: started
+2021/10/30-11:46:15.216 797c Current memtable full; waiting...
+2021/10/30-11:46:15.549 79d7 Level-0 table #41: 4121528 bytes OK
+2021/10/30-11:46:16.706 79d7 Delete type=0 #37
+2021/10/30-11:46:16.707 79d7 Level-0 table #43: started
+2021/10/30-11:46:16.893 79d7 Level-0 table #43: 4133309 bytes OK
+2021/10/30-11:46:17.307 79d7 Delete type=0 #40
+2021/10/30-11:46:17.483 79d7 Generated table #39@0: 5895 keys, 2112361 bytes
+2021/10/30-11:46:17.771 79d7 Generated table #44@0: 162 keys, 2115035 bytes
+2021/10/30-11:46:18.171 79d7 Generated table #45@0: 154 keys, 2129416 bytes
+2021/10/30-11:46:18.983 79d7 Generated table #46@0: 142 keys, 2130916 bytes
+2021/10/30-11:46:19.116 79d7 Generated table #47@0: 132 keys, 2155067 bytes
+2021/10/30-11:46:19.261 79d7 Generated table #48@0: 142 keys, 2127393 bytes
+2021/10/30-11:46:19.383 79d7 Generated table #49@0: 163 keys, 2112418 bytes
+2021/10/30-11:46:19.761 79d7 Generated table #50@0: 199 keys, 2114723 bytes
+2021/10/30-11:46:19.849 79d7 Generated table #51@0: 127 keys, 2124814 bytes
+2021/10/30-11:46:20.032 79d7 Generated table #52@0: 137 keys, 2123107 bytes
+2021/10/30-11:46:20.365 797c Current memtable full; waiting...
+2021/10/30-11:46:21.050 79d7 Generated table #53@0: 136 keys, 2137561 bytes
+2021/10/30-11:46:21.050 79d7 Level-0 table #55: started
+2021/10/30-11:46:21.227 79d7 Level-0 table #55: 4014282 bytes OK
+2021/10/30-11:46:21.350 79d7 Delete type=0 #42
+2021/10/30-11:46:21.351 79d7 Level-0 table #58: started
+2021/10/30-11:46:21.494 79d7 Level-0 table #58: 4135937 bytes OK
+2021/10/30-11:46:21.684 79d7 Delete type=0 #54
+2021/10/30-11:46:21.886 79d7 Generated table #56@0: 2557 keys, 2110437 bytes
+2021/10/30-11:46:22.238 79d7 Generated table #59@0: 601 keys, 10025 bytes
+2021/10/30-11:46:22.238 79d7 Compacted 4@0 + 5@1 files => 25503273 bytes
+2021/10/30-11:46:22.805 79d7 compacted to: files[ 4 13 7 0 0 0 0 ]
+2021/10/30-11:46:22.806 79d7 Delete type=2 #20
+2021/10/30-11:46:22.806 79d7 Delete type=2 #27
+2021/10/30-11:46:22.806 79d7 Delete type=2 #28
+2021/10/30-11:46:22.806 79d7 Delete type=2 #29
+2021/10/30-11:46:22.806 79d7 Delete type=2 #31
+2021/10/30-11:46:22.806 79d7 Delete type=2 #32
+2021/10/30-11:46:22.806 79d7 Delete type=2 #34
+2021/10/30-11:46:22.806 79d7 Delete type=2 #35
+2021/10/30-11:46:22.806 79d7 Delete type=2 #38
+2021/10/30-11:46:22.810 79d9 Compacting 1@1 + 7@2 files
+2021/10/30-11:46:23.727 79d9 Generated table #60@1: 412 keys, 2109553 bytes
+2021/10/30-11:46:24.594 79d9 Generated table #61@1: 111 keys, 2131713 bytes
+2021/10/30-11:46:25.090 79d7 Current memtable full; waiting...
+2021/10/30-11:46:25.947 79d9 Generated table #62@1: 153 keys, 2113965 bytes
+2021/10/30-11:46:25.947 79d9 Level-0 table #64: started
+2021/10/30-11:46:30.195 79d9 Level-0 table #64: 4021428 bytes OK
+2021/10/30-11:46:30.585 79d9 Delete type=0 #57
+2021/10/30-11:46:30.587 79d9 Level-0 table #67: started
+2021/10/30-11:46:31.049 79d9 Level-0 table #67: 4174504 bytes OK
+2021/10/30-11:46:32.050 79d9 Delete type=0 #63
+2021/10/30-11:46:33.384 79d9 Generated table #65@1: 166 keys, 2116445 bytes
+2021/10/30-11:46:33.860 79d9 Generated table #68@1: 187 keys, 2117347 bytes
+2021/10/30-11:46:34.273 79d9 Generated table #69@1: 168 keys, 2118542 bytes
+2021/10/30-11:46:34.662 79d9 Generated table #70@1: 154 keys, 2115930 bytes
+2021/10/30-11:46:34.751 79d9 Generated table #71@1: 129 keys, 2037673 bytes
+2021/10/30-11:46:34.751 79d9 Compacted 1@1 + 7@2 files => 16861168 bytes
+2021/10/30-11:46:35.173 79d9 compacted to: files[ 6 12 8 0 0 0 0 ]
+2021/10/30-11:46:35.174 79d9 Delete type=2 #21
+2021/10/30-11:46:35.174 79d9 Delete type=2 #22
+2021/10/30-11:46:35.174 79d9 Delete type=2 #23
+2021/10/30-11:46:35.174 79d9 Delete type=2 #24
+2021/10/30-11:46:35.174 79d9 Delete type=2 #25
+2021/10/30-11:46:35.174 79d9 Delete type=2 #26
+2021/10/30-11:46:35.174 79d9 Delete type=2 #36
+2021/10/30-11:46:35.174 79d9 Delete type=2 #39
+2021/10/30-11:46:36.173 79db Moved #44 to level-2 2115035 bytes OK: files[ 6 11 9 0 0 0 0 ]
+2021/10/30-11:46:36.562 79db Moved #45 to level-2 2129416 bytes OK: files[ 6 10 10 0 0 0 0 ]
+2021/10/30-11:46:36.617 79db Moved #46 to level-2 2130916 bytes OK: files[ 6 9 11 0 0 0 0 ]
+2021/10/30-11:46:36.662 79db Moved #47 to level-2 2155067 bytes OK: files[ 6 8 12 0 0 0 0 ]
+2021/10/30-11:46:36.662 79db Level-0 table #73: started
+2021/10/30-11:46:36.911 79d9 Current memtable full; waiting...
+2021/10/30-11:46:37.062 79db Level-0 table #73: 4020174 bytes OK
+2021/10/30-11:46:37.155 79db Delete type=0 #66
+2021/10/30-11:46:37.156 79d2 Compacting 7@0 + 8@1 files
+2021/10/30-11:46:37.167 79d2 Level-0 table #76: started
+2021/10/30-11:46:38.451 79d2 Level-0 table #76: 4181902 bytes OK
+2021/10/30-11:46:39.776 79d2 Delete type=0 #72
+2021/10/30-11:46:39.929 79d2 Generated table #74@0: 7398 keys, 80890 bytes
+2021/10/30-11:46:40.429 79d2 Generated table #77@0: 142 keys, 2127393 bytes
+2021/10/30-11:46:40.695 79d2 Generated table #78@0: 163 keys, 2112418 bytes
+2021/10/30-11:46:41.718 79d2 Generated table #79@0: 199 keys, 2114723 bytes
+2021/10/30-11:46:41.840 79d2 Generated table #80@0: 127 keys, 2124814 bytes
+2021/10/30-11:46:41.996 79d2 Generated table #81@0: 137 keys, 2123107 bytes
+2021/10/30-11:46:42.085 79d2 Generated table #82@0: 136 keys, 2137561 bytes
+2021/10/30-11:46:42.174 79d2 Generated table #83@0: 148 keys, 2106381 bytes
+2021/10/30-11:46:42.263 79d2 Generated table #84@0: 140 keys, 2123476 bytes
+2021/10/30-11:46:42.351 79d2 Generated table #85@0: 128 keys, 2105155 bytes
+2021/10/30-11:46:42.440 79d2 Generated table #86@0: 127 keys, 2131086 bytes
+2021/10/30-11:46:42.529 79d2 Generated table #87@0: 133 keys, 2108700 bytes
+2021/10/30-11:46:43.185 79d2 Generated table #88@0: 135 keys, 2127637 bytes
+2021/10/30-11:46:43.718 79d2 Generated table #89@0: 134 keys, 2107225 bytes
+2021/10/30-11:46:44.107 79d2 Generated table #90@0: 139 keys, 2116571 bytes
+2021/10/30-11:46:44.107 79d2 Level-0 table #92: started
+2021/10/30-11:46:44.240 79d2 Level-0 table #92: 4036371 bytes OK
+2021/10/30-11:46:44.331 79d2 Delete type=0 #75
+2021/10/30-11:46:44.418 79d2 Generated table #93@0: 113 keys, 2110252 bytes
+2021/10/30-11:46:44.507 79d2 Generated table #94@0: 142 keys, 2151708 bytes
+2021/10/30-11:46:44.585 79d2 Generated table #95@0: 139 keys, 2122675 bytes
+2021/10/30-11:46:44.663 79d2 Generated table #96@0: 131 keys, 2104727 bytes
+2021/10/30-11:46:44.741 79d2 Generated table #97@0: 147 keys, 2107391 bytes
+2021/10/30-11:46:44.807 79d2 Generated table #98@0: 122 keys, 2122897 bytes
+2021/10/30-11:46:44.807 79d2 Level-0 table #100: started
+2021/10/30-11:46:44.929 79d2 Level-0 table #100: 4141194 bytes OK
+2021/10/30-11:46:45.287 79d5 Current memtable full; waiting...
+2021/10/30-11:46:45.486 79d2 Delete type=0 #91
+2021/10/30-11:46:45.488 79d2 Level-0 table #103: started
+2021/10/30-11:46:46.185 79d2 Level-0 table #103: 4180172 bytes OK
+2021/10/30-11:46:46.665 79d2 Delete type=0 #99
+2021/10/30-11:46:46.831 79d2 Generated table #101@0: 4933 keys, 750624 bytes
+2021/10/30-11:46:46.831 79d2 Compacted 7@0 + 8@1 files => 43217411 bytes
+2021/10/30-11:46:47.007 79d2 compacted to: files[ 4 22 12 0 0 0 0 ]
+2021/10/30-11:46:47.008 79d2 Delete type=2 #41
+2021/10/30-11:46:47.008 79d2 Delete type=2 #43
+2021/10/30-11:46:47.008 79d2 Delete type=2 #48
+2021/10/30-11:46:47.008 79d2 Delete type=2 #49
+2021/10/30-11:46:47.009 79d2 Delete type=2 #50
+2021/10/30-11:46:47.009 79d2 Delete type=2 #51
+2021/10/30-11:46:47.009 79d2 Delete type=2 #52
+2021/10/30-11:46:47.009 79d2 Delete type=2 #53
+2021/10/30-11:46:47.009 79d2 Delete type=2 #55
+2021/10/30-11:46:47.009 79d2 Delete type=2 #56
+2021/10/30-11:46:47.009 79d2 Delete type=2 #58
+2021/10/30-11:46:47.009 79d2 Delete type=2 #59
+2021/10/30-11:46:47.009 79d2 Delete type=2 #64
+2021/10/30-11:46:47.009 79d2 Delete type=2 #67
+2021/10/30-11:46:47.009 79d2 Delete type=2 #73
+2021/10/30-11:46:47.474 797e Moved #77 to level-2 2127393 bytes OK: files[ 4 21 13 0 0 0 0 ]
+2021/10/30-11:46:48.330 797e Moved #78 to level-2 2112418 bytes OK: files[ 4 20 14 0 0 0 0 ]
+2021/10/30-11:46:48.374 797e Moved #79 to level-2 2114723 bytes OK: files[ 4 19 15 0 0 0 0 ]
+2021/10/30-11:46:48.496 797e Moved #80 to level-2 2124814 bytes OK: files[ 4 18 16 0 0 0 0 ]
+2021/10/30-11:46:48.607 797e Moved #81 to level-2 2123107 bytes OK: files[ 4 17 17 0 0 0 0 ]
+2021/10/30-11:46:48.641 797e Moved #82 to level-2 2137561 bytes OK: files[ 4 16 18 0 0 0 0 ]
+2021/10/30-11:46:48.685 797e Moved #83 to level-2 2106381 bytes OK: files[ 4 15 19 0 0 0 0 ]
+2021/10/30-11:46:48.730 797e Moved #84 to level-2 2123476 bytes OK: files[ 4 14 20 0 0 0 0 ]
+2021/10/30-11:46:48.774 797a Moved #85 to level-2 2105155 bytes OK: files[ 4 13 21 0 0 0 0 ]
+2021/10/30-11:46:48.819 797a Moved #86 to level-2 2131086 bytes OK: files[ 4 12 22 0 0 0 0 ]
+2021/10/30-11:46:49.130 797a Moved #87 to level-2 2108700 bytes OK: files[ 4 11 23 0 0 0 0 ]
+2021/10/30-11:46:49.174 797a Moved #88 to level-2 2127637 bytes OK: files[ 4 10 24 0 0 0 0 ]
+2021/10/30-11:46:49.208 797a Moved #89 to level-2 2107225 bytes OK: files[ 4 9 25 0 0 0 0 ]
+2021/10/30-11:46:49.364 797a Moved #90 to level-2 2116571 bytes OK: files[ 4 8 26 0 0 0 0 ]
+2021/10/30-11:46:49.579 797a Moved #93 to level-2 2110252 bytes OK: files[ 4 7 27 0 0 0 0 ]
+2021/10/30-11:46:49.719 797a Moved #94 to level-2 2151708 bytes OK: files[ 4 6 28 0 0 0 0 ]
+2021/10/30-11:46:49.719 797a Compacting 4@0 + 6@1 files
+2021/10/30-11:46:50.465 797a Generated table #104@0: 11021 keys, 103002 bytes
+2021/10/30-11:46:50.630 797a Generated table #105@0: 139 keys, 2122675 bytes
+2021/10/30-11:46:50.747 797a Generated table #106@0: 131 keys, 2104727 bytes
+2021/10/30-11:46:50.863 797a Generated table #107@0: 147 keys, 2107391 bytes
+2021/10/30-11:46:50.863 797a Level-0 table #109: started
+2021/10/30-11:46:50.933 79aa Current memtable full; waiting...
+2021/10/30-11:46:50.986 797a Level-0 table #109: 4037387 bytes OK
+2021/10/30-11:46:51.075 797a Delete type=0 #102
+2021/10/30-11:46:51.076 797a Level-0 table #112: started
+2021/10/30-11:46:51.286 797a Level-0 table #112: 4132758 bytes OK
+2021/10/30-11:46:51.860 797a Delete type=0 #108
+2021/10/30-11:46:52.475 797a Generated table #110@0: 122 keys, 2122897 bytes
+2021/10/30-11:46:53.186 797a Generated table #113@0: 121 keys, 2131369 bytes
+2021/10/30-11:46:53.352 797a Generated table #114@0: 117 keys, 2106137 bytes
+2021/10/30-11:46:53.475 797a Generated table #115@0: 105 keys, 2118596 bytes
+2021/10/30-11:46:53.552 797a Generated table #116@0: 155 keys, 2111038 bytes
+2021/10/30-11:46:53.630 797a Generated table #117@0: 150 keys, 2131403 bytes
+2021/10/30-11:46:53.719 797a Generated table #118@0: 132 keys, 2109318 bytes
+2021/10/30-11:46:53.808 797a Generated table #119@0: 103 keys, 2155037 bytes
+2021/10/30-11:46:54.153 797a Generated table #120@0: 42 keys, 2139326 bytes
+2021/10/30-11:46:54.297 797a Generated table #121@0: 5843 keys, 197275 bytes
+2021/10/30-11:46:54.297 797a Compacted 4@0 + 6@1 files => 25760191 bytes
+2021/10/30-11:46:55.418 797a compacted to: files[ 2 14 28 0 0 0 0 ]
+2021/10/30-11:46:55.419 797a Delete type=2 #74
+2021/10/30-11:46:55.419 797a Delete type=2 #76
+2021/10/30-11:46:55.419 797a Delete type=2 #92
+2021/10/30-11:46:55.419 797a Delete type=2 #95
+2021/10/30-11:46:55.419 797a Delete type=2 #96
+2021/10/30-11:46:55.419 797a Delete type=2 #97
+2021/10/30-11:46:55.419 797a Delete type=2 #98
+2021/10/30-11:46:55.419 797a Delete type=2 #100
+2021/10/30-11:46:55.419 797a Delete type=2 #101
+2021/10/30-11:46:55.419 797a Delete type=2 #103
+2021/10/30-11:46:55.619 797a Moved #105 to level-2 2122675 bytes OK: files[ 2 13 29 0 0 0 0 ]
+2021/10/30-11:46:55.664 797a Moved #106 to level-2 2104727 bytes OK: files[ 2 12 30 0 0 0 0 ]
+2021/10/30-11:46:55.708 797a Moved #107 to level-2 2107391 bytes OK: files[ 2 11 31 0 0 0 0 ]
+2021/10/30-11:46:55.753 797a Moved #110 to level-2 2122897 bytes OK: files[ 2 10 32 0 0 0 0 ]
+2021/10/30-11:46:55.797 797a Moved #113 to level-2 2131369 bytes OK: files[ 2 9 33 0 0 0 0 ]
+2021/10/30-11:46:55.841 797a Moved #114 to level-2 2106137 bytes OK: files[ 2 8 34 0 0 0 0 ]
+2021/10/30-11:46:55.842 797a Level-0 table #123: started
+2021/10/30-11:46:55.963 79db Current memtable full; waiting...
+2021/10/30-11:46:55.975 797a Level-0 table #123: 4028895 bytes OK
+2021/10/30-11:46:56.065 797a Delete type=0 #111
+2021/10/30-11:46:56.066 79d9 Level-0 table #125: started
+2021/10/30-11:46:56.208 79db Current memtable full; waiting...
+2021/10/30-11:46:56.219 79d9 Level-0 table #125: 4134637 bytes OK
+2021/10/30-11:46:56.361 79d9 Delete type=0 #122
+2021/10/30-11:46:57.177 79d5 Moved #115 to level-2 2118596 bytes OK: files[ 4 7 35 0 0 0 0 ]
+2021/10/30-11:46:57.177 79d5 Level-0 table #127: started
+2021/10/30-11:46:58.266 79d5 Level-0 table #127: 4171969 bytes OK
+2021/10/30-11:46:58.499 79d5 Delete type=0 #124
+2021/10/30-11:46:58.500 79d5 Compacting 5@0 + 7@1 files
+2021/10/30-11:46:58.597 79d5 Generated table #128@0: 15810 keys, 152380 bytes
+2021/10/30-11:46:58.697 79d5 Generated table #129@0: 155 keys, 2111038 bytes
+2021/10/30-11:46:58.808 79d5 Generated table #130@0: 150 keys, 2131403 bytes
+2021/10/30-11:46:59.175 79d5 Generated table #131@0: 132 keys, 2109318 bytes
+2021/10/30-11:46:59.564 79d5 Generated table #132@0: 103 keys, 2155037 bytes
+2021/10/30-11:47:00.031 79d5 Generated table #133@0: 42 keys, 2139326 bytes
+2021/10/30-11:47:00.409 79d5 Generated table #134@0: 91 keys, 2138416 bytes
+2021/10/30-11:47:00.719 79d5 Generated table #135@0: 124 keys, 2114924 bytes
+2021/10/30-11:47:01.377 79e9 Current memtable full; waiting...
+2021/10/30-11:47:01.898 79d5 Generated table #136@0: 119 keys, 2147055 bytes
+2021/10/30-11:47:01.898 79d5 Level-0 table #138: started
+2021/10/30-11:47:02.265 79d5 Level-0 table #138: 4056248 bytes OK
+2021/10/30-11:47:02.989 79d5 Delete type=0 #126
+2021/10/30-11:47:02.991 79d5 Level-0 table #141: started
+2021/10/30-11:47:03.176 79d5 Level-0 table #141: 4131261 bytes OK
+2021/10/30-11:47:03.323 79d5 Delete type=0 #137
+2021/10/30-11:47:03.498 79d5 Generated table #139@0: 150 keys, 2105678 bytes
+2021/10/30-11:47:03.676 79d5 Generated table #142@0: 122 keys, 2141032 bytes
+2021/10/30-11:47:03.820 79d5 Generated table #143@0: 126 keys, 2142822 bytes
+2021/10/30-11:47:04.488 79d5 Generated table #144@0: 116 keys, 2124452 bytes
+2021/10/30-11:47:04.987 79d5 Generated table #145@0: 128 keys, 2148190 bytes
+2021/10/30-11:47:05.098 79d5 Generated table #146@0: 127 keys, 2107668 bytes
+2021/10/30-11:47:05.476 79d5 Generated table #147@0: 7173 keys, 1280608 bytes
+2021/10/30-11:47:05.476 79d5 Compacted 5@0 + 7@1 files => 31249347 bytes
+2021/10/30-11:47:05.554 79d5 compacted to: files[ 2 16 35 0 0 0 0 ]
+2021/10/30-11:47:05.555 79d5 Delete type=2 #104
+2021/10/30-11:47:05.555 79d5 Delete type=2 #109
+2021/10/30-11:47:05.555 79d5 Delete type=2 #112
+2021/10/30-11:47:05.555 79d5 Delete type=2 #116
+2021/10/30-11:47:05.555 79d5 Delete type=2 #117
+2021/10/30-11:47:05.555 79d5 Delete type=2 #118
+2021/10/30-11:47:05.555 79d5 Delete type=2 #119
+2021/10/30-11:47:05.555 79d5 Delete type=2 #120
+2021/10/30-11:47:05.555 79d5 Delete type=2 #121
+2021/10/30-11:47:05.555 79d5 Delete type=2 #123
+2021/10/30-11:47:05.555 79d5 Delete type=2 #125
+2021/10/30-11:47:05.555 79d5 Delete type=2 #127
+2021/10/30-11:47:05.665 79e5 Moved #129 to level-2 2111038 bytes OK: files[ 2 15 36 0 0 0 0 ]
+2021/10/30-11:47:05.709 79e5 Moved #130 to level-2 2131403 bytes OK: files[ 2 14 37 0 0 0 0 ]
+2021/10/30-11:47:05.754 79e5 Moved #131 to level-2 2109318 bytes OK: files[ 2 13 38 0 0 0 0 ]
+2021/10/30-11:47:05.798 79e5 Moved #132 to level-2 2155037 bytes OK: files[ 2 12 39 0 0 0 0 ]
+2021/10/30-11:47:05.842 79e5 Moved #133 to level-2 2139326 bytes OK: files[ 2 11 40 0 0 0 0 ]
+2021/10/30-11:47:05.903 79e5 Moved #134 to level-2 2138416 bytes OK: files[ 2 10 41 0 0 0 0 ]
+2021/10/30-11:47:06.206 79e5 Moved #135 to level-2 2114924 bytes OK: files[ 2 9 42 0 0 0 0 ]
+2021/10/30-11:47:06.376 79e5 Moved #136 to level-2 2147055 bytes OK: files[ 2 8 43 0 0 0 0 ]
+2021/10/30-11:47:06.521 79d5 Current memtable full; waiting...
+2021/10/30-11:47:07.335 79e5 Moved #139 to level-2 2105678 bytes OK: files[ 2 7 44 0 0 0 0 ]
+2021/10/30-11:47:07.335 79e6 Level-0 table #149: started
+2021/10/30-11:47:07.335 79d5 Current memtable full; waiting...
+2021/10/30-11:47:07.743 79e6 Level-0 table #149: 4060116 bytes OK
+2021/10/30-11:47:07.833 79e6 Delete type=0 #140
+2021/10/30-11:47:08.232 79e6 Moved #142 to level-2 2141032 bytes OK: files[ 3 6 45 0 0 0 0 ]
+2021/10/30-11:47:08.232 79e5 Level-0 table #151: started
+2021/10/30-11:47:08.791 79e5 Level-0 table #151: 4180498 bytes OK
+2021/10/30-11:47:11.069 79e5 Delete type=0 #148
+2021/10/30-11:47:11.434 797b Compacting 4@0 + 6@1 files
+2021/10/30-11:47:11.877 797b Generated table #152@0: 19710 keys, 204286 bytes
+2021/10/30-11:47:12.021 797b Generated table #153@0: 126 keys, 2142822 bytes
+2021/10/30-11:47:13.021 797b Generated table #154@0: 116 keys, 2124452 bytes
+2021/10/30-11:47:13.465 797b Generated table #155@0: 128 keys, 2148190 bytes
+2021/10/30-11:47:13.621 797b Generated table #156@0: 127 keys, 2107668 bytes
+2021/10/30-11:47:13.765 797b Generated table #157@0: 138 keys, 2111678 bytes
+2021/10/30-11:47:14.099 797b Generated table #158@0: 101 keys, 2118119 bytes
+2021/10/30-11:47:14.188 797b Generated table #159@0: 108 keys, 2146138 bytes
+2021/10/30-11:47:14.277 797b Generated table #160@0: 121 keys, 2109646 bytes
+2021/10/30-11:47:14.388 797b Generated table #161@0: 134 keys, 2112327 bytes
+2021/10/30-11:47:14.499 797b Generated table #162@0: 133 keys, 2134593 bytes
+2021/10/30-11:47:14.599 797b Generated table #163@0: 130 keys, 2137215 bytes
+2021/10/30-11:47:14.834 79d2 Current memtable full; waiting...
+2021/10/30-11:47:15.366 797b Generated table #164@0: 129 keys, 2113854 bytes
+2021/10/30-11:47:15.366 797b Level-0 table #166: started
+2021/10/30-11:47:15.999 797b Level-0 table #166: 4067684 bytes OK
+2021/10/30-11:47:16.101 797b Delete type=0 #150
+2021/10/30-11:47:16.104 797b Level-0 table #169: started
+2021/10/30-11:47:16.289 797b Level-0 table #169: 4164610 bytes OK
+2021/10/30-11:47:16.657 797b Delete type=0 #165
+2021/10/30-11:47:16.810 797b Generated table #168@0: 8163 keys, 546342 bytes
+2021/10/30-11:47:16.810 797b Compacted 4@0 + 6@1 files => 26257330 bytes
+2021/10/30-11:47:17.121 797b compacted to: files[ 2 14 45 0 0 0 0 ]
+2021/10/30-11:47:17.124 797b Delete type=2 #128
+2021/10/30-11:47:17.124 797b Delete type=2 #138
+2021/10/30-11:47:17.124 797b Delete type=2 #141
+2021/10/30-11:47:17.124 797b Delete type=2 #143
+2021/10/30-11:47:17.124 797b Delete type=2 #144
+2021/10/30-11:47:17.124 797b Delete type=2 #145
+2021/10/30-11:47:17.124 797b Delete type=2 #146
+2021/10/30-11:47:17.124 797b Delete type=2 #147
+2021/10/30-11:47:17.124 797b Delete type=2 #149
+2021/10/30-11:47:17.124 797b Delete type=2 #151
+2021/10/30-11:47:18.577 797b Moved #153 to level-2 2142822 bytes OK: files[ 2 13 46 0 0 0 0 ]
+2021/10/30-11:47:18.733 797b Moved #154 to level-2 2124452 bytes OK: files[ 2 12 47 0 0 0 0 ]
+2021/10/30-11:47:18.833 797b Moved #155 to level-2 2148190 bytes OK: files[ 2 11 48 0 0 0 0 ]
+2021/10/30-11:47:19.210 797b Moved #156 to level-2 2107668 bytes OK: files[ 2 10 49 0 0 0 0 ]
+2021/10/30-11:47:19.255 797b Moved #157 to level-2 2111678 bytes OK: files[ 2 9 50 0 0 0 0 ]
+2021/10/30-11:47:19.299 797b Moved #158 to level-2 2118119 bytes OK: files[ 2 8 51 0 0 0 0 ]
+2021/10/30-11:47:19.377 797b Moved #159 to level-2 2146138 bytes OK: files[ 2 7 52 0 0 0 0 ]
+2021/10/30-11:47:19.599 797b Moved #160 to level-2 2109646 bytes OK: files[ 2 6 53 0 0 0 0 ]
+2021/10/30-11:47:19.800 797b Moved #60 to level-3 2109553 bytes OK: files[ 2 6 52 1 0 0 0 ]
+2021/10/30-11:47:20.010 797b Moved #61 to level-3 2131713 bytes OK: files[ 2 6 51 2 0 0 0 ]
+2021/10/30-11:47:20.410 797b Moved #62 to level-3 2113965 bytes OK: files[ 2 6 50 3 0 0 0 ]
+2021/10/30-11:47:20.544 797b Moved #65 to level-3 2116445 bytes OK: files[ 2 6 49 4 0 0 0 ]
+2021/10/30-11:47:20.631 797e Compacting 2@0 + 6@1 files
+2021/10/30-11:47:20.866 797b Current memtable full; waiting...
+2021/10/30-11:47:21.144 797e Generated table #170@0: 21936 keys, 215583 bytes
+2021/10/30-11:47:21.144 797e Level-0 table #173: started
+2021/10/30-11:47:21.288 797e Level-0 table #173: 4010101 bytes OK
+2021/10/30-11:47:21.679 797e Delete type=0 #167
+2021/10/30-11:47:21.681 797e Level-0 table #175: started
+2021/10/30-11:47:21.774 797b Current memtable full; waiting...
+2021/10/30-11:47:21.811 797e Level-0 table #175: 4117384 bytes OK
+2021/10/30-11:47:21.891 797e Delete type=0 #171
+2021/10/30-11:47:21.892 797e Level-0 table #177: started
+2021/10/30-11:47:22.289 797e Level-0 table #177: 4149502 bytes OK
+2021/10/30-11:47:23.314 797e Delete type=0 #174
+2021/10/30-11:47:23.500 797e Generated table #172@0: 134 keys, 2112327 bytes
+2021/10/30-11:47:23.644 797e Generated table #178@0: 133 keys, 2134593 bytes
+2021/10/30-11:47:23.744 797e Generated table #179@0: 130 keys, 2137215 bytes
+2021/10/30-11:47:23.822 797e Generated table #180@0: 129 keys, 2113854 bytes
+2021/10/30-11:47:24.178 797e Generated table #181@0: 121 keys, 2104658 bytes
+2021/10/30-11:47:24.290 797e Generated table #182@0: 157 keys, 2125766 bytes
+2021/10/30-11:47:24.400 797e Generated table #183@0: 144 keys, 2106334 bytes
+2021/10/30-11:47:24.811 797e Generated table #184@0: 146 keys, 2124016 bytes
+2021/10/30-11:47:25.745 797e Generated table #185@0: 8729 keys, 208541 bytes
+2021/10/30-11:47:25.745 797e Compacted 2@0 + 6@1 files => 17382887 bytes
+2021/10/30-11:47:25.867 797e compacted to: files[ 3 10 49 4 0 0 0 ]
+2021/10/30-11:47:25.868 797e Delete type=2 #152
+2021/10/30-11:47:25.868 797e Delete type=2 #161
+2021/10/30-11:47:25.868 797e Delete type=2 #162
+2021/10/30-11:47:25.868 797e Delete type=2 #163
+2021/10/30-11:47:25.868 797e Delete type=2 #164
+2021/10/30-11:47:25.868 797e Delete type=2 #166
+2021/10/30-11:47:25.868 797e Delete type=2 #168
+2021/10/30-11:47:25.868 797e Delete type=2 #169
+2021/10/30-11:47:25.989 797e Moved #172 to level-2 2112327 bytes OK: files[ 3 9 50 4 0 0 0 ]
+2021/10/30-11:47:26.033 797e Moved #178 to level-2 2134593 bytes OK: files[ 3 8 51 4 0 0 0 ]
+2021/10/30-11:47:26.033 797e Level-0 table #187: started
+2021/10/30-11:47:26.156 797e Level-0 table #187: 4021512 bytes OK
+2021/10/30-11:47:26.173 79d5 Current memtable full; waiting...
+2021/10/30-11:47:26.235 797e Delete type=0 #176
+2021/10/30-11:47:26.236 797a Level-0 table #189: started
+2021/10/30-11:47:26.378 797a Level-0 table #189: 4168950 bytes OK
+2021/10/30-11:47:27.225 797a Delete type=0 #186
+2021/10/30-11:47:27.433 797a Moved #179 to level-2 2137215 bytes OK: files[ 5 7 52 4 0 0 0 ]
+2021/10/30-11:47:27.434 797a Compacting 5@0 + 7@1 files
+2021/10/30-11:47:27.545 797a Generated table #190@0: 27037 keys, 244053 bytes
+2021/10/30-11:47:27.622 797a Generated table #191@0: 129 keys, 2113854 bytes
+2021/10/30-11:47:28.011 797a Generated table #192@0: 121 keys, 2104658 bytes
+2021/10/30-11:47:28.367 797a Generated table #193@0: 157 keys, 2125766 bytes
+2021/10/30-11:47:28.478 797a Generated table #194@0: 144 keys, 2106334 bytes
+2021/10/30-11:47:28.634 797a Generated table #195@0: 146 keys, 2124016 bytes
+2021/10/30-11:47:28.767 797a Generated table #196@0: 129 keys, 2126540 bytes
+2021/10/30-11:47:29.289 797a Generated table #197@0: 126 keys, 2111698 bytes
+2021/10/30-11:47:29.545 797a Generated table #198@0: 151 keys, 2130274 bytes
+2021/10/30-11:47:29.678 797a Generated table #199@0: 157 keys, 2110041 bytes
+2021/10/30-11:47:29.767 797a Generated table #200@0: 133 keys, 2110558 bytes
+2021/10/30-11:47:29.845 797a Generated table #201@0: 117 keys, 2119634 bytes
+2021/10/30-11:47:29.923 797a Generated table #202@0: 123 keys, 2126326 bytes
+2021/10/30-11:47:29.989 797a Generated table #203@0: 115 keys, 2119267 bytes
+2021/10/30-11:47:30.067 797a Generated table #204@0: 135 keys, 2163415 bytes
+2021/10/30-11:47:30.156 797a Generated table #205@0: 10124 keys, 1287243 bytes
+2021/10/30-11:47:30.156 797a Compacted 5@0 + 7@1 files => 31223677 bytes
+2021/10/30-11:47:30.290 79d8 Current memtable full; waiting...
+2021/10/30-11:47:30.600 797a compacted to: files[ 0 16 52 4 0 0 0 ]
+2021/10/30-11:47:30.602 797a Delete type=2 #170
+2021/10/30-11:47:30.602 797a Delete type=2 #173
+2021/10/30-11:47:30.602 797a Delete type=2 #175
+2021/10/30-11:47:30.602 797a Delete type=2 #177
+2021/10/30-11:47:30.602 797a Delete type=2 #180
+2021/10/30-11:47:30.602 797a Delete type=2 #181
+2021/10/30-11:47:30.602 797a Delete type=2 #182
+2021/10/30-11:47:30.602 797a Delete type=2 #183
+2021/10/30-11:47:30.602 797a Delete type=2 #184
+2021/10/30-11:47:30.602 797a Delete type=2 #185
+2021/10/30-11:47:30.602 797a Delete type=2 #187
+2021/10/30-11:47:30.602 797a Delete type=2 #189
+2021/10/30-11:47:30.609 79d6 Level-0 table #207: started
+2021/10/30-11:47:30.609 79d8 Current memtable full; waiting...
+2021/10/30-11:47:30.934 79d6 Level-0 table #207: 4042527 bytes OK
+2021/10/30-11:47:31.047 79d6 Delete type=0 #188
+2021/10/30-11:47:31.178 797a Moved #191 to level-2 2113854 bytes OK: files[ 1 15 53 4 0 0 0 ]
+2021/10/30-11:47:31.178 797a Level-0 table #209: started
+2021/10/30-11:47:31.323 797a Level-0 table #209: 4162179 bytes OK
+2021/10/30-11:47:31.736 797a Delete type=0 #206
+2021/10/30-11:47:32.501 797a Moved #192 to level-2 2104658 bytes OK: files[ 2 14 54 4 0 0 0 ]
+2021/10/30-11:47:33.389 797a Moved #193 to level-2 2125766 bytes OK: files[ 2 13 55 4 0 0 0 ]
+2021/10/30-11:47:33.445 797a Moved #194 to level-2 2106334 bytes OK: files[ 2 12 56 4 0 0 0 ]
+2021/10/30-11:47:33.567 797a Moved #195 to level-2 2124016 bytes OK: files[ 2 11 57 4 0 0 0 ]
+2021/10/30-11:47:33.612 797a Moved #196 to level-2 2126540 bytes OK: files[ 2 10 58 4 0 0 0 ]
+2021/10/30-11:47:33.690 797a Moved #197 to level-2 2111698 bytes OK: files[ 2 9 59 4 0 0 0 ]
+2021/10/30-11:47:33.734 797a Moved #198 to level-2 2130274 bytes OK: files[ 2 8 60 4 0 0 0 ]
+2021/10/30-11:47:33.778 797a Moved #199 to level-2 2110041 bytes OK: files[ 2 7 61 4 0 0 0 ]
+2021/10/30-11:47:33.823 797a Moved #68 to level-3 2117347 bytes OK: files[ 2 7 60 5 0 0 0 ]
+2021/10/30-11:47:33.867 797a Moved #69 to level-3 2118542 bytes OK: files[ 2 7 59 6 0 0 0 ]
+2021/10/30-11:47:33.912 797a Moved #70 to level-3 2115930 bytes OK: files[ 2 7 58 7 0 0 0 ]
+2021/10/30-11:47:34.234 797a Moved #71 to level-3 2037673 bytes OK: files[ 2 7 57 8 0 0 0 ]
+2021/10/30-11:47:34.612 797a Moved #200 to level-2 2110558 bytes OK: files[ 2 6 58 8 0 0 0 ]
+2021/10/30-11:47:34.701 797a Moved #44 to level-3 2115035 bytes OK: files[ 2 6 57 9 0 0 0 ]
+2021/10/30-11:47:34.767 797a Moved #45 to level-3 2129416 bytes OK: files[ 2 6 56 10 0 0 0 ]
+2021/10/30-11:47:34.812 797a Moved #46 to level-3 2130916 bytes OK: files[ 2 6 55 11 0 0 0 ]
+2021/10/30-11:47:34.856 797a Moved #47 to level-3 2155067 bytes OK: files[ 2 6 54 12 0 0 0 ]
+2021/10/30-11:47:34.890 797a Moved #77 to level-3 2127393 bytes OK: files[ 2 6 53 13 0 0 0 ]
+2021/10/30-11:47:34.945 797a Moved #78 to level-3 2112418 bytes OK: files[ 2 6 52 14 0 0 0 ]
+2021/10/30-11:47:35.001 797a Moved #79 to level-3 2114723 bytes OK: files[ 2 6 51 15 0 0 0 ]
+2021/10/30-11:47:35.056 797a Moved #80 to level-3 2124814 bytes OK: files[ 2 6 50 16 0 0 0 ]
+2021/10/30-11:47:35.112 797a Moved #81 to level-3 2123107 bytes OK: files[ 2 6 49 17 0 0 0 ]
+2021/10/30-11:47:35.250 797e Compacting 2@0 + 6@1 files
+2021/10/30-11:47:35.668 797e Generated table #210@0: 28850 keys, 253029 bytes
+2021/10/30-11:47:36.034 797e Generated table #211@0: 117 keys, 2119634 bytes
+2021/10/30-11:47:36.179 797e Generated table #212@0: 123 keys, 2126326 bytes
+2021/10/30-11:47:36.179 797e Level-0 table #214: started
+2021/10/30-11:47:36.231 79db Current memtable full; waiting...
+2021/10/30-11:47:36.301 797e Level-0 table #214: 4067483 bytes OK
+2021/10/30-11:47:36.392 797e Delete type=0 #208
+2021/10/30-11:47:36.393 797e Level-0 table #217: started
+2021/10/30-11:47:36.812 797e Level-0 table #217: 4152439 bytes OK
+2021/10/30-11:47:37.070 797e Delete type=0 #213
+2021/10/30-11:47:37.517 797e Generated table #215@0: 115 keys, 2119267 bytes
+2021/10/30-11:47:38.114 797e Generated table #218@0: 135 keys, 2163415 bytes
+2021/10/30-11:47:38.291 797e Generated table #219@0: 120 keys, 2114778 bytes
+2021/10/30-11:47:38.446 797e Generated table #220@0: 126 keys, 2110347 bytes
+2021/10/30-11:47:38.523 797e Generated table #221@0: 119 keys, 2111898 bytes
+2021/10/30-11:47:38.612 797e Generated table #222@0: 99 keys, 2115434 bytes
+2021/10/30-11:47:38.724 797e Generated table #223@0: 10583 keys, 965507 bytes
+2021/10/30-11:47:38.724 797e Compacted 2@0 + 6@1 files => 18199635 bytes
+2021/10/30-11:47:38.812 797e compacted to: files[ 2 10 49 17 0 0 0 ]
+2021/10/30-11:47:38.814 797e Delete type=2 #190
+2021/10/30-11:47:38.814 797e Delete type=2 #201
+2021/10/30-11:47:38.814 797e Delete type=2 #202
+2021/10/30-11:47:38.814 797e Delete type=2 #203
+2021/10/30-11:47:38.814 797e Delete type=2 #204
+2021/10/30-11:47:38.814 797e Delete type=2 #205
+2021/10/30-11:47:38.814 797e Delete type=2 #207
+2021/10/30-11:47:38.814 797e Delete type=2 #209
+2021/10/30-11:47:38.912 797e Moved #211 to level-2 2119634 bytes OK: files[ 2 9 50 17 0 0 0 ]
+2021/10/30-11:47:38.968 797e Moved #212 to level-2 2126326 bytes OK: files[ 2 8 51 17 0 0 0 ]
+2021/10/30-11:47:39.012 797e Moved #215 to level-2 2119267 bytes OK: files[ 2 7 52 17 0 0 0 ]
+2021/10/30-11:47:39.135 797e Moved #218 to level-2 2163415 bytes OK: files[ 2 6 53 17 0 0 0 ]
+2021/10/30-11:47:39.301 797e Moved #82 to level-3 2137561 bytes OK: files[ 2 6 52 18 0 0 0 ]
+2021/10/30-11:47:40.312 797e Moved #83 to level-3 2106381 bytes OK: files[ 2 6 51 19 0 0 0 ]
+2021/10/30-11:47:40.357 797e Moved #84 to level-3 2123476 bytes OK: files[ 2 6 50 20 0 0 0 ]
+2021/10/30-11:47:40.412 797e Moved #85 to level-3 2105155 bytes OK: files[ 2 6 49 21 0 0 0 ]
+2021/10/30-11:47:40.634 797e Compacting 2@0 + 6@1 files
+2021/10/30-11:47:40.657 797e Level-0 table #226: started
+2021/10/30-11:47:40.773 79da Current memtable full; waiting...
+2021/10/30-11:47:41.124 797e Level-0 table #226: 4083817 bytes OK
+2021/10/30-11:47:41.292 797e Delete type=0 #216
+2021/10/30-11:47:41.297 797e Level-0 table #228: started
+2021/10/30-11:47:41.373 79da Current memtable full; waiting...
+2021/10/30-11:47:42.497 797e Level-0 table #228: 4136782 bytes OK
+2021/10/30-11:47:42.781 797e Delete type=0 #225
+2021/10/30-11:47:42.783 797e Level-0 table #230: started
+2021/10/30-11:47:42.979 797e Level-0 table #230: 4164124 bytes OK
+2021/10/30-11:47:43.182 797e Delete type=0 #227
+2021/10/30-11:47:43.781 797e Generated table #224@0: 30903 keys, 281506 bytes
+2021/10/30-11:47:44.202 797e Generated table #231@0: 120 keys, 2114778 bytes
+2021/10/30-11:47:45.046 797e Generated table #232@0: 126 keys, 2110347 bytes
+2021/10/30-11:47:45.180 797e Generated table #233@0: 119 keys, 2111898 bytes
+2021/10/30-11:47:45.280 797e Generated table #234@0: 99 keys, 2115434 bytes
+2021/10/30-11:47:45.369 797e Generated table #235@0: 129 keys, 2115313 bytes
+2021/10/30-11:47:45.446 797e Generated table #236@0: 114 keys, 2146215 bytes
+2021/10/30-11:47:45.524 797e Generated table #237@0: 139 keys, 2106840 bytes
+2021/10/30-11:47:45.602 797e Generated table #238@0: 136 keys, 2111137 bytes
+2021/10/30-11:47:45.691 797e Generated table #239@0: 11114 keys, 609094 bytes
+2021/10/30-11:47:45.691 797e Compacted 2@0 + 6@1 files => 17822562 bytes
+2021/10/30-11:47:45.780 797e compacted to: files[ 3 10 49 21 0 0 0 ]
+2021/10/30-11:47:45.781 797e Delete type=2 #210
+2021/10/30-11:47:45.781 797e Delete type=2 #214
+2021/10/30-11:47:45.781 797e Delete type=2 #217
+2021/10/30-11:47:45.781 797e Delete type=2 #219
+2021/10/30-11:47:45.781 797e Delete type=2 #220
+2021/10/30-11:47:45.781 797e Delete type=2 #221
+2021/10/30-11:47:45.781 797e Delete type=2 #222
+2021/10/30-11:47:45.781 797e Delete type=2 #223
+2021/10/30-11:47:46.302 797e Moved #231 to level-2 2114778 bytes OK: files[ 3 9 50 21 0 0 0 ]
+2021/10/30-11:47:46.502 797e Moved #232 to level-2 2110347 bytes OK: files[ 3 8 51 21 0 0 0 ]
+2021/10/30-11:47:46.669 797e Moved #233 to level-2 2111898 bytes OK: files[ 3 7 52 21 0 0 0 ]
+2021/10/30-11:47:47.041 797e Moved #234 to level-2 2115434 bytes OK: files[ 3 6 53 21 0 0 0 ]
+2021/10/30-11:47:47.195 79d6 Current memtable full; waiting...
+2021/10/30-11:47:47.657 797e Moved #86 to level-3 2131086 bytes OK: files[ 3 6 52 22 0 0 0 ]
+2021/10/30-11:47:47.658 79d6 Current memtable full; waiting...
+2021/10/30-11:47:47.658 797e Level-0 table #241: started
+2021/10/30-11:47:47.824 797e Level-0 table #241: 4053922 bytes OK
+2021/10/30-11:47:47.893 797e Delete type=0 #229
+2021/10/30-11:47:47.894 79d8 Level-0 table #243: started
+2021/10/30-11:47:48.024 79d8 Level-0 table #243: 4125339 bytes OK
+2021/10/30-11:47:48.204 79d8 Delete type=0 #240
+2021/10/30-11:47:48.205 79d8 Compacting 5@0 + 6@1 files
+2021/10/30-11:47:48.726 79d8 Generated table #244@0: 35765 keys, 315939 bytes
+2021/10/30-11:47:49.249 79d8 Generated table #245@0: 129 keys, 2115313 bytes
+2021/10/30-11:47:49.924 79d8 Generated table #246@0: 114 keys, 2146215 bytes
+2021/10/30-11:47:50.047 79d8 Generated table #247@0: 139 keys, 2106840 bytes
+2021/10/30-11:47:50.136 79d8 Generated table #248@0: 136 keys, 2111137 bytes
+2021/10/30-11:47:50.213 79d8 Generated table #249@0: 97 keys, 2110242 bytes
+2021/10/30-11:47:50.302 79d8 Generated table #250@0: 115 keys, 2107552 bytes
+2021/10/30-11:47:50.380 79d8 Generated table #251@0: 118 keys, 2114431 bytes
+2021/10/30-11:47:50.469 79d8 Generated table #252@0: 125 keys, 2111916 bytes
+2021/10/30-11:47:50.558 79d8 Generated table #253@0: 129 keys, 2109192 bytes
+2021/10/30-11:47:50.658 79d8 Generated table #254@0: 144 keys, 2120317 bytes
+2021/10/30-11:47:50.866 79d8 Generated table #255@0: 131 keys, 2138404 bytes
+2021/10/30-11:47:51.377 79d8 Generated table #256@0: 121 keys, 2109480 bytes
+2021/10/30-11:47:51.914 79d8 Generated table #257@0: 134 keys, 2120155 bytes
+2021/10/30-11:47:52.014 79d8 Generated table #258@0: 12466 keys, 1955901 bytes
+2021/10/30-11:47:52.014 79d8 Compacted 5@0 + 6@1 files => 29793034 bytes
+2021/10/30-11:47:52.436 79d8 compacted to: files[ 0 15 52 22 0 0 0 ]
+2021/10/30-11:47:52.437 79d8 Delete type=2 #224
+2021/10/30-11:47:52.438 79d8 Delete type=2 #226
+2021/10/30-11:47:52.438 79d8 Delete type=2 #228
+2021/10/30-11:47:52.438 79d8 Delete type=2 #230
+2021/10/30-11:47:52.438 79d8 Delete type=2 #235
+2021/10/30-11:47:52.438 79d8 Delete type=2 #236
+2021/10/30-11:47:52.438 79d8 Delete type=2 #237
+2021/10/30-11:47:52.438 79d8 Delete type=2 #238
+2021/10/30-11:47:52.438 79d8 Delete type=2 #239
+2021/10/30-11:47:52.438 79d8 Delete type=2 #241
+2021/10/30-11:47:52.438 79d8 Delete type=2 #243
+2021/10/30-11:47:52.462 79d8 Level-0 table #260: started
+2021/10/30-11:47:52.522 797b Current memtable full; waiting...
+2021/10/30-11:47:52.647 79d8 Level-0 table #260: 4049246 bytes OK
+2021/10/30-11:47:53.037 79d8 Delete type=0 #242
+2021/10/30-11:47:53.038 797c Level-0 table #262: started
+2021/10/30-11:47:54.081 797c Level-0 table #262: 4174389 bytes OK
+2021/10/30-11:47:54.295 797c Delete type=0 #259
+2021/10/30-11:47:54.615 797c Moved #245 to level-2 2115313 bytes OK: files[ 2 14 53 22 0 0 0 ]
+2021/10/30-11:47:54.969 797c Moved #246 to level-2 2146215 bytes OK: files[ 2 13 54 22 0 0 0 ]
+2021/10/30-11:47:55.245 797c Moved #247 to level-2 2106840 bytes OK: files[ 2 12 55 22 0 0 0 ]
+2021/10/30-11:47:55.580 797c Moved #248 to level-2 2111137 bytes OK: files[ 2 11 56 22 0 0 0 ]
+2021/10/30-11:47:55.747 797c Moved #249 to level-2 2110242 bytes OK: files[ 2 10 57 22 0 0 0 ]
+2021/10/30-11:47:56.569 797c Moved #250 to level-2 2107552 bytes OK: files[ 2 9 58 22 0 0 0 ]
+2021/10/30-11:47:56.658 797c Moved #251 to level-2 2114431 bytes OK: files[ 2 8 59 22 0 0 0 ]
+2021/10/30-11:47:56.736 797c Moved #252 to level-2 2111916 bytes OK: files[ 2 7 60 22 0 0 0 ]
+2021/10/30-11:47:56.792 797c Moved #253 to level-2 2109192 bytes OK: files[ 2 6 61 22 0 0 0 ]
+2021/10/30-11:47:56.847 797c Moved #87 to level-3 2108700 bytes OK: files[ 2 6 60 23 0 0 0 ]
+2021/10/30-11:47:56.892 797c Moved #88 to level-3 2127637 bytes OK: files[ 2 6 59 24 0 0 0 ]
+2021/10/30-11:47:56.925 797c Moved #89 to level-3 2107225 bytes OK: files[ 2 6 58 25 0 0 0 ]
+2021/10/30-11:47:56.981 797c Moved #90 to level-3 2116571 bytes OK: files[ 2 6 57 26 0 0 0 ]
+2021/10/30-11:47:57.014 797c Moved #93 to level-3 2110252 bytes OK: files[ 2 6 56 27 0 0 0 ]
+2021/10/30-11:47:57.047 797c Moved #94 to level-3 2151708 bytes OK: files[ 2 6 55 28 0 0 0 ]
+2021/10/30-11:47:57.081 797c Moved #105 to level-3 2122675 bytes OK: files[ 2 6 54 29 0 0 0 ]
+2021/10/30-11:47:57.114 797c Moved #106 to level-3 2104727 bytes OK: files[ 2 6 53 30 0 0 0 ]
+2021/10/30-11:47:57.147 797c Moved #107 to level-3 2107391 bytes OK: files[ 2 6 52 31 0 0 0 ]
+2021/10/30-11:47:57.525 797c Moved #110 to level-3 2122897 bytes OK: files[ 2 6 51 32 0 0 0 ]
+2021/10/30-11:47:57.581 797c Moved #113 to level-3 2131369 bytes OK: files[ 2 6 50 33 0 0 0 ]
+2021/10/30-11:47:57.736 797c Moved #254 to level-2 2120317 bytes OK: files[ 2 5 51 33 0 0 0 ]
+2021/10/30-11:47:57.925 797c Moved #114 to level-3 2106137 bytes OK: files[ 2 5 50 34 0 0 0 ]
+2021/10/30-11:47:58.092 797c Moved #115 to level-3 2118596 bytes OK: files[ 2 5 49 35 0 0 0 ]
+2021/10/30-11:47:58.092 797c Level-0 table #264: started
+2021/10/30-11:47:58.245 79d8 Current memtable full; waiting...
+2021/10/30-11:47:59.048 797c Level-0 table #264: 4034897 bytes OK
+2021/10/30-11:47:59.216 797c Delete type=0 #261
+2021/10/30-11:47:59.217 797c Level-0 table #266: started
+2021/10/30-11:47:59.403 797c Level-0 table #266: 4153665 bytes OK
+2021/10/30-11:47:59.572 797c Delete type=0 #263
+2021/10/30-11:47:59.573 797c Compacting 4@0 + 5@1 files
+2021/10/30-11:48:00.069 797c Generated table #267@0: 39699 keys, 353863 bytes
+2021/10/30-11:48:00.426 797c Generated table #268@0: 131 keys, 2138404 bytes
+2021/10/30-11:48:01.326 797c Generated table #269@0: 121 keys, 2109480 bytes
+2021/10/30-11:48:01.448 797c Generated table #270@0: 134 keys, 2120155 bytes
+2021/10/30-11:48:01.559 797c Generated table #271@0: 124 keys, 2146570 bytes
+2021/10/30-11:48:01.659 797c Generated table #272@0: 121 keys, 2131306 bytes
+2021/10/30-11:48:01.737 797c Generated table #273@0: 128 keys, 2106186 bytes
+2021/10/30-11:48:01.814 797c Generated table #274@0: 128 keys, 2128291 bytes
+2021/10/30-11:48:01.895 797c Generated table #275@0: 105 keys, 2141373 bytes
+2021/10/30-11:48:01.970 797c Generated table #276@0: 129 keys, 2130233 bytes
+2021/10/30-11:48:02.070 797c Generated table #277@0: 137 keys, 2119966 bytes
+2021/10/30-11:48:02.508 797c Generated table #278@0: 131 keys, 2118327 bytes
+2021/10/30-11:48:03.293 797c Generated table #279@0: 13473 keys, 1168199 bytes
+2021/10/30-11:48:03.293 797c Compacted 4@0 + 5@1 files => 24912353 bytes
+2021/10/30-11:48:03.737 797c compacted to: files[ 0 13 49 35 0 0 0 ]
+2021/10/30-11:48:03.739 797c Delete type=2 #244
+2021/10/30-11:48:03.739 797c Delete type=2 #255
+2021/10/30-11:48:03.739 797c Delete type=2 #256
+2021/10/30-11:48:03.739 797c Delete type=2 #257
+2021/10/30-11:48:03.739 797c Delete type=2 #258
+2021/10/30-11:48:03.739 797c Delete type=2 #260
+2021/10/30-11:48:03.739 797c Delete type=2 #262
+2021/10/30-11:48:03.739 797c Delete type=2 #264
+2021/10/30-11:48:03.739 797c Delete type=2 #266
+2021/10/30-11:48:03.922 797c Moved #268 to level-2 2138404 bytes OK: files[ 0 12 50 35 0 0 0 ]
+2021/10/30-11:48:04.202 79d5 Current memtable full; waiting...
+2021/10/30-11:48:05.098 797c Moved #269 to level-2 2109480 bytes OK: files[ 0 11 51 35 0 0 0 ]
+2021/10/30-11:48:05.098 797c Level-0 table #281: started
+2021/10/30-11:48:05.098 79d5 Current memtable full; waiting...
+2021/10/30-11:48:05.759 797c Level-0 table #281: 4020811 bytes OK
+2021/10/30-11:48:05.916 797c Delete type=0 #265
+2021/10/30-11:48:05.917 79d8 Level-0 table #283: started
+2021/10/30-11:48:05.976 79d5 Current memtable full; waiting...
+2021/10/30-11:48:06.337 79d8 Level-0 table #283: 4125377 bytes OK
+2021/10/30-11:48:06.417 79d8 Delete type=0 #280
+2021/10/30-11:48:06.602 79d8 Moved #270 to level-2 2120155 bytes OK: files[ 2 10 52 35 0 0 0 ]
+2021/10/30-11:48:06.602 79d8 Level-0 table #285: started
+2021/10/30-11:48:07.193 79d8 Level-0 table #285: 4171736 bytes OK
+2021/10/30-11:48:07.940 79d8 Delete type=0 #282
+2021/10/30-11:48:08.137 79d8 Moved #271 to level-2 2146570 bytes OK: files[ 3 9 53 35 0 0 0 ]
+2021/10/30-11:48:08.259 79d2 Moved #272 to level-2 2131306 bytes OK: files[ 3 8 54 35 0 0 0 ]
+2021/10/30-11:48:08.348 79d2 Moved #273 to level-2 2106186 bytes OK: files[ 3 7 55 35 0 0 0 ]
+2021/10/30-11:48:08.437 79d2 Moved #274 to level-2 2128291 bytes OK: files[ 3 6 56 35 0 0 0 ]
+2021/10/30-11:48:08.482 79d2 Moved #129 to level-3 2111038 bytes OK: files[ 3 6 55 36 0 0 0 ]
+2021/10/30-11:48:08.537 79d2 Moved #130 to level-3 2131403 bytes OK: files[ 3 6 54 37 0 0 0 ]
+2021/10/30-11:48:08.926 79d2 Moved #131 to level-3 2109318 bytes OK: files[ 3 6 53 38 0 0 0 ]
+2021/10/30-11:48:09.048 79d2 Moved #132 to level-3 2155037 bytes OK: files[ 3 6 52 39 0 0 0 ]
+2021/10/30-11:48:09.237 79d2 Moved #133 to level-3 2139326 bytes OK: files[ 3 6 51 40 0 0 0 ]
+2021/10/30-11:48:09.593 79d2 Moved #134 to level-3 2138416 bytes OK: files[ 3 6 50 41 0 0 0 ]
+2021/10/30-11:48:09.693 79d2 Moved #135 to level-3 2114924 bytes OK: files[ 3 6 49 42 0 0 0 ]
+2021/10/30-11:48:10.086 79da Compacting 3@0 + 6@1 files
+2021/10/30-11:48:10.515 79da Generated table #286@0: 42595 keys, 360251 bytes
+2021/10/30-11:48:10.938 79da Generated table #287@0: 105 keys, 2141373 bytes
+2021/10/30-11:48:11.798 79da Generated table #288@0: 129 keys, 2130233 bytes
+2021/10/30-11:48:11.927 79da Generated table #289@0: 137 keys, 2119966 bytes
+2021/10/30-11:48:12.071 79da Generated table #290@0: 131 keys, 2118327 bytes
+2021/10/30-11:48:12.149 79da Generated table #291@0: 124 keys, 2116313 bytes
+2021/10/30-11:48:12.227 79da Generated table #292@0: 124 keys, 2131264 bytes
+2021/10/30-11:48:12.315 79da Generated table #293@0: 131 keys, 2118750 bytes
+2021/10/30-11:48:12.316 79da Level-0 table #295: started
+2021/10/30-11:48:12.361 79d8 Current memtable full; waiting...
+2021/10/30-11:48:12.449 79da Level-0 table #295: 4091588 bytes OK
+2021/10/30-11:48:12.551 79da Delete type=0 #284
+2021/10/30-11:48:12.553 79da Level-0 table #298: started
+2021/10/30-11:48:12.649 79d8 Current memtable full; waiting...
+2021/10/30-11:48:12.682 79da Level-0 table #298: 4178321 bytes OK
+2021/10/30-11:48:13.129 79da Delete type=0 #294
+2021/10/30-11:48:13.132 79da Level-0 table #300: started
+2021/10/30-11:48:13.198 79d8 Current memtable full; waiting...
+2021/10/30-11:48:13.838 79da Level-0 table #300: 4192013 bytes OK
+2021/10/30-11:48:13.985 79da Delete type=0 #297
+2021/10/30-11:48:13.987 79da Level-0 table #302: started
+2021/10/30-11:48:14.438 79da Level-0 table #302: 4165866 bytes OK
+2021/10/30-11:48:14.607 79da Delete type=0 #299
+2021/10/30-11:48:14.960 79da Generated table #296@0: 142 keys, 2112084 bytes
+2021/10/30-11:48:15.949 79da Generated table #303@0: 152 keys, 2106351 bytes
+2021/10/30-11:48:16.171 79da Generated table #304@0: 90 keys, 2149564 bytes
+2021/10/30-11:48:16.305 79da Generated table #305@0: 14172 keys, 671613 bytes
+2021/10/30-11:48:16.305 79da Compacted 3@0 + 6@1 files => 22276089 bytes
+2021/10/30-11:48:16.427 79da compacted to: files[ 4 12 49 42 0 0 0 ]
+2021/10/30-11:48:16.430 79da Delete type=2 #267
+2021/10/30-11:48:16.430 79da Delete type=2 #275
+2021/10/30-11:48:16.430 79da Delete type=2 #276
+2021/10/30-11:48:16.430 79da Delete type=2 #277
+2021/10/30-11:48:16.430 79da Delete type=2 #278
+2021/10/30-11:48:16.430 79da Delete type=2 #279
+2021/10/30-11:48:16.430 79da Delete type=2 #281
+2021/10/30-11:48:16.430 79da Delete type=2 #283
+2021/10/30-11:48:16.430 79da Delete type=2 #285
+2021/10/30-11:48:16.527 79d9 Moved #287 to level-2 2141373 bytes OK: files[ 4 11 50 42 0 0 0 ]
+2021/10/30-11:48:16.838 79d9 Moved #288 to level-2 2130233 bytes OK: files[ 4 10 51 42 0 0 0 ]
+2021/10/30-11:48:16.894 79d9 Moved #289 to level-2 2119966 bytes OK: files[ 4 9 52 42 0 0 0 ]
+2021/10/30-11:48:16.938 79d9 Moved #290 to level-2 2118327 bytes OK: files[ 4 8 53 42 0 0 0 ]
+2021/10/30-11:48:16.983 79d9 Moved #291 to level-2 2116313 bytes OK: files[ 4 7 54 42 0 0 0 ]
+2021/10/30-11:48:17.027 79d9 Moved #292 to level-2 2131264 bytes OK: files[ 4 6 55 42 0 0 0 ]
+2021/10/30-11:48:17.071 79d9 Moved #136 to level-3 2147055 bytes OK: files[ 4 6 54 43 0 0 0 ]
+2021/10/30-11:48:17.128 79d9 Moved #139 to level-3 2105678 bytes OK: files[ 4 6 53 44 0 0 0 ]
+2021/10/30-11:48:17.338 79d9 Moved #142 to level-3 2141032 bytes OK: files[ 4 6 52 45 0 0 0 ]
+2021/10/30-11:48:17.494 79d9 Moved #153 to level-3 2142822 bytes OK: files[ 4 6 51 46 0 0 0 ]
+2021/10/30-11:48:18.476 79d9 Moved #154 to level-3 2124452 bytes OK: files[ 4 6 50 47 0 0 0 ]
+2021/10/30-11:48:18.616 79d9 Moved #155 to level-3 2148190 bytes OK: files[ 4 6 49 48 0 0 0 ]
+2021/10/30-11:48:18.616 79d9 Compacting 4@0 + 6@1 files
+2021/10/30-11:48:18.750 79d9 Generated table #306@0: 44647 keys, 417438 bytes
+2021/10/30-11:48:18.838 79d9 Generated table #307@0: 131 keys, 2118750 bytes
+2021/10/30-11:48:18.916 79d9 Generated table #308@0: 142 keys, 2112084 bytes
+2021/10/30-11:48:18.916 79d9 Level-0 table #310: started
+2021/10/30-11:48:19.050 79d9 Level-0 table #310: 3995336 bytes OK
+2021/10/30-11:48:19.100 79da Current memtable full; waiting...
+2021/10/30-11:48:19.652 79d9 Delete type=0 #301
+2021/10/30-11:48:19.653 79d9 Level-0 table #313: started
+2021/10/30-11:48:19.712 79da Current memtable full; waiting...
+2021/10/30-11:48:20.050 79d9 Level-0 table #313: 4147198 bytes OK
+2021/10/30-11:48:20.819 79d9 Delete type=0 #309
+2021/10/30-11:48:20.820 79d9 Level-0 table #315: started
+2021/10/30-11:48:21.050 79d9 Level-0 table #315: 4134018 bytes OK
+2021/10/30-11:48:21.197 79d9 Delete type=0 #312
+2021/10/30-11:48:21.328 79d9 Generated table #311@0: 152 keys, 2106351 bytes
+2021/10/30-11:48:21.468 79d9 Generated table #316@0: 90 keys, 2149564 bytes
+2021/10/30-11:48:21.569 79d9 Generated table #317@0: 63 keys, 2117329 bytes
+2021/10/30-11:48:22.216 79d9 Generated table #318@0: 93 keys, 2131752 bytes
+2021/10/30-11:48:23.239 79d9 Generated table #319@0: 47 keys, 2112801 bytes
+2021/10/30-11:48:23.883 79d9 Generated table #320@0: 50 keys, 2142235 bytes
+2021/10/30-11:48:23.883 79d9 Level-0 table #322: started
+2021/10/30-11:48:23.891 79dc Current memtable full; waiting...
+2021/10/30-11:48:24.072 79d9 Level-0 table #322: 4013473 bytes OK
+2021/10/30-11:48:24.486 79d9 Delete type=0 #314
+2021/10/30-11:48:24.488 79d9 Level-0 table #325: started
+2021/10/30-11:48:24.697 79d9 Level-0 table #325: 4138364 bytes OK
+2021/10/30-11:48:25.030 79d9 Delete type=0 #321
+2021/10/30-11:48:25.699 79d9 Generated table #323@0: 46 keys, 2156448 bytes
+2021/10/30-11:48:26.525 79d9 Generated table #326@0: 46 keys, 2118195 bytes
+2021/10/30-11:48:27.006 79d9 Generated table #327@0: 46 keys, 2143882 bytes
+2021/10/30-11:48:27.184 79d9 Generated table #328@0: 7980 keys, 2116855 bytes
+2021/10/30-11:48:27.306 79d9 Generated table #329@0: 6851 keys, 108324 bytes
+2021/10/30-11:48:27.306 79d9 Compacted 4@0 + 6@1 files => 26052008 bytes
+2021/10/30-11:48:27.439 79d9 compacted to: files[ 5 14 49 48 0 0 0 ]
+2021/10/30-11:48:27.442 79d9 Delete type=2 #286
+2021/10/30-11:48:27.442 79d9 Delete type=2 #293
+2021/10/30-11:48:27.442 79d9 Delete type=2 #295
+2021/10/30-11:48:27.442 79d9 Delete type=2 #296
+2021/10/30-11:48:27.442 79d9 Delete type=2 #298
+2021/10/30-11:48:27.442 79d9 Delete type=2 #300
+2021/10/30-11:48:27.442 79d9 Delete type=2 #302
+2021/10/30-11:48:27.442 79d9 Delete type=2 #303
+2021/10/30-11:48:27.442 79d9 Delete type=2 #304
+2021/10/30-11:48:27.442 79d9 Delete type=2 #305
+2021/10/30-11:48:27.539 79e3 Moved #307 to level-2 2118750 bytes OK: files[ 5 13 50 48 0 0 0 ]
+2021/10/30-11:48:27.572 79e3 Moved #308 to level-2 2112084 bytes OK: files[ 5 12 51 48 0 0 0 ]
+2021/10/30-11:48:27.628 79e3 Moved #311 to level-2 2106351 bytes OK: files[ 5 11 52 48 0 0 0 ]
+2021/10/30-11:48:27.695 79e3 Moved #316 to level-2 2149564 bytes OK: files[ 5 10 53 48 0 0 0 ]
+2021/10/30-11:48:27.739 79e3 Moved #317 to level-2 2117329 bytes OK: files[ 5 9 54 48 0 0 0 ]
+2021/10/30-11:48:27.772 79e3 Moved #318 to level-2 2131752 bytes OK: files[ 5 8 55 48 0 0 0 ]
+2021/10/30-11:48:27.850 79e3 Moved #319 to level-2 2112801 bytes OK: files[ 5 7 56 48 0 0 0 ]
+2021/10/30-11:48:27.850 79e3 Compacting 5@0 + 7@1 files
+2021/10/30-11:48:28.595 79e3 Generated table #330@0: 49856 keys, 450275 bytes
+2021/10/30-11:48:29.607 79e3 Generated table #331@0: 50 keys, 2142235 bytes
+2021/10/30-11:48:29.607 79e3 Level-0 table #333: started
+2021/10/30-11:48:29.717 79fb Current memtable full; waiting...
+2021/10/30-11:48:29.806 79e3 Level-0 table #333: 4004805 bytes OK
+2021/10/30-11:48:29.897 79e3 Delete type=0 #324
+2021/10/30-11:48:29.899 79e3 Level-0 table #336: started
+2021/10/30-11:48:30.039 79e3 Level-0 table #336: 4128655 bytes OK
+2021/10/30-11:48:30.254 79e3 Delete type=0 #332
+2021/10/30-11:48:30.430 79e3 Generated table #334@0: 46 keys, 2156448 bytes
+2021/10/30-11:48:31.073 79e3 Generated table #337@0: 46 keys, 2118195 bytes
+2021/10/30-11:48:31.644 79e3 Generated table #338@0: 46 keys, 2143882 bytes
+2021/10/30-11:48:32.395 79e3 Generated table #339@0: 123 keys, 2117106 bytes
+2021/10/30-11:48:32.517 79e3 Generated table #340@0: 147 keys, 2115144 bytes
+2021/10/30-11:48:32.595 79e3 Generated table #341@0: 143 keys, 2113346 bytes
+2021/10/30-11:48:32.684 79e3 Generated table #342@0: 128 keys, 2116302 bytes
+2021/10/30-11:48:32.773 79e3 Generated table #343@0: 117 keys, 2115681 bytes
+2021/10/30-11:48:32.851 79e3 Generated table #344@0: 152 keys, 2122893 bytes
+2021/10/30-11:48:32.917 79e3 Generated table #345@0: 122 keys, 2126737 bytes
+2021/10/30-11:48:32.995 79e3 Generated table #346@0: 143 keys, 2116894 bytes
+2021/10/30-11:48:33.506 79e3 Generated table #347@0: 130 keys, 2112334 bytes
+2021/10/30-11:48:34.395 79e3 Generated table #348@0: 115 keys, 2126039 bytes
+2021/10/30-11:48:35.396 79fe Current memtable full; waiting...
+2021/10/30-11:48:36.133 79e3 Generated table #349@0: 16156 keys, 1181195 bytes
+2021/10/30-11:48:36.133 79e3 Compacted 5@0 + 7@1 files => 31374706 bytes
+2021/10/30-11:48:38.440 79e3 compacted to: files[ 2 16 56 48 0 0 0 ]
+2021/10/30-11:48:38.442 79e3 Delete type=2 #306
+2021/10/30-11:48:38.442 79e3 Delete type=2 #310
+2021/10/30-11:48:38.442 79e3 Delete type=2 #313
+2021/10/30-11:48:38.443 79e3 Delete type=2 #315
+2021/10/30-11:48:38.443 79e3 Delete type=2 #320
+2021/10/30-11:48:38.443 79e3 Delete type=2 #322
+2021/10/30-11:48:38.443 79e3 Delete type=2 #323
+2021/10/30-11:48:38.443 79e3 Delete type=2 #325
+2021/10/30-11:48:38.443 79e3 Delete type=2 #326
+2021/10/30-11:48:38.443 79e3 Delete type=2 #327
+2021/10/30-11:48:38.443 79e3 Delete type=2 #328
+2021/10/30-11:48:38.443 79e3 Delete type=2 #329
+2021/10/30-11:48:38.451 79fe Current memtable full; waiting...
+2021/10/30-11:48:38.452 7a04 Level-0 table #351: started
+2021/10/30-11:48:38.551 7a04 Level-0 table #351: 4067089 bytes OK
+2021/10/30-11:48:38.909 7a04 Delete type=0 #335
+2021/10/30-11:48:39.840 79e3 Moved #331 to level-2 2142235 bytes OK: files[ 3 15 57 48 0 0 0 ]
+2021/10/30-11:48:39.840 79e3 Level-0 table #353: started
+2021/10/30-11:48:41.254 79e3 Level-0 table #353: 4140429 bytes OK
+2021/10/30-11:48:42.169 79e3 Delete type=0 #350
+2021/10/30-11:48:43.630 79e3 Moved #334 to level-2 2156448 bytes OK: files[ 4 14 58 48 0 0 0 ]
+2021/10/30-11:48:43.930 79e3 Moved #337 to level-2 2118195 bytes OK: files[ 4 13 59 48 0 0 0 ]
+2021/10/30-11:48:44.018 79e3 Moved #338 to level-2 2143882 bytes OK: files[ 4 12 60 48 0 0 0 ]
+2021/10/30-11:48:44.052 79e3 Moved #339 to level-2 2117106 bytes OK: files[ 4 11 61 48 0 0 0 ]
+2021/10/30-11:48:44.085 79e3 Moved #340 to level-2 2115144 bytes OK: files[ 4 10 62 48 0 0 0 ]
+2021/10/30-11:48:44.396 79e3 Moved #341 to level-2 2113346 bytes OK: files[ 4 9 63 48 0 0 0 ]
+2021/10/30-11:48:44.496 79e3 Moved #342 to level-2 2116302 bytes OK: files[ 4 8 64 48 0 0 0 ]
+2021/10/30-11:48:44.541 79e3 Moved #343 to level-2 2115681 bytes OK: files[ 4 7 65 48 0 0 0 ]
+2021/10/30-11:48:44.919 79e3 Moved #156 to level-3 2107668 bytes OK: files[ 4 7 64 49 0 0 0 ]
+2021/10/30-11:48:45.363 79e3 Moved #157 to level-3 2111678 bytes OK: files[ 4 7 63 50 0 0 0 ]
+2021/10/30-11:48:45.863 79e3 Moved #158 to level-3 2118119 bytes OK: files[ 4 7 62 51 0 0 0 ]
+2021/10/30-11:48:46.828 79dc Current memtable full; waiting...
+2021/10/30-11:48:47.196 79e3 Moved #159 to level-3 2146138 bytes OK: files[ 4 7 61 52 0 0 0 ]
+2021/10/30-11:48:47.197 79dc Current memtable full; waiting...
+2021/10/30-11:48:47.197 79e3 Level-0 table #355: started
+2021/10/30-11:48:47.597 79e3 Level-0 table #355: 4038719 bytes OK
+2021/10/30-11:48:47.722 79e3 Delete type=0 #352
+2021/10/30-11:48:47.723 7a00 Compacting 5@0 + 7@1 files
+2021/10/30-11:48:47.729 7a00 Level-0 table #358: started
+2021/10/30-11:48:48.163 7a00 Level-0 table #358: 4120936 bytes OK
+2021/10/30-11:48:50.123 7a00 Delete type=0 #354
+2021/10/30-11:48:51.443 7a00 Generated table #356@0: 55145 keys, 448908 bytes
+2021/10/30-11:48:51.886 7a00 Generated table #359@0: 152 keys, 2122893 bytes
+2021/10/30-11:48:52.297 7a00 Generated table #360@0: 122 keys, 2126737 bytes
+2021/10/30-11:48:52.408 7a00 Generated table #361@0: 143 keys, 2116894 bytes
+2021/10/30-11:48:52.864 7a00 Generated table #362@0: 130 keys, 2112334 bytes
+2021/10/30-11:48:53.775 7a00 Generated table #363@0: 115 keys, 2126039 bytes
+2021/10/30-11:48:55.148 7a00 Generated table #364@0: 153 keys, 2113002 bytes
+2021/10/30-11:48:55.664 7a00 Generated table #365@0: 158 keys, 2113502 bytes
+2021/10/30-11:48:56.013 79d5 Current memtable full; waiting...
+2021/10/30-11:48:56.164 7a00 Generated table #366@0: 137 keys, 2117652 bytes
+2021/10/30-11:48:56.164 7a00 Level-0 table #368: started
+2021/10/30-11:48:57.453 7a00 Level-0 table #368: 4026702 bytes OK
+2021/10/30-11:48:58.634 7a00 Delete type=0 #357
+2021/10/30-11:48:58.635 7a00 Level-0 table #371: started
+2021/10/30-11:48:58.890 7a00 Level-0 table #371: 4130009 bytes OK
+2021/10/30-11:48:59.084 7a00 Delete type=0 #367
+2021/10/30-11:48:59.287 7a00 Generated table #370@0: 147 keys, 2156207 bytes
+2021/10/30-11:49:00.489 7a00 Generated table #372@0: 121 keys, 2107767 bytes
+2021/10/30-11:49:02.165 7a00 Generated table #373@0: 136 keys, 2126950 bytes
+2021/10/30-11:49:02.807 7a00 Generated table #374@0: 125 keys, 2105936 bytes
+2021/10/30-11:49:02.943 7a00 Generated table #375@0: 138 keys, 2146097 bytes
+2021/10/30-11:49:03.088 7a00 Generated table #376@0: 123 keys, 2129981 bytes
+2021/10/30-11:49:03.576 7a00 Generated table #377@0: 14953 keys, 2124011 bytes
+2021/10/30-11:49:03.620 7a00 Generated table #378@0: 2676 keys, 52048 bytes
+2021/10/30-11:49:03.621 7a00 Compacted 5@0 + 7@1 files => 32346958 bytes
+2021/10/30-11:49:03.698 7a00 compacted to: files[ 3 17 61 52 0 0 0 ]
+2021/10/30-11:49:03.702 7a00 Delete type=2 #330
+2021/10/30-11:49:03.702 7a00 Delete type=2 #333
+2021/10/30-11:49:03.702 7a00 Delete type=2 #336
+2021/10/30-11:49:03.702 7a00 Delete type=2 #344
+2021/10/30-11:49:03.702 7a00 Delete type=2 #345
+2021/10/30-11:49:03.702 7a00 Delete type=2 #346
+2021/10/30-11:49:03.702 7a00 Delete type=2 #347
+2021/10/30-11:49:03.702 7a00 Delete type=2 #348
+2021/10/30-11:49:03.702 7a00 Delete type=2 #349
+2021/10/30-11:49:03.702 7a00 Delete type=2 #351
+2021/10/30-11:49:03.703 7a00 Delete type=2 #353
+2021/10/30-11:49:03.703 7a00 Delete type=2 #355
+2021/10/30-11:49:03.924 7a00 Moved #359 to level-2 2122893 bytes OK: files[ 3 16 62 52 0 0 0 ]
+2021/10/30-11:49:04.273 7a00 Moved #360 to level-2 2126737 bytes OK: files[ 3 15 63 52 0 0 0 ]
+2021/10/30-11:49:04.876 7a00 Moved #361 to level-2 2116894 bytes OK: files[ 3 14 64 52 0 0 0 ]
+2021/10/30-11:49:04.987 7a00 Moved #362 to level-2 2112334 bytes OK: files[ 3 13 65 52 0 0 0 ]
+2021/10/30-11:49:05.043 7a00 Moved #363 to level-2 2126039 bytes OK: files[ 3 12 66 52 0 0 0 ]
+2021/10/30-11:49:05.087 7a00 Moved #364 to level-2 2113002 bytes OK: files[ 3 11 67 52 0 0 0 ]
+2021/10/30-11:49:05.131 7a00 Moved #365 to level-2 2113502 bytes OK: files[ 3 10 68 52 0 0 0 ]
+2021/10/30-11:49:05.176 7a00 Moved #366 to level-2 2117652 bytes OK: files[ 3 9 69 52 0 0 0 ]
+2021/10/30-11:49:05.220 7a00 Moved #370 to level-2 2156207 bytes OK: files[ 3 8 70 52 0 0 0 ]
+2021/10/30-11:49:05.298 7a00 Moved #160 to level-3 2109646 bytes OK: files[ 3 8 69 53 0 0 0 ]
+2021/10/30-11:49:05.354 7a00 Moved #172 to level-3 2112327 bytes OK: files[ 3 8 68 54 0 0 0 ]
+2021/10/30-11:49:05.398 7a00 Moved #178 to level-3 2134593 bytes OK: files[ 3 8 67 55 0 0 0 ]
+2021/10/30-11:49:05.443 7a00 Moved #179 to level-3 2137215 bytes OK: files[ 3 8 66 56 0 0 0 ]
+2021/10/30-11:49:05.487 7a00 Moved #191 to level-3 2113854 bytes OK: files[ 3 8 65 57 0 0 0 ]
+2021/10/30-11:49:05.533 7a00 Moved #192 to level-3 2104658 bytes OK: files[ 3 8 64 58 0 0 0 ]
+2021/10/30-11:49:05.576 7a00 Moved #193 to level-3 2125766 bytes OK: files[ 3 8 63 59 0 0 0 ]
+2021/10/30-11:49:05.620 7a00 Moved #194 to level-3 2106334 bytes OK: files[ 3 8 62 60 0 0 0 ]
+2021/10/30-11:49:05.954 7a00 Moved #372 to level-2 2107767 bytes OK: files[ 3 7 63 60 0 0 0 ]
+2021/10/30-11:49:06.187 7a00 Moved #195 to level-3 2124016 bytes OK: files[ 3 7 62 61 0 0 0 ]
+2021/10/30-11:49:06.354 7a00 Moved #196 to level-3 2126540 bytes OK: files[ 3 7 61 62 0 0 0 ]
+2021/10/30-11:49:06.743 7a00 Moved #197 to level-3 2111698 bytes OK: files[ 3 7 60 63 0 0 0 ]
+2021/10/30-11:49:06.800 7a00 Moved #198 to level-3 2130274 bytes OK: files[ 3 7 59 64 0 0 0 ]
+2021/10/30-11:49:06.898 7a00 Moved #199 to level-3 2110041 bytes OK: files[ 3 7 58 65 0 0 0 ]
+2021/10/30-11:49:06.898 7a00 Level-0 table #380: started
+2021/10/30-11:49:07.090 79d7 Current memtable full; waiting...
+2021/10/30-11:49:07.098 7a00 Level-0 table #380: 4020019 bytes OK
+2021/10/30-11:49:07.201 7a00 Delete type=0 #369
+2021/10/30-11:49:07.314 79d7 Current memtable full; waiting...
+2021/10/30-11:49:07.343 79d5 Moved #200 to level-3 2110558 bytes OK: files[ 4 7 57 66 0 0 0 ]
+2021/10/30-11:49:07.343 79d5 Level-0 table #382: started
+2021/10/30-11:49:07.345 79d7 Current memtable full; waiting...
+2021/10/30-11:49:07.443 79d5 Level-0 table #382: 4126381 bytes OK
+2021/10/30-11:49:07.535 79d5 Delete type=0 #379
+2021/10/30-11:49:07.536 7a00 Compacting 5@0 + 7@1 files
+2021/10/30-11:49:07.542 7a00 Level-0 table #385: started
+2021/10/30-11:49:07.859 7a00 Level-0 table #385: 4130437 bytes OK
+2021/10/30-11:49:08.719 7a00 Delete type=0 #381
+2021/10/30-11:49:10.855 7a00 Generated table #383@0: 60340 keys, 529676 bytes
+2021/10/30-11:49:10.977 7a00 Generated table #386@0: 136 keys, 2126950 bytes
+2021/10/30-11:49:11.088 7a00 Generated table #387@0: 125 keys, 2105936 bytes
+2021/10/30-11:49:11.177 7a00 Generated table #388@0: 138 keys, 2146097 bytes
+2021/10/30-11:49:11.254 7a00 Generated table #389@0: 123 keys, 2129981 bytes
+2021/10/30-11:49:11.343 7a00 Generated table #390@0: 128 keys, 2107262 bytes
+2021/10/30-11:49:11.434 7a00 Generated table #391@0: 155 keys, 2141980 bytes
+2021/10/30-11:49:11.521 7a00 Generated table #392@0: 144 keys, 2138306 bytes
+2021/10/30-11:49:11.644 7a00 Generated table #393@0: 131 keys, 2106160 bytes
+2021/10/30-11:49:11.733 7a00 Generated table #394@0: 117 keys, 2128661 bytes
+2021/10/30-11:49:11.910 7a00 Generated table #395@0: 116 keys, 2116249 bytes
+2021/10/30-11:49:12.195 7a00 Generated table #396@0: 136 keys, 2125617 bytes
+2021/10/30-11:49:13.155 7a00 Generated table #397@0: 144 keys, 2104476 bytes
+2021/10/30-11:49:13.277 7a00 Generated table #398@0: 148 keys, 2132475 bytes
+2021/10/30-11:49:13.366 7a00 Generated table #399@0: 121 keys, 2156640 bytes
+2021/10/30-11:49:13.499 7a00 Generated table #400@0: 18926 keys, 1107633 bytes
+2021/10/30-11:49:13.499 7a00 Compacted 5@0 + 7@1 files => 31404099 bytes
+2021/10/30-11:49:13.599 7a00 compacted to: files[ 1 16 57 66 0 0 0 ]
+2021/10/30-11:49:13.601 7a00 Delete type=2 #356
+2021/10/30-11:49:13.601 7a00 Delete type=2 #358
+2021/10/30-11:49:13.601 7a00 Delete type=2 #368
+2021/10/30-11:49:13.601 7a00 Delete type=2 #371
+2021/10/30-11:49:13.601 7a00 Delete type=2 #373
+2021/10/30-11:49:13.601 7a00 Delete type=2 #374
+2021/10/30-11:49:13.601 7a00 Delete type=2 #375
+2021/10/30-11:49:13.601 7a00 Delete type=2 #376
+2021/10/30-11:49:13.602 7a00 Delete type=2 #377
+2021/10/30-11:49:13.602 7a00 Delete type=2 #378
+2021/10/30-11:49:13.602 7a00 Delete type=2 #380
+2021/10/30-11:49:13.602 7a00 Delete type=2 #382
+2021/10/30-11:49:13.699 79da Moved #386 to level-2 2126950 bytes OK: files[ 1 15 58 66 0 0 0 ]
+2021/10/30-11:49:13.743 79da Moved #387 to level-2 2105936 bytes OK: files[ 1 14 59 66 0 0 0 ]
+2021/10/30-11:49:13.788 79da Moved #388 to level-2 2146097 bytes OK: files[ 1 13 60 66 0 0 0 ]
+2021/10/30-11:49:13.832 79da Moved #389 to level-2 2129981 bytes OK: files[ 1 12 61 66 0 0 0 ]
+2021/10/30-11:49:14.208 79da Moved #390 to level-2 2107262 bytes OK: files[ 1 11 62 66 0 0 0 ]
+2021/10/30-11:49:14.421 79da Moved #391 to level-2 2141980 bytes OK: files[ 1 10 63 66 0 0 0 ]
+2021/10/30-11:49:14.672 7a00 Current memtable full; waiting...
+2021/10/30-11:49:15.088 79da Moved #392 to level-2 2138306 bytes OK: files[ 1 9 64 66 0 0 0 ]
+2021/10/30-11:49:15.088 7a00 Current memtable full; waiting...
+2021/10/30-11:49:15.088 79fb Level-0 table #402: started
+2021/10/30-11:49:15.499 79fb Level-0 table #402: 4001638 bytes OK
+2021/10/30-11:49:15.624 79fb Delete type=0 #384
+2021/10/30-11:49:15.799 79da Moved #393 to level-2 2106160 bytes OK: files[ 2 8 65 66 0 0 0 ]
+2021/10/30-11:49:15.799 79da Level-0 table #404: started
+2021/10/30-11:49:15.988 79da Level-0 table #404: 4140658 bytes OK
+2021/10/30-11:49:16.237 79da Delete type=0 #401
+2021/10/30-11:49:16.766 79da Moved #394 to level-2 2128661 bytes OK: files[ 3 7 66 66 0 0 0 ]
+2021/10/30-11:49:17.091 79da Moved #211 to level-3 2119634 bytes OK: files[ 3 7 65 67 0 0 0 ]
+2021/10/30-11:49:17.344 79da Moved #212 to level-3 2126326 bytes OK: files[ 3 7 64 68 0 0 0 ]
+2021/10/30-11:49:17.499 79da Moved #215 to level-3 2119267 bytes OK: files[ 3 7 63 69 0 0 0 ]
+2021/10/30-11:49:17.933 79da Moved #218 to level-3 2163415 bytes OK: files[ 3 7 62 70 0 0 0 ]
+2021/10/30-11:49:18.113 79da Moved #231 to level-3 2114778 bytes OK: files[ 3 7 61 71 0 0 0 ]
+2021/10/30-11:49:18.480 79da Moved #232 to level-3 2110347 bytes OK: files[ 3 7 60 72 0 0 0 ]
+2021/10/30-11:49:18.701 79da Moved #233 to level-3 2111898 bytes OK: files[ 3 7 59 73 0 0 0 ]
+2021/10/30-11:49:18.744 79da Moved #234 to level-3 2115434 bytes OK: files[ 3 7 58 74 0 0 0 ]
+2021/10/30-11:49:18.866 79da Moved #245 to level-3 2115313 bytes OK: files[ 3 7 57 75 0 0 0 ]
+2021/10/30-11:49:19.229 79da Moved #395 to level-2 2116249 bytes OK: files[ 3 6 58 75 0 0 0 ]
+2021/10/30-11:49:19.277 79da Moved #246 to level-3 2146215 bytes OK: files[ 3 6 57 76 0 0 0 ]
+2021/10/30-11:49:19.333 79da Moved #247 to level-3 2106840 bytes OK: files[ 3 6 56 77 0 0 0 ]
+2021/10/30-11:49:19.388 79da Moved #248 to level-3 2111137 bytes OK: files[ 3 6 55 78 0 0 0 ]
+2021/10/30-11:49:19.433 79da Moved #249 to level-3 2110242 bytes OK: files[ 3 6 54 79 0 0 0 ]
+2021/10/30-11:49:19.488 79da Moved #250 to level-3 2107552 bytes OK: files[ 3 6 53 80 0 0 0 ]
+2021/10/30-11:49:19.555 79da Moved #251 to level-3 2114431 bytes OK: files[ 3 6 52 81 0 0 0 ]
+2021/10/30-11:49:19.626 79da Moved #252 to level-3 2111916 bytes OK: files[ 3 6 51 82 0 0 0 ]
+2021/10/30-11:49:19.799 79da Moved #253 to level-3 2109192 bytes OK: files[ 3 6 50 83 0 0 0 ]
+2021/10/30-11:49:19.977 79da Moved #254 to level-3 2120317 bytes OK: files[ 3 6 49 84 0 0 0 ]
+2021/10/30-11:49:20.213 79da Compacting 3@0 + 6@1 files
+2021/10/30-11:49:20.250 79da Level-0 table #407: started
+2021/10/30-11:49:20.364 7a00 Current memtable full; waiting...
+2021/10/30-11:49:20.966 79da Level-0 table #407: 3999281 bytes OK
+2021/10/30-11:49:21.180 79da Delete type=0 #403
+2021/10/30-11:49:21.181 79da Level-0 table #409: started
+2021/10/30-11:49:21.255 7a00 Current memtable full; waiting...
+2021/10/30-11:49:21.300 79da Level-0 table #409: 4109223 bytes OK
+2021/10/30-11:49:21.380 79da Delete type=0 #406
+2021/10/30-11:49:21.381 79da Level-0 table #411: started
+2021/10/30-11:49:21.789 79da Level-0 table #411: 4161589 bytes OK
+2021/10/30-11:49:22.370 79da Delete type=0 #408
+2021/10/30-11:49:23.545 79da Generated table #405@0: 63429 keys, 531405 bytes
+2021/10/30-11:49:23.700 79da Generated table #412@0: 136 keys, 2125617 bytes
+2021/10/30-11:49:23.822 79da Generated table #413@0: 144 keys, 2104476 bytes
+2021/10/30-11:49:23.911 79da Generated table #414@0: 148 keys, 2132475 bytes
+2021/10/30-11:49:24.267 79da Generated table #415@0: 121 keys, 2156640 bytes
+2021/10/30-11:49:24.400 79da Generated table #416@0: 121 keys, 2104591 bytes
+2021/10/30-11:49:24.511 79da Generated table #417@0: 134 keys, 2110417 bytes
+2021/10/30-11:49:24.697 79da Generated table #418@0: 145 keys, 2109137 bytes
+2021/10/30-11:49:25.009 79da Generated table #419@0: 146 keys, 2134280 bytes
+2021/10/30-11:49:25.923 79da Generated table #420@0: 131 keys, 2106814 bytes
+2021/10/30-11:49:26.045 79da Generated table #421@0: 121 keys, 2106724 bytes
+2021/10/30-11:49:26.145 79da Generated table #422@0: 19687 keys, 610927 bytes
+2021/10/30-11:49:26.145 79da Compacted 3@0 + 6@1 files => 22333503 bytes
+2021/10/30-11:49:26.245 79da compacted to: files[ 3 12 49 84 0 0 0 ]
+2021/10/30-11:49:26.247 79da Delete type=2 #383
+2021/10/30-11:49:26.247 79da Delete type=2 #385
+2021/10/30-11:49:26.247 79da Delete type=2 #396
+2021/10/30-11:49:26.247 79da Delete type=2 #397
+2021/10/30-11:49:26.247 79da Delete type=2 #398
+2021/10/30-11:49:26.247 79da Delete type=2 #399
+2021/10/30-11:49:26.247 79da Delete type=2 #400
+2021/10/30-11:49:26.247 79da Delete type=2 #402
+2021/10/30-11:49:26.247 79da Delete type=2 #404
+2021/10/30-11:49:26.356 79d5 Moved #412 to level-2 2125617 bytes OK: files[ 3 11 50 84 0 0 0 ]
+2021/10/30-11:49:26.433 79d5 Moved #413 to level-2 2104476 bytes OK: files[ 3 10 51 84 0 0 0 ]
+2021/10/30-11:49:26.756 79d5 Moved #414 to level-2 2132475 bytes OK: files[ 3 9 52 84 0 0 0 ]
+2021/10/30-11:49:26.811 79d5 Moved #415 to level-2 2156640 bytes OK: files[ 3 8 53 84 0 0 0 ]
+2021/10/30-11:49:26.811 79d5 Level-0 table #424: started
+2021/10/30-11:49:26.951 79da Current memtable full; waiting...
+2021/10/30-11:49:27.247 79d5 Level-0 table #424: 4020376 bytes OK
+2021/10/30-11:49:28.238 79d5 Delete type=0 #410
+2021/10/30-11:49:28.489 79fa Moved #416 to level-2 2104591 bytes OK: files[ 4 7 54 84 0 0 0 ]
+2021/10/30-11:49:28.489 79fa Level-0 table #426: started
+2021/10/30-11:49:28.756 79fa Level-0 table #426: 4140448 bytes OK
+2021/10/30-11:49:28.951 79fa Delete type=0 #423
+2021/10/30-11:49:28.952 79fa Compacting 5@0 + 7@1 files
+2021/10/30-11:49:30.152 79fa Generated table #427@0: 68807 keys, 633743 bytes
+2021/10/30-11:49:30.534 79fa Generated table #428@0: 134 keys, 2110417 bytes
+2021/10/30-11:49:30.645 79fa Generated table #429@0: 145 keys, 2109137 bytes
+2021/10/30-11:49:30.723 79fa Generated table #430@0: 146 keys, 2134280 bytes
+2021/10/30-11:49:30.812 79fa Generated table #431@0: 131 keys, 2106814 bytes
+2021/10/30-11:49:30.901 79fa Generated table #432@0: 121 keys, 2106724 bytes
+2021/10/30-11:49:31.001 79fa Generated table #433@0: 137 keys, 2146903 bytes
+2021/10/30-11:49:31.090 79fa Generated table #434@0: 148 keys, 2121919 bytes
+2021/10/30-11:49:31.167 79fa Generated table #435@0: 154 keys, 2106708 bytes
+2021/10/30-11:49:31.234 79fa Generated table #436@0: 164 keys, 2116574 bytes
+2021/10/30-11:49:31.323 79fa Generated table #437@0: 136 keys, 2107455 bytes
+2021/10/30-11:49:31.456 79fa Generated table #438@0: 126 keys, 2119047 bytes
+2021/10/30-11:49:32.023 79fa Generated table #439@0: 136 keys, 2124189 bytes
+2021/10/30-11:49:32.579 79fa Generated table #440@0: 138 keys, 2125237 bytes
+2021/10/30-11:49:32.712 79fa Generated table #441@0: 132 keys, 2138049 bytes
+2021/10/30-11:49:32.890 79fc Current memtable full; waiting...
+2021/10/30-11:49:33.223 79fa Generated table #442@0: 21134 keys, 1582498 bytes
+2021/10/30-11:49:33.223 79fa Compacted 5@0 + 7@1 files => 31889694 bytes
+2021/10/30-11:49:34.134 79fa compacted to: files[ 0 16 54 84 0 0 0 ]
+2021/10/30-11:49:34.137 79fa Delete type=2 #405
+2021/10/30-11:49:34.137 79fa Delete type=2 #407
+2021/10/30-11:49:34.137 79fa Delete type=2 #409
+2021/10/30-11:49:34.137 79fa Delete type=2 #411
+2021/10/30-11:49:34.137 79fa Delete type=2 #417
+2021/10/30-11:49:34.137 79fa Delete type=2 #418
+2021/10/30-11:49:34.137 79fa Delete type=2 #419
+2021/10/30-11:49:34.137 79fa Delete type=2 #420
+2021/10/30-11:49:34.137 79fa Delete type=2 #421
+2021/10/30-11:49:34.137 79fa Delete type=2 #422
+2021/10/30-11:49:34.137 79fa Delete type=2 #424
+2021/10/30-11:49:34.137 79fa Delete type=2 #426
+2021/10/30-11:49:34.145 7a07 Level-0 table #444: started
+2021/10/30-11:49:34.145 79fc Current memtable full; waiting...
+2021/10/30-11:49:34.601 7a07 Level-0 table #444: 4079465 bytes OK
+2021/10/30-11:49:34.982 7a07 Delete type=0 #425
+2021/10/30-11:49:36.324 79fa Moved #428 to level-2 2110417 bytes OK: files[ 1 15 55 84 0 0 0 ]
+2021/10/30-11:49:36.324 79fa Level-0 table #446: started
+2021/10/30-11:49:37.280 79fa Level-0 table #446: 4123344 bytes OK
+2021/10/30-11:49:37.429 79fa Delete type=0 #443
+2021/10/30-11:49:37.890 79fa Moved #429 to level-2 2109137 bytes OK: files[ 2 14 56 84 0 0 0 ]
+2021/10/30-11:49:38.664 79fa Moved #430 to level-2 2134280 bytes OK: files[ 2 13 57 84 0 0 0 ]
+2021/10/30-11:49:39.664 79fa Moved #431 to level-2 2106814 bytes OK: files[ 2 12 58 84 0 0 0 ]
+2021/10/30-11:49:40.501 79fa Moved #432 to level-2 2106724 bytes OK: files[ 2 11 59 84 0 0 0 ]
+2021/10/30-11:49:40.602 79fa Moved #433 to level-2 2146903 bytes OK: files[ 2 10 60 84 0 0 0 ]
+2021/10/30-11:49:40.657 79fa Moved #434 to level-2 2121919 bytes OK: files[ 2 9 61 84 0 0 0 ]
+2021/10/30-11:49:40.979 79fa Moved #435 to level-2 2106708 bytes OK: files[ 2 8 62 84 0 0 0 ]
+2021/10/30-11:49:41.035 79fa Moved #436 to level-2 2116574 bytes OK: files[ 2 7 63 84 0 0 0 ]
+2021/10/30-11:49:41.035 79fa Level-0 table #448: started
+2021/10/30-11:49:41.112 797a Current memtable full; waiting...
+2021/10/30-11:49:41.981 79fa Level-0 table #448: 4021639 bytes OK
+2021/10/30-11:49:45.738 79fa Delete type=0 #445
+2021/10/30-11:49:45.800 797a Current memtable full; waiting...
+2021/10/30-11:49:46.202 7a42 Moved #268 to level-3 2138404 bytes OK: files[ 3 7 62 85 0 0 0 ]
+2021/10/30-11:49:46.202 7a42 Level-0 table #450: started
+2021/10/30-11:49:46.202 797a Current memtable full; waiting...
+2021/10/30-11:49:46.569 7a42 Level-0 table #450: 4131204 bytes OK
+2021/10/30-11:49:46.666 7a42 Delete type=0 #447
+2021/10/30-11:49:47.183 79fa Moved #269 to level-3 2109480 bytes OK: files[ 4 7 61 86 0 0 0 ]
+2021/10/30-11:49:47.183 79fa Level-0 table #452: started
+2021/10/30-11:49:47.814 79fa Level-0 table #452: 4128200 bytes OK
+2021/10/30-11:49:47.989 79fa Delete type=0 #449
+2021/10/30-11:49:47.990 79f8 Compacting 5@0 + 7@1 files
+2021/10/30-11:49:48.447 79f8 Generated table #453@0: 74057 keys, 657384 bytes
+2021/10/30-11:49:48.580 79f8 Generated table #454@0: 136 keys, 2107455 bytes
+2021/10/30-11:49:49.047 79f8 Generated table #455@0: 126 keys, 2119047 bytes
+2021/10/30-11:49:49.180 79f8 Generated table #456@0: 136 keys, 2124189 bytes
+2021/10/30-11:49:49.280 79f8 Generated table #457@0: 138 keys, 2125237 bytes
+2021/10/30-11:49:49.658 79f8 Generated table #458@0: 132 keys, 2138049 bytes
+2021/10/30-11:49:49.747 79f8 Generated table #459@0: 115 keys, 2113856 bytes
+2021/10/30-11:49:49.836 79f8 Generated table #460@0: 118 keys, 2116559 bytes
+2021/10/30-11:49:50.037 79f8 Generated table #461@0: 132 keys, 2135898 bytes
+2021/10/30-11:49:50.291 79f8 Generated table #462@0: 131 keys, 2144846 bytes
+2021/10/30-11:49:50.993 79fb Current memtable full; waiting...
+2021/10/30-11:49:51.180 79f8 Generated table #463@0: 157 keys, 2116685 bytes
+2021/10/30-11:49:51.181 79f8 Level-0 table #465: started
+2021/10/30-11:49:51.303 79f8 Level-0 table #465: 4025873 bytes OK
+2021/10/30-11:49:51.450 79f8 Delete type=0 #451
+2021/10/30-11:49:51.452 79f8 Level-0 table #468: started
+2021/10/30-11:49:51.533 79fb Current memtable full; waiting...
+2021/10/30-11:49:51.580 79f8 Level-0 table #468: 4135908 bytes OK
+2021/10/30-11:49:51.684 79f8 Delete type=0 #464
+2021/10/30-11:49:51.685 79f8 Level-0 table #470: started
+2021/10/30-11:49:52.196 79f8 Level-0 table #470: 4119326 bytes OK
+2021/10/30-11:49:52.817 79f8 Delete type=0 #467
+2021/10/30-11:49:53.636 79f8 Generated table #466@0: 139 keys, 2104482 bytes
+2021/10/30-11:49:53.781 79f8 Generated table #471@0: 141 keys, 2157540 bytes
+2021/10/30-11:49:53.881 79f8 Generated table #472@0: 124 keys, 2144149 bytes
+2021/10/30-11:49:53.958 79f8 Generated table #473@0: 148 keys, 2108747 bytes
+2021/10/30-11:49:54.047 79f8 Generated table #474@0: 137 keys, 2130056 bytes
+2021/10/30-11:49:54.147 79f8 Generated table #475@0: 22458 keys, 463715 bytes
+2021/10/30-11:49:54.147 79f8 Compacted 5@0 + 7@1 files => 33007894 bytes
+2021/10/30-11:49:54.247 79f8 compacted to: files[ 3 17 61 86 0 0 0 ]
+2021/10/30-11:49:54.250 79f8 Delete type=2 #427
+2021/10/30-11:49:54.250 79f8 Delete type=2 #437
+2021/10/30-11:49:54.250 79f8 Delete type=2 #438
+2021/10/30-11:49:54.250 79f8 Delete type=2 #439
+2021/10/30-11:49:54.250 79f8 Delete type=2 #440
+2021/10/30-11:49:54.250 79f8 Delete type=2 #441
+2021/10/30-11:49:54.250 79f8 Delete type=2 #442
+2021/10/30-11:49:54.250 79f8 Delete type=2 #444
+2021/10/30-11:49:54.250 79f8 Delete type=2 #446
+2021/10/30-11:49:54.250 79f8 Delete type=2 #448
+2021/10/30-11:49:54.250 79f8 Delete type=2 #450
+2021/10/30-11:49:54.250 79f8 Delete type=2 #452
+2021/10/30-11:49:54.347 7a47 Moved #454 to level-2 2107455 bytes OK: files[ 3 16 62 86 0 0 0 ]
+2021/10/30-11:49:54.763 7a47 Moved #455 to level-2 2119047 bytes OK: files[ 3 15 63 86 0 0 0 ]
+2021/10/30-11:49:55.025 7a47 Moved #456 to level-2 2124189 bytes OK: files[ 3 14 64 86 0 0 0 ]
+2021/10/30-11:49:55.241 7a47 Moved #457 to level-2 2125237 bytes OK: files[ 3 13 65 86 0 0 0 ]
+2021/10/30-11:49:55.392 7a47 Moved #458 to level-2 2138049 bytes OK: files[ 3 12 66 86 0 0 0 ]
+2021/10/30-11:49:55.959 7a47 Moved #459 to level-2 2113856 bytes OK: files[ 3 11 67 86 0 0 0 ]
+2021/10/30-11:49:56.070 7a47 Moved #460 to level-2 2116559 bytes OK: files[ 3 10 68 86 0 0 0 ]
+2021/10/30-11:49:56.070 7a47 Level-0 table #477: started
+2021/10/30-11:49:56.161 79f8 Current memtable full; waiting...
+2021/10/30-11:49:56.214 7a47 Level-0 table #477: 4027096 bytes OK
+2021/10/30-11:49:56.328 7a47 Delete type=0 #469
+2021/10/30-11:49:56.447 79da Moved #461 to level-2 2135898 bytes OK: files[ 4 9 69 86 0 0 0 ]
+2021/10/30-11:49:56.447 79da Level-0 table #479: started
+2021/10/30-11:49:56.659 79da Level-0 table #479: 4122658 bytes OK
+2021/10/30-11:49:56.918 79da Delete type=0 #476
+2021/10/30-11:49:57.725 79da Moved #462 to level-2 2144846 bytes OK: files[ 5 8 70 86 0 0 0 ]
+2021/10/30-11:49:58.170 79da Moved #270 to level-3 2120155 bytes OK: files[ 5 8 69 87 0 0 0 ]
+2021/10/30-11:49:58.537 79da Moved #271 to level-3 2146570 bytes OK: files[ 5 8 68 88 0 0 0 ]
+2021/10/30-11:49:58.592 79da Moved #272 to level-3 2131306 bytes OK: files[ 5 8 67 89 0 0 0 ]
+2021/10/30-11:49:58.637 79da Moved #273 to level-3 2106186 bytes OK: files[ 5 8 66 90 0 0 0 ]
+2021/10/30-11:49:58.681 79da Moved #274 to level-3 2128291 bytes OK: files[ 5 8 65 91 0 0 0 ]
+2021/10/30-11:49:58.725 79da Moved #463 to level-2 2116685 bytes OK: files[ 5 7 66 91 0 0 0 ]
+2021/10/30-11:49:58.770 79da Moved #287 to level-3 2141373 bytes OK: files[ 5 7 65 92 0 0 0 ]
+2021/10/30-11:49:58.814 79da Moved #288 to level-3 2130233 bytes OK: files[ 5 7 64 93 0 0 0 ]
+2021/10/30-11:49:58.859 79da Moved #289 to level-3 2119966 bytes OK: files[ 5 7 63 94 0 0 0 ]
+2021/10/30-11:49:58.903 79da Moved #290 to level-3 2118327 bytes OK: files[ 5 7 62 95 0 0 0 ]
+2021/10/30-11:49:58.937 79da Moved #291 to level-3 2116313 bytes OK: files[ 5 7 61 96 0 0 0 ]
+2021/10/30-11:49:58.937 79da Compacting 5@0 + 7@1 files
+2021/10/30-11:49:59.148 79da Generated table #480@0: 79290 keys, 665181 bytes
+2021/10/30-11:49:59.303 79da Generated table #481@0: 139 keys, 2104482 bytes
+2021/10/30-11:49:59.859 79da Generated table #482@0: 141 keys, 2157540 bytes
+2021/10/30-11:50:00.281 79da Generated table #483@0: 124 keys, 2144149 bytes
+2021/10/30-11:50:00.381 79da Generated table #484@0: 148 keys, 2108747 bytes
+2021/10/30-11:50:00.470 79da Generated table #485@0: 137 keys, 2130056 bytes
+2021/10/30-11:50:00.559 79da Generated table #486@0: 135 keys, 2164823 bytes
+2021/10/30-11:50:00.648 79da Generated table #487@0: 109 keys, 2118929 bytes
+2021/10/30-11:50:00.726 79da Generated table #488@0: 117 keys, 2116517 bytes
+2021/10/30-11:50:01.070 79da Generated table #489@0: 129 keys, 2111074 bytes
+2021/10/30-11:50:01.070 79da Level-0 table #491: started
+2021/10/30-11:50:01.072 7a43 Current memtable full; waiting...
+2021/10/30-11:50:01.437 79da Level-0 table #491: 3988874 bytes OK
+2021/10/30-11:50:01.762 79da Delete type=0 #478
+2021/10/30-11:50:01.763 79da Level-0 table #494: started
+2021/10/30-11:50:01.856 7a43 Current memtable full; waiting...
+2021/10/30-11:50:02.448 79da Level-0 table #494: 4117497 bytes OK
+2021/10/30-11:50:02.607 79da Delete type=0 #490
+2021/10/30-11:50:02.608 79da Level-0 table #496: started
+2021/10/30-11:50:02.859 79da Level-0 table #496: 4115813 bytes OK
+2021/10/30-11:50:03.030 79da Delete type=0 #493
+2021/10/30-11:50:03.221 79da Generated table #492@0: 155 keys, 2108554 bytes
+2021/10/30-11:50:04.026 79da Generated table #497@0: 148 keys, 2112407 bytes
+2021/10/30-11:50:04.860 79da Generated table #498@0: 126 keys, 2137537 bytes
+2021/10/30-11:50:05.015 79da Generated table #499@0: 150 keys, 2106866 bytes
+2021/10/30-11:50:05.104 79da Generated table #500@0: 135 keys, 2108017 bytes
+2021/10/30-11:50:05.215 79da Generated table #501@0: 23895 keys, 1603637 bytes
+2021/10/30-11:50:05.215 79da Compacted 5@0 + 7@1 files => 31998516 bytes
+2021/10/30-11:50:05.304 79da compacted to: files[ 3 16 61 96 0 0 0 ]
+2021/10/30-11:50:05.307 79da Delete type=2 #453
+2021/10/30-11:50:05.307 79da Delete type=2 #465
+2021/10/30-11:50:05.307 79da Delete type=2 #466
+2021/10/30-11:50:05.307 79da Delete type=2 #468
+2021/10/30-11:50:05.307 79da Delete type=2 #470
+2021/10/30-11:50:05.307 79da Delete type=2 #471
+2021/10/30-11:50:05.307 79da Delete type=2 #472
+2021/10/30-11:50:05.307 79da Delete type=2 #473
+2021/10/30-11:50:05.307 79da Delete type=2 #474
+2021/10/30-11:50:05.307 79da Delete type=2 #475
+2021/10/30-11:50:05.307 79da Delete type=2 #477
+2021/10/30-11:50:05.307 79da Delete type=2 #479
+2021/10/30-11:50:05.396 79da Moved #481 to level-2 2104482 bytes OK: files[ 3 15 62 96 0 0 0 ]
+2021/10/30-11:50:05.448 7a47 Moved #482 to level-2 2157540 bytes OK: files[ 3 14 63 96 0 0 0 ]
+2021/10/30-11:50:05.504 7a47 Moved #483 to level-2 2144149 bytes OK: files[ 3 13 64 96 0 0 0 ]
+2021/10/30-11:50:05.559 7a47 Moved #484 to level-2 2108747 bytes OK: files[ 3 12 65 96 0 0 0 ]
+2021/10/30-11:50:05.604 7a47 Moved #485 to level-2 2130056 bytes OK: files[ 3 11 66 96 0 0 0 ]
+2021/10/30-11:50:05.659 7a47 Moved #486 to level-2 2164823 bytes OK: files[ 3 10 67 96 0 0 0 ]
+2021/10/30-11:50:05.715 7a47 Moved #487 to level-2 2118929 bytes OK: files[ 3 9 68 96 0 0 0 ]
+2021/10/30-11:50:05.759 7a47 Moved #488 to level-2 2116517 bytes OK: files[ 3 8 69 96 0 0 0 ]
+2021/10/30-11:50:06.216 7a47 Moved #489 to level-2 2111074 bytes OK: files[ 3 7 70 96 0 0 0 ]
+2021/10/30-11:50:06.216 7a47 Level-0 table #503: started
+2021/10/30-11:50:06.240 79da Current memtable full; waiting...
+2021/10/30-11:50:06.660 7a47 Level-0 table #503: 4003044 bytes OK
+2021/10/30-11:50:07.496 7a47 Delete type=0 #495
+2021/10/30-11:50:07.579 79da Current memtable full; waiting...
+2021/10/30-11:50:07.627 7a46 Moved #292 to level-3 2131264 bytes OK: files[ 4 7 69 97 0 0 0 ]
+2021/10/30-11:50:07.627 7a46 Level-0 table #505: started
+2021/10/30-11:50:07.627 79da Current memtable full; waiting...
+2021/10/30-11:50:07.749 7a46 Level-0 table #505: 4125913 bytes OK
+2021/10/30-11:50:07.841 7a46 Delete type=0 #502
+2021/10/30-11:50:08.026 7a47 Moved #307 to level-3 2118750 bytes OK: files[ 5 7 68 98 0 0 0 ]
+2021/10/30-11:50:08.026 7a47 Level-0 table #507: started
+2021/10/30-11:50:08.226 7a47 Level-0 table #507: 4102946 bytes OK
+2021/10/30-11:50:08.818 7a47 Delete type=0 #504
+2021/10/30-11:50:08.825 7a47 Compacting 6@0 + 7@1 files
+2021/10/30-11:50:09.542 7a47 Generated table #508@0: 86482 keys, 742471 bytes
+2021/10/30-11:50:09.927 7a47 Generated table #509@0: 155 keys, 2108554 bytes
+2021/10/30-11:50:10.060 7a47 Generated table #510@0: 148 keys, 2112407 bytes
+2021/10/30-11:50:10.138 7a47 Generated table #511@0: 126 keys, 2137537 bytes
+2021/10/30-11:50:10.215 7a47 Generated table #512@0: 150 keys, 2106866 bytes
+2021/10/30-11:50:10.315 7a47 Generated table #513@0: 135 keys, 2108017 bytes
+2021/10/30-11:50:10.393 7a47 Generated table #514@0: 158 keys, 2114815 bytes
+2021/10/30-11:50:10.482 7a47 Generated table #515@0: 170 keys, 2105845 bytes
+2021/10/30-11:50:10.571 7a47 Generated table #516@0: 138 keys, 2126008 bytes
+2021/10/30-11:50:10.649 7a47 Generated table #517@0: 167 keys, 2112734 bytes
+2021/10/30-11:50:10.738 7a47 Generated table #518@0: 176 keys, 2132354 bytes
+2021/10/30-11:50:10.816 7a47 Generated table #519@0: 189 keys, 2119670 bytes
+2021/10/30-11:50:11.271 7a47 Generated table #520@0: 152 keys, 2142700 bytes
+2021/10/30-11:50:11.571 7a47 Generated table #521@0: 116 keys, 2157733 bytes
+2021/10/30-11:50:12.055 7a41 Current memtable full; waiting...
+2021/10/30-11:50:12.627 7a47 Generated table #522@0: 99 keys, 2113432 bytes
+2021/10/30-11:50:12.627 7a47 Level-0 table #524: started
+2021/10/30-11:50:12.793 7a47 Level-0 table #524: 3996908 bytes OK
+2021/10/30-11:50:12.919 7a47 Delete type=0 #506
+2021/10/30-11:50:12.921 7a47 Level-0 table #527: started
+2021/10/30-11:50:13.060 7a47 Level-0 table #527: 4135653 bytes OK
+2021/10/30-11:50:13.253 7a47 Delete type=0 #523
+2021/10/30-11:50:13.849 7a47 Generated table #525@0: 160 keys, 2117742 bytes
+2021/10/30-11:50:15.071 7a47 Generated table #528@0: 193 keys, 2115195 bytes
+2021/10/30-11:50:15.249 7a47 Generated table #529@0: 4092 keys, 2110982 bytes
+2021/10/30-11:50:15.338 7a47 Generated table #530@0: 21709 keys, 327091 bytes
+2021/10/30-11:50:15.338 7a47 Compacted 6@0 + 7@1 files => 37112153 bytes
+2021/10/30-11:50:15.416 7a47 compacted to: files[ 2 19 68 98 0 0 0 ]
+2021/10/30-11:50:15.419 7a47 Delete type=2 #480
+2021/10/30-11:50:15.419 7a47 Delete type=2 #491
+2021/10/30-11:50:15.419 7a47 Delete type=2 #492
+2021/10/30-11:50:15.419 7a47 Delete type=2 #494
+2021/10/30-11:50:15.419 7a47 Delete type=2 #496
+2021/10/30-11:50:15.419 7a47 Delete type=2 #497
+2021/10/30-11:50:15.419 7a47 Delete type=2 #498
+2021/10/30-11:50:15.419 7a47 Delete type=2 #499
+2021/10/30-11:50:15.419 7a47 Delete type=2 #500
+2021/10/30-11:50:15.419 7a47 Delete type=2 #501
+2021/10/30-11:50:15.419 7a47 Delete type=2 #503
+2021/10/30-11:50:15.419 7a47 Delete type=2 #505
+2021/10/30-11:50:15.419 7a47 Delete type=2 #507
+2021/10/30-11:50:15.516 79fa Moved #509 to level-2 2108554 bytes OK: files[ 2 18 69 98 0 0 0 ]
+2021/10/30-11:50:15.560 79fa Moved #510 to level-2 2112407 bytes OK: files[ 2 17 70 98 0 0 0 ]
+2021/10/30-11:50:15.605 79fa Moved #511 to level-2 2137537 bytes OK: files[ 2 16 71 98 0 0 0 ]
+2021/10/30-11:50:15.649 79fa Moved #512 to level-2 2106866 bytes OK: files[ 2 15 72 98 0 0 0 ]
+2021/10/30-11:50:15.705 79fa Moved #513 to level-2 2108017 bytes OK: files[ 2 14 73 98 0 0 0 ]
+2021/10/30-11:50:15.760 79fa Moved #514 to level-2 2114815 bytes OK: files[ 2 13 74 98 0 0 0 ]
+2021/10/30-11:50:15.816 79fa Moved #515 to level-2 2105845 bytes OK: files[ 2 12 75 98 0 0 0 ]
+2021/10/30-11:50:15.872 79fa Moved #516 to level-2 2126008 bytes OK: files[ 2 11 76 98 0 0 0 ]
+2021/10/30-11:50:16.349 79fa Moved #517 to level-2 2112734 bytes OK: files[ 2 10 77 98 0 0 0 ]
+2021/10/30-11:50:18.570 79fa Moved #518 to level-2 2132354 bytes OK: files[ 2 9 78 98 0 0 0 ]
+2021/10/30-11:50:18.570 79fa Level-0 table #532: started
+2021/10/30-11:50:18.673 7a47 Current memtable full; waiting...
+2021/10/30-11:50:20.405 79fa Level-0 table #532: 4048733 bytes OK
+2021/10/30-11:50:21.286 79fa Delete type=0 #526
+2021/10/30-11:50:21.289 79fa Level-0 table #534: started
+2021/10/30-11:50:23.072 79fa Level-0 table #534: 4156106 bytes OK
+2021/10/30-11:50:23.732 79fa Delete type=0 #531
+2021/10/30-11:50:26.395 79fa Moved #308 to level-3 2112084 bytes OK: files[ 4 9 77 99 0 0 0 ]
+2021/10/30-11:50:27.251 7a04 Moved #311 to level-3 2106351 bytes OK: files[ 4 9 76 100 0 0 0 ]
+2021/10/30-11:50:27.662 7a04 Moved #316 to level-3 2149564 bytes OK: files[ 4 9 75 101 0 0 0 ]
+2021/10/30-11:50:27.717 7a04 Moved #519 to level-2 2119670 bytes OK: files[ 4 8 76 101 0 0 0 ]
+2021/10/30-11:50:27.806 7a04 Moved #317 to level-3 2117329 bytes OK: files[ 4 8 75 102 0 0 0 ]
+2021/10/30-11:50:28.128 7a04 Moved #318 to level-3 2131752 bytes OK: files[ 4 8 74 103 0 0 0 ]
+2021/10/30-11:50:29.136 7a04 Moved #319 to level-3 2112801 bytes OK: files[ 4 8 73 104 0 0 0 ]
+2021/10/30-11:50:30.432 7a41 Current memtable full; waiting...
+2021/10/30-11:50:30.528 7a04 Moved #331 to level-3 2142235 bytes OK: files[ 4 8 72 105 0 0 0 ]
+2021/10/30-11:50:30.528 7a04 Level-0 table #536: started
+2021/10/30-11:50:30.530 7a41 Current memtable full; waiting...
+2021/10/30-11:50:30.951 7a04 Level-0 table #536: 4015364 bytes OK
+2021/10/30-11:50:31.376 7a04 Delete type=0 #533
+2021/10/30-11:50:31.449 7a41 Current memtable full; waiting...
+2021/10/30-11:50:31.473 797a Moved #334 to level-3 2156448 bytes OK: files[ 5 8 71 106 0 0 0 ]
+2021/10/30-11:50:31.473 7a04 Level-0 table #538: started
+2021/10/30-11:50:31.473 7a41 Current memtable full; waiting...
+2021/10/30-11:50:31.984 7a04 Level-0 table #538: 4131229 bytes OK
+2021/10/30-11:50:33.654 7a04 Delete type=0 #535
+2021/10/30-11:50:33.656 797a Compacting 6@0 + 8@1 files
+2021/10/30-11:50:33.656 797a Level-0 table #541: started
+2021/10/30-11:50:34.129 797a Level-0 table #541: 4169303 bytes OK
+2021/10/30-11:50:34.556 797a Delete type=0 #537
+2021/10/30-11:50:35.085 797a Generated table #540@0: 92534 keys, 796025 bytes
+2021/10/30-11:50:36.356 797a Generated table #542@0: 152 keys, 2142700 bytes
+2021/10/30-11:50:37.740 797a Generated table #543@0: 116 keys, 2157733 bytes
+2021/10/30-11:50:37.863 797a Generated table #544@0: 99 keys, 2113432 bytes
+2021/10/30-11:50:38.207 797a Generated table #545@0: 160 keys, 2117742 bytes
+2021/10/30-11:50:38.285 797a Generated table #546@0: 193 keys, 2115195 bytes
+2021/10/30-11:50:38.352 797a Generated table #547@0: 157 keys, 2125708 bytes
+2021/10/30-11:50:38.718 797a Generated table #548@0: 112 keys, 2106892 bytes
+2021/10/30-11:50:39.422 79fb Current memtable full; waiting...
+2021/10/30-11:50:39.641 797a Generated table #549@0: 126 keys, 2113235 bytes
+2021/10/30-11:50:39.641 797a Level-0 table #551: started
+2021/10/30-11:50:40.541 797a Level-0 table #551: 4012632 bytes OK
+2021/10/30-11:50:40.666 797a Delete type=0 #539
+2021/10/30-11:50:40.669 797a Level-0 table #554: started
+2021/10/30-11:50:41.041 797a Level-0 table #554: 4144528 bytes OK
+2021/10/30-11:50:41.433 797a Delete type=0 #550
+2021/10/30-11:50:42.485 797a Generated table #552@0: 127 keys, 2107897 bytes
+2021/10/30-11:50:43.007 797a Generated table #555@0: 149 keys, 2135620 bytes
+2021/10/30-11:50:43.185 797a Generated table #556@0: 134 keys, 2136301 bytes
+2021/10/30-11:50:43.341 797a Generated table #557@0: 114 keys, 2118448 bytes
+2021/10/30-11:50:43.474 797a Generated table #558@0: 118 keys, 2123160 bytes
+2021/10/30-11:50:43.574 797a Generated table #559@0: 142 keys, 2126111 bytes
+2021/10/30-11:50:43.674 797a Generated table #560@0: 143 keys, 2104742 bytes
+2021/10/30-11:50:44.319 797a Generated table #561@0: 133 keys, 2109107 bytes
+2021/10/30-11:50:44.719 797a Generated table #562@0: 133 keys, 2144164 bytes
+2021/10/30-11:50:44.830 797a Generated table #563@0: 27279 keys, 1142757 bytes
+2021/10/30-11:50:44.830 797a Compacted 6@0 + 8@1 files => 38036969 bytes
+2021/10/30-11:50:44.985 797a compacted to: files[ 3 19 71 106 0 0 0 ]
+2021/10/30-11:50:44.988 797a Delete type=2 #508
+2021/10/30-11:50:44.988 797a Delete type=2 #520
+2021/10/30-11:50:44.988 797a Delete type=2 #521
+2021/10/30-11:50:44.988 797a Delete type=2 #522
+2021/10/30-11:50:44.988 797a Delete type=2 #524
+2021/10/30-11:50:44.988 797a Delete type=2 #525
+2021/10/30-11:50:44.988 797a Delete type=2 #527
+2021/10/30-11:50:44.988 797a Delete type=2 #528
+2021/10/30-11:50:44.988 797a Delete type=2 #529
+2021/10/30-11:50:44.988 797a Delete type=2 #530
+2021/10/30-11:50:44.988 797a Delete type=2 #532
+2021/10/30-11:50:44.988 797a Delete type=2 #534
+2021/10/30-11:50:44.988 797a Delete type=2 #536
+2021/10/30-11:50:44.988 797a Delete type=2 #538
+2021/10/30-11:50:45.085 797a Moved #542 to level-2 2142700 bytes OK: files[ 3 18 72 106 0 0 0 ]
+2021/10/30-11:50:45.408 797a Moved #543 to level-2 2157733 bytes OK: files[ 3 17 73 106 0 0 0 ]
+2021/10/30-11:50:45.452 797a Moved #544 to level-2 2113432 bytes OK: files[ 3 16 74 106 0 0 0 ]
+2021/10/30-11:50:45.530 797a Moved #545 to level-2 2117742 bytes OK: files[ 3 15 75 106 0 0 0 ]
+2021/10/30-11:50:46.035 797a Moved #546 to level-2 2115195 bytes OK: files[ 3 14 76 106 0 0 0 ]
+2021/10/30-11:50:46.119 797a Moved #547 to level-2 2125708 bytes OK: files[ 3 13 77 106 0 0 0 ]
+2021/10/30-11:50:46.219 797a Moved #548 to level-2 2106892 bytes OK: files[ 3 12 78 106 0 0 0 ]
+2021/10/30-11:50:46.305 79fa Current memtable full; waiting...
+2021/10/30-11:50:46.319 797a Moved #549 to level-2 2113235 bytes OK: files[ 3 11 79 106 0 0 0 ]
+2021/10/30-11:50:46.319 797a Level-0 table #565: started
+2021/10/30-11:50:46.326 79fa Current memtable full; waiting...
+2021/10/30-11:50:46.708 797a Level-0 table #565: 4023131 bytes OK
+2021/10/30-11:50:46.800 797a Delete type=0 #553
+2021/10/30-11:50:46.801 7a41 Level-0 table #567: started
+2021/10/30-11:50:46.881 79fa Current memtable full; waiting...
+2021/10/30-11:50:47.030 7a41 Level-0 table #567: 4116073 bytes OK
+2021/10/30-11:50:47.523 7a41 Delete type=0 #564
+2021/10/30-11:50:48.152 797a Moved #552 to level-2 2107897 bytes OK: files[ 5 10 80 106 0 0 0 ]
+2021/10/30-11:50:48.152 797a Level-0 table #569: started
+2021/10/30-11:50:48.375 797a Level-0 table #569: 4159419 bytes OK
+2021/10/30-11:50:48.590 797a Delete type=0 #566
+2021/10/30-11:50:48.730 79da Moved #555 to level-2 2135620 bytes OK: files[ 6 9 81 106 0 0 0 ]
+2021/10/30-11:50:48.819 79da Moved #337 to level-3 2118195 bytes OK: files[ 6 9 80 107 0 0 0 ]
+2021/10/30-11:50:49.186 79da Moved #338 to level-3 2143882 bytes OK: files[ 6 9 79 108 0 0 0 ]
+2021/10/30-11:50:49.419 79da Moved #556 to level-2 2136301 bytes OK: files[ 6 8 80 108 0 0 0 ]
+2021/10/30-11:50:50.141 79da Moved #339 to level-3 2117106 bytes OK: files[ 6 8 79 109 0 0 0 ]
+2021/10/30-11:50:50.463 79da Moved #340 to level-3 2115144 bytes OK: files[ 6 8 78 110 0 0 0 ]
+2021/10/30-11:50:50.564 79da Moved #341 to level-3 2113346 bytes OK: files[ 6 8 77 111 0 0 0 ]
+2021/10/30-11:50:50.619 79da Moved #342 to level-3 2116302 bytes OK: files[ 6 8 76 112 0 0 0 ]
+2021/10/30-11:50:50.675 79da Moved #343 to level-3 2115681 bytes OK: files[ 6 8 75 113 0 0 0 ]
+2021/10/30-11:50:50.730 79da Moved #359 to level-3 2122893 bytes OK: files[ 6 8 74 114 0 0 0 ]
+2021/10/30-11:50:50.731 79da Compacting 6@0 + 8@1 files
+2021/10/30-11:50:51.775 79da Generated table #570@0: 98670 keys, 815264 bytes
+2021/10/30-11:50:51.775 79da Level-0 table #573: started
+2021/10/30-11:50:51.841 797a Current memtable full; waiting...
+2021/10/30-11:50:52.143 79da Level-0 table #573: 4020395 bytes OK
+2021/10/30-11:50:52.656 79da Delete type=0 #568
+2021/10/30-11:50:52.658 79da Level-0 table #575: started
+2021/10/30-11:50:53.120 79da Level-0 table #575: 4119831 bytes OK
+2021/10/30-11:50:53.257 79da Delete type=0 #571
+2021/10/30-11:50:53.443 79da Generated table #572@0: 114 keys, 2118448 bytes
+2021/10/30-11:50:53.586 79da Generated table #576@0: 118 keys, 2123160 bytes
+2021/10/30-11:50:53.686 79da Generated table #577@0: 142 keys, 2126111 bytes
+2021/10/30-11:50:53.931 79da Generated table #578@0: 143 keys, 2104742 bytes
+2021/10/30-11:50:54.531 79da Generated table #579@0: 133 keys, 2109107 bytes
+2021/10/30-11:50:54.964 79da Generated table #580@0: 133 keys, 2144164 bytes
+2021/10/30-11:50:55.086 79da Generated table #581@0: 134 keys, 2122532 bytes
+2021/10/30-11:50:55.175 79da Generated table #582@0: 141 keys, 2119489 bytes
+2021/10/30-11:50:55.520 79da Generated table #583@0: 151 keys, 2152939 bytes
+2021/10/30-11:50:55.664 79da Generated table #584@0: 136 keys, 2120166 bytes
+2021/10/30-11:50:55.775 79da Generated table #585@0: 130 keys, 2113384 bytes
+2021/10/30-11:50:56.431 79da Generated table #586@0: 107 keys, 2114613 bytes
+2021/10/30-11:50:56.820 79da Generated table #587@0: 119 keys, 2135551 bytes
+2021/10/30-11:50:56.820 79da Level-0 table #589: started
+2021/10/30-11:50:56.931 79da Level-0 table #589: 4022078 bytes OK
+2021/10/30-11:50:57.035 79da Delete type=0 #574
+2021/10/30-11:50:57.109 79da Generated table #590@0: 127 keys, 2129128 bytes
+2021/10/30-11:50:57.198 79da Generated table #591@0: 142 keys, 2146271 bytes
+2021/10/30-11:50:57.287 79da Generated table #592@0: 155 keys, 2114054 bytes
+2021/10/30-11:50:57.354 79da Generated table #593@0: 123 keys, 2120183 bytes
+2021/10/30-11:50:57.487 79da Generated table #594@0: 28916 keys, 2140655 bytes
+2021/10/30-11:50:57.487 79da Compacted 6@0 + 8@1 files => 39069961 bytes
+2021/10/30-11:50:57.709 79da compacted to: files[ 3 19 74 114 0 0 0 ]
+2021/10/30-11:50:57.712 79da Delete type=2 #540
+2021/10/30-11:50:57.713 79da Delete type=2 #541
+2021/10/30-11:50:57.713 79da Delete type=2 #551
+2021/10/30-11:50:57.713 79da Delete type=2 #554
+2021/10/30-11:50:57.713 79da Delete type=2 #557
+2021/10/30-11:50:57.713 79da Delete type=2 #558
+2021/10/30-11:50:57.713 79da Delete type=2 #559
+2021/10/30-11:50:57.713 79da Delete type=2 #560
+2021/10/30-11:50:57.713 79da Delete type=2 #561
+2021/10/30-11:50:57.713 79da Delete type=2 #562
+2021/10/30-11:50:57.713 79da Delete type=2 #563
+2021/10/30-11:50:57.713 79da Delete type=2 #565
+2021/10/30-11:50:57.713 79da Delete type=2 #567
+2021/10/30-11:50:57.713 79da Delete type=2 #569
+2021/10/30-11:50:57.723 7a42 Level-0 table #596: started
+2021/10/30-11:50:57.771 797a Current memtable full; waiting...
+2021/10/30-11:50:58.509 7a42 Level-0 table #596: 4128573 bytes OK
+2021/10/30-11:50:59.313 7a42 Delete type=0 #588
+2021/10/30-11:50:59.498 79da Moved #572 to level-2 2118448 bytes OK: files[ 4 18 75 114 0 0 0 ]
+2021/10/30-11:50:59.498 79da Level-0 table #598: started
+2021/10/30-11:50:59.721 79da Level-0 table #598: 4132635 bytes OK
+2021/10/30-11:50:59.913 79da Delete type=0 #595
+2021/10/30-11:51:00.042 79da Moved #576 to level-2 2123160 bytes OK: files[ 5 17 76 114 0 0 0 ]
+2021/10/30-11:51:00.976 79da Moved #577 to level-2 2126111 bytes OK: files[ 5 16 77 114 0 0 0 ]
+2021/10/30-11:51:01.109 79da Moved #578 to level-2 2104742 bytes OK: files[ 5 15 78 114 0 0 0 ]
+2021/10/30-11:51:01.198 79da Moved #579 to level-2 2109107 bytes OK: files[ 5 14 79 114 0 0 0 ]
+2021/10/30-11:51:01.254 79da Moved #580 to level-2 2144164 bytes OK: files[ 5 13 80 114 0 0 0 ]
+2021/10/30-11:51:01.309 79da Moved #581 to level-2 2122532 bytes OK: files[ 5 12 81 114 0 0 0 ]
+2021/10/30-11:51:01.365 79da Moved #582 to level-2 2119489 bytes OK: files[ 5 11 82 114 0 0 0 ]
+2021/10/30-11:51:01.409 79da Moved #583 to level-2 2152939 bytes OK: files[ 5 10 83 114 0 0 0 ]
+2021/10/30-11:51:01.454 79da Moved #584 to level-2 2120166 bytes OK: files[ 5 9 84 114 0 0 0 ]
+2021/10/30-11:51:01.498 79da Moved #360 to level-3 2126737 bytes OK: files[ 5 9 83 115 0 0 0 ]
+2021/10/30-11:51:01.542 79da Moved #585 to level-2 2113384 bytes OK: files[ 5 8 84 115 0 0 0 ]
+2021/10/30-11:51:01.897 79da Moved #361 to level-3 2116894 bytes OK: files[ 5 8 83 116 0 0 0 ]
+2021/10/30-11:51:02.143 79da Moved #362 to level-3 2112334 bytes OK: files[ 5 8 82 117 0 0 0 ]
+2021/10/30-11:51:02.320 79da Moved #363 to level-3 2126039 bytes OK: files[ 5 8 81 118 0 0 0 ]
+2021/10/30-11:51:02.731 79da Moved #364 to level-3 2113002 bytes OK: files[ 5 8 80 119 0 0 0 ]
+2021/10/30-11:51:03.106 797a Current memtable full; waiting...
+2021/10/30-11:51:03.109 79da Moved #365 to level-3 2113502 bytes OK: files[ 5 8 79 120 0 0 0 ]
+2021/10/30-11:51:03.109 79da Level-0 table #600: started
+2021/10/30-11:51:03.110 797a Current memtable full; waiting...
+2021/10/30-11:51:03.243 79da Level-0 table #600: 4044262 bytes OK
+2021/10/30-11:51:03.335 79da Delete type=0 #597
+2021/10/30-11:51:03.476 79da Moved #366 to level-3 2117652 bytes OK: files[ 6 8 78 121 0 0 0 ]
+2021/10/30-11:51:03.476 79da Level-0 table #602: started
+2021/10/30-11:51:03.709 79da Level-0 table #602: 4099050 bytes OK
+2021/10/30-11:51:03.857 79da Delete type=0 #599
+2021/10/30-11:51:03.859 79da Compacting 7@0 + 8@1 files
+2021/10/30-11:51:04.866 79da Generated table #603@0: 106249 keys, 921171 bytes
+2021/10/30-11:51:05.322 79da Generated table #604@0: 107 keys, 2114613 bytes
+2021/10/30-11:51:05.710 79da Generated table #605@0: 119 keys, 2135551 bytes
+2021/10/30-11:51:05.788 79da Generated table #606@0: 127 keys, 2129128 bytes
+2021/10/30-11:51:05.887 79da Generated table #607@0: 142 keys, 2146271 bytes
+2021/10/30-11:51:05.976 79da Generated table #608@0: 155 keys, 2114054 bytes
+2021/10/30-11:51:06.065 79da Generated table #609@0: 123 keys, 2120183 bytes
+2021/10/30-11:51:06.154 79da Generated table #610@0: 115 keys, 2134202 bytes
+2021/10/30-11:51:06.232 79da Generated table #611@0: 121 keys, 2113985 bytes
+2021/10/30-11:51:06.310 79da Generated table #612@0: 142 keys, 2133177 bytes
+2021/10/30-11:51:06.465 79da Generated table #613@0: 142 keys, 2107886 bytes
+2021/10/30-11:51:06.999 79da Generated table #614@0: 141 keys, 2115858 bytes
+2021/10/30-11:51:07.376 79da Generated table #615@0: 123 keys, 2135275 bytes
+2021/10/30-11:51:07.510 79da Generated table #616@0: 109 keys, 2114735 bytes
+2021/10/30-11:51:07.632 79da Generated table #617@0: 129 keys, 2106745 bytes
+2021/10/30-11:51:07.744 79da Generated table #618@0: 160 keys, 2117097 bytes
+2021/10/30-11:51:08.138 79da Generated table #619@0: 148 keys, 2132722 bytes
+2021/10/30-11:51:08.266 79da Generated table #620@0: 127 keys, 2121346 bytes
+2021/10/30-11:51:08.267 79da Level-0 table #622: started
+2021/10/30-11:51:08.355 79fa Current memtable full; waiting...
+2021/10/30-11:51:09.110 79da Level-0 table #622: 3984465 bytes OK
+2021/10/30-11:51:09.270 79da Delete type=0 #601
+2021/10/30-11:51:09.272 79da Level-0 table #625: started
+2021/10/30-11:51:09.454 79da Level-0 table #625: 4131603 bytes OK
+2021/10/30-11:51:09.559 79da Delete type=0 #621
+2021/10/30-11:51:09.654 79da Generated table #623@0: 150 keys, 2109507 bytes
+2021/10/30-11:51:09.743 79da Generated table #626@0: 148 keys, 2107369 bytes
+2021/10/30-11:51:09.832 79da Generated table #627@0: 190 keys, 2165203 bytes
+2021/10/30-11:51:09.932 79da Generated table #628@0: 30802 keys, 605134 bytes
+2021/10/30-11:51:09.932 79da Compacted 7@0 + 8@1 files => 44001212 bytes
+2021/10/30-11:51:10.014 79da compacted to: files[ 2 22 78 121 0 0 0 ]
+2021/10/30-11:51:10.018 79da Delete type=2 #570
+2021/10/30-11:51:10.018 79da Delete type=2 #573
+2021/10/30-11:51:10.018 79da Delete type=2 #575
+2021/10/30-11:51:10.018 79da Delete type=2 #586
+2021/10/30-11:51:10.018 79da Delete type=2 #587
+2021/10/30-11:51:10.018 79da Delete type=2 #589
+2021/10/30-11:51:10.018 79da Delete type=2 #590
+2021/10/30-11:51:10.018 79da Delete type=2 #591
+2021/10/30-11:51:10.018 79da Delete type=2 #592
+2021/10/30-11:51:10.018 79da Delete type=2 #593
+2021/10/30-11:51:10.018 79da Delete type=2 #594
+2021/10/30-11:51:10.018 79da Delete type=2 #596
+2021/10/30-11:51:10.018 79da Delete type=2 #598
+2021/10/30-11:51:10.018 79da Delete type=2 #600
+2021/10/30-11:51:10.018 79da Delete type=2 #602
+2021/10/30-11:51:10.538 79da Moved #604 to level-2 2114613 bytes OK: files[ 2 21 79 121 0 0 0 ]
+2021/10/30-11:51:10.538 79da Level-0 table #630: started
+2021/10/30-11:51:11.310 79da Level-0 table #630: 4158623 bytes OK
+2021/10/30-11:51:11.514 79da Delete type=0 #624
+2021/10/30-11:51:11.655 79da Moved #605 to level-2 2135551 bytes OK: files[ 3 20 80 121 0 0 0 ]
+2021/10/30-11:51:11.777 79da Moved #606 to level-2 2129128 bytes OK: files[ 3 19 81 121 0 0 0 ]
+2021/10/30-11:51:11.832 79da Moved #607 to level-2 2146271 bytes OK: files[ 3 18 82 121 0 0 0 ]
+2021/10/30-11:51:11.877 79da Moved #608 to level-2 2114054 bytes OK: files[ 3 17 83 121 0 0 0 ]
+2021/10/30-11:51:11.921 79da Moved #609 to level-2 2120183 bytes OK: files[ 3 16 84 121 0 0 0 ]
+2021/10/30-11:51:11.973 79da Moved #610 to level-2 2134202 bytes OK: files[ 3 15 85 121 0 0 0 ]
+2021/10/30-11:51:12.032 79da Moved #611 to level-2 2113985 bytes OK: files[ 3 14 86 121 0 0 0 ]
+2021/10/30-11:51:12.088 79da Moved #612 to level-2 2133177 bytes OK: files[ 3 13 87 121 0 0 0 ]
+2021/10/30-11:51:12.143 79da Moved #613 to level-2 2107886 bytes OK: files[ 3 12 88 121 0 0 0 ]
+2021/10/30-11:51:12.199 79da Moved #614 to level-2 2115858 bytes OK: files[ 3 11 89 121 0 0 0 ]
+2021/10/30-11:51:12.332 79da Moved #615 to level-2 2135275 bytes OK: files[ 3 10 90 121 0 0 0 ]
+2021/10/30-11:51:12.488 79da Moved #370 to level-3 2156207 bytes OK: files[ 3 10 89 122 0 0 0 ]
+2021/10/30-11:51:12.721 79da Moved #372 to level-3 2107767 bytes OK: files[ 3 10 88 123 0 0 0 ]
+2021/10/30-11:51:12.899 79da Moved #386 to level-3 2126950 bytes OK: files[ 3 10 87 124 0 0 0 ]
+2021/10/30-11:51:13.393 79da Moved #616 to level-2 2114735 bytes OK: files[ 3 9 88 124 0 0 0 ]
+2021/10/30-11:51:13.477 79da Moved #387 to level-3 2105936 bytes OK: files[ 3 9 87 125 0 0 0 ]
+2021/10/30-11:51:13.555 79da Moved #388 to level-3 2146097 bytes OK: files[ 3 9 86 126 0 0 0 ]
+2021/10/30-11:51:13.599 79da Moved #389 to level-3 2129981 bytes OK: files[ 3 9 85 127 0 0 0 ]
+2021/10/30-11:51:13.655 79da Moved #390 to level-3 2107262 bytes OK: files[ 3 9 84 128 0 0 0 ]
+2021/10/30-11:51:13.711 79da Moved #391 to level-3 2141980 bytes OK: files[ 3 9 83 129 0 0 0 ]
+2021/10/30-11:51:13.766 79da Moved #392 to level-3 2138306 bytes OK: files[ 3 9 82 130 0 0 0 ]
+2021/10/30-11:51:13.821 79da Moved #393 to level-3 2106160 bytes OK: files[ 3 9 81 131 0 0 0 ]
+2021/10/30-11:51:13.877 79da Moved #394 to level-3 2128661 bytes OK: files[ 3 9 80 132 0 0 0 ]
+2021/10/30-11:51:13.932 79da Moved #395 to level-3 2116249 bytes OK: files[ 3 9 79 133 0 0 0 ]
+2021/10/30-11:51:13.988 79da Moved #412 to level-3 2125617 bytes OK: files[ 3 9 78 134 0 0 0 ]
+2021/10/30-11:51:14.044 79da Moved #413 to level-3 2104476 bytes OK: files[ 3 9 77 135 0 0 0 ]
+2021/10/30-11:51:14.099 79da Moved #617 to level-2 2106745 bytes OK: files[ 3 8 78 135 0 0 0 ]
+2021/10/30-11:51:14.144 79da Moved #414 to level-3 2132475 bytes OK: files[ 3 8 77 136 0 0 0 ]
+2021/10/30-11:51:14.199 79da Moved #415 to level-3 2156640 bytes OK: files[ 3 8 76 137 0 0 0 ]
+2021/10/30-11:51:14.322 79da Moved #416 to level-3 2104591 bytes OK: files[ 3 8 75 138 0 0 0 ]
+2021/10/30-11:51:14.533 79da Moved #428 to level-3 2110417 bytes OK: files[ 3 8 74 139 0 0 0 ]
+2021/10/30-11:51:14.533 7a45 Level-0 table #632: started
+2021/10/30-11:51:14.572 79d2 Current memtable full; waiting...
+2021/10/30-11:51:14.999 7a45 Level-0 table #632: 4009602 bytes OK
+2021/10/30-11:51:15.181 7a45 Delete type=0 #629
+2021/10/30-11:51:15.310 79da Moved #429 to level-3 2109137 bytes OK: files[ 4 8 73 140 0 0 0 ]
+2021/10/30-11:51:15.311 79da Level-0 table #634: started
+2021/10/30-11:51:15.511 79da Level-0 table #634: 4156575 bytes OK
+2021/10/30-11:51:15.740 79da Delete type=0 #631
+2021/10/30-11:51:15.888 7a42 Moved #430 to level-3 2134280 bytes OK: files[ 5 8 72 141 0 0 0 ]
+2021/10/30-11:51:16.274 7a42 Moved #431 to level-3 2106814 bytes OK: files[ 5 8 71 142 0 0 0 ]
+2021/10/30-11:51:16.433 7a42 Moved #432 to level-3 2106724 bytes OK: files[ 5 8 70 143 0 0 0 ]
+2021/10/30-11:51:16.755 7a42 Moved #433 to level-3 2146903 bytes OK: files[ 5 8 69 144 0 0 0 ]
+2021/10/30-11:51:16.944 7a42 Moved #434 to level-3 2121919 bytes OK: files[ 5 8 68 145 0 0 0 ]
+2021/10/30-11:51:17.055 7a42 Moved #435 to level-3 2106708 bytes OK: files[ 5 8 67 146 0 0 0 ]
+2021/10/30-11:51:17.111 7a42 Moved #618 to level-2 2117097 bytes OK: files[ 5 7 68 146 0 0 0 ]
+2021/10/30-11:51:17.155 7a42 Moved #436 to level-3 2116574 bytes OK: files[ 5 7 67 147 0 0 0 ]
+2021/10/30-11:51:17.199 7a42 Moved #454 to level-3 2107455 bytes OK: files[ 5 7 66 148 0 0 0 ]
+2021/10/30-11:51:17.244 7a42 Moved #455 to level-3 2119047 bytes OK: files[ 5 7 65 149 0 0 0 ]
+2021/10/30-11:51:17.288 7a42 Moved #456 to level-3 2124189 bytes OK: files[ 5 7 64 150 0 0 0 ]
+2021/10/30-11:51:17.333 7a42 Moved #457 to level-3 2125237 bytes OK: files[ 5 7 63 151 0 0 0 ]
+2021/10/30-11:51:17.399 7a42 Moved #458 to level-3 2138049 bytes OK: files[ 5 7 62 152 0 0 0 ]
+2021/10/30-11:51:17.444 7a42 Moved #459 to level-3 2113856 bytes OK: files[ 5 7 61 153 0 0 0 ]
+2021/10/30-11:51:17.444 7a42 Compacting 5@0 + 7@1 files
+2021/10/30-11:51:17.655 7a42 Generated table #635@0: 111496 keys, 952351 bytes
+2021/10/30-11:51:17.755 7a42 Generated table #636@0: 148 keys, 2132722 bytes
+2021/10/30-11:51:18.589 7a42 Generated table #637@0: 127 keys, 2121346 bytes
+2021/10/30-11:51:18.744 7a42 Generated table #638@0: 150 keys, 2109507 bytes
+2021/10/30-11:51:18.855 7a42 Generated table #639@0: 148 keys, 2107369 bytes
+2021/10/30-11:51:18.944 7a42 Generated table #640@0: 190 keys, 2165203 bytes
+2021/10/30-11:51:19.033 7a42 Generated table #641@0: 132 keys, 2107118 bytes
+2021/10/30-11:51:19.122 7a42 Generated table #642@0: 146 keys, 2104773 bytes
+2021/10/30-11:51:19.200 7a42 Generated table #643@0: 159 keys, 2114289 bytes
+2021/10/30-11:51:19.289 7a42 Generated table #644@0: 148 keys, 2135279 bytes
+2021/10/30-11:51:19.289 7a42 Level-0 table #646: started
+2021/10/30-11:51:19.422 7a42 Level-0 table #646: 4040326 bytes OK
+2021/10/30-11:51:19.434 79fb Current memtable full; waiting...
+2021/10/30-11:51:19.504 7a42 Delete type=0 #633
+2021/10/30-11:51:19.505 7a42 Level-0 table #649: started
+2021/10/30-11:51:19.778 7a42 Level-0 table #649: 4131736 bytes OK
+2021/10/30-11:51:20.617 7a42 Delete type=0 #645
+2021/10/30-11:51:20.800 7a42 Generated table #647@0: 148 keys, 2116019 bytes
+2021/10/30-11:51:20.956 7a42 Generated table #650@0: 152 keys, 2120834 bytes
+2021/10/30-11:51:21.089 7a42 Generated table #651@0: 118 keys, 2108977 bytes
+2021/10/30-11:51:21.211 7a42 Generated table #652@0: 118 keys, 2113023 bytes
+2021/10/30-11:51:21.289 7a42 Generated table #653@0: 117 keys, 2120320 bytes
+2021/10/30-11:51:21.422 7a42 Generated table #654@0: 32219 keys, 1726577 bytes
+2021/10/30-11:51:21.422 7a42 Compacted 5@0 + 7@1 files => 32355707 bytes
+2021/10/30-11:51:21.644 7a42 compacted to: files[ 2 16 61 153 0 0 0 ]
+2021/10/30-11:51:21.663 7a42 Delete type=2 #603
+2021/10/30-11:51:21.663 7a42 Delete type=2 #619
+2021/10/30-11:51:21.663 7a42 Delete type=2 #620
+2021/10/30-11:51:21.663 7a42 Delete type=2 #622
+2021/10/30-11:51:21.663 7a42 Delete type=2 #623
+2021/10/30-11:51:21.663 7a42 Delete type=2 #625
+2021/10/30-11:51:21.663 7a42 Delete type=2 #626
+2021/10/30-11:51:21.663 7a42 Delete type=2 #627
+2021/10/30-11:51:21.663 7a42 Delete type=2 #628
+2021/10/30-11:51:21.663 7a42 Delete type=2 #630
+2021/10/30-11:51:21.663 7a42 Delete type=2 #632
+2021/10/30-11:51:21.663 7a42 Delete type=2 #634
+2021/10/30-11:51:23.022 7a42 Moved #636 to level-2 2132722 bytes OK: files[ 2 15 62 153 0 0 0 ]
+2021/10/30-11:51:23.270 7a42 Moved #637 to level-2 2121346 bytes OK: files[ 2 14 63 153 0 0 0 ]
+2021/10/30-11:51:23.270 7a42 Level-0 table #656: started
+2021/10/30-11:51:23.350 7a41 Current memtable full; waiting...
+2021/10/30-11:51:23.378 7a42 Level-0 table #656: 4040808 bytes OK
+2021/10/30-11:51:23.471 7a42 Delete type=0 #648
+2021/10/30-11:51:23.578 7a42 Moved #638 to level-2 2109507 bytes OK: files[ 3 13 64 153 0 0 0 ]
+2021/10/30-11:51:23.578 7a42 Level-0 table #658: started
+2021/10/30-11:51:23.756 7a42 Level-0 table #658: 4133682 bytes OK
+2021/10/30-11:51:24.116 7a42 Delete type=0 #655
+2021/10/30-11:51:25.378 7a42 Moved #639 to level-2 2107369 bytes OK: files[ 4 12 65 153 0 0 0 ]
+2021/10/30-11:51:25.512 7a42 Moved #640 to level-2 2165203 bytes OK: files[ 4 11 66 153 0 0 0 ]
+2021/10/30-11:51:25.623 7a42 Moved #641 to level-2 2107118 bytes OK: files[ 4 10 67 153 0 0 0 ]
+2021/10/30-11:51:25.667 7a42 Moved #642 to level-2 2104773 bytes OK: files[ 4 9 68 153 0 0 0 ]
+2021/10/30-11:51:25.711 7a42 Moved #643 to level-2 2114289 bytes OK: files[ 4 8 69 153 0 0 0 ]
+2021/10/30-11:51:25.767 7a42 Moved #644 to level-2 2135279 bytes OK: files[ 4 7 70 153 0 0 0 ]
+2021/10/30-11:51:25.823 7a42 Moved #460 to level-3 2116559 bytes OK: files[ 4 7 69 154 0 0 0 ]
+2021/10/30-11:51:25.878 7a42 Moved #461 to level-3 2135898 bytes OK: files[ 4 7 68 155 0 0 0 ]
+2021/10/30-11:51:25.934 7a42 Moved #462 to level-3 2144846 bytes OK: files[ 4 7 67 156 0 0 0 ]
+2021/10/30-11:51:25.978 7a42 Moved #463 to level-3 2116685 bytes OK: files[ 4 7 66 157 0 0 0 ]
+2021/10/30-11:51:26.023 7a42 Moved #481 to level-3 2104482 bytes OK: files[ 4 7 65 158 0 0 0 ]
+2021/10/30-11:51:26.067 7a42 Moved #482 to level-3 2157540 bytes OK: files[ 4 7 64 159 0 0 0 ]
+2021/10/30-11:51:26.467 7a42 Moved #483 to level-3 2144149 bytes OK: files[ 4 7 63 160 0 0 0 ]
+2021/10/30-11:51:26.611 7a42 Moved #484 to level-3 2108747 bytes OK: files[ 4 7 62 161 0 0 0 ]
+2021/10/30-11:51:26.767 7a42 Moved #647 to level-2 2116019 bytes OK: files[ 4 6 63 161 0 0 0 ]
+2021/10/30-11:51:27.034 7a42 Moved #485 to level-3 2130056 bytes OK: files[ 4 6 62 162 0 0 0 ]
+2021/10/30-11:51:27.723 7a42 Moved #486 to level-3 2164823 bytes OK: files[ 4 6 61 163 0 0 0 ]
+2021/10/30-11:51:27.723 7a42 Level-0 table #660: started
+2021/10/30-11:51:27.780 79da Current memtable full; waiting...
+2021/10/30-11:51:27.856 7a42 Level-0 table #660: 4038247 bytes OK
+2021/10/30-11:51:27.960 7a42 Delete type=0 #657
+2021/10/30-11:51:27.961 7a40 Compacting 5@0 + 6@1 files
+2021/10/30-11:51:27.962 7a40 Level-0 table #663: started
+2021/10/30-11:51:28.101 7a40 Level-0 table #663: 4162449 bytes OK
+2021/10/30-11:51:28.306 7a40 Delete type=0 #659
+2021/10/30-11:51:29.356 7a40 Generated table #662@0: 116346 keys, 952236 bytes
+2021/10/30-11:51:30.223 7a40 Generated table #664@0: 152 keys, 2120834 bytes
+2021/10/30-11:51:30.323 7a40 Generated table #665@0: 118 keys, 2108977 bytes
+2021/10/30-11:51:30.412 7a40 Generated table #666@0: 118 keys, 2113023 bytes
+2021/10/30-11:51:30.501 7a40 Generated table #667@0: 117 keys, 2120320 bytes
+2021/10/30-11:51:30.590 7a40 Generated table #668@0: 127 keys, 2126996 bytes
+2021/10/30-11:51:30.667 7a40 Generated table #669@0: 118 keys, 2119922 bytes
+2021/10/30-11:51:30.745 7a40 Generated table #670@0: 116 keys, 2116601 bytes
+2021/10/30-11:51:30.834 7a40 Generated table #671@0: 115 keys, 2108050 bytes
+2021/10/30-11:51:30.923 7a40 Generated table #672@0: 115 keys, 2127285 bytes
+2021/10/30-11:51:31.012 7a40 Generated table #673@0: 105 keys, 2124106 bytes
+2021/10/30-11:51:31.501 7a40 Generated table #674@0: 140 keys, 2108182 bytes
+2021/10/30-11:51:32.063 79da Current memtable full; waiting...
+2021/10/30-11:51:32.345 7a40 Generated table #675@0: 131 keys, 2122629 bytes
+2021/10/30-11:51:32.346 7a40 Level-0 table #677: started
+2021/10/30-11:51:32.823 7a40 Level-0 table #677: 4039412 bytes OK
+2021/10/30-11:51:32.950 7a40 Delete type=0 #661
+2021/10/30-11:51:32.951 7a40 Level-0 table #680: started
+2021/10/30-11:51:33.090 7a40 Level-0 table #680: 4163931 bytes OK
+2021/10/30-11:51:33.262 7a40 Delete type=0 #676
+2021/10/30-11:51:33.449 7a40 Generated table #678@0: 145 keys, 2114766 bytes
+2021/10/30-11:51:34.435 7a40 Generated table #681@0: 112 keys, 2153632 bytes
+2021/10/30-11:51:35.657 7a40 Generated table #682@0: 33479 keys, 680672 bytes
+2021/10/30-11:51:35.657 7a40 Compacted 5@0 + 6@1 files => 31318231 bytes
+2021/10/30-11:51:35.757 7a40 compacted to: files[ 3 16 61 163 0 0 0 ]
+2021/10/30-11:51:35.761 7a40 Delete type=2 #635
+2021/10/30-11:51:35.761 7a40 Delete type=2 #646
+2021/10/30-11:51:35.761 7a40 Delete type=2 #649
+2021/10/30-11:51:35.761 7a40 Delete type=2 #650
+2021/10/30-11:51:35.761 7a40 Delete type=2 #651
+2021/10/30-11:51:35.761 7a40 Delete type=2 #652
+2021/10/30-11:51:35.761 7a40 Delete type=2 #653
+2021/10/30-11:51:35.761 7a40 Delete type=2 #654
+2021/10/30-11:51:35.761 7a40 Delete type=2 #656
+2021/10/30-11:51:35.762 7a40 Delete type=2 #658
+2021/10/30-11:51:35.762 7a40 Delete type=2 #660
+2021/10/30-11:51:35.946 7a40 Moved #664 to level-2 2120834 bytes OK: files[ 3 15 62 163 0 0 0 ]
+2021/10/30-11:51:36.035 79d2 Moved #665 to level-2 2108977 bytes OK: files[ 3 14 63 163 0 0 0 ]
+2021/10/30-11:51:36.079 79d2 Moved #666 to level-2 2113023 bytes OK: files[ 3 13 64 163 0 0 0 ]
+2021/10/30-11:51:36.135 79d2 Moved #667 to level-2 2120320 bytes OK: files[ 3 12 65 163 0 0 0 ]
+2021/10/30-11:51:36.446 79d2 Moved #668 to level-2 2126996 bytes OK: files[ 3 11 66 163 0 0 0 ]
+2021/10/30-11:51:36.490 79d2 Moved #669 to level-2 2119922 bytes OK: files[ 3 10 67 163 0 0 0 ]
+2021/10/30-11:51:36.657 79d2 Moved #670 to level-2 2116601 bytes OK: files[ 3 9 68 163 0 0 0 ]
+2021/10/30-11:51:36.913 79d2 Moved #671 to level-2 2108050 bytes OK: files[ 3 8 69 163 0 0 0 ]
+2021/10/30-11:51:37.135 79d2 Moved #487 to level-3 2118929 bytes OK: files[ 3 8 68 164 0 0 0 ]
+2021/10/30-11:51:37.212 79d2 Moved #488 to level-3 2116517 bytes OK: files[ 3 8 67 165 0 0 0 ]
+2021/10/30-11:51:37.257 79d2 Moved #672 to level-2 2127285 bytes OK: files[ 3 7 68 165 0 0 0 ]
+2021/10/30-11:51:37.301 79d2 Moved #489 to level-3 2111074 bytes OK: files[ 3 7 67 166 0 0 0 ]
+2021/10/30-11:51:37.346 79d2 Moved #509 to level-3 2108554 bytes OK: files[ 3 7 66 167 0 0 0 ]
+2021/10/30-11:51:37.401 79d2 Moved #510 to level-3 2112407 bytes OK: files[ 3 7 65 168 0 0 0 ]
+2021/10/30-11:51:37.401 79d2 Level-0 table #684: started
+2021/10/30-11:51:37.506 7a40 Current memtable full; waiting...
+2021/10/30-11:51:37.790 79d2 Level-0 table #684: 4043930 bytes OK
+2021/10/30-11:51:37.963 79d2 Delete type=0 #679
+2021/10/30-11:51:39.057 7a47 Moved #511 to level-3 2137537 bytes OK: files[ 4 7 64 169 0 0 0 ]
+2021/10/30-11:51:39.057 7a47 Level-0 table #686: started
+2021/10/30-11:51:39.246 7a47 Level-0 table #686: 4142857 bytes OK
+2021/10/30-11:51:39.384 7a47 Delete type=0 #683
+2021/10/30-11:51:39.568 7a47 Moved #512 to level-3 2106866 bytes OK: files[ 5 7 63 170 0 0 0 ]
+2021/10/30-11:51:39.646 7a47 Moved #513 to level-3 2108017 bytes OK: files[ 5 7 62 171 0 0 0 ]
+2021/10/30-11:51:39.690 7a47 Moved #514 to level-3 2114815 bytes OK: files[ 5 7 61 172 0 0 0 ]
+2021/10/30-11:51:39.691 7a47 Compacting 5@0 + 7@1 files
+2021/10/30-11:51:40.524 7a47 Generated table #687@0: 121304 keys, 1052453 bytes
+2021/10/30-11:51:41.027 7a47 Generated table #688@0: 105 keys, 2124106 bytes
+2021/10/30-11:51:41.171 7a47 Generated table #689@0: 140 keys, 2108182 bytes
+2021/10/30-11:51:41.524 7a47 Generated table #690@0: 131 keys, 2122629 bytes
+2021/10/30-11:51:41.639 7a47 Generated table #691@0: 145 keys, 2114766 bytes
+2021/10/30-11:51:41.639 7a47 Level-0 table #693: started
+2021/10/30-11:51:41.780 7a47 Level-0 table #693: 4018122 bytes OK
+2021/10/30-11:51:41.806 7a41 Current memtable full; waiting...
+2021/10/30-11:51:42.051 7a47 Delete type=0 #685
+2021/10/30-11:51:42.052 7a47 Level-0 table #696: started
+2021/10/30-11:51:42.130 7a41 Current memtable full; waiting...
+2021/10/30-11:51:42.458 7a47 Level-0 table #696: 4143191 bytes OK
+2021/10/30-11:51:43.171 7a47 Delete type=0 #692
+2021/10/30-11:51:43.172 7a47 Level-0 table #698: started
+2021/10/30-11:51:43.369 7a47 Level-0 table #698: 4113770 bytes OK
+2021/10/30-11:51:43.541 7a47 Delete type=0 #695
+2021/10/30-11:51:44.103 7a47 Generated table #694@0: 112 keys, 2153632 bytes
+2021/10/30-11:51:44.658 7a47 Generated table #699@0: 109 keys, 2134592 bytes
+2021/10/30-11:51:45.581 7a47 Generated table #700@0: 139 keys, 2118509 bytes
+2021/10/30-11:51:45.980 7a47 Generated table #701@0: 134 keys, 2146681 bytes
+2021/10/30-11:51:46.124 7a47 Generated table #702@0: 139 keys, 2114107 bytes
+2021/10/30-11:51:46.202 7a47 Generated table #703@0: 110 keys, 2114024 bytes
+2021/10/30-11:51:46.591 7a47 Generated table #704@0: 116 keys, 2129289 bytes
+2021/10/30-11:51:46.743 7a47 Generated table #705@0: 121 keys, 2137213 bytes
+2021/10/30-11:51:47.325 7a47 Generated table #706@0: 123 keys, 2134408 bytes
+2021/10/30-11:51:48.058 7a47 Generated table #707@0: 152 keys, 2104659 bytes
+2021/10/30-11:51:48.236 7a47 Generated table #708@0: 34850 keys, 1824647 bytes
+2021/10/30-11:51:48.236 7a47 Compacted 5@0 + 7@1 files => 32633897 bytes
+2021/10/30-11:51:48.336 7a47 compacted to: files[ 3 16 61 172 0 0 0 ]
+2021/10/30-11:51:48.340 7a47 Delete type=2 #662
+2021/10/30-11:51:48.340 7a47 Delete type=2 #663
+2021/10/30-11:51:48.340 7a47 Delete type=2 #673
+2021/10/30-11:51:48.340 7a47 Delete type=2 #674
+2021/10/30-11:51:48.340 7a47 Delete type=2 #675
+2021/10/30-11:51:48.340 7a47 Delete type=2 #677
+2021/10/30-11:51:48.340 7a47 Delete type=2 #678
+2021/10/30-11:51:48.340 7a47 Delete type=2 #680
+2021/10/30-11:51:48.340 7a47 Delete type=2 #681
+2021/10/30-11:51:48.340 7a47 Delete type=2 #682
+2021/10/30-11:51:48.340 7a47 Delete type=2 #684
+2021/10/30-11:51:48.340 7a47 Delete type=2 #686
+2021/10/30-11:51:48.447 7a04 Moved #688 to level-2 2124106 bytes OK: files[ 3 15 62 172 0 0 0 ]
+2021/10/30-11:51:48.491 7a04 Moved #689 to level-2 2108182 bytes OK: files[ 3 14 63 172 0 0 0 ]
+2021/10/30-11:51:48.536 7a04 Moved #690 to level-2 2122629 bytes OK: files[ 3 13 64 172 0 0 0 ]
+2021/10/30-11:51:48.580 7a04 Moved #691 to level-2 2114766 bytes OK: files[ 3 12 65 172 0 0 0 ]
+2021/10/30-11:51:48.625 7a04 Moved #694 to level-2 2153632 bytes OK: files[ 3 11 66 172 0 0 0 ]
+2021/10/30-11:51:48.669 7a04 Moved #699 to level-2 2134592 bytes OK: files[ 3 10 67 172 0 0 0 ]
+2021/10/30-11:51:48.725 7a04 Moved #700 to level-2 2118509 bytes OK: files[ 3 9 68 172 0 0 0 ]
+2021/10/30-11:51:49.047 7a04 Moved #701 to level-2 2146681 bytes OK: files[ 3 8 69 172 0 0 0 ]
+2021/10/30-11:51:49.293 7a04 Moved #702 to level-2 2114107 bytes OK: files[ 3 7 70 172 0 0 0 ]
+2021/10/30-11:51:49.569 7a04 Moved #515 to level-3 2105845 bytes OK: files[ 3 7 69 173 0 0 0 ]
+2021/10/30-11:51:50.336 7a04 Moved #516 to level-3 2126008 bytes OK: files[ 3 7 68 174 0 0 0 ]
+2021/10/30-11:51:50.558 7a04 Moved #517 to level-3 2112734 bytes OK: files[ 3 7 67 175 0 0 0 ]
+2021/10/30-11:51:50.776 7a04 Moved #518 to level-3 2132354 bytes OK: files[ 3 7 66 176 0 0 0 ]
+2021/10/30-11:51:50.825 7a04 Moved #519 to level-3 2119670 bytes OK: files[ 3 7 65 177 0 0 0 ]
+2021/10/30-11:51:50.880 7a04 Moved #542 to level-3 2142700 bytes OK: files[ 3 7 64 178 0 0 0 ]
+2021/10/30-11:51:50.936 7a04 Moved #543 to level-3 2157733 bytes OK: files[ 3 7 63 179 0 0 0 ]
+2021/10/30-11:51:50.980 7a04 Moved #703 to level-2 2114024 bytes OK: files[ 3 6 64 179 0 0 0 ]
+2021/10/30-11:51:51.025 7a04 Moved #544 to level-3 2113432 bytes OK: files[ 3 6 63 180 0 0 0 ]
+2021/10/30-11:51:51.069 7a04 Moved #545 to level-3 2117742 bytes OK: files[ 3 6 62 181 0 0 0 ]
+2021/10/30-11:51:51.114 7a04 Moved #546 to level-3 2115195 bytes OK: files[ 3 6 61 182 0 0 0 ]
+2021/10/30-11:51:51.169 7a04 Moved #547 to level-3 2125708 bytes OK: files[ 3 6 60 183 0 0 0 ]
+2021/10/30-11:51:51.236 7a04 Moved #548 to level-3 2106892 bytes OK: files[ 3 6 59 184 0 0 0 ]
+2021/10/30-11:51:51.681 7a04 Moved #549 to level-3 2113235 bytes OK: files[ 3 6 58 185 0 0 0 ]
+2021/10/30-11:51:52.156 7a04 Moved #552 to level-3 2107897 bytes OK: files[ 3 6 57 186 0 0 0 ]
+2021/10/30-11:51:53.525 7a04 Moved #555 to level-3 2135620 bytes OK: files[ 3 6 56 187 0 0 0 ]
+2021/10/30-11:51:54.914 7a04 Moved #556 to level-3 2136301 bytes OK: files[ 3 6 55 188 0 0 0 ]
+2021/10/30-11:51:54.959 7a04 Moved #572 to level-3 2118448 bytes OK: files[ 3 6 54 189 0 0 0 ]
+2021/10/30-11:51:55.281 7a04 Moved #576 to level-3 2123160 bytes OK: files[ 3 6 53 190 0 0 0 ]
+2021/10/30-11:51:55.325 7a04 Moved #704 to level-2 2129289 bytes OK: files[ 3 5 54 190 0 0 0 ]
+2021/10/30-11:51:55.370 7a04 Moved #577 to level-3 2126111 bytes OK: files[ 3 5 53 191 0 0 0 ]
+2021/10/30-11:51:55.414 7a04 Moved #578 to level-3 2104742 bytes OK: files[ 3 5 52 192 0 0 0 ]
+2021/10/30-11:51:55.825 7a04 Moved #579 to level-3 2109107 bytes OK: files[ 3 5 51 193 0 0 0 ]
+2021/10/30-11:51:56.265 7a04 Moved #580 to level-3 2144164 bytes OK: files[ 3 5 50 194 0 0 0 ]
+2021/10/30-11:51:56.803 7a04 Moved #581 to level-3 2122532 bytes OK: files[ 3 5 49 195 0 0 0 ]
+2021/10/30-11:52:01.109 79fb Compacting 3@0 + 5@1 files
+2021/10/30-11:52:01.328 79fb Generated table #709@0: 124502 keys, 1071226 bytes
+2021/10/30-11:52:01.426 79fb Generated table #710@0: 121 keys, 2137213 bytes
+2021/10/30-11:52:01.515 79fb Generated table #711@0: 123 keys, 2134408 bytes
+2021/10/30-11:52:01.604 79fb Generated table #712@0: 152 keys, 2104659 bytes
+2021/10/30-11:52:01.704 79fb Generated table #713@0: 147 keys, 2116006 bytes
+2021/10/30-11:52:02.226 79fb Generated table #714@0: 137 keys, 2108885 bytes
+2021/10/30-11:52:02.595 79fb Generated table #715@0: 111 keys, 2117608 bytes
+2021/10/30-11:52:03.004 79fb Generated table #716@0: 134 keys, 2111010 bytes
+2021/10/30-11:52:03.115 79fb Generated table #717@0: 141 keys, 2111273 bytes
+2021/10/30-11:52:03.515 79fb Generated table #718@0: 147 keys, 2141531 bytes
+2021/10/30-11:52:03.626 79fb Generated table #719@0: 35649 keys, 1210371 bytes
+2021/10/30-11:52:03.626 79fb Compacted 3@0 + 5@1 files => 21364190 bytes
+2021/10/30-11:52:03.715 79fb compacted to: files[ 0 11 49 195 0 0 0 ]
+2021/10/30-11:52:03.720 79fb Delete type=2 #687
+2021/10/30-11:52:03.720 79fb Delete type=2 #693
+2021/10/30-11:52:03.720 79fb Delete type=2 #696
+2021/10/30-11:52:03.720 79fb Delete type=2 #698
+2021/10/30-11:52:03.720 79fb Delete type=2 #705
+2021/10/30-11:52:03.720 79fb Delete type=2 #706
+2021/10/30-11:52:03.720 79fb Delete type=2 #707
+2021/10/30-11:52:03.720 79fb Delete type=2 #708
+2021/10/30-11:52:03.804 79fb Moved #710 to level-2 2137213 bytes OK: files[ 0 10 50 195 0 0 0 ]
+2021/10/30-11:52:03.859 79fb Moved #711 to level-2 2134408 bytes OK: files[ 0 9 51 195 0 0 0 ]
+2021/10/30-11:52:04.093 79fb Moved #712 to level-2 2104659 bytes OK: files[ 0 8 52 195 0 0 0 ]
+2021/10/30-11:52:04.215 7a04 Moved #713 to level-2 2116006 bytes OK: files[ 0 7 53 195 0 0 0 ]
+2021/10/30-11:52:04.382 7a04 Moved #714 to level-2 2108885 bytes OK: files[ 0 6 54 195 0 0 0 ]
+2021/10/30-11:52:04.949 7a04 Moved #582 to level-3 2119489 bytes OK: files[ 0 6 53 196 0 0 0 ]
+2021/10/30-11:52:05.037 7a04 Moved #583 to level-3 2152939 bytes OK: files[ 0 6 52 197 0 0 0 ]
+2021/10/30-11:52:05.115 7a04 Moved #584 to level-3 2120166 bytes OK: files[ 0 6 51 198 0 0 0 ]
+2021/10/30-11:52:05.160 7a04 Moved #585 to level-3 2113384 bytes OK: files[ 0 6 50 199 0 0 0 ]
+2021/10/30-11:52:05.204 7a04 Moved #715 to level-2 2117608 bytes OK: files[ 0 5 51 199 0 0 0 ]
+2021/10/30-11:52:05.248 7a04 Moved #604 to level-3 2114613 bytes OK: files[ 0 5 50 200 0 0 0 ]
+2021/10/30-11:52:05.293 7a04 Moved #605 to level-3 2135551 bytes OK: files[ 0 5 49 201 0 0 0 ]

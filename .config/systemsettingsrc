@@ -1,0 +1,29 @@
+[ConfigDialog]
+LVDS1 Height 1600x900=300
+LVDS1 Width 1600x900=420
+
+[KFileDialog Settings]
+Recent Files[$e]=avatar.png,file:$HOME/Pictures/avatar.png
+Recent URLs[$e]=file:$HOME/Pictures/
+detailViewIconSize=16
+
+[KPropertiesDialog]
+LVDS1 Height 1600x900=454
+LVDS1 Width 1600x900=411
+
+[MainWindow]
+LVDS1 Height 1600x900=836
+LVDS1 Width 1600x900=1020
+LVDS1 XPosition 1600x900=576
+LVDS1 YPosition 1600x900=60
+MenuBar=Disabled
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAAAAA/wAAANEAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Open-with settings]
+CompletionMode=1
+History=tor,brave,fire,ter
+
+[systemsettings_sidebar_mode]
+HighlightNonDefaultSettings=true
