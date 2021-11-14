@@ -1,7 +1,0 @@
-2021/10/30-00:05:15.658 25ea Reusing MANIFEST /home/daetalys/.config/Signal/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
-2021/10/30-00:05:15.658 25ea Recovering log #4
-2021/10/30-00:05:15.658 25ea Reusing old log /home/daetalys/.config/Signal/IndexedDB/file__0.indexeddb.leveldb/000004.log 
-2021/10/30-00:05:16.804 2670 Level-0 table #8: started
-2021/10/30-00:05:16.918 2670 Level-0 table #8: 472 bytes OK
-2021/10/30-00:05:17.560 2670 Delete type=0 #4
-2021/10/30-00:05:17.560 2670 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
