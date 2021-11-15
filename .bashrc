@@ -18,7 +18,7 @@ if  [ -x /usr/bin/starship ]; then
 fi
 
 # Advanced command-not-found hook
-source /usr/share/doc/find-the-command/ftc.bash
+source /etc/profile
 
 # Aliases
 alias dir='dir --color=auto'
@@ -54,3 +54,4 @@ alias jctl="journalctl -p 3 -xb"
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 alias config='/usr/bin/git --git-dir=/home/daetalys/.cfg/ --work-tree=/home/daetalys'
 alias dotfiles='/usr/bin/git --git-dir=/home/daetalys/.dotfiles/ --work-tree=/home/daetalys'
+alias sysupdate='sudo pacman -Syu --noconfirm && yay -Syu && sudo snap refresh && sudo pacman -Qqm > packagesQm.txt && sudo pacman -Qqn > packagesQn.txt && sudo pacman -Qqdt > packagesOrphan.txt && sudo snap list > packagesSnap.txt'
