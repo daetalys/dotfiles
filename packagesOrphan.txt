@@ -13,10 +13,12 @@ inetutils
 jq
 kfiredragonhelper
 lld
+llvm
 nasm
 ninja
 nvm
 python-zstandard
+rust
 xorg-server-xvfb
 yarn
 yasm
