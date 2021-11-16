@@ -8,3 +8,5 @@
 	email = f977ddfc-9d0a-4529-88a3-498407b6eb79@8shield.net
 [credential]
 	helper = store
+[color]
+    ui = true
