@@ -5,6 +5,6 @@
 	process = git-lfs filter-process
 [user]
 	name = Dætalys
-	email = 89952063+daetalys@users.noreply.github.com
+	email = f977ddfc-9d0a-4529-88a3-498407b6eb79@8shield.net
 [credential]
 	helper = store
