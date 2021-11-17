@@ -212,6 +212,8 @@ gnome-desktop
 gnome-keyring
 gnupg
 gnutls
+go
+go-tools
 gobject-introspection
 gobject-introspection-runtime
 gpgme
@@ -989,11 +991,13 @@ python-configobj
 python-cryptography
 python-distro
 python-dnspython
+python-docutils
 python-evdev
 python-flask
 python-gobject
 python-gpgme
 python-idna
+python-importlib-metadata
 python-itsdangerous
 python-jinja
 python-ldap3
@@ -1025,6 +1029,7 @@ python-soupsieve
 python-urllib3
 python-werkzeug
 python-yaml
+python-zipp
 python-zstandard
 python2
 python2-appdirs
@@ -1123,6 +1128,7 @@ sqlite
 squashfs-tools
 srt
 sshfs
+starship
 steam
 stella
 sudo
@@ -1162,6 +1168,7 @@ ttf-bitstream-vera
 ttf-carlito
 ttf-dejavu
 ttf-hack
+ttf-iosevka-nerd
 ttf-liberation
 twolame
 tzdata
