@@ -6,6 +6,8 @@ dump_syms
 extra-cmake-modules
 git-lfs
 gnome-common
+go
+go-tools
 gobject-introspection
 gulp
 imake
