@@ -56,4 +56,8 @@ alias config='/usr/bin/git --git-dir=/home/daetalys/.cfg/ --work-tree=/home/daet
 alias dotfiles='/usr/bin/git --git-dir=/home/daetalys/.dotfiles/ --work-tree=/home/daetalys'
 alias sysupdate='sudo pacman -Syu --noconfirm && yay -Syu && sudo snap refresh && sudo pacman -Qqm > packagesQm.txt && sudo pacman -Qqn > packagesQn.txt && sudo pacman -Qqdt > packagesOrphan.txt && sudo snap list > packagesSnap.txt'
 alias packupdate='dotfiles commit -am "update packages and run commands" && dotfiles push && config commit -am "updated configurations" && config push'
+<<<<<<< HEAD
 alias dotsync='config fetch --all && config reset --hard origin/master && dotfiles fetch --all && dotfiles reset --hard origin/master'
+=======
+alias dotsync='config fetch --all && config reset --hard origin/master && dotfiles fetch --all && dotfiles reset --hard origin/master'
+>>>>>>> 6a158d7 (update package list)
