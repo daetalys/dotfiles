@@ -9,4 +9,4 @@
 [credential]
 	helper = store
 [color]
-    ui = true
+    ui = always
