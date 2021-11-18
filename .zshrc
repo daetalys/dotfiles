@@ -11,4 +11,7 @@ zstyle :compinstall filename '/home/daetalys/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+
+source /usr/share/doc/find-the-command/ftc.zsh
+
 alias dotfiles='/usr/bin/git --git-dir=/home/daetalys/.dotfiles/ --work-tree=/home/daetalys'

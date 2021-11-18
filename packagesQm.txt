@@ -6,6 +6,7 @@ cryptpad
 enum4linux
 exodus
 ffuf
+find-the-command
 github-desktop-bin
 gopherus
 havoc
@@ -26,6 +27,7 @@ protonmail-bridge
 pwncat
 python-pywerview
 snapd
+sublime-text-3
 taglib-extras
 teams
 ttf-ms-fonts
