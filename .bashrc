@@ -18,7 +18,7 @@ if  [ -x /usr/bin/starship ]; then
 fi
 
 # Advanced command-not-found hook
-source /etc/profile
+source /usr/share/doc/find-the-command/ftc.bash
 
 # Aliases
 alias dir='dir --color=auto'
