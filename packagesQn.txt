@@ -21,6 +21,7 @@ appstream-qt
 archlinux-appstream-data
 archlinux-keyring
 argon2
+asar
 at-spi2-atk
 at-spi2-core
 atk
