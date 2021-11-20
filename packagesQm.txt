@@ -7,6 +7,7 @@ enum4linux
 exodus
 ffuf
 find-the-command
+gconf
 github-desktop-bin
 gopherus
 havoc
