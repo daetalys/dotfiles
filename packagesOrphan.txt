@@ -16,7 +16,6 @@ inetutils
 jq
 kfiredragonhelper
 lld
-llvm
 nasm
 ninja
 nvm

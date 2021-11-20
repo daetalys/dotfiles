@@ -1,7 +1,7 @@
 Name               Version             Rev    Tracking       Publisher        Notes
 bare               1.0                 5      latest/stable  canonical*       base
 brave              1.32.106            137    latest/stable  brave            -
-core18             20211015            2246   latest/stable  canonical*       base
+core18             20211028            2253   latest/stable  canonical*       base
 core20             20211115            1242   latest/stable  canonical*       base
 gnome-3-34-1804    0+git.3556cb3       72     latest/stable  canonical*       -
 gtk-common-themes  0.1-59-g7bca6ae     1519   latest/stable  canonical*       -

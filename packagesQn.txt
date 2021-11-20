@@ -83,11 +83,13 @@ cdparanoia
 celt
 cfitsio
 cifs-utils
+clang
 clucene
 cmake
 cmatrix
 colord
 colord-gtk
+compiler-rt
 confuse
 convertlit
 coreutils
