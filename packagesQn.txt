@@ -223,6 +223,7 @@ go
 go-tools
 gobject-introspection
 gobject-introspection-runtime
+gperftools
 gpgme
 gpm
 gptfdisk

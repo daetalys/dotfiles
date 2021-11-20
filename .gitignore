@@ -1,4 +1,6 @@
-.cfg
-.dotfiles
+~/.cfg
+~/.dotfiles
+~/.gnupg
+~/.ssh
 LICENSE
 README.md
