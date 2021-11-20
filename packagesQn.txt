@@ -385,6 +385,7 @@ kunitconversion
 kuserfeedback
 kwallet
 kwallet-pam
+kwalletmanager
 kwayland
 kwayland-integration
 kwayland-server
