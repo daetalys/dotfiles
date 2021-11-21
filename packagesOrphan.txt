@@ -6,7 +6,6 @@ ccache
 dump_syms
 extra-cmake-modules
 gconf
-git-lfs
 gnome-common
 go
 go-tools

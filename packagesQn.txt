@@ -409,6 +409,7 @@ lame
 lapack
 latte-dock
 layer-shell-qt
+lazygit
 lcms2
 ldb
 ldns
@@ -1010,6 +1011,7 @@ pulseaudio-alsa
 pulseaudio-bluetooth
 pulseaudio-equalizer
 purpose
+putty
 python
 python-anytree
 python-appdirs
@@ -1227,6 +1229,7 @@ vbam-wx
 veracrypt
 vid.stab
 vim
+vim-fugitive
 vim-runtime
 virtualbox
 virtualbox-host-dkms

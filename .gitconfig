@@ -5,6 +5,8 @@
 	process = git-lfs filter-process
 [color]
 	ui = auto
+[core]
+	editor = codium
 [credential]
 	helper = store
 [init]
