@@ -5,6 +5,7 @@ accountsservice
 acl
 adobe-source-code-pro-fonts
 adwaita-icon-theme
+akonadi-contacts
 alacritty
 alsa-card-profiles
 alsa-lib
@@ -227,6 +228,8 @@ gperftools
 gpgme
 gpm
 gptfdisk
+grantlee
+grantleetheme
 graphene
 graphicsmagick
 graphite
@@ -321,6 +324,7 @@ kcodecs
 kcompletion
 kconfig
 kconfigwidgets
+kcontacts
 kcoreaddons
 kcrash
 kdbusaddons
@@ -344,6 +348,7 @@ keyutils
 kfilemetadata
 kgamma5
 kglobalaccel
+kgpg
 kguiaddons
 kholidays
 khotkeys
@@ -361,6 +366,7 @@ kitty
 kitty-terminfo
 kjobwidgets
 kmenuedit
+kmime
 kmod
 knewstuff
 knotifications
@@ -369,6 +375,7 @@ konsole
 kpackage
 kparts
 kpeople
+kpimtextedit
 kpmcore
 kpty
 kquickcharts
@@ -524,6 +531,7 @@ libabw
 libaccounts-glib
 libaccounts-qt
 libaio
+libakonadi
 libappindicator-gtk3
 libarchive
 libass
@@ -612,6 +620,7 @@ libixion
 libjcat
 libjpeg-turbo
 libkeybinder3
+libkleo
 libksba
 libkscreen
 libksysguard
@@ -1062,6 +1071,7 @@ python2-pyparsing
 python2-setuptools
 python2-six
 qca-qt5
+qgpgme
 qpdf
 qqc2-desktop-style
 qrencode
