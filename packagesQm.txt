@@ -1,3 +1,4 @@
+aic94xx-firmware
 alpm_octopi_utils
 amarok
 blackarch-keyring
@@ -33,6 +34,8 @@ sublime-text-3
 taglib-extras
 teams
 ttf-ms-fonts
+upd72020x-fw
 vscodium
+wd719x-firmware
 webull-desktop
 yay
