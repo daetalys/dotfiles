@@ -415,6 +415,7 @@ ldb
 ldns
 lensfun
 less
+lhasa
 lib2geom
 lib32-acl
 lib32-alsa-lib
