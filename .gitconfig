@@ -3,7 +3,7 @@
 [commit]
         gpgsign = true
 [core]
-	editor = codium
+	editor = atom --wait
 [credential]
 	helper = store
 [filter "lfs"]
