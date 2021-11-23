@@ -842,6 +842,7 @@ mdadm
 media-player-info
 mesa
 mesa-demos
+metasploit
 metis
 milou
 minizip
@@ -998,6 +999,7 @@ poppler-glib
 poppler-qt5
 popt
 portaudio
+postgresql-libs
 potrace
 powerdevil
 ppp
