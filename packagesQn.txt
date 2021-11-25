@@ -66,7 +66,6 @@ breeze-icons
 brotli
 btrfs-progs
 bubblewrap
-bullet
 bzip2
 c-ares
 ca-certificates
@@ -126,6 +125,7 @@ docbook-xsl
 dolphin
 dosfstools
 double-conversion
+doublecmd-gtk2
 drkonqi
 dsniff
 dump_syms
@@ -133,7 +133,6 @@ e2fsprogs
 ebook-tools
 editorconfig-core-c
 efivar
-efl
 electron
 electron13
 electron14
@@ -145,6 +144,7 @@ emacs
 enchant
 exfat-utils
 exiv2
+expac
 expat
 extra-cmake-modules
 f2fs-tools
@@ -198,11 +198,6 @@ giflib
 gimp
 git
 git-lfs
-github-cli
-gitlab
-gitlab-gitaly
-gitlab-shell
-gitlab-workhorse
 glew
 glib-networking
 glib-perl
@@ -362,8 +357,6 @@ kio-fuse
 kirigami2
 kitemmodels
 kitemviews
-kitty
-kitty-terminfo
 kjobwidgets
 kmenuedit
 kmime
@@ -383,7 +376,6 @@ krb5
 kross
 kross-interpreters
 krunner
-krusader
 kscreen
 kscreenlocker
 kservice
@@ -632,7 +624,6 @@ libldac
 libldap
 liblouis
 liblqr
-libluv
 libmad
 libmanette
 libmatroska
@@ -713,7 +704,6 @@ libsodium
 libsoup
 libsoup3
 libsoxr
-libspectre
 libspiro
 libssh
 libssh2
@@ -723,7 +713,6 @@ libsynctex
 libtar
 libtasn1
 libteam
-libtermkey
 libthai
 libtheora
 libtiff
@@ -749,7 +738,6 @@ libvisio
 libvisual
 libvorbis
 libvpx
-libvterm
 libwacom
 libwebp
 libwmf
@@ -779,7 +767,6 @@ libxkbfile
 libxml2
 libxmlb
 libxmu
-libxp
 libxpm
 libxrandr
 libxrender
@@ -818,7 +805,6 @@ lsof
 lua52
 lua53
 luajit
-luit
 lutris
 lvm2
 lxappearance
@@ -855,7 +841,6 @@ modemmanager-qt
 mono
 mpfr
 mpg123
-msgpack-c
 mtdev
 mtpfs
 mypaint-brushes1
@@ -865,7 +850,6 @@ ncurses
 ndctl
 neofetch
 neon
-neovim
 net-snmp
 netpbm
 nettle
@@ -912,6 +896,7 @@ osm-gps-map
 oxygen
 p11-kit
 p7zip
+pacgraph
 pacman
 pacman-contrib
 pacman-mirrorlist
@@ -949,7 +934,6 @@ perl-http-daemon
 perl-http-date
 perl-http-message
 perl-http-negotiate
-perl-image-exiftool
 perl-io-html
 perl-libwww
 perl-lwp-mediatypes
@@ -1107,7 +1091,6 @@ rasqal
 rav1e
 re2
 readline
-redis
 redland
 reiserfsprogs
 rest
@@ -1124,9 +1107,7 @@ rubygems
 run-parts
 rust
 s3fs-fuse
-sakura
 sbc
-scim
 sddm
 sddm-kcm
 sdl
@@ -1188,7 +1169,6 @@ tar
 tbb
 tdb
 terminator
-terminology
 tevent
 texinfo
 texlive-bin
@@ -1204,7 +1184,6 @@ torsocks
 tpm2-tss
 traceroute
 tracker3
-tree-sitter
 tslib
 ttf-bitstream-vera
 ttf-carlito
@@ -1216,7 +1195,6 @@ twolame
 tzdata
 udisks2
 uglify-js
-unibilium
 unionfs-fuse
 unixodbc
 unrar
@@ -1263,7 +1241,6 @@ wxgtk-common
 wxgtk3
 x264
 x265
-xbitmaps
 xcb-proto
 xcb-util
 xcb-util-cursor
@@ -1315,11 +1292,9 @@ xorg-xset
 xorg-xsetroot
 xorgproto
 xsettingsd
-xterm
 xvidcore
 xxhash
 xz
-yakuake
 yarn
 yasm
 yelp-tools

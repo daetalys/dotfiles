@@ -10,8 +10,6 @@ ffuf
 find-the-command
 gconf
 github-desktop-bin
-gitkraken
-gopherus
 havoc
 hfsprogs
 jdk16-adoptopenjdk

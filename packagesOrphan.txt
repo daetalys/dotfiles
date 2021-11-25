@@ -3,9 +3,11 @@ autoconf2.13
 bower
 cbindgen
 ccache
+cpio
 dump_syms
 extra-cmake-modules
 gconf
+git-lfs
 gnome-common
 go
 go-tools
@@ -14,10 +16,12 @@ gulp
 imake
 jq
 kfiredragonhelper
+lhasa
 lld
 nasm
 ninja
 nvm
+python-docutils
 python-zstandard
 rust
 xorg-server-xvfb
