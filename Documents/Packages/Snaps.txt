@@ -1,0 +1,7 @@
+Name               Version             Rev    Tracking       Publisher   Notes
+bare               1.0                 5      latest/stable  canonical*  base
+core20             20211115            1242   latest/stable  canonical*  base
+gnome-3-38-2004    0+git.cd626d1       87     latest/stable  canonical*  -
+gtk-common-themes  0.1-59-g7bca6ae     1519   latest/stable  canonical*  -
+snap-store         3.38.0-66-gbd5b8f7  558    latest/stable  canonical*  -
+snapd              2.53.2              14066  latest/stable  canonical*  snapd
