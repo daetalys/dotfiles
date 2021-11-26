@@ -16,7 +16,7 @@ source /usr/share/doc/find-the-command/ftc.zsh
 
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 alias dotfiles='/usr/bin/git --git-dir=/home/daetalys/.dotfiles/ --work-tree=/home/daetalys'
-alias sysupdate='sudo pacman -Syu --noconfirm && yay -Syu && sudo snap refresh && sudo pacman -Qqm > packagesQm.txt && sudo pacman -Qqn > packagesQn.txt && sudo pacman -Qqdt > packagesOrphan.txt && sudo snap list > packagesSnap.txt'
+alias sysupdate='sudo pacman -Syu --noconfirm && yay -Syu --noconfirm && sudo snap refresh && sudo pacman -Qqm > ~/Documents/Packages/Foreign.txt && sudo pacman -Qqn > ~/Documents/Packages/Native.txt && sudo pacman -Qqdt > ~/Documents/Packages.Orphans.txt && sudo snap list > ~/Documents/Packages/Snaps.txt'
 alias packupdate='dotfiles add -u && dotfiles commit -S -am "Updated package lists, run commands, and other configuration files." && dotfiles push'
 alias dotsync='dotfiles fetch --all && dotfiles reset --hard origin/master'
 
@@ -506,17 +506,3 @@ fi
 
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"
-
-# XDG - set defaults as they may not be set
-# See https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html
-# and https://wiki.archlinux.org/index.php/XDG_Base_Directory_support
-export XDG_CONFIG_HOME="$HOME/.config"
-export XDG_DATA_HOME="$HOME/.local/share"
-export XDG_CACHE_HOME="$HOME/.cache"
-
-if [ ! -w ${XDG_RUNTIME_DIR:="/run/user/$UID"} ]; then
-    echo "\$XDG_RUNTIME_DIR ($XDG_RUNTIME_DIR) not writable. Unsetting." >&2
-    unset XDG_RUNTIME_DIR
-else
-    export XDG_RUNTIME_DIR
-fi
