@@ -19,6 +19,7 @@ gohufont
 gohufont-otb
 havoc
 hfsprogs
+i3lock-fancy-git
 jdk16-adoptopenjdk
 joplin
 joplin-desktop
@@ -32,11 +33,13 @@ octopi
 onlyoffice-bin
 pamac-aur
 pcf-spectrum-berry
+pnmixer
 polenum
 profont-otb
 protonmail-bridge
 pwncat
 python-pywerview
+qt5-styleplugins
 session-desktop-bin
 snapd
 sublime-text-3
