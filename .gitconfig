@@ -6,6 +6,8 @@
 	editor = atom --wait
 [credential]
 	helper = store
+[diff]
+	colorMoved = zebra
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
