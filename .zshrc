@@ -506,3 +506,17 @@ fi
 
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"
+
+# XDG - set defaults as they may not be set
+# See https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html
+# and https://wiki.archlinux.org/index.php/XDG_Base_Directory_support
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CACHE_HOME="$HOME/.cache"
+
+if [ ! -w ${XDG_RUNTIME_DIR:="/run/user/$UID"} ]; then
+    echo "\$XDG_RUNTIME_DIR ($XDG_RUNTIME_DIR) not writable. Unsetting." >&2
+    unset XDG_RUNTIME_DIR
+else
+    export XDG_RUNTIME_DIR
+fi
