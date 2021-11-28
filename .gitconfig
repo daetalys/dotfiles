@@ -15,6 +15,16 @@
 	process = git-lfs filter-process
 [init]
 	defaultBranch = master
+[pull]
+	rebase = true
+[push]
+	gpgSign = true
+[status]
+	displayCommentPrefix = true
+	showStash = true
+	showUntrackedFiles = no
+[tag]
+	gpgSign = true
 [user]
 	name = Dætalys
 	email = f977ddfc-9d0a-4529-88a3-498407b6eb79@8shield.net
