@@ -4,6 +4,7 @@
         gpgsign = true
 [core]
 	editor = atom --wait
+#	worktree = /
 [credential]
 	helper = store
 [diff]
@@ -17,8 +18,8 @@
 	defaultBranch = master
 [pull]
 	rebase = true
-[push]
-	gpgSign = true
+#[push]
+#	gpgSign = true
 [status]
 	displayCommentPrefix = true
 	showStash = true
