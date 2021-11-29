@@ -2112,6 +2112,7 @@ libgtop
 libgudev
 libguess
 libgusb
+libhandy
 libheif
 libibus
 libical
@@ -5427,6 +5428,7 @@ sdl_ttf
 sdn-toolkit
 sdnpwn
 sea
+seahorse
 search1337
 seat
 secretfinder
