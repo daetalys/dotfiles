@@ -1,0 +1,10 @@
+asar
+extra-cmake-modules
+git-lfs
+go-tools
+gulp
+maven
+mesa-demos
+nvm
+xorg-util-macros
+yarn
