@@ -1,5 +1,3 @@
-aic94xx-firmware
-alpm_octopi_utils
 amarok
 artwiz-fonts
 brave-bin
@@ -9,14 +7,10 @@ efont-unicode-bdf
 exodus
 find-the-command
 fonttosfnt
-github-desktop-bin
 gohufont
 gohufont-otb
-hfsprogs
-libjffi
 librewolf-bin
 mkinitcpio-firmware
-nvm
 obsidian
 octopi
 pcf-spectrum-berry
@@ -24,11 +18,8 @@ profont-otb
 sddm-config-editor-git
 session-desktop-bin
 snapd
-taglib-extras
 ttf-ms-fonts
-upd72020x-fw
 vscodium
-wd719x-firmware
 webull-desktop
 xorg-font-utils
 xorg-fonts-misc-otb
