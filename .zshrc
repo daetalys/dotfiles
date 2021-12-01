@@ -20,7 +20,7 @@ compinit
 # End of lines added by compinstall
 
 source /usr/share/doc/find-the-command/ftc.zsh
-source ~/.config/.aliases
+source ~/.config/aliases
 
 ## Path section
 # Set $PATH if ~/.local/bin exist
