@@ -1,3 +1,10 @@
+# ~/.zshrc
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR=vim
+else
+  export EDITOR=codium
+fi
+
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
