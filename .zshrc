@@ -1,4 +1,4 @@
-# ~/.zshrc
+#!/bin/zsh
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR=vim
 else
