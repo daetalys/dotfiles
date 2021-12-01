@@ -1,4 +1,4 @@
-#!/bin/fish
+#!/usr/local/bin/fish
 
 ### EXPORT
 export TERM="terminator"
