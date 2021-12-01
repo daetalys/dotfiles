@@ -1,3 +1,11 @@
+#!/bin/fish
+
+### EXPORT
+export TERM="terminator"
+export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
+export EDITOR="vim"              # $EDITOR use in terminal
+export VISUAL="codium"           # $VISUAL use in GUI mode
+
 ## Set values
 # Hide welcome message
 set fish_greeting
@@ -32,12 +40,6 @@ if test -d ~/Applications/depot_tools
     if not contains -- ~/Applications/depot_tools $PATH
         set -p PATH ~/Applications/depot_tools
     end
-end
-
-
-## Starship prompt
-if status --is-interactive
-   source ("/usr/bin/starship" init fish --print-full-init | psub)
 end
 
 ## Advanced command-not-found hook
@@ -158,4 +160,9 @@ alias dotsync='dotfiles fetch --all && dotfiles reset --hard origin/master'
 ## Run neofetch if session is interactive
 if status --is-interactive && type -q neofetch
    neofetch
+end
+
+## Starship prompt
+if status --is-interactive
+   source ("/usr/bin/starship" init fish --print-full-init | psub)
 end
