@@ -228,16 +228,16 @@ neofetch
 # My zsh config. Not much to see here; just some pretty standard stuff.
 
 ### EXPORT
-export TERM="xterm-256color"                      # getting proper colors
-export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
-export EDITOR="emacsclient -t -a ''"              # $EDITOR use Emacs in terminal
-export VISUAL="emacsclient -c -a emacs"           # $VISUAL use Emacs in GUI mode
+export TERM="alacritty"                      # getting proper colors
+# export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
+export EDITOR="vim"              # $EDITOR use Emacs in terminal
+export VISUAL="emacs"           # $VISUAL use Emacs in GUI mode
 
 ### SET MANPAGER
 ### Uncomment only one of these!
 
 ### "bat" as manpager
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+# export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 ### "vim" as manpager
 # export MANPAGER='/bin/bash -c "vim -MRn -c \"set buftype=nofile showtabline=0 ft=man ts=8 nomod nolist norelativenumber nonu noma\" -c \"normal L\" -c \"nmap q :qa<CR>\"</dev/tty <(col -b)"'
@@ -315,19 +315,6 @@ function extract {
     done
 fi
 }
-
-IFS=$SAVEIFS
-
-### DTOS ###
-# Copy/paste all content of /etc/dtos over to home folder. A backup of config is created. (Be careful running this!)
-alias dtoscopy='[ -d ~/.config ] || mkdir ~/.config && cp -Rf ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S) && cp -rf /etc/dtos/* ~'
-# Backup contents of /etc/dtos to a backup folder in $HOME.
-alias dtosbackup='cp -Rf /etc/dtos ~/dtos-backup-$(date +%Y.%m.%d-%H.%M.%S)'
-
-### RANDOM COLOR SCRIPT ###
-# Get this script from my GitLab: gitlab.com/dwt1/shell-color-scripts
-# Or install it from the Arch User Repository: shell-color-scripts
-colorscript random
 
 ### BASH INSULTER (works in zsh though) ###
 if [ -f /etc/bash.command-not-found ]; then
