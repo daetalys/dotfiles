@@ -1,6 +1,4 @@
-amarok
 artwiz-fonts
-brave-bin
 cozette-otb
 cryptomator
 efont-unicode-bdf
@@ -19,7 +17,6 @@ sddm-config-editor-git
 session-desktop-bin
 snapd
 ttf-ms-fonts
-vscodium
 webull-desktop
 xorg-font-utils
 xorg-fonts-misc-otb

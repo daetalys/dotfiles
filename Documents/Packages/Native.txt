@@ -6,9 +6,6 @@ audacious
 audacious-plugins
 awesome-terminal-fonts
 bitwarden
-blackarch-keyring
-blackarch-menus
-blackarch-mirrorlist
 bleachbit
 cantarell-fonts
 cmatrix
@@ -67,14 +64,7 @@ stella
 terminator
 terminus-font
 tor
-tor-autocircuit
-tor-browser-en
-tor-router
 torbrowser-launcher
-torcrawl
-torctl
-torpy
-torshammer
 torsocks
 ttf-bitstream-vera
 ttf-dejavu
