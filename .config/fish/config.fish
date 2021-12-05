@@ -1,10 +1,14 @@
+# ~/.config/fish/config.fish
 #!/usr/local/bin/fish
 
+# Aliases
+#source ~/.config/aliases
+
 ### EXPORT
-export TERM="terminator"
+# export TERM="terminator"
 # export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
-export EDITOR="vim"              # $EDITOR use in terminal
-export VISUAL="codium"           # $VISUAL use in GUI mode
+# export EDITOR="vim"              # $EDITOR use in terminal
+# export VISUAL="codium"           # $VISUAL use in GUI mode
 
 ## Set values
 # Hide welcome message
@@ -43,7 +47,7 @@ if test -d ~/Applications/depot_tools
 end
 
 ## Advanced command-not-found hook
-source /usr/share/doc/find-the-command/ftc.fish
+# source /usr/share/doc/find-the-command/ftc.fish
 
 ## Functions
 # Functions needed for !! and !$ https://github.com/oh-my-fish/plugin-bang-bang
@@ -96,9 +100,9 @@ function copy
 end
 
 ## Run neofetch if session is interactive
-if status --is-interactive && type -q neofetch
-   neofetch
-end
+#if status --is-interactive && type -q neofetch
+#   neofetch
+#end
 
 ## Starship prompt
 if status --is-interactive
