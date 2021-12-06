@@ -19,7 +19,6 @@ expiration_symbol = "X"
 disabled = false
 
 [battery]
-
 full_symbol = " "
 charging_symbol = " "
 discharging_symbol = " "
@@ -35,6 +34,35 @@ success_symbol = "[➜](bold green)"
 error_symbol = "[✗](bold red)"
 vicmd_symbol = "[❮](bold green)"
 disabled = false
+
+[cmake]
+format = "via [$symbol($version )]($style)"
+version_format = "v${raw}"
+symbol = "△ "
+detect_extensions = []
+detect_files = ["CMakeLists.txt", "CMakeCache.txt"]
+detect_folders = []
+style = "bold blue"
+disabled = false
+
+[cobol]
+symbol = "⚙️ "
+format = "via [$symbol($version )]($style)"
+version_format = "v${raw}"
+style = "bold blue"
+detect_extensions = ["cbl", "cob", "CBL", "COB"]
+detect_files = []
+detect_folders = []
+disabled = false
+
+[cmd_duration]
+min_time = 2_000
+show_milliseconds = true
+format = "took [$duration]($style) "
+style = "bold yellow"
+disabled = false
+show_notificatons = true
+min_time_to_notify = 45_000
 
 # Disable the package module, hiding it from the prompt completely
 [package]
