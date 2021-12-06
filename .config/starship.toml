@@ -1,9 +1,9 @@
 # ~/.config/starship.toml
 
-export STARSHIP_CONFIG="$HOME/.config/starship/config.toml"
-export STARSHIP_CACHE="$HOME/.config/starship/cache"
+# export = "STARSHIP_CONFIG='$HOME/.config/starship/config.toml'"
+# export = "STARSHIP_CACHE='$HOME/.config/starship/cache'"
 
-[prompt]
+# [prompt]
 # format = "$all"
 # right_format = ""
 scan_timeout = 30
@@ -15,7 +15,7 @@ format = 'on [$symbol($profile )(\($region\) )(\[$duration\])]($style)'
 symbol = "☁️ "
 # region_aliases
 style = "bold yellow"
-expiration_symbol = X
+expiration_symbol = "X"
 disabled = false
 
 [battery]
