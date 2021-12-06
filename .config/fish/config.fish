@@ -1,14 +1,14 @@
 # ~/.config/fish/config.fish
-#!/usr/local/bin/fish
+##!/usr/local/bin/fish
 
 # Aliases
 #source ~/.config/aliases
 
 ### EXPORT
-# export TERM="terminator"
+# export TERM="alacritty"
 # export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
 # export EDITOR="vim"              # $EDITOR use in terminal
-# export VISUAL="codium"           # $VISUAL use in GUI mode
+# export VISUAL="emacs"           # $VISUAL use in GUI mode
 
 ## Set values
 # Hide welcome message

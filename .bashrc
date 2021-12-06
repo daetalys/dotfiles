@@ -1,6 +1,14 @@
-#!/bin/bash
+# ~/.bashrc
+##!/bin/bash
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
+
+# Advanced command-not-found hook
+source /usr/share/doc/find-the-command/ftc.bash
+
+# Aliases
+source ~/.config/aliases
 
 # Load starship prompt if starship is installed
 if  [ -x /usr/bin/starship ]; then
@@ -17,7 +25,3 @@ if  [ -x /usr/bin/starship ]; then
     __main
     unset -f __main
 fi
-
-# Advanced command-not-found hook
-source /usr/share/doc/find-the-command/ftc.bash
-

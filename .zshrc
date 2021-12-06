@@ -1,8 +1,10 @@
-#!/bin/zsh
+# ~/.zshrc
+##!/bin/zsh
+
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR=vim
 else
-  export EDITOR=codium
+  export EDITOR=emacs
 fi
 
 # Lines configured by zsh-newuser-install
@@ -228,7 +230,7 @@ neofetch
 # My zsh config. Not much to see here; just some pretty standard stuff.
 
 ### EXPORT
-export TERM="alacritty"                      # getting proper colors
+export TERM=""                      # getting proper colors
 # export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
 export EDITOR="vim"              # $EDITOR use Emacs in terminal
 export VISUAL="emacs"           # $VISUAL use Emacs in GUI mode
@@ -322,4 +324,4 @@ if [ -f /etc/bash.command-not-found ]; then
 fi
 
 ### SETTING THE STARSHIP PROMPT ###
-eval "$(starship init zsh)"
+#eval "$(starship init zsh)"
