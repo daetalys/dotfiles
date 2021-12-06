@@ -81,6 +81,7 @@ baobab
 base
 bash
 bash-completion
+bat
 bc
 bind
 binutils
@@ -328,6 +329,7 @@ evolution-bogofilter
 evolution-data-server
 evolution-ews
 evolution-spamassassin
+exa
 exempi
 exfat-utils
 exiv2
