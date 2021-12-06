@@ -53,6 +53,7 @@ at-spi2-core
 atk
 atkmm
 atom
+atop
 atril
 attica
 attr
@@ -81,6 +82,7 @@ baobab
 base
 bash
 bash-completion
+bashtop
 bat
 bc
 bind
@@ -406,6 +408,7 @@ git
 git-lfs
 gjs
 glade
+glances
 glew
 glib-networking
 glib-perl
@@ -735,6 +738,7 @@ json-c
 json-glib
 jsoncpp
 jsonrpc-glib
+judy
 juk
 jxrlib
 k3b
@@ -991,6 +995,7 @@ less
 lhasa
 lib2geom
 lib32-acl
+lib32-alsa-lib
 lib32-attr
 lib32-brotli
 lib32-bzip2
@@ -999,6 +1004,7 @@ lib32-dbus
 lib32-e2fsprogs
 lib32-expat
 lib32-faudio
+lib32-flac
 lib32-fontconfig
 lib32-freetype2
 lib32-gcc-libs
@@ -1011,6 +1017,7 @@ lib32-icu
 lib32-keyutils
 lib32-krb5
 lib32-lcms2
+lib32-libasyncns
 lib32-libcap
 lib32-libdrm
 lib32-libelf
@@ -1023,16 +1030,20 @@ lib32-libidn2
 lib32-libjpeg-turbo
 lib32-libldap
 lib32-libnl
+lib32-libogg
 lib32-libpcap
 lib32-libpciaccess
 lib32-libpng
 lib32-libpsl
+lib32-libpulse
 lib32-libsm
+lib32-libsndfile
 lib32-libssh2
 lib32-libtiff
 lib32-libtirpc
 lib32-libunistring
 lib32-libunwind
+lib32-libvorbis
 lib32-libx11
 lib32-libxau
 lib32-libxcb
@@ -1047,15 +1058,18 @@ lib32-libxml2
 lib32-libxrandr
 lib32-libxrender
 lib32-libxshmfence
+lib32-libxtst
 lib32-libxxf86vm
 lib32-llvm-libs
 lib32-lm_sensors
 lib32-mesa
 lib32-ncurses
 lib32-openssl
+lib32-opus
 lib32-pam
 lib32-pcre
 lib32-readline
+lib32-sdl
 lib32-sdl2
 lib32-systemd
 lib32-util-linux
@@ -1131,6 +1145,7 @@ libelf
 libepoxy
 libepubgen
 libetonyek
+libev
 libevdev
 libevent
 libexif
@@ -1260,6 +1275,7 @@ libmypaint
 libnautilus-extension
 libndp
 libnet
+libnetfilter_acct
 libnetfilter_conntrack
 libnewt
 libnfnetlink
@@ -1375,6 +1391,7 @@ libvorbis
 libvpx
 libwacom
 libwebp
+libwebsockets
 libwmf
 libwnck3
 libwpd
@@ -1577,6 +1594,7 @@ mod_dnssd
 modemmanager
 modemmanager-qt
 molequeue
+mongo-c-driver
 mono
 mousepad
 mozo
@@ -1600,6 +1618,7 @@ nemo
 neofetch
 neon
 net-snmp
+netdata
 netdiscover
 netpbm
 nettle
@@ -1846,12 +1865,14 @@ python-configobj
 python-constantly
 python-cryptography
 python-decorator
+python-defusedxml
 python-distro
 python-dnspython
 python-docutils
 python-evdev
 python-feedparser
 python-flask
+python-future
 python-geoip
 python-gobject
 python-gpgme
@@ -2448,6 +2469,7 @@ zita-alsa-pcmi
 zita-resampler
 zlib
 zsh
+zsnes
 zstd
 zvbi
 zxing-cpp
