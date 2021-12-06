@@ -61,7 +61,7 @@ show_milliseconds = true
 format = "took [$duration]($style) "
 style = "bold yellow"
 disabled = false
-show_notificatons = true
+show_notifications = true
 min_time_to_notify = 45_000
 
 # Disable the package module, hiding it from the prompt completely
