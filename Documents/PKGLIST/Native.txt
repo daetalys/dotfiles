@@ -1624,6 +1624,7 @@ netpbm
 nettle
 network-manager-applet
 networkmanager
+networkmanager-openvpn
 networkmanager-qt
 nextcloud
 nfs-utils

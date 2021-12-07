@@ -33,6 +33,8 @@ libpamac-aur
 librewolf-bin
 liveroot
 mkinitcpio-firmware
+nordvpn-bin
+nordvpn-configs
 nvm
 obsidian
 octopi
