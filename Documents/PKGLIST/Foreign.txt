@@ -48,6 +48,7 @@ sddm-config-editor-git
 session-desktop-bin
 shell-color-scripts
 snapd
+spacefm
 taglib-extras
 timeshift
 tixati

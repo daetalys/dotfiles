@@ -223,6 +223,7 @@ dolphin-plugins
 dosfstools
 dotconf
 double-conversion
+doublecmd-qt5
 dragon
 drkonqi
 dsniff
@@ -1941,6 +1942,7 @@ qt5-webengine
 qt5-webkit
 qt5-x11extras
 qt5-xmlpatterns
+qt5pas
 qtdbusextended
 qterminal
 qtermwidget
