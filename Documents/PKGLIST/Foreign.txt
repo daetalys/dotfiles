@@ -3,6 +3,7 @@ alpm_octopi_utils
 amarok
 artwiz-fonts
 brave-bin
+coolkey
 cozette-otb
 cryptomator
 efont-unicode-bdf
@@ -48,11 +49,13 @@ session-desktop-bin
 shell-color-scripts
 snapd
 taglib-extras
+timeshift
 tixati
 ttf-ms-fonts
 upd72020x-fw
 virtualbox-ext-oracle
 vscodium
+vtop
 wd719x-firmware
 webull-desktop
 xorg-font-utils

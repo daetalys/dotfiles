@@ -43,6 +43,7 @@ archlinux-appstream-data
 archlinux-keyring
 argon2
 aria2
+arj
 ark
 arp-scan
 artikulate
@@ -98,6 +99,7 @@ blackarch-config-lxdm
 blackarch-config-openbox
 blackarch-config-vim
 blackarch-config-xfce
+blackarch-config-zsh
 blackarch-keyring
 blackarch-menus
 blackarch-wallpaper
@@ -147,6 +149,7 @@ calendarsupport
 cantarell-fonts
 cantor
 caribou
+ccid
 cdparanoia
 cdrdao
 cdrtools
@@ -186,6 +189,7 @@ connman
 convertlit
 coordgen
 coreutils
+cpio
 cpupower
 cracklib
 cronie
@@ -256,6 +260,7 @@ dia
 dialog
 diffutils
 ding-libs
+discord
 discount
 discover
 disomaster
@@ -284,6 +289,7 @@ dtkcore
 dtkgui
 dtkwidget
 dtkwm
+dunst
 dvd+rw-tools
 e2fsprogs
 ebook-tools
@@ -511,6 +517,7 @@ grep
 grilo
 grilo-plugins
 groff
+grsync
 grub
 grub-customizer
 gsettings-desktop-schemas
@@ -827,6 +834,7 @@ kdf
 kdiagram
 kdialog
 kdiamond
+kdiff3
 kdnssd
 kdoctools
 kdsoap
@@ -935,6 +943,7 @@ kqtquickcharts
 kquickcharts
 krb5
 krdc
+krename
 kreversi
 krfb
 krita
@@ -942,6 +951,7 @@ kross
 kross-interpreters
 kruler
 krunner
+krusader
 kscreen
 kscreenlocker
 kservice
@@ -996,6 +1006,7 @@ lhasa
 lib2geom
 lib32-acl
 lib32-alsa-lib
+lib32-alsa-plugins
 lib32-attr
 lib32-brotli
 lib32-bzip2
@@ -1014,10 +1025,12 @@ lib32-glibc
 lib32-glu
 lib32-harfbuzz
 lib32-icu
+lib32-jack2
 lib32-keyutils
 lib32-krb5
 lib32-lcms2
 lib32-libasyncns
+lib32-libavtp
 lib32-libcap
 lib32-libdrm
 lib32-libelf
@@ -1036,9 +1049,11 @@ lib32-libpciaccess
 lib32-libpng
 lib32-libpsl
 lib32-libpulse
+lib32-libsamplerate
 lib32-libsm
 lib32-libsndfile
 lib32-libssh2
+lib32-libtasn1
 lib32-libtiff
 lib32-libtirpc
 lib32-libunistring
@@ -1058,22 +1073,29 @@ lib32-libxml2
 lib32-libxrandr
 lib32-libxrender
 lib32-libxshmfence
+lib32-libxss
 lib32-libxtst
 lib32-libxxf86vm
 lib32-llvm-libs
 lib32-lm_sensors
 lib32-mesa
 lib32-ncurses
+lib32-nspr
+lib32-nss
 lib32-openssl
 lib32-opus
+lib32-p11-kit
 lib32-pam
 lib32-pcre
 lib32-readline
 lib32-sdl
 lib32-sdl2
+lib32-speexdsp
+lib32-sqlite
 lib32-systemd
 lib32-util-linux
 lib32-vulkan-icd-loader
+lib32-vulkan-intel
 lib32-wayland
 lib32-xz
 lib32-zlib
@@ -1610,6 +1632,7 @@ muparser
 mutter
 mypaint-brushes1
 mythes-en
+namcap
 nano
 nautilus
 ncurses
@@ -1618,6 +1641,7 @@ nemo
 neofetch
 neon
 net-snmp
+net-tools
 netdata
 netdiscover
 netpbm
@@ -1648,6 +1672,7 @@ nss
 ntfs-3g
 ntp
 numactl
+nyx
 oath-toolkit
 obconf
 obconf-qt
@@ -1716,6 +1741,8 @@ pcmanfm-gtk3
 pcmanfm-qt
 pcre
 pcre2
+pcsc-perl
+pcsc-tools
 pcsclite
 perl
 perl-alien-build
@@ -1810,6 +1837,7 @@ plasma-vault
 plasma-workspace
 plasma-workspace-wallpapers
 pluma
+podofo
 polari
 polkit
 polkit-gnome
@@ -1844,6 +1872,7 @@ pulseaudio-bluetooth
 pulseaudio-equalizer
 pulseaudio-qt
 purpose
+pyalpm
 pystring
 python
 python-anytree
@@ -1921,10 +1950,12 @@ python-pyasn1
 python-pyasn1-modules
 python-pycodestyle
 python-pycparser
+python-pyelftools
 python-pyflakes
 python-pygments
 python-pyinotify
 python-pylint
+python-pynacl
 python-pyopenssl
 python-pyparsing
 python-pyperclip
@@ -1953,6 +1984,7 @@ python-sphinxcontrib-htmlhelp
 python-sphinxcontrib-jsmath
 python-sphinxcontrib-qthelp
 python-sphinxcontrib-serializinghtml
+python-stem
 python-tinycss2
 python-toml
 python-tomli
@@ -2119,6 +2151,7 @@ srt
 sshfs
 starship
 startup-notification
+steam
 stella
 step
 sudo
@@ -2225,6 +2258,8 @@ uchardet
 udisks2
 udisks2-qt5
 umbrello
+unace
+unarj
 unionfs-fuse
 unrar
 unzip
@@ -2254,6 +2289,8 @@ vte-common
 vte3
 vtk
 vulkan-icd-loader
+vulkan-intel
+vulkan-mesa-layers
 vulkan-tools
 wavemon
 wavpack

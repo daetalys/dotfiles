@@ -9,7 +9,6 @@ gobject-introspection
 gstreamer0.10-base-plugins
 gulp
 jq
-lhasa
 libgnomeui
 maven
 nvm
