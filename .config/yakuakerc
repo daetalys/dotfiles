@@ -3,6 +3,7 @@ BackgroundColorOpacity=75
 HideSkinBorders=true
 Skin=legacy
 TerminalHighlightOnManualActivation=true
+Blur=true
 Translucency=true
 
 [Desktop Entry]
