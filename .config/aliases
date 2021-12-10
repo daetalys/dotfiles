@@ -27,7 +27,7 @@ alias tarnow='tar -acf '
 alias untar='tar -zxvf '
 alias wget="wget -c --user-agent 'noleak'"
 
-# Get fastest mirrors 
+# Get Fastest Mirrors 
 alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist" 
 alias mirrord="sudo reflector --latest 50 --number 20 --sort delay --save /etc/pacman.d/mirrorlist" 
 alias mirrors="sudo reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist" 
@@ -39,13 +39,9 @@ alias apt='man pacman'
 alias helpme='cht.sh --shell'
 alias pacdiff='sudo -H DIFFPROG=meld pacdiff'
 alias please='sudo'
-alias tb='nc termbin.com 9999'
 alias upd="/usr/bin/update"
 
-# Cleanup orphaned packages
-alias cleanup='sudo pacman -Rns `pacman -Qtdq`'
-
-# Cleanup orphaned packages
+# Cleanup Orphaned Packages
 alias cleanup='sudo pacman -Rns (pacman -Qtdq)'
 
 # termbin
@@ -58,9 +54,9 @@ alias jctl="journalctl -p 3 -xb"
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 
 # Aliases For dotfiles Bare Git Repository
-alias config="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
-alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
-alias sysupdate='sudo pacman -Syu --noconfirm && yay -Syu --noconfirm && sudo snap refresh && sudo pacman -Qqm > ~/Documents/PKGLIST/Foreign.txt && sudo pacman -Qqn > ~/Documents/PKGLIST/Native.txt && sudo pacman -Qqdt > ~/Documents/PKGLIST/Orphans.txt && sudo snap list > ~/Documents/PKGLIST/Snaps.txt'
+alias config="/usr/bin/git --git-dir=/.git --work-tree=/"
+alias dotfiles="/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME"
+alias sysupdate='sudo pacman -Syu --noconfirm && yay -Sau --noconfirm && sudo snap refresh && sudo pacman -Qqm > ~/Documents/PKGLIST/Foreign.txt && sudo pacman -Qqn > ~/Documents/PKGLIST/Native.txt && sudo pacman -Qqdt > ~/Documents/PKGLIST/Orphans.txt && sudo snap list > ~/Documents/PKGLIST/Snaps.txt'
 alias packupdate='dotfiles add -u && dotfiles commit -S -am "Updated package lists, run commands, and other configuration files." && dotfiles push'
 alias dotsync='dotfiles fetch --all && dotfiles reset --hard origin/master'
 
