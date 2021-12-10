@@ -10,6 +10,7 @@ alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
 alias big="expac -H M '%m\t%n' | sort -h | nl"    # Sort installed packages according to size in MB (expac must be installed)
+alias curl="curl --user-agent 'noleak'"
 alias dir='dir --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
