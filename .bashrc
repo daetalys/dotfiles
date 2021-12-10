@@ -8,7 +8,11 @@ source /usr/share/doc/find-the-command/ftc.bash
 source ~/.config/aliases
 
 # Exports
-export EDITOR="emacs"
+export TERM="xterm-256color"                      # getting proper colors
+export HISTCONTROL=ignoredups:erasedups           # no duplicate entries
+export ALTERNATE_EDITOR=""                        # setting for emacsclient
+export EDITOR="emacsclient -t -a ''"              # $EDITOR use Emacs in terminal
+export VISUAL="emacsclient -c -a emacs"           # $VISUAL use Emacs in GUI mode
 
 # Load starship prompt if starship is installed
 if  [ -x /usr/bin/starship ]; then
