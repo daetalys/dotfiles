@@ -1,6 +1,3 @@
-# ~/.bashrc
-##!/bin/bash
-
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
@@ -9,6 +6,9 @@ source /usr/share/doc/find-the-command/ftc.bash
 
 # Aliases
 source ~/.config/aliases
+
+# Exports
+export EDITOR="emacs"
 
 # Load starship prompt if starship is installed
 if  [ -x /usr/bin/starship ]; then
