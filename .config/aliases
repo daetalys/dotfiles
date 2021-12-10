@@ -21,6 +21,7 @@ alias hw='hwinfo --short'    # Hardware Information
 alias psmem='ps auxf | sort -nr -k 4'
 alias psmem10='ps auxf | sort -nr -k 4 | head -10'
 alias rmpkg="sudo pacman -Rdd"
+alias shred="shred -zf"
 alias tarnow='tar -acf '
 alias untar='tar -zxvf '
 
