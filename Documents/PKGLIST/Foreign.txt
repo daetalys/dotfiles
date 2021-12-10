@@ -1,6 +1,7 @@
 aic94xx-firmware
 alpm_octopi_utils
 amarok
+arno-iptables-firewall
 artwiz-fonts
 brave-bin
 coolkey

@@ -20,6 +20,7 @@ akonadi-search
 akonadiconsole
 akregator
 alacritty
+alembic
 alsa-card-profiles
 alsa-lib
 alsa-plugins
@@ -41,6 +42,7 @@ apr
 apr-util
 archlinux-appstream-data
 archlinux-keyring
+ardour
 argon2
 aria2
 arj
@@ -58,6 +60,7 @@ atop
 atril
 attica
 attr
+aubio
 audacious
 audacious-plugins
 audiocd-kio
@@ -105,7 +108,9 @@ blackarch-menus
 blackarch-wallpaper
 blas
 bleachbit
+blender
 blinken
+blosc
 bluedevil
 bluez
 bluez-libs
@@ -140,6 +145,7 @@ cairomm
 calendarsupport
 cantarell-fonts
 cantor
+cblas
 ccid
 cdparanoia
 cdrdao
@@ -154,6 +160,8 @@ chromaprint
 chromium
 cifs-utils
 cjs
+clamav
+clamtk
 clang
 clementine
 clucene
@@ -186,6 +194,7 @@ cups-filters
 cups-pdf
 cups-pk-helper
 curl
+darktable
 dav1d
 db
 dbus
@@ -245,6 +254,7 @@ elfutils
 elinks
 elisa
 emacs
+embree
 enca
 enchant
 engrampa
@@ -290,6 +300,7 @@ flac
 flashrom
 flatpak
 flex
+flickcurl
 fluidsynth
 fmt
 folks
@@ -365,6 +376,7 @@ glm
 glslang
 glu
 glusterfs
+gmic
 gmime3
 gmp
 gnome-autoar
@@ -477,6 +489,7 @@ gst-plugins-base
 gst-plugins-base-libs
 gst-plugins-good
 gst-plugins-ugly
+gst-python
 gstreamer
 gtest
 gtk-doc
@@ -487,6 +500,7 @@ gtk2
 gtk2-perl
 gtk3
 gtk4
+gtkmm
 gtkmm3
 gtksourceview4
 gtkspell3
@@ -509,6 +523,7 @@ gvfs-nfs
 gvfs-smb
 gwenview
 gzip
+handbrake
 harfbuzz
 harfbuzz-icu
 haskell-adjunctions
@@ -850,6 +865,7 @@ knights
 knotes
 knotifications
 knotifyconfig
+kodi
 kolf
 kollision
 kolourpaint
@@ -1071,6 +1087,7 @@ libcddb
 libcdio
 libcdio-paranoia
 libcdr
+libcec
 libchamplain
 libchardet
 libcheese
@@ -1149,6 +1166,7 @@ libgusb
 libgweather
 libgxps
 libhandy
+libharu
 libheif
 libibus
 libical
@@ -1197,9 +1215,11 @@ liblastfm-qt5
 libldac
 libldap
 liblightdm-qt5
+liblo
 liblouis
 liblqr
 liblrdf
+libltc
 liblxqt
 libmad
 libmanette
@@ -1211,6 +1231,7 @@ libmediaart
 libmediainfo
 libmfx
 libmicrodns
+libmicrohttpd
 libmm-glib
 libmms
 libmng
@@ -1228,6 +1249,7 @@ libmusicbrainz5
 libmwaw
 libmygpo-qt5
 libmypaint
+libmythes
 libnautilus-extension
 libndp
 libnet
@@ -1253,6 +1275,8 @@ libofa
 libogg
 libomxil-bellagio
 libopenmpt
+libopenshot
+libopenshot-audio
 liborcus
 libosinfo
 libotf
@@ -1298,6 +1322,7 @@ libsidplay
 libsidplayfp
 libsigc++
 libsignon-glib
+libsigsegv
 libslirp
 libsm
 libsmbios
@@ -1309,6 +1334,7 @@ libsoxr
 libspectre
 libspeechd
 libspiro
+libspnav
 libsrtp
 libssh
 libssh2
@@ -1427,6 +1453,7 @@ llvm
 llvm-libs
 lm_sensors
 lmdb
+log4cplus
 lokalize
 loudmouth
 lpsolve
@@ -1474,6 +1501,7 @@ lxsession-gtk3
 lxtask-gtk3
 lxterminal
 lynx
+lyx
 lz4
 lzlib
 lzo
@@ -1496,6 +1524,7 @@ mariadb-libs
 markdownpart
 mathjax2
 maven
+mbedtls
 mbox-importer
 mc
 md4c
@@ -1581,6 +1610,7 @@ nyx
 oath-toolkit
 obconf
 obconf-qt
+obs-studio
 okular
 oniguruma
 open-iscsi
@@ -1588,23 +1618,34 @@ open-isns
 openal
 openbabel
 openbox
+opencollada
 opencolorio
 opencore-amr
+opencv
 opendesktop-fonts
 openexr
+openimagedenoise
+openimageio
 openjpeg2
+openmp
 openmpi
+openshadinglanguage
+openshot
 openssh
 openssh-askpass
 openssl
 openssl-1.0
+opensubdiv
+openvdb
 openvpn
+openxr
 opera
 opus
 opusfile
 orc
 orca
 osinfo-db
+osm-gps-map
 ostree
 otf-cascadia-code
 otf-cormorant
@@ -1623,6 +1664,7 @@ oxygen
 oxygen-icons
 p11-kit
 p7zip
+p8-platform
 pacman
 pacman-contrib
 pacman-mirrorlist
@@ -1653,6 +1695,7 @@ perl
 perl-alien-build
 perl-alien-libxml2
 perl-bytes-random-secure
+perl-cairo-gobject
 perl-capture-tiny
 perl-clone
 perl-crypt-openssl-random
@@ -1670,6 +1713,7 @@ perl-file-chdir
 perl-file-listing
 perl-file-which
 perl-glib-object-introspection
+perl-gtk3
 perl-html-parser
 perl-html-tagset
 perl-http-cookies
@@ -1700,6 +1744,7 @@ perl-parse-yapp
 perl-path-class
 perl-path-tiny
 perl-socket6
+perl-text-csv
 perl-text-iconv
 perl-timedate
 perl-try-tiny
@@ -1769,6 +1814,7 @@ projectm
 protobuf
 protobuf-c
 psmisc
+ptex
 publicsuffix-list
 pugixml
 pulseaudio
@@ -1778,6 +1824,7 @@ pulseaudio-equalizer
 pulseaudio-qt
 purpose
 pyalpm
+pybind11
 pystring
 python
 python-anytree
@@ -1836,6 +1883,7 @@ python-mccabe
 python-more-itertools
 python-msgpack
 python-mutagen
+python-numpy
 python-ordered-set
 python-packaging
 python-pam
@@ -1855,6 +1903,7 @@ python-pyasn1
 python-pyasn1-modules
 python-pycodestyle
 python-pycparser
+python-pycryptodomex
 python-pyelftools
 python-pyflakes
 python-pygments
@@ -1869,6 +1918,7 @@ python-pyqt5-sip
 python-pysocks
 python-pytz
 python-pyxdg
+python-pyzmq
 python-rencode
 python-requests
 python-ruamel-yaml
@@ -1961,6 +2011,7 @@ re2c
 readline
 recode
 redland
+reflector
 reiserfsprogs
 rest
 retro-gtk
@@ -2013,6 +2064,7 @@ serd
 sg3_utils
 shaderc
 shadow
+shairplay
 shared-color-targets
 shared-mime-info
 signal-desktop
@@ -2036,6 +2088,7 @@ solid
 sonnet
 sord
 sound-theme-freedesktop
+soundconverter
 soundtouch
 source-highlight
 spamassassin
@@ -2061,6 +2114,7 @@ steam
 stella
 step
 sudo
+suil
 suitesparse
 sushi
 svgpart
@@ -2114,6 +2168,8 @@ terminator
 terminus-font
 tevent
 texinfo
+texlive-bin
+texlive-core
 thin-provisioning-tools
 threadweaver
 thunar
@@ -2176,6 +2232,7 @@ util-linux
 util-linux-libs
 v4l-utils
 vala
+vamp-plugin-sdk
 vde2
 veracrypt
 vi
@@ -2202,6 +2259,7 @@ wavpack
 wayland
 wayland-protocols
 wayland-utils
+waylandpp
 webkit2gtk
 webkit2gtk-4.1
 webrtc-audio-processing
@@ -2416,3 +2474,4 @@ zsnes
 zstd
 zvbi
 zxing-cpp
+zziplib

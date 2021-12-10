@@ -1,13 +1,14 @@
 [Appearance]
 BackgroundColorOpacity=75
-HideSkinBorders=true
-Skin=legacy
-TerminalHighlightOnManualActivation=true
 Blur=true
+HideSkinBorders=true
+Skin=allYakedUp
+SkinInstalledWithKns=true
+TerminalHighlightOnManualActivation=true
 Translucency=true
 
 [Desktop Entry]
-DefaultProfile=
+DefaultProfile=My Profile.profile
 
 [Dialogs]
 FirstRun=false
