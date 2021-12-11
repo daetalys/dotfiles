@@ -1,6 +1,9 @@
 [$Version]
 update_info=kscreenlocker.upd:0.1-autolock
 
+[Daemon]
+Autolock=false
+
 [Greeter][Wallpaper][org.kde.image][General]
 Image=/home/daetalys/.local/share/wallpapers/10AAEDD1-7E8C-4C97-A7AE-995E7B19EA19.jpg
 SlidePaths=/home/daetalys/.local/share/wallpapers,/usr/share/wallpapers

@@ -93,6 +93,10 @@ ForegroundNormal=211,218,227
 ForegroundPositive=113,247,159
 ForegroundVisited=47,68,143
 
+[DirSelect Dialog]
+DirSelectDialog Size=844,598
+History Items[$e]=file:$HOME/Downloads/Torrents,file:///run/media/daetalys/Seagate Backup Plus Drive/Media/Games
+
 [General]
 BrowserApplication=brave-browser.desktop
 ColorScheme=Sweetified-blue
