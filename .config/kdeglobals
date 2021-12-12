@@ -104,13 +104,13 @@ Name=Breeze Light
 TerminalApplication=terminator
 TerminalService=terminator.desktop
 shadeSortColumn=true
-widgetStyle=Breeze
+widgetStyle=Oxygen
 
 [Icons]
 Theme=BeautyLine
 
 [KDE]
-ColorScheme=BreezeLight
+ColorScheme=Sweetified-blue
 LookAndFeelPackage=Iridescent-round
 contrast=4
 widgetStyle=Oxygen
