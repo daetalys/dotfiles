@@ -85,21 +85,24 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][11][Applets][12][Configuration]
-PreloadWeight=15
+PreloadWeight=7
 
 [Containments][11][Applets][14]
 immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][11][Applets][14][Configuration]
-PreloadWeight=0
+PreloadWeight=7
+
+[Containments][11][Applets][14][Configuration][General]
+globalMute=true
 
 [Containments][11][Applets][15]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][11][Applets][15][Configuration]
-PreloadWeight=0
+PreloadWeight=2
 
 [Containments][11][Applets][16]
 immutability=1
@@ -113,14 +116,14 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][11][Applets][18][Configuration]
-PreloadWeight=0
+PreloadWeight=2
 
 [Containments][11][Applets][21]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][11][Applets][21][Configuration]
-PreloadWeight=4
+PreloadWeight=1
 
 [Containments][11][Applets][26]
 immutability=1
@@ -209,9 +212,15 @@ PreloadWeight=0
 immutability=1
 plugin=org.kde.plasma.battery
 
+[Containments][11][Applets][71][Configuration]
+PreloadWeight=42
+
 [Containments][11][Applets][72]
 immutability=1
 plugin=org.kde.ktp-contactlist
+
+[Containments][11][Applets][72][Configuration]
+PreloadWeight=42
 
 [Containments][11][ConfigDialog]
 DialogHeight=558
@@ -249,7 +258,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][4][Applets][10][Configuration]
-PreloadWeight=16
+PreloadWeight=48
 SystrayContainmentId=11
 
 [Containments][4][Applets][25]
@@ -276,7 +285,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][4][Applets][8][Configuration]
-PreloadWeight=89
+PreloadWeight=92
 
 [Containments][4][Applets][8][Configuration][ConfigDialog]
 DialogHeight=558

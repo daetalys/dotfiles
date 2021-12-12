@@ -11,3 +11,13 @@ Rows=1
 
 [ModifierOnlyShortcuts]
 Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
+
+[Plugins]
+krohnkiteEnabled=true
+lattewindowcolorsEnabled=false
+minimizeallEnabled=false
+synchronizeskipswitcherEnabled=false
+videowallEnabled=false
+
+[Script-krohnkite]
+noTileBorder=true

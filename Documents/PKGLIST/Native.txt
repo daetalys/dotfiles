@@ -28,7 +28,6 @@ alsa-topology-conf
 alsa-ucm-conf
 alsa-utils
 amd-ucode
-amtk
 analitza
 ant
 aom
@@ -294,6 +293,7 @@ filelight
 filesystem
 findutils
 firefox
+firewalld
 fish
 five-or-more
 flac
@@ -343,7 +343,6 @@ gdmap
 geany
 geany-plugins
 geary
-gedit
 gegl
 geoclue
 geocode-glib
@@ -430,7 +429,6 @@ gnome-sound-recorder
 gnome-sudoku
 gnome-system-monitor
 gnome-taquin
-gnome-terminal
 gnome-tetravex
 gnome-themes-extra
 gnome-todo
@@ -468,7 +466,6 @@ grep
 grilo
 grilo-plugins
 groff
-grsync
 grub
 grub-customizer
 gsettings-desktop-schemas
@@ -781,6 +778,7 @@ kdesdk-kioslaves
 kdesdk-thumbnailers
 kdesu
 kdevelop
+kdevelop-meta
 kdevelop-php
 kdf
 kdiagram
@@ -808,6 +806,7 @@ kgoldrunner
 kgpg
 kguiaddons
 khangman
+khealthcertificate
 khelpcenter
 kholidays
 khotkeys
@@ -1499,7 +1498,6 @@ lxqt-themes
 lxrandr-gtk3
 lxsession-gtk3
 lxtask-gtk3
-lxterminal
 lynx
 lyx
 lz4
@@ -1555,7 +1553,6 @@ modemmanager-qt
 molequeue
 mongo-c-driver
 mono
-mousepad
 mozo
 mpfr
 mpg123
@@ -1587,6 +1584,7 @@ networkmanager-qt
 nextcloud
 nfs-utils
 nfsidmap
+nftables
 nilfs-utils
 ninja
 nm-connection-editor
@@ -1786,7 +1784,6 @@ plasma-thunderbolt
 plasma-vault
 plasma-workspace
 plasma-workspace-wallpapers
-pluma
 podofo
 polari
 polkit
@@ -1994,7 +1991,6 @@ qt5-x11extras
 qt5-xmlpatterns
 qt5pas
 qtdbusextended
-qterminal
 qtermwidget
 qtkeychain-qt5
 qtmpris
@@ -2163,7 +2159,6 @@ telepathy-logger-qt
 telepathy-mission-control
 telepathy-qt
 template-glib
-tepl
 terminator
 terminus-font
 tevent
@@ -2218,6 +2213,7 @@ tzdata
 uchardet
 udisks2
 udisks2-qt5
+ufw
 umbrello
 unace
 unarj
@@ -2281,7 +2277,6 @@ wxsqlite3
 x264
 x265
 xapian-core
-xapp
 xcb-proto
 xcb-util
 xcb-util-cursor
@@ -2347,7 +2342,6 @@ xfce4-settings
 xfce4-smartbookmark-plugin
 xfce4-systemload-plugin
 xfce4-taskmanager
-xfce4-terminal
 xfce4-time-out-plugin
 xfce4-timer-plugin
 xfce4-verve-plugin
@@ -2459,6 +2453,7 @@ yelp-xsl
 yubico-c
 yubico-c-client
 yubikey-personalization
+zanshin
 zbar
 zeitgeist
 zenity

@@ -51,7 +51,6 @@ shell-color-scripts
 snapd
 spacefm
 taglib-extras
-timeshift
 tixati
 ttf-ms-fonts
 upd72020x-fw

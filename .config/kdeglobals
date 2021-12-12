@@ -95,7 +95,7 @@ ForegroundVisited=47,68,143
 
 [DirSelect Dialog]
 DirSelectDialog Size=844,598
-History Items[$e]=file:$HOME/Downloads/Torrents,file:///run/media/daetalys/Seagate Backup Plus Drive/Media/Games
+History Items[$e]=file:///run/media/daetalys/Seagate Backup Plus Drive/Media/Games,file:$HOME/Downloads/Torrents/Games,file:$HOME/Downloads/Torrents
 
 [General]
 BrowserApplication=brave-browser.desktop
