@@ -23,6 +23,9 @@
   title_font = "Sans 9"
   inactive_color_offset = 0.5
   always_split_with_profile = True
+  putty_paste_style = False
+  smart_copy = True
+  # enabled_plugins = "LaunchpadBugURLHandler,  LaunchpadCodeURLHandler"
 [keybindings]
 [profiles]
   [[default]]
