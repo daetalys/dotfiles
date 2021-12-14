@@ -13,6 +13,7 @@ Rows=1
 Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
 
 [Plugins]
+desktopchangeosdEnabled=false
 krohnkiteEnabled=true
 lattewindowcolorsEnabled=false
 minimizeallEnabled=false
@@ -20,4 +21,7 @@ synchronizeskipswitcherEnabled=false
 videowallEnabled=false
 
 [Script-krohnkite]
+enableFloatingLayout=true
+enableQuarterLayout=true
+maximizeSoleTile=true
 noTileBorder=true

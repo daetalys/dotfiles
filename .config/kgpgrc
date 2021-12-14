@@ -15,9 +15,8 @@ gpg_config_path[$e]=$HOME/.gnupg/gpg.conf
 First run=false
 
 [MainWindow]
-LVDS1 XPosition 1600x900=0
-LVDS1 YPosition 1600x900=0
-RestorePositionForNextInstance=false
+LVDS1 XPosition 1600x900=644
+LVDS1 YPosition 1600x900=61
 State=AAAA/wAAAAD9AAAAAAAAA1AAAACpAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
