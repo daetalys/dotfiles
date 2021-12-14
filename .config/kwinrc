@@ -14,7 +14,7 @@ Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
 
 [Plugins]
 desktopchangeosdEnabled=false
-krohnkiteEnabled=true
+krohnkiteEnabled=false
 lattewindowcolorsEnabled=false
 minimizeallEnabled=false
 synchronizeskipswitcherEnabled=false
