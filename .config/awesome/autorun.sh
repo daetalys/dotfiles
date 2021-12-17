@@ -9,4 +9,4 @@ function run {
 run lxsession &
 run picom &
 run nitrogen --restore &
-systemctl stop snapd.sockets
+systemctl stop snapd.sockets &
