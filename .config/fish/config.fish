@@ -4,15 +4,13 @@
 # Aliases
 #source ~/.config/aliases
 
-### EXPORT
-# export TERM="alacritty"
 # export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
-# export EDITOR="vim"              # $EDITOR use in terminal
-# export VISUAL="emacs"           # $VISUAL use in GUI mode
 
-## Set values
-# Hide welcome message
-set fish_greeting
+### Set EXPORT Values
+set fish_greeting                     # hide welcome message
+set TERM "xterm-256color"             # set terminal type
+set EDITOR "vim"                      # $EDITOR use TUI
+set VISUAL "emacsclient -c -a emacs"  # $VISUAL use GUI
 set VIRTUAL_ENV_DISABLE_PROMPT "1"
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
 
@@ -100,9 +98,9 @@ function copy
 end
 
 ## Run neofetch if session is interactive
-#if status --is-interactive && type -q neofetch
-#   neofetch
-#end
+if status --is-interactive && type -q neofetch
+   neofetch
+end
 
 ## Starship prompt
 if status --is-interactive

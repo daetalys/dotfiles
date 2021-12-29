@@ -98,7 +98,7 @@ DirSelectDialog Size=844,598
 History Items[$e]=file:///run/media/daetalys/Seagate Backup Plus Drive/Downloads/qBittorent/temp,file:///run/media/daetalys/Seagate Backup Plus Drive/Downloads/qBittorent/Torrents,file:///run/media/daetalys/Seagate Backup Plus Drive/Downloads/qBittorent,file:///run/media/daetalys/Seagate Backup Plus Drive/Media/Games,file:$HOME/Downloads/Torrents/Games,file:$HOME/Downloads/Torrents
 
 [General]
-BrowserApplication=brave-browser.desktop
+BrowserApplication=firefox.desktop
 ColorScheme=Sweetified-blue
 Name=Breeze Light
 TerminalApplication=terminator
@@ -106,14 +106,10 @@ TerminalService=terminator.desktop
 shadeSortColumn=true
 widgetStyle=Oxygen
 
-[Icons]
-Theme=BeautyLine
-
 [KDE]
 ColorScheme=Sweetified-blue
 LookAndFeelPackage=Iridescent-round
 contrast=4
-widgetStyle=Oxygen
 
 [KFileDialog Settings]
 Allow Expansion=false

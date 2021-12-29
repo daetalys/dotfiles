@@ -7,6 +7,6 @@ function run {
   fi
 }
 run lxsession &
+run nm-applet &
 run picom &
 run nitrogen --restore &
-systemctl stop snapd.sockets &

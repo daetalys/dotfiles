@@ -33,7 +33,7 @@ PreloadWeight=0
 [Containments][1][Applets][2][Configuration][General]
 infoBadgeProminentColorEnabled=true
 isInLatteDock=true
-launchers59=applications:torbrowser.desktop,applications:librewolf.desktop,applications:firefox.desktop,applications:thunderbird.desktop,applications:org.kde.dolphin.desktop
+launchers59=applications:torbrowser.desktop,applications:librewolf.desktop,applications:firefox.desktop,applications:thunderbird.desktop,applications:spacefm.desktop
 manualScrollTasksType=Disabled
 showOnlyCurrentActivity=false
 
@@ -80,23 +80,6 @@ location=3
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
 
-[Containments][11][Applets][12]
-immutability=1
-plugin=org.kde.kdeconnect
-
-[Containments][11][Applets][12][Configuration]
-PreloadWeight=0
-
-[Containments][11][Applets][14]
-immutability=1
-plugin=org.kde.plasma.volume
-
-[Containments][11][Applets][14][Configuration]
-PreloadWeight=0
-
-[Containments][11][Applets][14][Configuration][General]
-globalMute=true
-
 [Containments][11][Applets][15]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
@@ -109,7 +92,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][11][Applets][16][Configuration]
-PreloadWeight=92
+PreloadWeight=54
 
 [Containments][11][Applets][18]
 immutability=1
@@ -118,88 +101,12 @@ plugin=org.kde.plasma.clipboard
 [Containments][11][Applets][18][Configuration]
 PreloadWeight=0
 
-[Containments][11][Applets][21]
-immutability=1
-plugin=org.kde.plasma.networkmanagement
-
-[Containments][11][Applets][21][Configuration]
-PreloadWeight=14
-
-[Containments][11][Applets][26]
-immutability=1
-plugin=org.kde.plasma.printmanager
-
-[Containments][11][Applets][26][Configuration]
-PreloadWeight=0
-
-[Containments][11][Applets][62]
-immutability=1
-plugin=org.kde.plasma.keyboardindicator
-
-[Containments][11][Applets][62][Configuration]
-PreloadWeight=0
-
-[Containments][11][Applets][63]
-immutability=1
-plugin=org.kde.plasma.nightcolorcontrol
-
-[Containments][11][Applets][63][Configuration]
-PreloadWeight=0
-
 [Containments][11][Applets][64]
 immutability=1
 plugin=org.kde.plasma.keyboardlayout
 
 [Containments][11][Applets][64][Configuration]
 PreloadWeight=0
-
-[Containments][11][Applets][65]
-immutability=1
-plugin=org.kde.plasma.vault
-
-[Containments][11][Applets][65][Configuration]
-PreloadWeight=0
-
-[Containments][11][Applets][65][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][11][Applets][66]
-immutability=1
-plugin=org.kde.kscreen
-
-[Containments][11][Applets][66][Configuration]
-PreloadWeight=0
-
-[Containments][11][Applets][68]
-immutability=1
-plugin=org.kde.plasma.diskquota
-
-[Containments][11][Applets][68][Configuration]
-PreloadWeight=0
-
-[Containments][11][Applets][69]
-immutability=1
-plugin=org.kde.plasma.weather
-
-[Containments][11][Applets][69][Configuration]
-PreloadWeight=0
-pressureUnit=5028
-showHumidityInTooltip=true
-showPressureInTooltip=true
-showTemperatureInCompactMode=false
-showTemperatureInTooltip=true
-showWindInTooltip=true
-source=noaa|weather|Birmingham, Birmingham International Airport, AL
-speedUnit=9002
-temperatureUnit=6002
-updateInterval=30
-visibilityUnit=2024
-weatherServiceProviders=noaa
-
-[Containments][11][Applets][69][Configuration][ConfigDialog]
-DialogHeight=558
-DialogWidth=720
 
 [Containments][11][Applets][70]
 immutability=1
@@ -210,25 +117,22 @@ PreloadWeight=0
 
 [Containments][11][Applets][71]
 immutability=1
-plugin=org.kde.plasma.battery
+plugin=touchpad
 
 [Containments][11][Applets][71][Configuration]
-PreloadWeight=10
+PreloadWeight=18
 
-[Containments][11][Applets][72]
-immutability=1
-plugin=org.kde.ktp-contactlist
-
-[Containments][11][Applets][72][Configuration]
-PreloadWeight=10
+[Containments][11][Applets][71][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][11][ConfigDialog]
 DialogHeight=558
 DialogWidth=720
 
 [Containments][11][General]
-extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.kscreen,org.kde.plasma.diskquota,org.kde.plasma.weather,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller_plus,org.kde.plasma.printmanager,org.kde.kdeconnect,org.kde.ktp-contactlist
-knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller_plus,org.kde.plasma.printmanager,org.kde.kdeconnect,org.kde.ktp-contactlist
+extraItems=org.kde.plasma.clipboard,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller_plus,touchpad
+knownItems=org.kde.plasma.clipboard,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller_plus
 showAllItems=true
 
 [Containments][4]
@@ -258,7 +162,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][4][Applets][10][Configuration]
-PreloadWeight=92
+PreloadWeight=59
 SystrayContainmentId=11
 
 [Containments][4][Applets][25]
@@ -294,7 +198,6 @@ DialogWidth=720
 [Containments][4][Applets][8][Configuration][General]
 favorites=preferred://browser,systemsettings.desktop,org.kde.dolphin.desktop,org.kde.kate.desktop,org.kde.discover.desktop
 favoritesPortedToKAstats=true
-icon=start-here-arch
 primaryActions=3
 showActionButtonCaptions=false
 systemFavorites=lock-screen\\,logout\\,save-session\\,switch-user\\,suspend\\,hibernate\\,reboot\\,shutdown
@@ -340,7 +243,7 @@ color=orange
 customBackground=
 customTextColor=
 icon=distributor-logo-arch
-lastUsedActivity=287173d1-9072-4195-9b37-5af4fd726554
+lastUsedActivity=9a490508-aa78-43e5-879d-22683df9fc6b
 launchers=
 popUpMargin=-1
 preferredForShortcutsTouched=false

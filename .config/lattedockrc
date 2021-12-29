@@ -1,6 +1,6 @@
 [KFileDialog Settings]
-Recent Files[$e]=dr460nized-start.png,file:$HOME/.local/share/icons/garuda/dr460nized-start.png
-Recent URLs[$e]=file:$HOME/.local/share/icons/garuda/
+Recent Files[$e]=dr460nized-start.png,file:///usr/share/icons/blackarch-icons/panel/24@2/start-here.svg,file:$HOME/.local/share/icons/garuda/dr460nized-start.png
+Recent URLs[$e]=file:$HOME/.local/share/icons/garuda/,file:///usr/share/icons/blackarch-icons/panel/24@2/
 detailViewIconSize=16
 
 [LatteSettingsDialog]
@@ -34,4 +34,5 @@ mouseSensitivity=2
 screenTrackerInterval=2500
 showInfoWindow=true
 singleModeLayoutName=unity2
+userConfiguredAutostart=true
 version=2

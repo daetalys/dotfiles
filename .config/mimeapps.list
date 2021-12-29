@@ -1,14 +1,19 @@
 [Added Associations]
-inode/directory=org.kde.dolphin.desktop;
-text/plain=codium.desktop;emacs.desktop;vim.desktop;okularApplication_txt.desktop;
-x-scheme-handler/http=brave-browser.desktop;
-x-scheme-handler/https=brave-browser.desktop;
-x-scheme-handler/mailto=thunderbird.desktop;
+inode/directory=spacefm.desktop;spacefm-find.desktop;org.kde.dolphin.desktop;
+text/plain=vscodium.desktop;codium.desktop;emacs.desktop;vim.desktop;okularApplication_txt.desktop;
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;brave-browser.desktop;
+x-scheme-handler/mailto=thunderbird.desktop;userapp-Thunderbird-73Y1E1.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-73Y1E1.desktop;
 
 [Default Applications]
-inode/directory=org.kde.dolphin.desktop;
-text/plain=codium.desktop;
-x-scheme-handler/http=brave-browser.desktop;
-x-scheme-handler/https=brave-browser.desktop;
-x-scheme-handler/mailto=thunderbird.desktop;
+inode/directory=spacefm.desktop;
+text/plain=vscodium.desktop;codium.desktop;emacs.desktop;vim.desktop
+x-scheme-handler/bitwarden=Electron.desktop
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
+x-scheme-handler/magnet=org.qbittorrent.qBittorrent.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-73Y1E1.desktop
 x-scheme-handler/obsidian=obsidian.desktop
+message/rfc822=userapp-Thunderbird-73Y1E1.desktop
+x-scheme-handler/mid=userapp-Thunderbird-73Y1E1.desktop
