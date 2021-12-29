@@ -11,6 +11,7 @@ edex-ui-bin
 exodus
 find-the-command
 leftwm
+leftwm-theme-git
 libaal
 libjffi
 librewolf-bin
