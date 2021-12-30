@@ -1,7 +1,7 @@
 lxsession &
 nitrogen --restore &
 picom &
-dunst &
+# dunst &
 # nm-applet &
 # volumeicon &
 
