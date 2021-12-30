@@ -1060,6 +1060,7 @@ pangomm
 papirus-icon-theme
 parted
 patch
+pavucontrol
 pciutils
 pcre
 pcre2
@@ -1116,6 +1117,7 @@ pipewire
 pipewire-alsa
 pipewire-docs
 pipewire-jack
+pipewire-pulse
 pipewire-v4l2
 pipewire-zeroconf
 pixman
@@ -1140,13 +1142,7 @@ procps-ng
 protobuf
 protobuf-c
 psmisc
-pulseaudio
 pulseaudio-alsa
-pulseaudio-bluetooth
-pulseaudio-equalizer
-pulseaudio-jack
-pulseaudio-lirc
-pulseaudio-zeroconf
 purpose
 python
 python-aaf2
@@ -1310,6 +1306,7 @@ snappy
 sndio
 snes9x
 snes9x-gtk
+sof-firmware
 solid
 sonnet
 sord
