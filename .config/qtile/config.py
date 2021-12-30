@@ -85,7 +85,7 @@ keys = [
         desc="Spawn a command using a prompt widget"),
 ]
 
-groups = [Group(i) for i in "123456789"]
+groups = [Group(i) for i in "asdfuiop9"]
 
 for i in groups:
     keys.extend([
