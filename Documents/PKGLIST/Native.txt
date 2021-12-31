@@ -18,7 +18,10 @@ aom
 apparmor
 appstream
 appstream-qt
+apr
+apr-util
 archlinux-keyring
+archlinux-xdg-menu
 argon2
 argyllcms
 asar
@@ -59,6 +62,7 @@ blackarch-config-x11
 blackarch-keyring
 blackarch-menus
 blackarch-wallpaper
+blackman
 blas
 bleachbit
 bluez
@@ -107,8 +111,10 @@ conky
 convertlit
 coreutils
 cronie
+cryptohazemultiforcer
 cryptsetup
 ctags
+cudahashcat
 cups
 cups-filters
 cups-pdf
@@ -185,6 +191,7 @@ flashrom
 flex
 flickcurl
 fluidsynth
+fluxbox
 fontconfig
 fortune-mod
 frameworkintegration
@@ -422,6 +429,9 @@ hyphen-fr
 hyphen-hu
 hyphen-it
 hyphen-nl
+i3-wm
+i3lock
+i3status
 iana-etc
 icu
 ijs
@@ -922,6 +932,7 @@ libusb
 libusb-compat
 libusbmuxd
 libutempter
+libutf8proc
 libuv
 libva
 libva-intel-driver
@@ -1020,6 +1031,7 @@ m17n-lib
 m4
 mailcap
 make
+malboxes
 man-db
 man-pages
 mariadb
@@ -1094,6 +1106,7 @@ numactl
 obs-studio
 oniguruma
 openal
+openbox
 openconnect
 opencore-amr
 opencv
@@ -1118,6 +1131,7 @@ oxygen
 oxygen-icons
 p11-kit
 p7zip
+packer
 pacman
 pacman-contrib
 pacman-mirrorlist
@@ -1262,6 +1276,7 @@ python-iwlib
 python-jedi
 python-jeepney
 python-jinja
+python-jsmin
 python-jupyter_client
 python-jupyter_core
 python-keyring
@@ -1359,8 +1374,11 @@ rofi
 rsync
 rtkit
 ruby
+ruby-bundler
 ruby-irb
+ruby-msgpack
 ruby-reline
+ruby2.7
 rubygems
 run-parts
 rust
@@ -1382,6 +1400,7 @@ seatd
 sed
 semver
 serd
+serf
 shaderc
 shadow
 shared-mime-info
@@ -1424,6 +1443,7 @@ stella
 stoken
 strace
 strongswan
+subversion
 sudo
 suil
 suitesparse
@@ -1481,6 +1501,7 @@ util-linux
 util-linux-libs
 v4l-utils
 v4l2loopback-dkms
+vagrant
 valgrind
 vamp-plugin-sdk
 veracrypt
@@ -1609,10 +1630,12 @@ xorg-xwininfo
 xorg-xwud
 xorgproto
 xsel
+xss-lock
 xterm
 xvidcore
 xxhash
 xz
+yajl
 yarn
 yasm
 yay

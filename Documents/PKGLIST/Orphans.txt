@@ -28,7 +28,6 @@ maven
 nasm
 ncurses5-compat-libs
 nvm
-perl-anyevent-i3
 plasma-disks
 plasma-firewall
 python-protobuf
