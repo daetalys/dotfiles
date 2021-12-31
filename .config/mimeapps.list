@@ -5,6 +5,8 @@ x-scheme-handler/http=firefox.desktop;
 x-scheme-handler/https=firefox.desktop;brave-browser.desktop;
 x-scheme-handler/mailto=thunderbird.desktop;userapp-Thunderbird-73Y1E1.desktop;
 x-scheme-handler/mid=userapp-Thunderbird-73Y1E1.desktop;
+image/jpeg=feh.desktop;
+image/png=gimp.desktop;
 
 [Default Applications]
 inode/directory=spacefm.desktop;
@@ -17,3 +19,5 @@ x-scheme-handler/mailto=userapp-Thunderbird-73Y1E1.desktop
 x-scheme-handler/obsidian=obsidian.desktop
 message/rfc822=userapp-Thunderbird-73Y1E1.desktop
 x-scheme-handler/mid=userapp-Thunderbird-73Y1E1.desktop
+image/jpeg=feh.desktop;
+image/png=gimp.desktop;

@@ -92,7 +92,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][11][Applets][16][Configuration]
-PreloadWeight=54
+PreloadWeight=51
 
 [Containments][11][Applets][18]
 immutability=1
@@ -120,19 +120,33 @@ immutability=1
 plugin=touchpad
 
 [Containments][11][Applets][71][Configuration]
-PreloadWeight=18
+PreloadWeight=10
 
 [Containments][11][Applets][71][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
+
+[Containments][11][Applets][72]
+immutability=1
+plugin=org.kde.plasma.keyboardindicator
+
+[Containments][11][Applets][72][Configuration]
+PreloadWeight=42
+
+[Containments][11][Applets][73]
+immutability=1
+plugin=org.kde.plasma.nightcolorcontrol
+
+[Containments][11][Applets][73][Configuration]
+PreloadWeight=42
 
 [Containments][11][ConfigDialog]
 DialogHeight=558
 DialogWidth=720
 
 [Containments][11][General]
-extraItems=org.kde.plasma.clipboard,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller_plus,touchpad
-knownItems=org.kde.plasma.clipboard,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller_plus
+extraItems=org.kde.plasma.clipboard,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller_plus,touchpad,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol
+knownItems=org.kde.plasma.clipboard,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller_plus,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol
 showAllItems=true
 
 [Containments][4]
@@ -162,7 +176,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][4][Applets][10][Configuration]
-PreloadWeight=59
+PreloadWeight=56
 SystrayContainmentId=11
 
 [Containments][4][Applets][25]

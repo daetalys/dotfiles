@@ -15,6 +15,9 @@ imake
 inetutils
 intltool
 jq
+kde-gtk-config
+kdeplasma-addons
+kwallet-pam
 lhasa
 libaal
 libglade
@@ -26,6 +29,8 @@ nasm
 ncurses5-compat-libs
 nvm
 perl-anyevent-i3
+plasma-disks
+plasma-firewall
 python-protobuf
 python-zstandard
 swh-plugins
