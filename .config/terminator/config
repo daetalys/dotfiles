@@ -1,31 +1,13 @@
 [global_config]
-  dbus = True
-  focus = click    # click, sloppy, system
-  handle_size = -1    # 0-20
-  geometry_hinting = False
-  window_state = normal    # normal, maximise, fullscreen, hidden
   borderless = True
-  tab_position = top    # top, left, right, bottom, hidden
-  broadcast_default = group    # all, group, off
-  close_button_on_tab = True
-  scroll_tabbar = False
-  try_posix_regexp = False
-  use_custom_url_handler = False
   custom_url_handler = unset
-  disable_real_transparency = False
   title_transmit_fg_color = "#FFFFFF"
   title_transmit_bg_color = "#C80003"
   title_receive_fg_color = "#FFFFFF"
   title_receive_bg_color = "#0076C9"
-  title_inactive_fg_color = "#000000"
   title_inactive_bg_color = "#C0BEBF"
-  title_use_system_font = True
-  title_font = "Sans 9"
   inactive_color_offset = 0.5
   always_split_with_profile = True
-  putty_paste_style = False
-  smart_copy = True
-  # enabled_plugins = "LaunchpadBugURLHandler,  LaunchpadCodeURLHandler"
 [keybindings]
   zoom_in = <Ctrl>plus
   zoom_out = <Ctrl>minus
@@ -35,10 +17,6 @@
   cycle_prev = <Ctrl><Shift>Tab
   go_next = <Ctrl><Shift>N
   go_prev = <Ctrl><Shift>P
-  go_up = <Alt>Up
-  go_down = <Alt>Down
-  go_left = <Alt>Left
-  go_right = <Alt>Right
   rotate_cw = <Super>R
   rotate_ccw = <Super><Shift>R
   split_horiz = <Ctrl><Shift>O
@@ -59,23 +37,19 @@
   scaled_zoom = <Ctrl><Shift>Z
   next_tab = <Ctrl>Page_Down
   prev_tab = <Ctrl>Page_Up
-  # switch_to_tab_1 - switch_to_tab_10 = Unbound
-  edit_window_title = <Ctrl><Alt>W
-  edit_tab_title = <Ctrl><Alt>A
-  edit_terminal_title = <Ctrl><Alt>X
-  full_screen = F11
   reset = <Ctrl><Shift>R
   reset_clear = <Ctrl><Shift>G
   hide_window = <Ctrl><Shift><Alt>a
-  group_all = <Super>g
   ungroup_all = <Super><Shift>G
-  group_tab = <Super>t
   ungroup_tab = <Super><Shift>T
   new_window = <Ctrl><Shift>I
-  new_terminator = <Super>i
+  edit_window_title = <Ctrl><Alt>W
+  edit_tab_title = <Ctrl><Alt>A
+  edit_terminal_title = <Ctrl><Alt>X
 [profiles]
   [[default]]
     cursor_color = "#aaaaaa"
+    font = Noto Serif 10
   [[My Profile]]
     audible_bell = True
     visible_bell = True
