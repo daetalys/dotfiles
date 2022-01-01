@@ -12,18 +12,21 @@ add_newline = true
 
 [aws]
 format = 'on [$symbol($profile )(\($region\) )(\[$duration\])]($style)'
-symbol = "☁️ "
+# symbol = "☁️ "
 # region_aliases
 style = "bold yellow"
 expiration_symbol = "X"
 disabled = false
 
+[azure]
+disabled = false
+
 [battery]
-full_symbol = " "
-charging_symbol = " "
-discharging_symbol = " "
-unknown_symbol = " "
-empty_symbol = " "
+# full_symbol = " "
+# charging_symbol = " "
+# discharging_symbol = " "
+# unknown_symbol = " "
+# empty_symbol = " "
 format = "[$symbol$percentage]($style) "
 # display
 disabled = false
@@ -38,7 +41,7 @@ disabled = false
 [cmake]
 format = "via [$symbol($version )]($style)"
 version_format = "v${raw}"
-symbol = "△ "
+# symbol = "△ "
 detect_extensions = []
 detect_files = ["CMakeLists.txt", "CMakeCache.txt"]
 detect_folders = []
@@ -46,7 +49,7 @@ style = "bold blue"
 disabled = false
 
 [cobol]
-symbol = "⚙️ "
+# symbol = "⚙️ "
 format = "via [$symbol($version )]($style)"
 version_format = "v${raw}"
 style = "bold blue"
@@ -64,6 +67,99 @@ disabled = false
 show_notifications = true
 min_time_to_notify = 45_000
 
+[conda]
+truncation_length = 1
+# symbol = "🅒 "
+style = "bold green"
+format = "via [$symbol$environment]($style) "
+ignore_base = true
+disabled = false
+
+[crystal]
+# symbol = "🔮 "
+format = "via [$symbol($version )]($style)"
+version_format = "v${raw}"
+style = "bold red"
+detect_extensions = ["cr"]
+detect_files = ["shard.yml"]
+detect_folders = []
+disabled = false
+
+[dart]
+format = "via [$symbol($version )]($style)"
+version_format = "v${raw}"
+# symbol = "🎯 "
+detect_extensions = ["dart"]
+detect_files = ["pubspec.yaml", "pubspec.yml", "pubspec.lock"]
+detect_folders = [".dart_tool"]
+style = "bold blue"
+disabled = false
+
+[deno]
+format = "via [$symbol($version )]($style)"
+version_format = "v${raw}"
+# symbol = "🦕 "
+detect_extensions = []
+detect_files = ["mod.ts", "mod.js", "deps.ts", "deps.js"]
+detect_folders = []
+style = "green bold"
+disabled = false
+
+[git_metrics]
+disabled = false
+
+[kubernetes]
+# symbol = "☸ "
+format = '[$symbol$context( \($namespace\))]($style) in '
+style = "cyan bold"
+# context_aliases
+disabled = false
+
+[memory_usage]
+disabled = false
+
+[hg_branch]
+disabled = false
+
+
+
 # Disable the package module, hiding it from the prompt completely
 [package]
+disabled = false
+
+[shell]
+disabled = false
+
+[shlvl]
+threshold = 2
+format = "[$symbol$shlvl]($style) "
+symbol = "↕️ "
+repeat = false
+style = "bold yellow"
+disabled = false
+
+[status]
+format = "[$symbol$status]($style) "
+symbol = "✖"
+success_symbol = "✔️"
+# not_executable_symbol = "🚫"
+not_found_symbol = "🔍"
+# sigint_symbol = "🧱"
+signal_symbol = "⚡"
+style = "bold red"
+recognize_signal_code = true
+map_symbol = true
+pipestatus = true
+pipestatus_separator = "|"
+# pipstatus_format = \\[$pipestatus\\] => [$symbol$common_meaning$signal_name$maybe_int]($style)
+disabled = false
+
+[sudo]
+format = "[as $symbol]($style)"
+# symbol = "🧙 "
+style = "bold blue"
+allow_windows = false
+disabled = false
+
+[time]
 disabled = false
