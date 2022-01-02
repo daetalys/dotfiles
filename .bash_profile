@@ -4,10 +4,9 @@
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
-if [[ "$(tty)" = "/dev/tty1" ]]; then
-	startx
-fi
-
+# if [[ "$(tty)" = "/dev/tty1" ]]; then
+#	startx
+# fi
 
 # XDG User Directories
 export XDG_DESKTOP_DIR="$HOME/Desktop"
@@ -39,4 +38,4 @@ export BROWSER="firefox"
 
 # Path
 export PATH="/home/daetalys/.local/share/solana/install/active_release/bin:$PATH"
-export PATH="/home/daetalys/.cargo/bin"
+export PATH="/home/daetalys/.cargo/bin:$PATH"
