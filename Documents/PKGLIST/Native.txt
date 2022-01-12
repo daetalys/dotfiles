@@ -1592,7 +1592,7 @@ hunspell-pl
 hunspell-ro
 hunspell-ru
 hurl
-hwids
+hwdata
 hwk
 hwloc
 hxd
