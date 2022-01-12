@@ -28,6 +28,7 @@ snapd
 spacefm
 taglib-extras
 tenacity-git
+termite
 ttf-ms-fonts
 upd72020x-fw
 virtualbox-ext-oracle

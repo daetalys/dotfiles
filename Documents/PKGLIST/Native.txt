@@ -384,6 +384,7 @@ cafebabe
 cairo
 cairo-perl
 cairomm
+calcurse
 cameradar
 camover
 camscan
@@ -528,6 +529,7 @@ convertlit
 cook
 cookie-cadger
 cookiejar
+cool-retro-term
 coreutils
 corkscrew
 corscanner
@@ -1262,6 +1264,7 @@ gtk-update-icon-cache
 gtk2
 gtk2-perl
 gtk3
+gtkd
 gtkmm
 gtkmm3
 gtksourceview2
@@ -1269,6 +1272,7 @@ gtksourceview3
 gtop
 gtp-scan
 gts
+guake
 guile
 gulp
 gunicorn
@@ -1891,7 +1895,10 @@ kismon
 kitemmodels
 kitemviews
 kiterunner
+kitty
 kitty-framework
+kitty-shell-integration
+kitty-terminfo
 kjobwidgets
 klar
 klee
@@ -2341,6 +2348,7 @@ libpaper
 libparistraceroute
 libpcap
 libpciaccess
+libpeas
 libpfm4
 libpfring
 libpgm
@@ -2437,6 +2445,7 @@ libwacom
 libwebp
 libwebsockets
 libwmf
+libwnck3
 libwpd
 libwpe
 libwpg
@@ -2654,6 +2663,7 @@ mentalist
 merlin-server
 mesa
 mesa-utils
+meson
 metabigor
 metacoretex
 metaforge
@@ -2869,6 +2879,7 @@ nikto
 nilfs-utils
 nili
 nimbostratus
+ninja
 nipe
 nipper
 nirsoft
@@ -5342,6 +5353,7 @@ qark
 qbittorrent
 qca-qt5
 qhull
+qmltermwidget
 qpdf
 qqc2-desktop-style
 qrencode
@@ -5612,6 +5624,7 @@ safecopy
 sagan
 sagan-rules
 sakis3g
+sakura
 saleae-logic
 samba
 sambascan
@@ -6113,6 +6126,8 @@ tidos-framework
 tidy
 tiger
 tigervnc
+tilda
+tilix
 tilt
 timegen
 tinc

@@ -19,6 +19,7 @@ libsigrok
 libsigrokdecode
 lld
 maven
+meson
 nvm
 perl-class-accessor
 perl-datetime
