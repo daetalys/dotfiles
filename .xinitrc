@@ -51,7 +51,7 @@ fi
 lxsession &
 nitrogen --restore &
 picom &
-dunst &
-# nm-applet &
-# volumeicon &
+#dunst &
+#nm-applet &
+#volumeicon &
 exec spectrwm

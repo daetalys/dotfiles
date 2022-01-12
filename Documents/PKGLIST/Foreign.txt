@@ -17,6 +17,7 @@ libjffi
 librewolf-bin
 libscrypt
 mkinitcpio-firmware
+nanominer
 nvm
 obsidian
 pacwall-git
@@ -36,4 +37,5 @@ webull-desktop
 wxbase-dev-light
 wxcommon-dev-light
 wxgtk3-dev-light
+xmr-stak-rx
 zfs-utils

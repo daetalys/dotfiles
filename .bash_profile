@@ -37,5 +37,6 @@ export COLORTERM="truecolor"
 export BROWSER="firefox"
 
 # Path
-export PATH="/home/daetalys/.local/share/solana/install/active_release/bin:$PATH"
-export PATH="/home/daetalys/.cargo/bin:$PATH"
+export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
+# export PATH="$HOME/.local/bin:$PATH"

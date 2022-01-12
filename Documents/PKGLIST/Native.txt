@@ -1043,6 +1043,7 @@ fscan
 fsnoop
 fssb
 fstealer
+fstrm
 ftester
 ftp-fuzz
 ftp-scanner
@@ -2161,6 +2162,7 @@ libasyncns
 libatasmart
 libavc1394
 libavif
+libb2
 libb64
 libbde
 libblockdev
@@ -2392,6 +2394,7 @@ libssh2
 libstdc++5
 libstemmer
 libsynctex
+libsysprof-capture
 libtar
 libtasn1
 libteam
@@ -2710,6 +2713,8 @@ moc
 modemmanager
 modscan
 moloch
+monero
+monero-gui
 mongo-c-driver
 mongoaudit
 mongodb
@@ -2960,6 +2965,7 @@ open-iscsi
 open-isns
 openal
 openbox
+opencl-headers
 opencl-mesa
 openconnect
 opencore-amr
@@ -3637,6 +3643,7 @@ python-adblockparser
 python-aenum
 python-ahocorasick
 python-ailment
+python-aiocache
 python-aiocmd
 python-aioconsole
 python-aiodns
@@ -3726,6 +3733,7 @@ python-bottle
 python-bracex
 python-branca
 python-brotli
+python-brotlicffi
 python-brotlipy
 python-browser-cookie3
 python-bs4
@@ -5365,6 +5373,9 @@ qt5-webengine
 qt5-webkit
 qt5-x11extras
 qt5-xmlpatterns
+qt6-base
+qt6-svg
+qt6-translations
 qtile
 qtwebkit
 quark-engine
@@ -6200,6 +6211,7 @@ uhoh365
 ultimate-facebook-scraper
 umap
 umit
+unbound
 uncaptcha2
 unfurl
 unhide
@@ -6314,6 +6326,7 @@ vstt
 vsvbp
 vte-common
 vte3
+vulkan-headers
 vulkan-icd-loader
 vulkan-intel
 vulkan-tools
