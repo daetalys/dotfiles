@@ -48,6 +48,7 @@ airoscript
 airpwn
 airspy
 ajpfuzzer
+akonadi-contacts
 alacritty
 albatar
 allthevhosts
@@ -96,6 +97,7 @@ apkid
 apkleaks
 apkstat
 apkstudio
+apm
 apnbf
 apparmor
 appmon
@@ -147,6 +149,7 @@ athena-ssl-scanner
 atk
 atkmm
 atlas
+atom
 atscan
 atstaketools
 attacksurfacemapper
@@ -833,6 +836,7 @@ elasticsearch
 electric-fence
 electron13
 electron14
+electron9
 element-desktop
 element-web
 elettra
@@ -1073,6 +1077,7 @@ g72x++
 gadgetinspector
 gadgettojscript
 galleta
+gamemode
 gasmask
 gatecrasher
 gau
@@ -1166,6 +1171,7 @@ gmp
 gmsadumper
 gnome-backgrounds
 gnome-desktop
+gnome-keyring
 gnome-terminal
 gnome-themes-extra
 gnu-netcat
@@ -1223,6 +1229,8 @@ grabitall
 gradle
 graffiti
 grammarinator
+grantlee
+grantleetheme
 graphene
 graphicsmagick
 graphite
@@ -1386,6 +1394,7 @@ haskell-errors
 haskell-extensible-exceptions
 haskell-file-embed
 haskell-free
+haskell-ghc-bignum-orphans
 haskell-glob
 haskell-haddock-library
 haskell-hashable
@@ -1668,6 +1677,7 @@ inguma
 iniparser
 injectus
 inkscape
+innoextract
 innounp
 inquisitor
 insanity
@@ -1842,6 +1852,7 @@ kcodecs
 kcompletion
 kconfig
 kconfigwidgets
+kcontacts
 kcoreaddons
 kcptun
 kcrash
@@ -1871,6 +1882,7 @@ keystone
 keyutils
 kfilemetadata
 kglobalaccel
+kgpg
 kguiaddons
 khal
 khc
@@ -1905,6 +1917,7 @@ klee
 klee-uclibc
 klogger
 kmenuedit
+kmime
 kmod
 knewstuff
 knock
@@ -1918,6 +1931,7 @@ konsole
 kpackage
 kparts
 kpeople
+kpimtextedit
 kpty
 kquickcharts
 kraken
@@ -2018,6 +2032,7 @@ lib32-fontconfig
 lib32-freeglut
 lib32-freetype2
 lib32-fribidi
+lib32-gamemode
 lib32-gcc-libs
 lib32-gdk-pixbuf2
 lib32-gettext
@@ -2159,6 +2174,7 @@ libaccounts-glib
 libaccounts-qt
 libaec
 libaio
+libakonadi
 libantlr3c
 libao
 libappindicator-gtk3
@@ -2261,6 +2277,7 @@ libgtop
 libgudev
 libguess
 libgusb
+libhandy
 libheif
 libibus
 libical
@@ -2282,6 +2299,7 @@ libjcat
 libjpeg-turbo
 libjpeg6-turbo
 libkeybinder3
+libkleo
 libksba
 libkscreen
 libksysguard
@@ -2292,6 +2310,7 @@ liblognorm
 liblouis
 liblphobos
 liblqr
+libluv
 liblzf
 libmad
 libmanette
@@ -2406,6 +2425,7 @@ libsysprof-capture
 libtar
 libtasn1
 libteam
+libtermkey
 libthai
 libtheora
 libtiff
@@ -2441,6 +2461,7 @@ libvolk
 libvorbis
 libvpx
 libvpx1.3
+libvterm
 libwacom
 libwebp
 libwebsockets
@@ -2822,6 +2843,7 @@ neo-regeorg
 neo4j-community
 neofetch
 neon
+neovim
 net-creds
 net-snmp
 net-tools
@@ -3757,6 +3779,7 @@ python-cachy
 python-cairo
 python-cairocffi
 python-can
+python-capng
 python-capstone
 python-case
 python-catalogue
@@ -4371,6 +4394,7 @@ python-pymysql
 python-pynacl
 python-pyngrok
 python-pynput
+python-pynvim
 python-pyodbc
 python-pyopenssl
 python-pypacker
@@ -5352,6 +5376,7 @@ pythonect
 qark
 qbittorrent
 qca-qt5
+qgpgme
 qhull
 qmltermwidget
 qpdf
@@ -5618,6 +5643,7 @@ rvi-capture
 rww-attack
 rxvt-unicode
 rxvt-unicode-terminfo
+s-nail
 s3-fuzzer
 s3scanner
 safecopy
@@ -5681,6 +5707,7 @@ sdl_ttf
 sdn-toolkit
 sdnpwn
 sea
+seahorse
 search1337
 seat
 seatd
@@ -6230,6 +6257,7 @@ unbound
 uncaptcha2
 unfurl
 unhide
+unibilium
 unibrute
 unicorn
 unicorn-powershell
@@ -6299,6 +6327,7 @@ veracrypt
 verinice
 vfeed
 vhostscan
+vi
 vicious
 vid.stab
 videosnarf

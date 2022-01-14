@@ -48,10 +48,17 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-lxsession &
-nitrogen --restore &
-picom &
+#lxsession &
+#nitrogen --restore &
+#picom &
 #dunst &
 #nm-applet &
 #volumeicon &
-exec spectrwm
+#exec spectrwm
+
+latte-dock &
+nm-applet &
+volumeicon &
+export DESKTOP_SESSION=plasma
+exec startplasma-x11
+
