@@ -106,10 +106,14 @@ TerminalService=terminator.desktop
 shadeSortColumn=true
 widgetStyle=Oxygen
 
+[Icons]
+Theme=BeautyLine
+
 [KDE]
 ColorScheme=Sweetified-blue
 LookAndFeelPackage=Iridescent-round
 contrast=4
+widgetStyle=Oxygen
 
 [KFileDialog Settings]
 Allow Expansion=false
