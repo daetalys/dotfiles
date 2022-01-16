@@ -1,6 +1,7 @@
 asar
 autoconf2.13
 cbindgen
+celt
 chrpath
 conan
 docbook2x
@@ -27,6 +28,7 @@ perl-time-duration-parse
 perl-universal-require
 plasma-disks
 plasma-firewall
+pth
 scons
 sqlite2
 swh-plugins
@@ -37,3 +39,5 @@ wasi-libc++abi
 xbindkeys
 yarn
 yasm
+zita-alsa-pcmi
+zita-resampler

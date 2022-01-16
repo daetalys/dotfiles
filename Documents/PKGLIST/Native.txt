@@ -3612,7 +3612,6 @@ pspy
 pstoedit
 pstoreview
 ptf
-pth
 pth-toolkit
 ptunnel
 publicsuffix-list

@@ -21,6 +21,7 @@ nanominer
 nvm
 obsidian
 pacwall-git
+pth
 python-node-semver
 python-patch-ng
 session-desktop-appimage
