@@ -48,14 +48,13 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-# Spectrwm
+### DE/WM ### only choose one set
 
-lxsession &
-nitrogen --restore &
-picom &
-exec spectrwm
+## Awesome WM
 
-# KDE Plasma
+#exec awesome
+
+## KDE Plasma
 
 #latte-dock &
 #nm-applet &
@@ -63,3 +62,15 @@ exec spectrwm
 #export DESKTOP_SESSION=plasma
 #exec startplasma-x11
 
+## Left WM
+
+## Qtile
+
+## Spectrwm
+
+lxsession &
+nitrogen --restore &
+picom &
+exec spectrwm
+
+## Xmonad
