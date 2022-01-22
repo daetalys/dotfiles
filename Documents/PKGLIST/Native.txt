@@ -2536,6 +2536,7 @@ linux-api-headers
 linux-exploit-suggester
 linux-exploit-suggester.sh
 linux-firmware
+linux-firmware-qlogic
 linux-firmware-whence
 linux-headers
 linux-inject
