@@ -410,6 +410,7 @@ catnthecanary
 catphish
 cbindgen
 cblas
+ccache
 ccid
 ccrawldns
 cdparanoia
@@ -2535,6 +2536,7 @@ linux-api-headers
 linux-exploit-suggester
 linux-exploit-suggester.sh
 linux-firmware
+linux-firmware-whence
 linux-headers
 linux-inject
 linux-smart-enumeration
@@ -3495,7 +3497,6 @@ pipeline
 pipewire
 pipewire-alsa
 pipewire-docs
-pipewire-jack
 pipewire-pulse
 pipewire-v4l2
 pipewire-zeroconf
@@ -3722,6 +3723,7 @@ python-asgiref
 python-asn1crypto
 python-astor
 python-astroid
+python-asttokens
 python-astunparse
 python-async-timeout
 python-async_generator
@@ -3926,6 +3928,7 @@ python-evdev
 python-event-bus
 python-eventlet
 python-execnet
+python-executing
 python-exifread
 python-exiv2
 python-extras
@@ -4330,6 +4333,7 @@ python-ptrace
 python-ptyprocess
 python-publicsuffix2
 python-publicsuffixlist
+python-pure-eval
 python-puremagic
 python-py
 python-py3dns
@@ -4611,6 +4615,7 @@ python-srsly
 python-ssdeep
 python-ssh-mitm
 python-sshtunnel
+python-stack-data
 python-starlette
 python-stegoveritas-pfp
 python-stegoveritas-py010parser
@@ -4791,6 +4796,7 @@ python2-babel
 python2-backports
 python2-backports-abc
 python2-backports-os
+python2-backports.entry-points-selectable
 python2-backports.functools_lru_cache
 python2-backports.shutil_get_terminal_size
 python2-bcrypt
@@ -5085,6 +5091,7 @@ python2-phply
 python2-pickleshare
 python2-pillow6
 python2-pip
+python2-platformdirs
 python2-pluggy
 python2-pluginbase
 python2-plumbum
@@ -5595,6 +5602,7 @@ ruby-paint
 ruby-pango
 ruby-pcaprub
 ruby-pkg-config
+ruby-psych
 ruby-public_suffix
 ruby-rainbow
 ruby-rake
@@ -5611,6 +5619,7 @@ ruby-rspec-support
 ruby-ruby-gtkhex
 ruby-ruby-nmap
 ruby-snmp
+ruby-stringio
 ruby-term-ansicolor
 ruby-terminal-table
 ruby-text-table

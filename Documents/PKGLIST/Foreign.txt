@@ -10,6 +10,7 @@ cryptomator
 edex-ui-bin
 exodus
 find-the-command
+kfiredragonhelper
 leftwm
 leftwm-theme-git
 libaal

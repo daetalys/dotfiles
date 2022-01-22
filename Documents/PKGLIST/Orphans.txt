@@ -1,6 +1,7 @@
 asar
 autoconf2.13
 cbindgen
+ccache
 celt
 chrpath
 conan
@@ -14,6 +15,7 @@ gulp
 imake
 kde-gtk-config
 kdeplasma-addons
+kfiredragonhelper
 kwallet-pam
 libaal
 libsigrok
