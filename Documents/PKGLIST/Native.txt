@@ -36,6 +36,7 @@ afpfs-ng
 agafi
 against
 aggroargs
+aic94xx-firmware
 aiengine
 aimage
 aiodnsbrute
@@ -61,6 +62,7 @@ alsa-ucm-conf
 alsa-utils
 altdns
 amap
+amarok
 amass
 amber
 amoco
@@ -223,6 +225,7 @@ batman-alfred
 bbqsql
 bbscan
 bc
+bcachefs-tools-git
 bcg729
 bdfproxy
 bdlogparser
@@ -331,6 +334,7 @@ box-js
 braa
 braces
 brakeman
+brave-bin
 breeze
 breeze-gtk
 breeze-icons
@@ -433,6 +437,8 @@ chankro
 chaos-client
 chaosmap
 chaosreader
+chaotic-keyring
+chaotic-mirrorlist
 chapcrack
 cheat-sh
 check-weak-dh-ssh
@@ -520,6 +526,7 @@ commonspeak
 compiler-rt
 complemento
 compp
+conan
 configpush
 confuse
 conky
@@ -578,6 +585,7 @@ crunch
 crypthook
 crypto++
 cryptohazemultiforcer
+cryptomator
 cryptonark
 cryptsetup
 csrftester
@@ -972,6 +980,7 @@ filibuster
 fimap
 finalrecon
 find-dns
+find-the-command
 find3
 findmyhash
 findmyiphone
@@ -1882,6 +1891,7 @@ keye
 keystone
 keyutils
 kfilemetadata
+kfiredragonhelper
 kglobalaccel
 kgpg
 kguiaddons
@@ -1990,6 +2000,8 @@ ldsview
 leaklooker
 leechcore
 leena
+leftwm
+leftwm-theme-git
 legion
 lensfun
 leo
@@ -2297,6 +2309,7 @@ libinih
 libinput
 libinstpatch
 libjcat
+libjffi
 libjpeg-turbo
 libjpeg6-turbo
 libkeybinder3
@@ -2397,6 +2410,7 @@ librtmp0
 libsamplerate
 libsasl
 libscanmem
+libscrypt
 libseccomp
 libsecret
 libserialport
@@ -2738,6 +2752,7 @@ mitmproxy
 mkbrutus
 mkinitcpio
 mkinitcpio-busybox
+mkinitcpio-firmware
 mkyara
 mlt
 mobile-broadband-provider-info
@@ -2962,6 +2977,7 @@ nuclei-templates
 nullinux
 nullscan
 numactl
+nvm
 nxcrypt
 nzyme
 o-saft
@@ -4224,6 +4240,7 @@ python-nest-asyncio
 python-netaddr
 python-netifaces
 python-networkx
+python-node-semver
 python-nodeenv
 python-normality
 python-nose
@@ -4264,6 +4281,7 @@ python-parso
 python-passlib
 python-pasta
 python-pastel
+python-patch-ng
 python-pathlib
 python-pathlib2
 python-pathspec
@@ -4552,7 +4570,6 @@ python-scruffy
 python-search-engine-parser
 python-secretstorage
 python-secure
-python-selenium
 python-semgrep
 python-semver
 python-send2trash
@@ -5423,7 +5440,7 @@ qt6-translations
 qtile
 qtwebkit
 quark-engine
-quazip
+quazip-qt5
 quickrecon
 quicksand-lite
 quickscope
@@ -6072,6 +6089,7 @@ syborg
 syft
 sylkie
 syms2elf
+syncthing
 syndication
 synflood
 synner
@@ -6092,6 +6110,7 @@ tabi
 tachyon-scanner
 tactical-exploitation
 taglib
+taglib-extras
 taipan
 takeover
 talloc
@@ -6121,6 +6140,7 @@ teardown
 tekdefense-automater
 tell-me-your-secrets
 tempomail
+tenacity-git
 tensorboard
 tensorflow
 termcap
@@ -6224,6 +6244,7 @@ tslib
 ttf-hack
 ttf-iosevka-nerd
 ttf-liberation
+ttf-ms-fonts
 ttf-ubuntu-font-family
 ttpassgen
 tunna
@@ -6281,6 +6302,7 @@ unsecure
 unstrip
 untwister
 unzip
+upd72020x-fw
 upnp-pentest-toolkit
 upnpscan
 upower
@@ -6347,6 +6369,7 @@ viper
 vipermonkey
 viproy-voipkit
 virtualbox
+virtualbox-ext-oracle
 virtualbox-host-dkms
 virustotal
 visql
@@ -6375,6 +6398,7 @@ vpnc
 vpnpivot
 vsaudit
 vscan
+vscodium
 vstt
 vsvbp
 vte-common
@@ -6411,6 +6435,7 @@ wayland-protocols
 wayland-utils
 wcc
 wce
+wd719x-firmware
 web-soul
 web2ldap
 webacoo
@@ -6536,9 +6561,12 @@ wssip
 wsuspect-proxy
 wups
 wuzz
+wxbase-dev-light
+wxcommon-dev-light
 wxgtk-common
 wxgtk2
 wxgtk3
+wxgtk3-dev-light
 wxhexeditor
 wyd
 x-rsa
@@ -6711,6 +6739,7 @@ zeromq
 zerowine
 zeus
 zeus-scanner
+zfs-utils
 zgrab
 zgrab2
 zimg
