@@ -70,6 +70,22 @@ if [ -d "$HOME/Applications" ] ;
   then PATH="$HOME/Applications:$PATH"
 fi
 
+if [ -d "$HOME/.local/share/solana/install/active_release/bin" ] ;
+  then PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
+fi
+
+if [ -d "$HOME/.cargo/bin" ] ;
+  then PATH="$HOME/.cargo/bin:$PATH"
+fi
+
+if [ -d "/var/lib/flatpak/exports/share" ] ;
+  then PATH="/var/lib/flatpak/exports/share:$PATH"
+fi
+
+if [ -d "$HOME/.local/share/flatpak/exports/share" ] ;
+  then PATH="$HOME/.local/share/flatpak/exports/share:$PATH"
+fi
+
 # Prompt
 ## Comment if using starship prompt
 ### PS1='[\u@\h \W]\$ '

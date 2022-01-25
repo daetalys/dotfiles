@@ -50,7 +50,7 @@
   [[default]]
     cursor_color = "#aaaaaa"
     font = Noto Serif 10
-  [[My Profile]]
+  [[mein]]
     audible_bell = True
     visible_bell = True
     urgent_bell = True

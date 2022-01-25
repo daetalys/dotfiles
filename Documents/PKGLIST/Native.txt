@@ -104,6 +104,7 @@ apnbf
 apparmor
 appmon
 appstream
+appstream-glib
 appstream-qt
 apr
 apr-util
@@ -1012,6 +1013,7 @@ flashsploit
 flask-session-cookie-manager2
 flask-session-cookie-manager3
 flasm
+flatpak
 flawfinder
 flex
 flickcurl
@@ -1116,6 +1118,8 @@ gegl
 gene
 genisys
 genlist
+geoclue
+geocode-glib
 geoedge
 geoip
 geoip-database
@@ -2933,6 +2937,7 @@ nm-connection-editor
 nmap
 nmap-parse-output
 nmbscan
+nmon
 node-ar-drone
 node-gyp
 nodejs-lts-fermium
@@ -3063,6 +3068,7 @@ osm-gps-map
 osrframework
 osslsigncode
 ostinato
+ostree
 osueta
 otori
 outguess
@@ -6593,6 +6599,8 @@ xcb-util-xrm
 xclip
 xcname
 xdg-dbus-proxy
+xdg-desktop-portal
+xdg-desktop-portal-gtk
 xdg-user-dirs
 xdg-utils
 xdg-utils-cxx
