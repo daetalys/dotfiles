@@ -1,4 +1,4 @@
-# Load colours and then set prompt
+# Load colors and then set prompt
 # Prompt preview:
 # [user@hostname]-[~]
 # >>>
@@ -51,25 +51,26 @@ export EDITOR="vim"
 export PATH="$HOME/bin:/usr/lib/ccache/bin/:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:/opt/bin:/usr/bin/core_perl:/usr/games/bin:$PATH"
 
 # alias
-alias c="clear"
-alias cd..="cd .."
-alias curl="curl --user-agent 'noleak'"
-alias l="ls -ahls --color=auto"
-alias r="reset"
-alias shred="shred -zf"
-alias sl="ls --color=auto"
-alias vi="vim"
-alias ls="ls --color=auto"
-alias dir="dir --color=auto"
-alias vdir="vdir --color=auto"
-alias grep="grep --color=auto"
-alias fgrep="fgrep --color=auto"
-alias egrep="egrep --color=auto"
-alias wget="wget -c --user-agent 'noleak'"
-alias dd="dd status=progress"
-alias cp="cp -i"                          # confirm before overwriting something
-alias rm="rm -i"
-alias mv="mv -i"
-alias df="df -h"                          # human-readable sizes
-alias free="free -h"
-alias du="du -h"
+#alias c="clear"
+#alias cd..="cd .."
+#alias curl="curl --user-agent 'noleak'"
+#alias l="ls -ahls --color=auto"
+#alias r="reset"
+#alias shred="shred -zf"
+#alias sl="ls --color=auto"
+#alias vi="vim"
+#alias ls="ls --color=auto"
+#alias dir="dir --color=auto"
+#alias vdir="vdir --color=auto"
+#alias grep="grep --color=auto"
+#alias fgrep="fgrep --color=auto"
+#alias egrep="egrep --color=auto"
+#alias wget="wget -c --user-agent 'noleak'"
+#alias dd="dd status=progress"
+#alias cp="cp -i"                          # confirm before overwriting something
+#alias rm="rm -i"
+#alias mv="mv -i"
+#alias df="df -h"                          # human-readable sizes
+#alias free="free -h"
+#alias du="du -h"
+source $HOME/.config/aliases
