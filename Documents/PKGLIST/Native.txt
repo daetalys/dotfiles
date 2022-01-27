@@ -3522,6 +3522,7 @@ pipewire-alsa
 pipewire-docs
 pipewire-pulse
 pipewire-v4l2
+pipewire-x11-bell
 pipewire-zeroconf
 pirana
 pivotsuite
@@ -4610,6 +4611,7 @@ python-snowballstemmer
 python-socketio
 python-socketpool
 python-socks5line
+python-socksio
 python-sortedcontainers
 python-soupsieve
 python-spacy
@@ -5486,6 +5488,7 @@ rdp-sec-check
 rdpassspray
 re2
 readline
+realtime-privileges
 reaver
 rebind
 recaf

@@ -6,6 +6,7 @@ exodus
 libaal
 librewolf-bin
 nanominer
+nuclear-player-bin
 obsidian
 pacwall-git
 pth
