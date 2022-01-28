@@ -335,7 +335,7 @@ box-js
 braa
 braces
 brakeman
-brave-bin
+brave
 breeze
 breeze-gtk
 breeze-icons
@@ -990,6 +990,7 @@ findsploit
 findutils
 fingerprinter
 firecat
+firedragon
 firefox
 firefox-security-toolkit
 firejail
@@ -3543,6 +3544,7 @@ plasma-framework
 plasma-integration
 plasma-workspace
 plasma-workspace-wallpapers
+plasma5-applets-window-appmenu
 plcscan
 plecost
 plotutils
@@ -3610,6 +3612,7 @@ procdump
 procps-ng
 proctal
 procyon
+profile-sync-daemon
 profuzz
 progsreiserfs
 prometheus-firewall
@@ -3979,6 +3982,7 @@ python-flasgger
 python-flask
 python-flask-api
 python-flask-apscheduler
+python-flask-babel
 python-flask-babelex
 python-flask-basicauth
 python-flask-caching
@@ -4577,6 +4581,7 @@ python-scruffy
 python-search-engine-parser
 python-secretstorage
 python-secure
+python-selenium
 python-semgrep
 python-semver
 python-send2trash
@@ -5744,6 +5749,7 @@ sdnpwn
 sea
 seahorse
 search1337
+searx
 seat
 seatd
 secretfinder
@@ -6341,6 +6347,8 @@ uw-loveimap
 uw-offish
 uw-udpscan
 uw-zone
+uwsgi
+uwsgi-plugin-python
 v3n0m
 v4l-utils
 v4l2loopback-dkms
@@ -6489,6 +6497,7 @@ whichcdn
 whispers
 whitewidow
 whois
+whoogle
 wi-feye
 wifi-autopwner
 wifi-honey

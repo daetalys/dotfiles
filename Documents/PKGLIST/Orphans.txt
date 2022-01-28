@@ -15,7 +15,6 @@ gulp
 imake
 kde-gtk-config
 kdeplasma-addons
-kfiredragonhelper
 kwallet-pam
 libaal
 libsigrok

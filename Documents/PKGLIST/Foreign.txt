@@ -10,7 +10,6 @@ nuclear-player-bin
 obsidian
 pacwall-git
 pth
-python-selenium
 session-desktop-appimage
 snapd
 spacefm
