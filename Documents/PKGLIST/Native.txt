@@ -1881,6 +1881,7 @@ kdelibs4support
 kdenlive
 kdeplasma-addons
 kdesu
+kdialog
 kdnssd
 kdoctools
 kdsoap
@@ -3646,7 +3647,6 @@ publicsuffix-list
 pugixml
 pulledpork
 pulsar
-pulseaudio-alsa
 punk
 punter
 pupy
@@ -5722,6 +5722,7 @@ scap-security-guide
 scap-workbench
 scapy
 scavenger
+sccache
 schnappi-dhcp
 scim
 scons
