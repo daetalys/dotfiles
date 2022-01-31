@@ -4,7 +4,6 @@ coolkey
 edex-ui-bin
 exodus
 libaal
-librewolf-bin
 nanominer
 nuclear-player-bin
 obsidian

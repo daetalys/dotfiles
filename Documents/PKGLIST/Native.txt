@@ -2411,6 +2411,7 @@ libraqm
 libraw
 libraw1394
 librevenge
+librewolf
 librsvg
 librtmp0
 libsamplerate
