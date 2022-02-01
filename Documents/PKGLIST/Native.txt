@@ -1112,7 +1112,6 @@ gdb-common
 gdbgui
 gdbm
 gdk-pixbuf2
-gdmap
 geckodriver
 gef
 gegl
@@ -6167,6 +6166,8 @@ terminology
 terminus-font
 terminus-font-ttf
 tesseract
+tesseract-data-eng
+tesseract-data-osd
 testdisk
 testssl.sh
 tevent

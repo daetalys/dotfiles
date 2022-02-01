@@ -3,6 +3,7 @@ audacium
 coolkey
 edex-ui-bin
 exodus
+gdmap
 libaal
 nanominer
 nuclear-player-bin
