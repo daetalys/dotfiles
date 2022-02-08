@@ -1,13 +1,15 @@
 apfsprogs-git
 audacium
+brave
 coolkey
 edex-ui-bin
 exodus
 gdmap
 libaal
+libquicktime
 nanominer
 nuclear-player-bin
-obsidian
+openvas
 pacwall-git
 pth
 session-desktop-appimage

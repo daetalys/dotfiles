@@ -335,7 +335,6 @@ box-js
 braa
 braces
 brakeman
-brave
 breeze
 breeze-gtk
 breeze-icons
@@ -846,6 +845,7 @@ elasticsearch
 electric-fence
 electron13
 electron14
+electron15
 electron9
 element-desktop
 element-web
@@ -927,6 +927,7 @@ eyepwn
 eyewitness
 f-scrack
 f2fs-tools
+faac
 faad2
 facebash
 facebookosint
@@ -2107,6 +2108,7 @@ lib32-libpng
 lib32-libpng12
 lib32-libpsl
 lib32-libpulse
+lib32-librsvg
 lib32-librtmp0
 lib32-libsm
 lib32-libsndfile
@@ -2405,7 +2407,6 @@ libqaccessibilityclient
 libqalculate
 libqmi
 libqrtr-glib
-libquicktime
 libraqm
 libraw
 libraw1394
@@ -2998,6 +2999,7 @@ obfs4proxy
 objdump2shellcode
 objection
 obs-studio
+obsidian
 ocl-icd
 oclhashcat
 ocs
@@ -3050,7 +3052,6 @@ openssl-1.0
 openstego
 opensvp
 opentimelineio
-openvas
 openvpn
 operative
 ophcrack
@@ -5724,6 +5725,7 @@ scapy
 scavenger
 sccache
 schnappi-dhcp
+schroedinger
 scim
 scons
 scour
@@ -6240,6 +6242,7 @@ tpm2-tss
 traceroute
 tracker3
 trape
+trash-cli
 traxss
 tre
 treasure

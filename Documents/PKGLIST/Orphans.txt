@@ -17,6 +17,7 @@ kde-gtk-config
 kdeplasma-addons
 kwallet-pam
 libaal
+libquicktime
 libsigrok
 libsigrokdecode
 lld
