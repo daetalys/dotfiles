@@ -2440,7 +2440,6 @@ libspeechd
 libspiro
 libssh
 libssh2
-libstdc++5
 libstemmer
 libsynctex
 libsysprof-capture
@@ -2557,6 +2556,10 @@ linux-api-headers
 linux-exploit-suggester
 linux-exploit-suggester.sh
 linux-firmware
+linux-firmware-bnx2x
+linux-firmware-liquidio
+linux-firmware-mellanox
+linux-firmware-nfp
 linux-firmware-qlogic
 linux-firmware-whence
 linux-headers
