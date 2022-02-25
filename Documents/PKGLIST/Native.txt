@@ -746,6 +746,7 @@ dnsgoblin
 dnsgrep
 dnsmap
 dnsmasq
+dnsobserver
 dnspredict
 dnsprobe
 dnspy
@@ -1820,6 +1821,7 @@ jexboss
 jfsutils
 jhead
 jira-scan
+jndi-injection-exploit
 jnetmap
 john
 johnny
@@ -1862,6 +1864,7 @@ jupyter-widgetsnbextension
 jupyter_console
 jupyterlab_pygments
 justdecompile
+juumla
 jwscan
 jwt-cracker
 jwt-hack
@@ -3636,6 +3639,7 @@ powerstager
 pown
 ppee
 ppfuzz
+ppmap
 ppp
 pps-tools
 ppscan
@@ -3660,6 +3664,7 @@ propecia
 protobuf
 protobuf-c
 protos-sip
+protosint
 prowler
 proxenet
 proxify
@@ -6232,6 +6237,7 @@ tcptraceroute
 tcpwatch
 tcpxtract
 tdb
+teamsuserenum
 teardown
 tekdefense-automater
 tell-me-your-secrets
