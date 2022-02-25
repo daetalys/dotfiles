@@ -19,7 +19,9 @@ aclpwn
 activedirectoryenum
 ad-ldap-enum
 adape-script
+adenum
 adfind
+adidnsdump
 admid-pack
 adminpagefinder
 admsnmp
@@ -62,7 +64,6 @@ alsa-ucm-conf
 alsa-utils
 altdns
 amap
-amarok
 amass
 amber
 amoco
@@ -316,6 +317,7 @@ bluez-hciconfig
 bluez-libs
 bluez-tools
 bluez-utils
+bluffy
 bluphish
 bluto
 bmap-tools
@@ -323,6 +325,7 @@ bmc-tools
 bob-the-butcher
 bof-detector
 bonesi
+boofuzz
 boopsuite
 boost
 boost-libs
@@ -424,6 +427,7 @@ cecster
 celt
 centry
 ceph-libs
+cero
 certgraph
 cewl
 cfitsio
@@ -443,7 +447,6 @@ chapcrack
 cheat-sh
 check-weak-dh-ssh
 checkiban
-checkpwd
 checksec
 chiasm-shell
 chipsec
@@ -485,6 +488,7 @@ clamav
 clamscanlogparser
 clamtk
 clang
+clash
 climber
 cln
 cloakify
@@ -518,6 +522,7 @@ codetective
 coffeescript
 colord
 colord-gtk
+colord-gtk-common
 colord-sane
 colordiff
 comission
@@ -556,6 +561,7 @@ cpptest
 cppunit
 cr3dov3r
 crabstick
+cracken
 crackhor
 crackle
 cracklib
@@ -646,6 +652,7 @@ dcfldd
 dconf
 dcraw
 dcrawl
+ddosify
 ddrescue
 de4dot
 deathstar
@@ -709,6 +716,7 @@ disitool
 dislocker
 dissector
 distorm
+dive
 dizzy
 dkmc
 dkms
@@ -764,6 +772,7 @@ domainhunter
 domato
 domi-owned
 domlink
+dontgo403
 donut
 doona
 doork
@@ -771,6 +780,7 @@ doozer
 dorkbot
 dorkme
 dorknet
+dorkscout
 dos2unix
 dosfstools
 dotconf
@@ -814,6 +824,7 @@ dumb0
 dump1090
 dump_syms
 dumpacl
+dumpsmbshare
 dumpusers
 dumpzilla
 dunst
@@ -843,6 +854,7 @@ eigrp-tools
 eindeutig
 elasticsearch
 electric-fence
+electron
 electron13
 electron14
 electron15
@@ -961,6 +973,7 @@ fernmelder
 feroxbuster
 ffm
 ffmpeg
+ffmpeg4.4
 ffmpegthumbnailer
 fftw
 ffuf
@@ -993,6 +1006,7 @@ fingerprinter
 firecat
 firedragon
 firefox
+firefox-decrypt
 firefox-security-toolkit
 firejail
 firewalk
@@ -1034,6 +1048,7 @@ foremost
 foresight
 forkingportscanner
 formatstringexploiter
+fortiscan
 fortune-mod
 fpdns
 fping
@@ -1135,6 +1150,7 @@ gettext
 gflags
 gg-images
 gggooglescan
+gh-dork
 ghc
 ghc-libs
 ghettotooth
@@ -1154,6 +1170,7 @@ git-dump
 git-dumper
 git-hound
 git-lfs
+git-wild-hunt
 gitdorker
 gitdump
 gitem
@@ -1204,9 +1221,11 @@ gobd
 gobject-introspection
 gobject-introspection-runtime
 gobuster
+gocabrito
 goddi
 goldeneye
 golismero
+gomapenum
 goocanvas
 goocanvas1
 goodork
@@ -1528,6 +1547,7 @@ hdcp-genkey
 hddtemp
 hdf5
 hdmi-sniff
+heaptrace
 heartbleed-honeypot
 heartleech
 hellraiser
@@ -1587,6 +1607,7 @@ http-fuzz
 http-parser
 http-put
 http-traceroute
+http2smugl
 httpbog
 httpforge
 httpgrep
@@ -1706,6 +1727,7 @@ intel-ucode
 intelmq
 intelplot
 intensio-obfuscator
+interactsh-client
 intercepter-ng
 interlace
 interrogate
@@ -1736,6 +1758,7 @@ ipmitool
 ipobfuscator
 iproute2
 ipscan
+ipsourcebypass
 iptables
 iptodomain
 iptv
@@ -1841,6 +1864,7 @@ jupyterlab_pygments
 justdecompile
 jwscan
 jwt-cracker
+jwt-hack
 jwt-tool
 jwtcat
 jynx2
@@ -1891,6 +1915,7 @@ keimpx
 kekeo
 kemoticons
 kerbcrack
+kerberoast
 kerbrute
 kernelpop
 keye
@@ -2594,6 +2619,7 @@ loot
 lorcon
 lorcon-old
 lorg
+lorsrf
 lotophagi
 loudmouth
 lsb-release
@@ -2714,6 +2740,7 @@ mesa-utils
 meson
 metabigor
 metacoretex
+metafinder
 metaforge
 metagoofil
 metame
@@ -2812,6 +2839,7 @@ msfdb
 msfenum
 msgpack-c
 msgpack-cxx
+msmailprobe
 mssqlscan
 msvpwn
 mtdev
@@ -2848,6 +2876,7 @@ naabu
 nacker
 naft
 nano
+narthex
 nasm
 nasnum
 nbname
@@ -2966,7 +2995,6 @@ nsdtool
 nsearch
 nsec3map
 nsec3walker
-nsia
 nsntrace
 nsoq
 nspr
@@ -3022,6 +3050,7 @@ onesixtyone
 onetwopunch
 oniguruma
 onioff
+oniongrok
 onionscan
 onionsearch
 onionshare
@@ -3055,6 +3084,7 @@ openssl-1.0
 openstego
 opensvp
 opentimelineio
+openvas-scanner
 openvpn
 operative
 ophcrack
@@ -3115,6 +3145,7 @@ pangomm
 panhunt
 panoptic
 papirus-icon-theme
+pappy-proxy
 parameth
 parampampam
 paranoic
@@ -3129,6 +3160,7 @@ passe-partout
 passhunt
 passivedns
 pastejacker
+pastemonitor
 pasv-agrsv
 patator
 patch
@@ -3503,6 +3535,7 @@ php
 php-apache
 php-cgi
 php-findsock-shell
+php-malware-finder
 php-mt-seed
 php-pear
 php-rfi-payload-decoder
@@ -3540,6 +3573,7 @@ pkcrack
 pkcs11-helper
 pkgconf
 pkgfile
+pkinittools
 pkt2flow
 plasma-desktop
 plasma-disasm
@@ -3665,6 +3699,7 @@ pwnat
 pwncat
 pwncat-caleb
 pwndbg
+pwndora
 pwndrop
 pwned
 pwned-search
@@ -3743,6 +3778,7 @@ python-appdirs
 python-apscheduler
 python-archinfo
 python-argcomplete
+python-argon2-cffi-bindings
 python-argon2_cffi
 python-argparse
 python-arpreq
@@ -3815,6 +3851,7 @@ python-capng
 python-capstone
 python-case
 python-catalogue
+python-cbor2
 python-cchardet
 python-celery
 python-cement
@@ -3830,6 +3867,7 @@ python-checksumdir
 python-cheroot
 python-cherrypy
 python-cherrypy-cors
+python-chromedriver-autoinstaller
 python-claripy
 python-cle
 python-cleo
@@ -3923,6 +3961,7 @@ python-docker
 python-docker-pycreds
 python-docopt
 python-docutils
+python-docx2txt
 python-dominate
 python-dotenv
 python-dpath
@@ -3935,6 +3974,7 @@ python-dulwich
 python-easygui
 python-easyinject
 python-easyprocess
+python-ebooklib
 python-ecdsa
 python-editdistance
 python-editor
@@ -4095,6 +4135,8 @@ python-icmplib
 python-identify
 python-idna
 python-idna_ssl
+python-ifaddr
+python-imagehash
 python-imageio
 python-imageio-ffmpeg
 python-imagesize
@@ -4133,6 +4175,7 @@ python-itsdangerous
 python-ivre
 python-iwlib
 python-jaraco
+python-jaraco.context
 python-jdcal
 python-jedi
 python-jeepney
@@ -4232,6 +4275,7 @@ python-moviepy
 python-mox3
 python-mpd2
 python-mpmath
+python-msal
 python-msgpack
 python-msldap
 python-msoffcrypto-tool
@@ -4323,6 +4367,7 @@ python-phpserialize
 python-pick
 python-pickleshare
 python-pika
+python-pikepdf
 python-pillow
 python-pillow6
 python-pip
@@ -4498,6 +4543,7 @@ python-python-registry
 python-python-socks
 python-python-whois
 python-pythonaes
+python-pythonwhois
 python-pytoml
 python-pytsk3
 python-pytz
@@ -4554,6 +4600,7 @@ python-resolvelib
 python-responses
 python-restkit
 python-retdec-python
+python-retry
 python-retrying
 python-rfc3986
 python-rich
@@ -4586,6 +4633,7 @@ python-search-engine-parser
 python-secretstorage
 python-secure
 python-selenium
+python-selenium-wire
 python-semgrep
 python-semver
 python-send2trash
@@ -4608,7 +4656,6 @@ python-simplekv
 python-simuvex
 python-sip-pyqt4
 python-six
-python-sleekxmpp
 python-slowaes
 python-slowapi
 python-slugify
@@ -4649,6 +4696,7 @@ python-sqlparse
 python-srsly
 python-ssdeep
 python-ssh-mitm
+python-sshpubkeys
 python-sshtunnel
 python-stack-data
 python-starlette
@@ -4683,6 +4731,7 @@ python-termstyle
 python-testpath
 python-testtools
 python-text-unidecode
+python-textract
 python-texttable
 python-tftpy
 python-thinc
@@ -4712,6 +4761,7 @@ python-twisted
 python-twitter
 python-txaio
 python-typed-ast
+python-typeguard
 python-typer
 python-typing
 python-typing_extensions
@@ -4750,6 +4800,7 @@ python-vulners
 python-w3af-api-client
 python-w3lib
 python-wasabi
+python-wayback
 python-wcmatch
 python-wcwidth
 python-weakrefmethod
@@ -4817,12 +4868,14 @@ python2-apache-log-parser
 python2-api-dnsdumpster
 python2-apipkg
 python2-appdirs
+python2-apsw
 python2-archinfo
 python2-argcomplete
 python2-argparse
 python2-arrow
 python2-ascii_graph
 python2-asn1crypto
+python2-atomicwrites
 python2-attrs
 python2-autobahn
 python2-automat
@@ -4893,6 +4946,7 @@ python2-couchdb
 python2-coverage
 python2-coveralls
 python2-crcmod
+python2-crochet
 python2-cryptography
 python2-cssselect
 python2-cycler
@@ -5028,6 +5082,7 @@ python2-ipy
 python2-ishell
 python2-itsdangerous
 python2-ivre
+python2-j2cli
 python2-jaraco
 python2-javalang
 python2-jinja
@@ -5105,6 +5160,7 @@ python2-otxv2
 python2-packaging
 python2-pager
 python2-paramiko
+python2-parsley
 python2-passlib
 python2-pathlib
 python2-pathlib2
@@ -5224,6 +5280,10 @@ python2-pysnmp
 python2-pysocks
 python2-pysqlite
 python2-pyswf
+python2-pytest
+python2-pytest-cov
+python2-pytest-mock
+python2-pytest-twisted
 python2-python-docx
 python2-python-engineio
 python2-python-evt
@@ -5284,6 +5344,7 @@ python2-scapy
 python2-scapy-http
 python2-scipy
 python2-scp
+python2-scrypt
 python2-secretstorage
 python2-selenium
 python2-service-identity
@@ -5355,6 +5416,7 @@ python2-trollius
 python2-tweepy
 python2-twistedx
 python2-txaio
+python2-txsocksx
 python2-typing
 python2-tzlocal
 python2-ua-parser
@@ -5480,6 +5542,7 @@ rapidscan
 raptor
 rarcrack
 rasenum
+rathole
 ratproxy
 rats
 rav1e
@@ -5495,6 +5558,7 @@ rdesktop-brute
 rdp-cipher-checker
 rdp-sec-check
 rdpassspray
+rdwarecon
 re2
 readline
 realtime-privileges
@@ -5559,10 +5623,12 @@ ripdc
 ripgrep
 rita
 riwifshell
+rizin
 rkhunter
 rlogin-scanner
 rlwrap
 rmiscout
+rnnoise
 rofi
 rogue-mysql-server
 roguehostapd
@@ -5623,9 +5689,11 @@ ruby-http-cookie
 ruby-httparty
 ruby-irb
 ruby-json
+ruby-mail
 ruby-mechanize
 ruby-mime-types
 ruby-mime-types-data
+ruby-mini_mime
 ruby-mini_portile2
 ruby-msgpack
 ruby-multi_xml
@@ -5655,6 +5723,7 @@ ruby-rspec-support
 ruby-ruby-gtkhex
 ruby-ruby-nmap
 ruby-snmp
+ruby-sqlite3
 ruby-stringio
 ruby-term-ansicolor
 ruby-terminal-table
@@ -5663,17 +5732,13 @@ ruby-thor
 ruby-tins
 ruby-unf
 ruby-unicode-display-width
+ruby-webrick
 ruby-webrobots
-ruby1.8
-ruby1.8-rake
-ruby1.8-sqlite3
-ruby1.9
 ruby2.3
 ruby2.3-bundler
 ruby2.6
 ruby2.7
 rubygems
-rubygems1.8
 ruler
 rulesfinder
 run-parts
@@ -5682,11 +5747,14 @@ rupture
 rust
 rustbuster
 rustcat
+rustpad
 rustscan
 rvi-capture
 rww-attack
 rxvt-unicode
 rxvt-unicode-terminfo
+rz-cutter
+rz-ghidra
 s-nail
 s3-fuzzer
 s3scanner
@@ -5742,6 +5810,7 @@ scrot
 scrounge-ntfs
 scrying
 sctpscan
+scylla
 sdl
 sdl2
 sdl2_image
@@ -5758,6 +5827,7 @@ search1337
 searx
 seat
 seatd
+second-order
 secretfinder
 secscan
 secure-delete
@@ -5889,6 +5959,7 @@ smbexec
 smbmap
 smbrelay
 smbspider
+smbsr
 smikims-arpspoof
 smod
 smpeg
@@ -5940,6 +6011,7 @@ social-analyzer
 social-mapper
 social-vuln-scanner
 socialfish
+socialpwned
 socialscan
 socketfuzz
 sockstat
@@ -5983,6 +6055,7 @@ spoofcheck
 spooftooph
 spookflare
 spotbugs
+spray365
 sprayingtoolkit
 spraykatz
 sps
@@ -6059,6 +6132,7 @@ stegsolve
 stella
 stenographer
 stepic
+stews
 sticky-keys-hunter
 stig-viewer
 stoken
@@ -6135,6 +6209,7 @@ taglib-extras
 taipan
 takeover
 talloc
+talon
 taof
 tar
 tbb
@@ -6161,7 +6236,6 @@ teardown
 tekdefense-automater
 tell-me-your-secrets
 tempomail
-tenacity-git
 tensorboard
 tensorflow
 termcap
@@ -6226,6 +6300,7 @@ tlssled
 tmux
 tnscmd
 toilet
+token-hunter
 token-reverser
 tomcatwardeployer
 topera
@@ -6294,6 +6369,7 @@ udftools
 udis86
 udisks2
 udork
+udp-hunter
 udp2raw-tunnel
 udpastcp
 udptunnel
@@ -6461,6 +6537,7 @@ wayland-protocols
 wayland-utils
 wcc
 wce
+wcvs
 wd719x-firmware
 web-soul
 web2ldap
@@ -6588,12 +6665,9 @@ wssip
 wsuspect-proxy
 wups
 wuzz
-wxbase-dev-light
-wxcommon-dev-light
 wxgtk-common
 wxgtk2
 wxgtk3
-wxgtk3-dev-light
 wxhexeditor
 wyd
 x-rsa
@@ -6774,6 +6848,7 @@ zgrab2
 zimg
 zip
 zipdump
+zipexec
 zirikatu
 zita-alsa-pcmi
 zita-resampler
