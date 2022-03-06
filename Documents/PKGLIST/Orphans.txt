@@ -8,6 +8,7 @@ conan
 docbook2x
 dump_syms
 electron14
+electron15
 extra-cmake-modules
 git-lfs
 go-tools
@@ -18,6 +19,7 @@ kde-gtk-config
 kdeplasma-addons
 kwallet-pam
 libaal
+libcroco
 libquicktime
 libsigrok
 libsigrokdecode
@@ -33,9 +35,11 @@ plasma-disks
 plasma-firewall
 pth
 python-irc
+python-pytz-deprecation-shim
 python-sleekxmpp
 ruby1.8-rake
 scons
+sqlcipher
 sqlite2
 swh-plugins
 urxvt-perls
@@ -43,6 +47,7 @@ wasi-compiler-rt
 wasi-libc++
 wasi-libc++abi
 xbindkeys
+xss-lock
 yarn
 yasm
 zita-alsa-pcmi

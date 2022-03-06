@@ -15,6 +15,7 @@ nsia
 nuclear-player-bin
 pacwall-git
 pth
+python-pytz-deprecation-shim
 python-sleekxmpp
 ruby1.8
 ruby1.8-rake
@@ -23,7 +24,6 @@ session-desktop-appimage
 snapd
 spacefm
 tenacity-git
-termite
 webull-desktop
 wxcommon-dev-light
 wxgtk3-dev-light

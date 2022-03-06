@@ -21,6 +21,7 @@ ad-ldap-enum
 adape-script
 adenum
 adfind
+adfspray
 adidnsdump
 admid-pack
 adminpagefinder
@@ -114,6 +115,7 @@ aquatone
 arachni
 aranea
 arcane
+arch-install-scripts
 archivebox
 archlinux-keyring
 archlinux-xdg-menu
@@ -202,6 +204,7 @@ backfuzz
 backhack
 backoori
 backorifice
+bactl
 bad-pdf
 badkarma
 badministration
@@ -272,13 +275,22 @@ bkcrack
 bkhive
 blackarch-artwork
 blackarch-config-awesome
+blackarch-config-bash
+blackarch-config-calamares
 blackarch-config-cursor
+blackarch-config-fluxbox
 blackarch-config-gtk
+blackarch-config-i3
 blackarch-config-icons
 blackarch-config-lxdm
+blackarch-config-openbox
 blackarch-config-spectrwm
 blackarch-config-vim
 blackarch-config-x11
+blackarch-config-xfce
+blackarch-config-zsh
+blackarch-devtools
+blackarch-devtools-toolkit
 blackarch-keyring
 blackarch-menus
 blackarch-mirrorlist
@@ -341,6 +353,7 @@ brakeman
 breeze
 breeze-gtk
 breeze-icons
+breezy
 bridge-utils
 brosec
 brotli
@@ -394,6 +407,7 @@ cafebabe
 cairo
 cairo-perl
 cairomm
+calamares
 calcurse
 cameradar
 camover
@@ -483,6 +497,7 @@ cisco7crack
 ciscos
 citadel
 cjexploiter
+ckbcomp
 clair
 clamav
 clamscanlogparser
@@ -682,6 +697,7 @@ detectem
 devaudit
 device-mapper
 device-pharmer
+devtools
 dex
 dex2jar
 dexpatcher
@@ -859,6 +875,7 @@ electron
 electron13
 electron14
 electron15
+electron16
 electron9
 element-desktop
 element-web
@@ -957,6 +974,7 @@ fakeroot
 fang
 faradaysec
 fastnetmon
+fatresize
 faudio
 fav-up
 favfreak
@@ -1465,6 +1483,7 @@ haskell-network
 haskell-network-uri
 haskell-old-locale
 haskell-old-time
+haskell-onetuple
 haskell-pandoc-types
 haskell-parallel
 haskell-parsec-numbers
@@ -1643,6 +1662,7 @@ hunspell-ro
 hunspell-ru
 hurl
 hwdata
+hwinfo
 hwk
 hwloc
 hxd
@@ -1661,7 +1681,8 @@ hyphen-hu
 hyphen-it
 hyphen-nl
 i2pd
-i3-wm
+i3-gaps
+i3blocks
 i3lock
 i3status
 iaito
@@ -1977,6 +1998,7 @@ kpackage
 kparts
 kpeople
 kpimtextedit
+kpmcore
 kpty
 kquickcharts
 kraken
@@ -2276,6 +2298,7 @@ libdca
 libde265
 libdisasm
 libdiscid
+libdispatch
 libdmtx
 libdnet
 libdrm
@@ -2343,6 +2366,7 @@ libindicator-gtk3
 libinih
 libinput
 libinstpatch
+libisl
 libjcat
 libjffi
 libjpeg-turbo
@@ -2521,6 +2545,7 @@ libwpe
 libwpg
 libwrap
 libx11
+libx86emu
 libxau
 libxaw
 libxcb
@@ -2737,6 +2762,7 @@ memdump
 memfetch
 memimager
 mentalist
+mercurial
 merlin-server
 mesa
 mesa-utils
@@ -2793,6 +2819,7 @@ mkbrutus
 mkinitcpio
 mkinitcpio-busybox
 mkinitcpio-firmware
+mkinitcpio-openswap
 mkyara
 mlt
 mobile-broadband-provider-info
@@ -2978,10 +3005,11 @@ nmbscan
 nmon
 node-ar-drone
 node-gyp
-nodejs-lts-fermium
+nodejs-lts-gallium
 nodejs-nopt
 nohidy
 nomorexor
+nordvpn-bin
 noriben
 nosqlattack
 nosqli
@@ -3021,8 +3049,10 @@ nullscan
 numactl
 nvm
 nxcrypt
+nyx
 nzyme
 o-saft
+o365enum
 o365spray
 oat
 oath-toolkit
@@ -4015,6 +4045,7 @@ python-fake-useragent
 python-faraday-plugins
 python-fastapi
 python-fasteners
+python-fastimport
 python-feedformater
 python-feedparser
 python-filebytes
@@ -4349,6 +4380,7 @@ python-patch-ng
 python-pathlib
 python-pathlib2
 python-pathspec
+python-patiencediff
 python-pbkdf2
 python-pbr
 python-pcapy
@@ -4552,7 +4584,6 @@ python-pythonwhois
 python-pytoml
 python-pytsk3
 python-pytz
-python-pytz-deprecation-shim
 python-pytzdata
 python-pyusb
 python-pyvex
@@ -4886,6 +4917,7 @@ python2-autobahn
 python2-automat
 python2-awake
 python2-babel
+python2-backoff
 python2-backports
 python2-backports-abc
 python2-backports-os
@@ -5518,9 +5550,13 @@ qt5-webengine
 qt5-webkit
 qt5-x11extras
 qt5-xmlpatterns
+qt6-5compat
 qt6-base
+qt6-declarative
+qt6-imageformats
 qt6-svg
 qt6-translations
+qt6-wayland
 qtile
 qtwebkit
 quark-engine
@@ -6240,6 +6276,7 @@ tdb
 teamsuserenum
 teardown
 tekdefense-automater
+telegram-desktop
 tell-me-your-secrets
 tempomail
 tensorboard
@@ -6350,6 +6387,7 @@ ttf-hack
 ttf-iosevka-nerd
 ttf-liberation
 ttf-ms-fonts
+ttf-opensans
 ttf-ubuntu-font-family
 ttpassgen
 tunna
@@ -6761,6 +6799,7 @@ xorg-xkbutils
 xorg-xkill
 xorg-xlsatoms
 xorg-xlsclients
+xorg-xman
 xorg-xmessage
 xorg-xmodmap
 xorg-xpr
