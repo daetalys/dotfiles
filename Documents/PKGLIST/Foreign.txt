@@ -1,4 +1,3 @@
-amarok
 apfsprogs-git
 audacium
 brave
@@ -7,6 +6,7 @@ coolkey
 edex-ui-bin
 exodus
 gdmap
+java8-openjfx
 libaal
 libquicktime
 libstdc++5
