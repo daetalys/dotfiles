@@ -7,6 +7,7 @@ edex-ui-bin
 exodus
 gdmap
 java8-openjfx
+kcm-polkit-kde-git
 libaal
 libquicktime
 libstdc++5
@@ -23,6 +24,7 @@ rubygems1.8
 session-desktop-appimage
 snapd
 spacefm
+systemd-kcm
 tenacity-git
 webull-desktop
 wxcommon-dev-light
