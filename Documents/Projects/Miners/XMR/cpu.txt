@@ -31,6 +31,6 @@
 [
     { "low_power_mode" : 1, "affine_to_cpu" : 0 },
     { "low_power_mode" : 1, "affine_to_cpu" : 1 },
-    { "low_power_mode" : 3, "affine_to_cpu" : 2 },
-    { "low_power_mode" : 5, "affine_to_cpu" : 3 },
+    { "low_power_mode" : 1, "affine_to_cpu" : 2 },
+    { "low_power_mode" : 1, "affine_to_cpu" : 3 },
 ],
