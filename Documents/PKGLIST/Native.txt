@@ -6895,6 +6895,7 @@ winpwn
 winregfs
 winrelay
 wiredtiger
+wireguard-tools
 wireless-ids
 wireless-regdb
 wireless_tools

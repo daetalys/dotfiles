@@ -59,6 +59,7 @@ urxvt-perls
 wasi-compiler-rt
 wasi-libc++
 wasi-libc++abi
+wiredtiger
 xbindkeys
 xss-lock
 yarn
