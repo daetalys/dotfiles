@@ -1,7 +1,6 @@
 apfsprogs-git
 audacium
 brave
-checkpwd
 coolkey
 edex-ui-bin
 exodus
@@ -10,9 +9,7 @@ java8-openjfx
 kcm-polkit-kde-git
 libaal
 libquicktime
-libstdc++5
 nanominer
-nsia
 nuclear-player-bin
 pacwall-git
 pth
