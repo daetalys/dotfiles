@@ -1,5 +1,4 @@
 [global_config]
-  borderless = True
   custom_url_handler = unset
   title_transmit_fg_color = "#FFFFFF"
   title_transmit_bg_color = "#C80003"

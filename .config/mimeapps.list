@@ -7,6 +7,8 @@ x-scheme-handler/mailto=thunderbird.desktop;userapp-Thunderbird-73Y1E1.desktop;
 x-scheme-handler/mid=userapp-Thunderbird-73Y1E1.desktop;
 image/jpeg=feh.desktop;
 image/png=gimp.desktop;
+x-scheme-handler/tg=userapp-Telegram Desktop-QL4VK1.desktop;
+video/mpeg=vlc.desktop;
 
 [Default Applications]
 inode/directory=spacefm.desktop;
@@ -21,3 +23,5 @@ message/rfc822=userapp-Thunderbird-73Y1E1.desktop
 x-scheme-handler/mid=userapp-Thunderbird-73Y1E1.desktop
 image/jpeg=feh.desktop;
 image/png=gimp.desktop;
+x-scheme-handler/tg=userapp-Telegram Desktop-QL4VK1.desktop
+video/mpeg=vlc.desktop;
