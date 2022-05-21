@@ -19,8 +19,6 @@ progsreiserfs
 pth
 python-pytz-deprecation-shim
 python-sleekxmpp
-qemu
-qemu-arch-extra
 ruby1.8
 ruby1.8-rake
 rubygems1.8
