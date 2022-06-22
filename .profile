@@ -22,7 +22,7 @@ export XDG_CONFIG_DIRS="/etc/xdg"
 export EDITOR="vim"
 export VISUAL="emacsclient -c -a emacs"
 export CODEEDITOR="codium"
-export TERMINAL="terminator"
+export TERMINAL="alacritty -e zsh"
 export COLORTERM="truecolor"
 export BROWSER="firefox"
 

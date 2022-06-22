@@ -74,3 +74,4 @@ export PATH="$HOME/bin:/usr/lib/ccache/bin/:/sbin:/usr/bin:/usr/sbin:/usr/local/
 #alias free="free -h"
 #alias du="du -h"
 source $HOME/.config/aliases
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
