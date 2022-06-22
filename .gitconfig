@@ -3,7 +3,7 @@
 [commit]
         gpgsign = true
 [core]
-	editor = atom --wait
+#	editor = atom --wait
 #	worktree = /
 [credential]
 	helper = store
