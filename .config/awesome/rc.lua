@@ -600,6 +600,7 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- }}}
 
 -- Autostart Hook
+awful.spawn.with_shell ("lxpolkit")
 --awful.spawn.with_shell("nitrogen --restore")
 awful.spawn.with_shell("picom --config $HOME/.config/picom.conf")
 --awful.spawn.with_shell("nm-applet")
