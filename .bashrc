@@ -40,10 +40,14 @@ ex ()
 
 # Exports
 export TERM="xterm-256color"                      # getting proper colors
+export COLORTERM="truecolor"
 export HISTCONTROL=ignoredups:erasedups           # no duplicate entries
-export ALTERNATE_EDITOR=""                        # setting for emacsclient
-export EDITOR="emacsclient -t -a ''"              # $EDITOR use Emacs in terminal
-export VISUAL="emacsclient -c -a emacs"           # $VISUAL use Emacs in GUI mode
+#export VISUAL="emacsclient -c -a emacs"           # $VISUAL use Emacs in GUI mode
+export VISUAL="vim"
+#export EDITOR="emacsclient -t -a ''"              # $EDITOR use Emacs in terminal
+export EDITOR="vim"
+#export ALTERNATE_EDITOR=""                        # setting for emacsclient
+export CODEEDITOR="vscodium"
 
 # Manpager Environment Variables
 ## Uncomment only one of these!
@@ -86,6 +90,10 @@ if [ -d "$HOME/.local/share/flatpak/exports/share" ] ;
   then PATH="$HOME/.local/share/flatpak/exports/share:$PATH"
 fi
 
+if [ -d "$HOME/.emacs.d/bin" ] ;
+then PATH="$HOME/emacs.d/bin:$PATH"
+fi
+
 # Prompt
 ## Comment if using starship prompt
 ### PS1='[\u@\h \W]\$ '
@@ -126,3 +134,6 @@ fi
 # BEGIN_KITTY_SHELL_INTEGRATION
 if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
 # END_KITTY_SHELL_INTEGRATION
+
+### RANDOM COLOR SCRIPT ###
+colorscript random
