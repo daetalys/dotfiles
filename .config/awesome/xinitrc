@@ -57,5 +57,6 @@ fi
 /usr/bin/pipewire &
 /usr/bin/pipewire-pulse &
 /usr/bin/wireplumber &
+/usr/lib/kdeconnectd &
 #iwgtk -i &
 exec awesome
