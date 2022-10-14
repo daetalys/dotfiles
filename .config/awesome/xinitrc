@@ -58,5 +58,5 @@ fi
 /usr/bin/pipewire-pulse &
 /usr/bin/wireplumber &
 /usr/lib/kdeconnectd &
-#iwgtk -i &
+iwgtk -i &
 exec awesome
