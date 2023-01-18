@@ -54,14 +54,15 @@ fi
 # xterm -geometry 80x20+494-0 &
 # exec xterm -geometry 80x66+0+0 -name login
 
-lxpolkit &
+#lxpolkit &
+/usr/bin/dunst &
 /usr/bin/pipewire &
 /usr/bin/pipewire-pulse &
 /usr/bin/wireplumber &
-/usr/lib/kdeconnectd &
-kdeconnect-indicator &
-iwgtk -i &
-pa-applet &
-picom --config $HOME/.config/picom.conf &
-nitrogen --restore &
+#/usr/lib/kdeconnectd &
+#kdeconnect-indicator &
+#iwgtk -i &
+#nm-applet &
+#pa-applet &
+#picom --config $HOME/.config/picom.conf &
 exec awesome
