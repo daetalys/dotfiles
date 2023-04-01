@@ -48,29 +48,21 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-### DE/WM ### only choose one set
+# twm &
+# xclock -geometry 50x50-1+1 &
+# xterm -geometry 80x50+494+51 &
+# xterm -geometry 80x20+494-0 &
+# exec xterm -geometry 80x66+0+0 -name login
 
-## Awesome WM
-
-#exec awesome
-
-## KDE Plasma
-
-#latte-dock &
+#lxpolkit &
+/usr/bin/dunst &
+/usr/bin/pipewire &
+/usr/bin/pipewire-pulse &
+/usr/bin/wireplumber &
+#/usr/lib/kdeconnectd &
+#kdeconnect-indicator &
+#iwgtk -i &
 #nm-applet &
-#volumeicon &
-#export DESKTOP_SESSION=plasma
-#exec startplasma-x11
-
-## Left WM
-
-## Qtile
-
-## Spectrwm
-
-lxsession &
-nitrogen --restore &
-picom &
-exec spectrwm
-
-## Xmonad
+#pa-applet &
+#picom --config $HOME/.config/picom.conf &
+exec awesome

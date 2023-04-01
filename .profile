@@ -69,8 +69,12 @@ if [ -d "$HOME/.local/bin" ] ;
   then PATH="$HOME/.local/bin:$PATH"
 fi
 
-if [ -d "$HOME/Applications" ] ;
-  then PATH="$HOME/Applications:$PATH"
+if [ -d "$HOME/.local/share/flatpak/exports/share" ] ;
+  then PATH="$HOME/.local/share/flatpak/exports/share:$PATH"
+fi
+
+if [ -d "/var/lib/flatpak/exports/share" ] ;
+  then PATH="/var/lib/flatpak/exports/share:$PATH"
 fi
 
 if [ -d "$HOME/.local/share/solana/install/active_release/bin" ] ;
@@ -81,10 +85,6 @@ if [ -d "$HOME/.cargo/bin" ] ;
   then PATH="$HOME/.cargo/bin:$PATH"
 fi
 
-if [ -d "/var/lib/flatpak/exports/share" ] ;
-  then PATH="/var/lib/flatpak/exports/share:$PATH"
-fi
-
-if [ -d "$HOME/.local/share/flatpak/exports/share" ] ;
-  then PATH="$HOME/.local/share/flatpak/exports/share:$PATH"
+if [ -d "$HOME/Applications" ] ;
+  then PATH="$HOME/Applications:$PATH"
 fi

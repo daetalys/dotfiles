@@ -9,6 +9,7 @@ image/jpeg=feh.desktop;
 image/png=gimp.desktop;
 x-scheme-handler/tg=userapp-Telegram Desktop-QL4VK1.desktop;
 video/mpeg=vlc.desktop;
+application/octet-stream=org.kde.kdeconnect_open.desktop;
 
 [Default Applications]
 inode/directory=spacefm.desktop;
@@ -25,3 +26,4 @@ image/jpeg=feh.desktop;
 image/png=gimp.desktop;
 x-scheme-handler/tg=userapp-Telegram Desktop-QL4VK1.desktop
 video/mpeg=vlc.desktop;
+application/octet-stream=org.kde.kdeconnect_open.desktop;

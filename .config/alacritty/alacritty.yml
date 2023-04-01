@@ -129,7 +129,7 @@ window:
   # Override the variant of the GTK theme/Wayland client side decorations.
   # Commonly supported values are `dark` and `light`. Set this to `None` to use
   # the default theme variant.
-  decorations_theme_variant: dark
+  decorations_theme_variant: Dark
 
 scrolling:
   # Maximum number of lines in the scrollback buffer.
@@ -318,39 +318,39 @@ colors:
 
   # Normal colors
   #normal:
-    black:   '#1d1f21'
-    red:     '#cc6666'
-    green:   '#b5bd68'
-    yellow:  '#e6c547'    #default value '#f0c674'
-    blue:    '#81a2be'
-    magenta: '#b294bb'
-    cyan:    '#70c0ba'    #default value '#8abeb7'
-    white:   '#373b41'    #default value '#c5c8c6'
+    black:   '#000000' #'#1d1f21'
+    red:     '#ff0000' #'#cc6666'
+    green:   '#00ff00' #'#b5bd68'
+    yellow:  '#ffff00' #'#e6c547'    #default value '#f0c674'
+    blue:    '#0000ff' #'#81a2be'
+    magenta: '#ff00ff' #'#b294bb'
+    cyan:    '#00ffff' #'#70c0ba'    #default value '#8abeb7'
+    white:   '#ffffff' #'#373b41'    #default value '#c5c8c6'
 
   # Bright colors
   bright:
-    black:   '#666666'
-    red:     '#ff3334'    #default value '#d54e53'
-    green:   '#9ec400'    #default value '#b9ca4a'
-    yellow:  '#f0c674'    #default value '#e7c547'
-    blue:    '#81a2be'    #default value '#7aa6da'
-    magenta: '#b77ee0'    #default value '#c397d8'
-    cyan:    '#54ced6'    #default value '#70c0b1'
-    white:   '#282a2e'    #default value '#eaeaea'
+    black:   '#808080' #'#666666'
+    red:     '#ff8080' #'#ff3334'    #default value '#d54e53'
+    green:   '#80ff80' #'#9ec400'    #default value '#b9ca4a'
+    yellow:  '#ffff80' #'#f0c674'    #default value '#e7c547'
+    blue:    '#8080ff' #'#81a2be'    #default value '#7aa6da'
+    magenta: '#ff80ff' #'#b77ee0'    #default value '#c397d8'
+    cyan:    '#80ffff' #'#54ced6'    #default value '#70c0b1'
+    white:   '#ffffff' #'#282a2e'    #default value '#eaeaea'
 
   # Dim colors
   #
   # If the dim colors are not set, they will be calculated automatically based
   # on the `normal` colors.
   dim:
-    black:   '#131415'
-    red:     '#864343'
-    green:   '#777c44'
-    yellow:  '#9e824c'
-    blue:    '#556a7d'
-    magenta: '#75617b'
-    cyan:    '#5b7d78'
-    white:   '#828482'
+    black:   '#000000' #'#131415'
+    red:     '#800000' #'#864343'
+    green:   '#008000' #'#777c44'
+    yellow:  '#808000' #'#9e824c'
+    blue:    '#000080' #'#556a7d'
+    magenta: '#800080' #'#75617b'
+    cyan:    '#008080' #'#5b7d78'
+    white:   '#c0c0c0' #'#828482'
 
   # Indexed Colors
   #

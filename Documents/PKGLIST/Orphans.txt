@@ -3,6 +3,7 @@ appstream-glib
 composer
 conan
 ctags
+cython
 electron17
 electron18
 electron19
@@ -10,6 +11,8 @@ exfatprogs
 f2fs-tools
 firejail-git
 fontforge
+gcab
+gcc11
 geocode-glib
 gn
 go
@@ -22,8 +25,11 @@ hsetroot
 jfsutils
 jq
 js78
+lib32-attr
+lib32-glib2
 lib32-pcre
 lib32-readline
+libjffi
 libsbsms
 libvisual
 lld
@@ -37,11 +43,16 @@ nilfs-utils
 nvm
 php-gd
 profile-sync-daemon
+php-legacy-gd
+python-appdirs
 python-docutils
 python-httplib2
+python-node-semver
 python-nspektr
+python-tqdm
 qt5-webkit
 rest
+run-parts
 scdoc
 searx
 slock
