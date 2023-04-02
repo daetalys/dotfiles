@@ -1,4 +1,3 @@
-appmenu-gtk-module-git
 appstream-glib
 composer
 conan
@@ -9,7 +8,6 @@ electron18
 electron19
 exfatprogs
 f2fs-tools
-firejail-git
 fontforge
 gcab
 gcc11
@@ -54,7 +52,6 @@ qt5-webkit
 rest
 run-parts
 scdoc
-searx
 slock
 smartmontools
 terminus-font

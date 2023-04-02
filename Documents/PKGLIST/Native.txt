@@ -182,6 +182,7 @@ file
 filesystem
 find-the-command
 findutils
+firedragon
 firefox
 firejail-git
 fish
@@ -1061,6 +1062,7 @@ python-patch-ng
 python-patiencediff
 python-pillow
 python-pip
+python-platformdirs
 python-pluginbase
 python-ply
 python-proton-client
