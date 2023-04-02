@@ -1,10 +1,9 @@
 [color]
 	ui = auto
 [commit]
-        gpgsign = true
+    gpgsign = true
 [core]
-#	editor = atom --wait
-#	worktree = /
+	editor = vim
 [credential]
 	helper = store
 [diff]
@@ -17,8 +16,8 @@
 [init]
 	defaultBranch = master
 [merge]
-        renames = true
-        directoryRenames = true
+    renames = true
+    directoryRenames = true
 [pull]
 	rebase = true
 #[push]
