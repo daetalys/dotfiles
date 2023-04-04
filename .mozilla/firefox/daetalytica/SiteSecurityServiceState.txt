@@ -1,0 +1,4 @@
+firefox.settings.services.mozilla.com:HSTS	0	19451	1712184987030,1,0
+contile.services.mozilla.com:HSTS	0	19451	1712184984897,1,0
+aus5.mozilla.org:HSTS	0	19451	1712185098455,1,0
+spocs.getpocket.com:HSTS	0	19451	1743720985111,1,0

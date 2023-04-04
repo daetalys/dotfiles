@@ -1,0 +1,11 @@
+*.sqlite*
+*.bak
+*.ini
+*.jsonlz4
+*.tmp
+*.lst
+bookmarkbackups/
+cache2/
+storage/
+thumbnails/
+sessionstore-backups/
