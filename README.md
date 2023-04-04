@@ -31,23 +31,29 @@ Two setup scripts are provided to automate the process of moving, linking, and d
 
 3. Commit and push your changes to the remote repository:
 
-```cd $HOME/.dotconfig
+```
+cd $HOME/.dotconfig
 git add .
 git commit -m "Initial commit of dotfiles"
-git push```
+git push
+```
 
 
 ### Deploying on a New Machine
 
 1. Clone this repository to your desired location:
 
-```git clone https://github.com/daetalys/dotfiles $HOME/.dotconfig```
+```
+git clone https://github.com/daetalys/dotfiles $HOME/.dotconfig
+```
 
 
 2. Navigate to the repository directory and update the submodules:
 
-```cd $HOME/.dotconfig
-git submodule update --init --recursive```
+```
+cd $HOME/.dotconfig
+git submodule update --init --recursive
+```
 
 
 3. Run the `install.sh` script to deploy the dotfiles and system-level configuration files:
@@ -61,12 +67,14 @@ Whenever you make changes to your dotfiles or system-level configuration files, 
 
 To update the "sysconfig" submodule in the main "dotconfig" repository, execute the following commands:
 
-```cd $HOME/.dotconfig/sysconfig
+```
+cd $HOME/.dotconfig/sysconfig
 git pull origin master
 cd ..
 git add sysconfig
 git commit -m "Update sysconfig submodule"
-git push```
+git push
+```
 
 
 And when updating the existing setup on a machine, make sure to run `git submodule update --init --recursive` before executing the `install.sh` script.
