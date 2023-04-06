@@ -20,8 +20,6 @@
     directoryRenames = true
 [pull]
 	rebase = true
-#[push]
-#	gpgSign = true
 [status]
 	displayCommentPrefix = true
 	showStash = true
