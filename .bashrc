@@ -28,8 +28,89 @@
 #                      :!77!:                      
 #                        ^^                        
 #                                                  
-# If not running interactively, don't do anything
-[[ $- != *i* ]] && return
+# =============================================================================
+# Environment Configuration Section
+# -----------------------------------------------------------------------------
+# This section defines various environment variables to configure the behavior
+# of the shell, XDG directories, default applications, terminal settings,
+# shell history, and user-specific and application-specific directories.
+# The script also checks if the current shell is interactive and exits early
+# if not, skipping the rest of the script.
+# =============================================================================
+
+# XDG Base Directory Specification
+export XDG_CONFIG_HOME="$HOME/.config"             # User-specific configuration directory
+export XDG_CACHE_HOME="$HOME/.cache"               # User-specific cache directory
+export XDG_DATA_HOME="$HOME/.local/share"          # User-specific data directory
+export XDG_STATE_HOME="$HOME/.local/state"         # User-specific state directory
+export XDG_RUNTIME_DIR="/run/user/$UID"            # User-specific runtime directory (usually on a tmpfs)
+export XDG_DATA_DIRS="/usr/local/share:/usr/share" # System-wide data directories (colon-separated list)
+export XDG_CONFIG_DIRS="/etc/xdg"                  # System-wide configuration directories (colon-separated list)
+
+# XDG User Directories Specification
+export XDG_DESKTOP_DIR="$HOME/Desktop"           # Desktop directory
+export XDG_DOCUMENTS_DIR="$HOME/Documents"       # Documents directory
+export XDG_DOWNLOAD_DIR="$HOME/Downloads"        # Downloads directory
+export XDG_MUSIC_DIR="$HOME/Music"               # Music directory
+export XDG_PICTURES_DIR="$HOME/Pictures"         # Pictures directory
+export XDG_PUBLICSHARE_DIR="$HOME/Public"        # Public sharing directory
+export XDG_TEMPLATES_DIR="$HOME/Templates"       # Templates directory
+export XDG_VIDEOS_DIR="$HOME/Videos"             # Videos directory
+
+# Terminal settings
+export TERMINAL="alacritty"                      # Terminal emulator name
+export TERM="xterm-256color"                     # Terminal type and capabilities (256-color support)
+export COLORTERM="truecolor"                     # Terminal color mode (true color support)
+
+# Default applications
+export VISUAL="vscodium"                          # Default visual text editor
+export EDITOR="vim"                               # Default command-line text editor
+export ALTERNATE_EDITOR=""                        # Fallback editor for emacsclient
+export READER="evince"                            # Default PDF/document viewer
+export BROWSER="firefox"                          # Default web browser
+export PAGER="less"                               # Default pager for command output
+export MANPAGER="sh -c 'col -bx | bat -l man -p'" # Default pager for man pages using bat with man syntax highlighting
+export WM="awesomewm"                             # Default window manager
+
+# Shell history settings
+export HISTCONTROL=ignoredups:erasedups          # Prevent duplicate entries in shell command history
+
+# User-specific directories
+if [ -d "$HOME/.bin" ]; then
+  PATH="$HOME/.bin:$PATH"
+fi
+
+if [ -d "$HOME/.local/bin" ]; then
+  PATH="$HOME/.local/bin:$PATH"
+fi
+
+if [ -d "$HOME/Applications" ]; then
+  PATH="$HOME/Applications:$PATH"
+fi
+
+# Application-specific directories
+if [ -d "$HOME/.local/share/solana/install/active_release/bin" ]; then
+  PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
+fi
+
+if [ -d "$HOME/.cargo/bin" ]; then
+  PATH="$HOME/.cargo/bin:$PATH"
+fi
+
+if [ -d "$HOME/.emacs.d/bin" ]; then
+  PATH="$HOME/.emacs.d/bin:$PATH"
+fi
+
+# System-wide directories
+if [ -d "/var/lib/flatpak/exports/share" ]; then
+  PATH="/var/lib/flatpak/exports/share:$PATH"
+fi
+
+if [ -d "$HOME/.local/share/flatpak/exports/share" ]; then
+  PATH="$HOME/.local/share/flatpak/exports/share:$PATH"
+fi
+
+[[ $- != *i* ]] && return # Check if the current shell is interactive; if not, exit early and skip the rest of the script.
 
 # Advanced command-not-found hook
 source /usr/share/doc/find-the-command/ftc.bash
@@ -37,11 +118,86 @@ if [ -f /etc/bash.command-not-found ]; then
     . /etc/bash.command-not-found
 fi
 
-# Aliases
-source ~/.config/aliases
+# =============================================================================
+# Aliases Section
+# -----------------------------------------------------------------------------
+# This section contains aliases to simplify and customize your command-line
+# experience. Aliases are short commands that map to longer or more complex
+# commands. To add a new alias, simply follow the format:
+#
+#   alias <short_command>='<full_command>'
+#
+# Example:
+#   alias ll='ls -la'
+# =============================================================================
 
-# Archive Extraction
-## usage: ex <file>
+# Navigation: These aliases allow you to quickly navigate up multiple levels in the directory structure.
+
+# Navigate up multiple levels in the directory structure
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
+
+# This function, named 'up', is used to navigate up a specified number
+# of directory levels in the current directory hierarchy. It takes a single
+# integer argument representing the number of levels to move up. If no
+# argument is provided or if the argument is less than or equal to 0,
+# it defaults to moving up one directory level. If the 'cd' command fails,
+# an error message will be displayed.
+#
+# Usage:
+#   up <levels>
+#   where <levels> is a positive integer.
+#
+# Example:
+#   up 2  # moves up two directory levels
+up () {
+  local d=""
+  local limit="$1"
+
+  if [ -z "$limit" ] || [ "$limit" -le 0 ]; then
+    limit=1
+  fi
+
+  for ((i=1;i<=limit;i++)); do
+    d="../$d"
+  done
+
+  if ! cd "$d"; then
+    echo "Couldn't go up $limit dirs.";
+  fi
+}
+
+# File Operations: These aliases provide shortcuts for common file operations, often adding flags for interactive mode, human-readable format, or specific functionality.
+
+# Interactive copy, move, and remove commands
+alias cp="cp -i"
+alias mv='mv -i'
+alias rm='rm -i'
+
+# Display disk usage in human-readable format
+alias df='df -h'
+
+# Display memory usage in MB
+alias free='free -m'
+
+# Archive and extract files
+alias tarnow='tar -acf '
+alias untar='tar -zxvf '
+
+# This shell function, named 'ex', simplifies the process of extracting files
+# from various archive formats. It takes a single argument, which should be
+# the file you want to extract. The function checks the file extension and
+# applies the appropriate extraction command. If the provided file does not
+# exist or is not a regular file, an error message is displayed.
+#
+# Usage:
+#   ex <filename>
+#
+# Example:
+#   ex archive.tar.gz  # extracts the contents of the archive.tar.gz file
 ex ()
 {
   if [ -f "$1" ] ; then
@@ -67,66 +223,122 @@ ex ()
   fi
 }
 
+# Securely delete files
+alias shred="shred -zf"
 
-# Exports
-export TERM="xterm-256color"                      # getting proper colors
-export COLORTERM="truecolor"
-export HISTCONTROL=ignoredups:erasedups           # no duplicate entries
-#export VISUAL="emacsclient -c -a emacs"           # $VISUAL use Emacs in GUI mode
-export VISUAL="vim"
-#export EDITOR="emacsclient -t -a ''"              # $EDITOR use Emacs in terminal
-export EDITOR="vim"
-#export ALTERNATE_EDITOR=""                        # setting for emacsclient
-export CODEEDITOR="vscodium"
+# Search and Sorting: These aliases are for searching and sorting various outputs, often adding color or other useful flags.
 
-# Manpager Environment Variables
-## Uncomment only one of these!
+# Search with colored output
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
 
-### "bat" as manpager
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+# Display processes sorted by memory or CPU usage
+alias psmem='ps auxf | sort -nr -k 4'
+alias psmem10='ps auxf | sort -nr -k 4 | head -10'
+alias pscpu='ps auxf | sort -nr -k 3'
 
-### "vim" as manpager
-# export MANPAGER='/bin/bash -c "vim -MRn -c \"set buftype=nofile showtabline=0 ft=man ts=8 nomod nolist norelativenumber nonu noma\" -c \"normal L\" -c \"nmap q :qa<CR>\"</dev/tty <(col -b)"'
+# Count installed git packages
+alias gitpkg='pacman -Q | grep -i "\-git" | wc -l'
 
-### "neovim" as manpager
-# export MANPAGER="nvim -c 'set ft=man' -"
+# Search processes by name
+alias psgrep="ps aux | grep -v grep | grep -i -e VSZ -e"
+alias psa="ps auxf"
 
-# Path Environment Variables
-if [ -d "$HOME/.bin" ] ;
-  then PATH="$HOME/.bin:$PATH"
-fi
+# System Management: These aliases are for managing the system, like updating packages, managing mirrors, or working with dotfiles.
 
-if [ -d "$HOME/.local/bin" ] ;
-  then PATH="$HOME/.local/bin:$PATH"
-fi
+# Fix pacman lock issues
+alias fixpacman="sudo rm /var/lib/pacman/db.lck"
+alias unlock='sudo rm /var/lib/pacman/db.lck'    # remove pacman lock
 
-if [ -d "$HOME/Applications" ] ;
-  then PATH="$HOME/Applications:$PATH"
-fi
+# Update GRUB bootloader
+alias grubup="sudo update-grub"
 
-if [ -d "$HOME/.local/share/solana/install/active_release/bin" ] ;
-  then PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
-fi
+# Display hardware information
+alias hw='hwinfo --short'
 
-if [ -d "$HOME/.cargo/bin" ] ;
-  then PATH="$HOME/.cargo/bin:$PATH"
-fi
+# Remove package without checking dependencies
+alias rmpkg="sudo pacman -Rdd"
 
-if [ -d "/var/lib/flatpak/exports/share" ] ;
-  then PATH="/var/lib/flatpak/exports/share:$PATH"
-fi
+# Remove orphaned packages
+alias cleanup='sudo pacman -Rns (pacman -Qtdq)'
 
-if [ -d "$HOME/.local/share/flatpak/exports/share" ] ;
-  then PATH="$HOME/.local/share/flatpak/exports/share:$PATH"
-fi
+# Update system packages and generate package lists
+alias sysupdate='sudo pacman -Syu --noconfirm; sudo pacman -Qqn > ~/Documents/PKGLIST/Native.txt; yay -Sau --noconfirm; sudo pacman -Qqm > ~/Documents/PKGLIST/Foreign.txt; nix-channel --update && nix-env -u; nix-env -q > ~/Documents/PKGLIST/Nix.txt; flatpak update; flatpak list > ~/Documents/PKGLIST/Flatpaks.txt sudo snap refresh; sudo snap list > ~/Documents/PKGLIST/Snaps.txt; sudo pacman -Qqdt > ~/Documents/PKGLIST/Orphans.txt'
 
-if [ -d "$HOME/.emacs.d/bin" ] ;
-then PATH="$HOME/emacs.d/bin:$PATH"
-fi
+# Manage mirror lists
+alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
+alias mirrord="sudo reflector --latest 50 --number 20 --sort delay --save /etc/pacman.d/mirrorlist"
+alias mirrors="sudo reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist"
+alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist"
 
-# Prompt
-## Comment if using starship prompt
-### PS1='[\u@\h \W]\$ '
+# Display pacman manual
+alias apt-get='man pacman'
+alias apt='man pacman'
+
+# Update Xresources
+alias merge='xrdb -merge ~/.Xresources'
+
+# Manage git repositories
+alias config="/usr/bin/git --git-dir=/.git --work-tree=/"
+alias dotfiles="/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME"
+
+# Customizations and Wrappers: These aliases provide customizations, wrappers, or alternative commands to existing tools, making them more convenient or user-friendly.
+
+# Display package size
+alias big="expac -H M '%m\t%n' | sort -h | nl"
+
+# Customize curl and wget with a user-agent
+alias curl="curl --user-agent 'noleak'"
+alias wget="wget -c --user-agent 'noleak'"
+
+# Send output to termbin.com
+alias tb="nc termbin.com 9999"
+
+# Show high-priority systemd journal entries
+alias jctl="journalctl -p 3 -xb"
+
+# Customize the 'ls' command with exa
+alias ls='exa -al --color=always --icons --group-directories-first --git'
+
+# Colorize 'ip' command output
+alias ip="ip -color"
+
+# Use 'bat' as an alternative to 'cat' with custom styles
+alias cat='bat --style header --style snip --style changes --style header'
+
+# Use 'paru' if 'yay' is not available
+[ ! -x /usr/bin/yay ] && [ -x /usr/bin/paru ] && alias yay='paru'
+
+# Customize 'lynx', 'vifm', 'ncmpcpp', and 'mocp' commands with config paths
+alias lynx='lynx -cfg=~/.lynx/lynx.cfg -lss=~/.lynx/lynx.lss -vikeys'
+alias vifm='~/.config/vifm/scripts/vifmrun'
+alias ncmpcpp='ncmpcpp ncmpcpp_directory=$HOME/.config/ncmpcpp/'
+alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc -O MOCDir="$XDG_CONFIG_HOME"/moc'
+
+# Use 'meld' as a diff program for 'pacdiff'
+alias pacdiff='sudo -H DIFFPROG=meld pacdiff'
+
+# Query cheat.sh for shell help
+alias helpme='cht.sh --shell'
+
+# Manage GPG keys
+alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
+alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
+
+# Execute a rickroll script
+alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
+
+# =============================================================================
+# Terminal Appearance Configuration Section
+# -----------------------------------------------------------------------------
+# This section customizes the appearance of the terminal, including the title
+# of terminal windows, the shell prompt, and the display of random ASCII art
+# with colors. It sets the terminal title based on the current user, hostname,
+# and working directory. It checks for the presence of the starship prompt
+# and loads it if installed. Finally, it runs the 'colorscript' command to
+# display random ASCII art with colors in the terminal.
+# =============================================================================
 
 # CHANGE TITLE OF TERMINALS
 case ${TERM} in
@@ -138,11 +350,8 @@ case ${TERM} in
     ;;
 esac
 
-# Vi Mode
-## Comment this line out to enable default emacs-like bindings
-### set -o vi
-### bind -m vi-command 'Control-l: clear-screen'
-### bind -m vi-insert 'Control-l: clear-screen'
+# Prompt (Comment if using starship prompt)
+# PS1='[\u@\h \W]\$ '
 
 # Load starship prompt if starship is installed
 if  [ -x /usr/bin/starship ]; then
@@ -160,10 +369,4 @@ if  [ -x /usr/bin/starship ]; then
     unset -f __main
 fi
 
-
-# BEGIN_KITTY_SHELL_INTEGRATION
-if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
-# END_KITTY_SHELL_INTEGRATION
-
-### RANDOM COLOR SCRIPT ###
-colorscript random
+colorscript random # Run the 'colorscript' command with the 'random' argument to display random ASCII art with colors in the terminal.
