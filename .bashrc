@@ -1,33 +1,33 @@
-#    ____            __        __      __  _           
+#    ____            __        __      __  _
 #   / __ \____ ___  / /_____ _/ /_  __/ /_(_)________ _
 #  / / / / __ ` _ \/ __/ __ `/ / / / / __/ / ___/ __ `/
-# / /_/ / /_/   __/ /_/ /_/ / / /_/ / /_/ / /__/ /_/ / 
-#/_____/\__,_____/\__/\__,_/_/\__, /\__/_/\___/\__,_/  
-#                            /____/                    
+# / /_/ / /_/   __/ /_/ /_/ / / /_/ / /_/ / /__/ /_/ /
+#/_____/\__,_____/\__/\__,_/_/\__, /\__/_/\___/\__,_/
+#                            /____/
 #  https://daetalytica.io   oracle@daetalytica.io
-#               .^~.            .~^.               
-#            :^^!~.              .~!^^:            
-#         :^^:.^^                  ^^.:^^:         
-#      .^^:. .~^                    ^~. .:^^.      
-#      :!   :!^^^:..:^^:.  .:^^:..:^^^!:   !:      
-#      :!   :^^::::^~:.:^~~^:.:~^::::^^.   !:      
-#      .^^^:   .:^^::.   ^^   .::^^:.   :^^^.      
-#     ^~  .:^^:.   ^!^   ^^   ^!^.  .:^^:.  ~^     
-#     !7~.   .:^^:.      ^^      .:^^:.   .~7!.    
-#    .!!7!~:.    .^^^:.  ^^  .:^^^.    .:~!7!!.    
-#     ^7!!77!~^:.   .^!: ^^ :!~.   .:^~!77!!7^     
-#      ^77!!!!77!~^:     ^^     :^~!77!!!!7!^      
-#       :~!77^:!!777!:   ^^   :!777!!^^!7!~.       
-#         .:^^ :!!!!~!~  ^^  ~!~!!!!: ^^:.         
-#               !!!! .~: ^^ :~. !!!!               
-#              .!77~   . !! .   ~77!.              
-#              .^~!7!^.  ..  .^!7!~^.              
-#               ..:^!7!~.  .~!7!^:..               
-#               .:^^~7!7!^^!7!7~^^:.               
-#                  .:^!777777!^:.                  
-#                      :!77!:                      
-#                        ^^                        
-#                                                  
+#               .^~.            .~^.
+#            :^^!~.              .~!^^:
+#         :^^:.^^                  ^^.:^^:
+#      .^^:. .~^                    ^~. .:^^.
+#      :!   :!^^^:..:^^:.  .:^^:..:^^^!:   !:
+#      :!   :^^::::^~:.:^~~^:.:~^::::^^.   !:
+#      .^^^:   .:^^::.   ^^   .::^^:.   :^^^.
+#     ^~  .:^^:.   ^!^   ^^   ^!^.  .:^^:.  ~^
+#     !7~.   .:^^:.      ^^      .:^^:.   .~7!.
+#    .!!7!~:.    .^^^:.  ^^  .:^^^.    .:~!7!!.
+#     ^7!!77!~^:.   .^!: ^^ :!~.   .:^~!77!!7^
+#      ^77!!!!77!~^:     ^^     :^~!77!!!!7!^
+#       :~!77^:!!777!:   ^^   :!777!!^^!7!~.
+#         .:^^ :!!!!~!~  ^^  ~!~!!!!: ^^:.
+#               !!!! .~: ^^ :~. !!!!
+#              .!77~   . !! .   ~77!.
+#              .^~!7!^.  ..  .^!7!~^.
+#               ..:^!7!~.  .~!7!^:..
+#               .:^^~7!7!^^!7!7~^^:.
+#                  .:^!777777!^:.
+#                      :!77!:
+#                        ^^
+#
 # =============================================================================
 # Environment Configuration Section
 # -----------------------------------------------------------------------------
@@ -264,7 +264,7 @@ alias rmpkg="sudo pacman -Rdd"
 alias cleanup='sudo pacman -Rns (pacman -Qtdq)'
 
 # Update system packages and generate package lists
-alias sysupdate='sudo pacman -Syu --noconfirm; sudo pacman -Qqn > ~/Documents/PKGLIST/Native.txt; yay -Sau --noconfirm; sudo pacman -Qqm > ~/Documents/PKGLIST/Foreign.txt; nix-channel --update && nix-env -u; nix-env -q > ~/Documents/PKGLIST/Nix.txt; flatpak update; flatpak list > ~/Documents/PKGLIST/Flatpaks.txt sudo snap refresh; sudo snap list > ~/Documents/PKGLIST/Snaps.txt; sudo pacman -Qqdt > ~/Documents/PKGLIST/Orphans.txt'
+alias sysupdate='sudo pacman -Syu --noconfirm; pacman -Qqn > ~/Documents/PKGLIST/Native.txt; yay -Sau --noconfirm; pacman -Qqm > ~/Documents/PKGLIST/Foreign.txt; nix-channel --update && nix-env -u; nix-env -q > ~/Documents/PKGLIST/Nix.txt; flatpak update; flatpak list > ~/Documents/PKGLIST/Flatpaks.txt sudo snap refresh; snap list > ~/Documents/PKGLIST/Snaps.txt; pacman -Qqdt > ~/Documents/PKGLIST/Orphans.txt'
 
 # Manage mirror lists
 alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
