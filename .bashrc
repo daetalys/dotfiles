@@ -110,13 +110,16 @@ if [ -d "$HOME/.local/share/flatpak/exports/share" ]; then
   PATH="$HOME/.local/share/flatpak/exports/share:$PATH"
 fi
 
+# SSH settings
+export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR}/ssh-agent.socket" # Set the SSH_AUTH_SOCK environment variable to the socket path for the user-level ssh-agent service, enabling the shell to communicate with the agent for key management and authentication.
+
 [[ $- != *i* ]] && return # Check if the current shell is interactive; if not, exit early and skip the rest of the script.
 
 # Advanced command-not-found hook
-source /usr/share/doc/find-the-command/ftc.bash
-if [ -f /etc/bash.command-not-found ]; then
-    . /etc/bash.command-not-found
-fi
+#source /usr/share/doc/find-the-command/ftc.bash
+#if [ -f /etc/bash.command-not-found ]; then
+#    . /etc/bash.command-not-found
+#fi
 
 # =============================================================================
 # Aliases Section
@@ -263,8 +266,67 @@ alias rmpkg="sudo pacman -Rdd"
 # Remove orphaned packages
 alias cleanup='sudo pacman -Rns (pacman -Qtdq)'
 
-# Update system packages and generate package lists
-alias sysupdate='sudo pacman -Syu --noconfirm; pacman -Qqn > ~/Documents/PKGLIST/Native.txt; yay -Sau --noconfirm; pacman -Qqm > ~/Documents/PKGLIST/Foreign.txt; nix-channel --update && nix-env -u; nix-env -q > ~/Documents/PKGLIST/Nix.txt; flatpak update; flatpak list > ~/Documents/PKGLIST/Flatpaks.txt sudo snap refresh; snap list > ~/Documents/PKGLIST/Snaps.txt; pacman -Qqdt > ~/Documents/PKGLIST/Orphans.txt'
+# # Update System and Generate Package Lists: This function updates system packages using pacman, AUR (with a supported AUR helper), Nix, Flatpak, and Snap, and then generates package lists for each package manager. It also creates a list of orphaned packages.
+sysupdate() {
+  # Check if pacaur, trizen, aura, yay, pikaur, or paru is installed, if yes, set AUR_HELPER and AUR_FLAGS
+  AUR_HELPER=""
+  AUR_FLAGS=""
+  if command -v pacaur >/dev/null 2>&1; then
+    AUR_HELPER="pacaur"
+    AUR_FLAGS="-Sua"
+  elif command -v trizen >/dev/null 2>&1; then
+    AUR_HELPER="trizen"
+    AUR_FLAGS="-Sua"
+  elif command -v aura >/dev/null 2>&1; then
+    AUR_HELPER="aura"
+    AUR_FLAGS="-Akua"
+  elif command -v yay >/dev/null 2>&1; then
+    AUR_HELPER="yay"
+    AUR_FLAGS="-Sua"
+  elif command -v pikaur >/dev/null 2>&1; then
+    AUR_HELPER="pikaur"
+    AUR_FLAGS="-Sua"
+  elif command -v paru >/dev/null 2>&1; then
+    AUR_HELPER="paru"
+    AUR_FLAGS="-Sua"
+  fi
+
+  # Get the XDG documents directory and create the PKGLIST directory
+  DOCS_DIR="${XDG_DOCUMENTS_DIR:-${HOME}/Documents}"
+  mkdir -p "${DOCS_DIR}/PKGLIST"
+
+  # Update using pacman
+  sudo pacman -Syu --noconfirm
+  pacman -Qqn > "${DOCS_DIR}/PKGLIST/Native.txt"
+
+  # Update AUR packages
+  if [[ -n $AUR_HELPER ]]; then
+    $AUR_HELPER $AUR_FLAGS --noconfirm
+    pacman -Qqm > "${DOCS_DIR}/PKGLIST/Foreign.txt"
+  fi
+
+  # Update Nix packages
+  if command -v nix-channel >/dev/null 2>&1; then
+    nix-channel --update
+    nix-env -u
+    nix-env -q > "${DOCS_DIR}/PKGLIST/Nix.txt"
+  fi
+
+  # Update Flatpaks
+  if command -v flatpak >/dev/null 2>&1; then
+    flatpak update
+    flatpak list > "${DOCS_DIR}/PKGLIST/Flatpaks.txt"
+  fi
+
+  # Update Snaps
+  if command -v snap >/dev/null 2>&1; then
+    sudo snap refresh
+    snap list > "${DOCS_DIR}/PKGLIST/Snaps.txt"
+  fi
+
+  # Get orphans list
+  pacman -Qqdt > "${DOCS_DIR}/PKGLIST/Orphans.txt"
+}
 
 # Manage mirror lists
 alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
@@ -308,11 +370,11 @@ alias ip="ip -color"
 alias cat='bat --style header --style snip --style changes --style header'
 
 # Use 'paru' if 'yay' is not available
-[ ! -x /usr/bin/yay ] && [ -x /usr/bin/paru ] && alias yay='paru'
+#[ ! -x /usr/bin/yay ] && [ -x /usr/bin/paru ] && alias yay='paru'
 
 # Customize 'lynx', 'vifm', 'ncmpcpp', and 'mocp' commands with config paths
-alias lynx='lynx -cfg=~/.lynx/lynx.cfg -lss=~/.lynx/lynx.lss -vikeys'
-alias vifm='~/.config/vifm/scripts/vifmrun'
+#alias lynx='lynx -cfg=~/.lynx/lynx.cfg -lss=~/.lynx/lynx.lss -vikeys'
+#alias vifm='~/.config/vifm/scripts/vifmrun'
 alias ncmpcpp='ncmpcpp ncmpcpp_directory=$HOME/.config/ncmpcpp/'
 alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc -O MOCDir="$XDG_CONFIG_HOME"/moc'
 
