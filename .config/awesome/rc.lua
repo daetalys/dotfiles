@@ -77,11 +77,11 @@ beautiful.border_focus  = "#91231c"
 beautiful.border_marked = "#6298e0"
 
 -- This is used later as the default terminal and editor to run.
-terminal = "alacritty"
+terminal = os.getenv("TERMINAL") or "alacritty"
 editor = os.getenv("EDITOR") or "vim"
-local editorgui = "codium"
+local editorgui = os.getenv("VISUAL") or "vscodium"
 editor_cmd = terminal .. " -e " .. editor
-local browser = "brave"
+local browser = os.getenv("BROWSER") or "brave"
 local filemanager = "spacefm"
 local mailclient = "thunderbird"
 local mediaplayer = "vlc"
@@ -600,14 +600,18 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- }}}
 
 -- Autostart Hook
-awful.spawn.with_shell ("lxpolkit")
---awful.spawn.with_shell("pipewire")
---awful.spawn.with_shell("pipewire-pulse")
---awful.spawn.with_shell("wireplumber")
+awful.spawn.with_shell("xrdb -merge ~/.Xresources")
+awful.spawn.with_shell("xmodmap ~/.Xmodmap")
+awful.spawn.with_shell("feh --bg-scale XDG_PICTURES_DIR/wallpapers/2D7478E3-402D-4C8B-AB1C-032F461A9BB5.jpg")
+awful.spawn.with_shell("picom --config $HOME/.config/picom.conf")
+--awful.spawn.easy_async("pipewire", function()
+--    awful.spawn.easy_async("pipewire-pulse", function()
+--        awful.spawn.with_shell("wireplumber")
+--        awful.spawn.with_shell("pa-applet") -- Start pa-applet after wireplumber is running
+--    end)
+--end)
+awful.spawn.with_shell("nm-applet")
+awful.spawn.with_shell("lxpolkit")
 awful.spawn.with_shell("kdeconnectd")
 awful.spawn.with_shell("kdeconnect-indicator")
-awful.spawn.with_shell("nm-applet")
---awful.spawn.with_shell("iwgtk -i")
-awful.spawn.with_shell("pa-applet")
-awful.spawn.with_shell("picom --config $HOME/.config/picom.conf")
-awful.spawn.with_shell("nitrogen --restore")
+--gears.timer.start_new(2, function() awful.spawn.with_shell("/usr/bin/dunst") end) -- Add a timer for starting dunst after a delay (in seconds)
