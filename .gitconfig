@@ -5,7 +5,7 @@
 [core]
 	editor = vim
 [credential]
-	helper = store
+	helper = /usr/local/bin/git-credential-libsecret
 [diff]
 	colorMoved = zebra
 [filter "lfs"]
@@ -19,7 +19,7 @@
     renames = true
     directoryRenames = true
 [pull]
-	rebase = true
+	rebase = false
 [status]
 	displayCommentPrefix = true
 	showStash = true
