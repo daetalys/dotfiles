@@ -360,14 +360,20 @@ alias tb="nc termbin.com 9999"
 # Show high-priority systemd journal entries
 alias jctl="journalctl -p 3 -xb"
 
-# Customize the 'ls' command with exa
-alias ls='exa -al --color=always --icons --group-directories-first --git'
+# Check if the `exa` program is installed
+if command -v exa &> /dev/null; then
+    # If it's installed, create the alias
+    alias ls='exa -al --color=always --icons --group-directories-first --git'
+fi
 
 # Colorize 'ip' command output
 alias ip="ip -color"
 
-# Use 'bat' as an alternative to 'cat' with custom styles
-alias cat='bat --style header --style snip --style changes --style header'
+# Check if the `bat` program is installed
+if command -v bat &> /dev/null; then
+    # If it's installed, create the alias
+    alias cat='bat --style header --style snip --style changes --style header'
+fi
 
 # Use 'paru' if 'yay' is not available
 #[ ! -x /usr/bin/yay ] && [ -x /usr/bin/paru ] && alias yay='paru'
@@ -412,11 +418,8 @@ case ${TERM} in
     ;;
 esac
 
-# Prompt (Comment if using starship prompt)
-# PS1='[\u@\h \W]\$ '
-
 # Load starship prompt if starship is installed
-if  [ -x /usr/bin/starship ]; then
+if [ -x /usr/bin/starship ]; then
     __main() {
         local major="${BASH_VERSINFO[0]}"
         local minor="${BASH_VERSINFO[1]}"
@@ -429,6 +432,9 @@ if  [ -x /usr/bin/starship ]; then
     }
     __main
     unset -f __main
+else
+    # Use the default prompt if starship is not installed
+    PS1='[\u@\h \W]\$ '
 fi
 
 colorscript random # Run the 'colorscript' command with the 'random' argument to display random ASCII art with colors in the terminal.
