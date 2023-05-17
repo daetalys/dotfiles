@@ -1,33 +1,33 @@
-#    ____            __        __      __  _           
+#    ____            __        __      __  _
 #   / __ \____ ___  / /_____ _/ /_  __/ /_(_)________ _
 #  / / / / __ ` _ \/ __/ __ `/ / / / / __/ / ___/ __ `/
-# / /_/ / /_/   __/ /_/ /_/ / / /_/ / /_/ / /__/ /_/ / 
-#/_____/\__,_____/\__/\__,_/_/\__, /\__/_/\___/\__,_/  
-#                            /____/                    
+# / /_/ / /_/   __/ /_/ /_/ / / /_/ / /_/ / /__/ /_/ /
+#/_____/\__,_____/\__/\__,_/_/\__, /\__/_/\___/\__,_/
+#                            /____/
 #  https://daetalytica.io   oracle@daetalytica.io
-#               .^~.            .~^.               
-#            :^^!~.              .~!^^:            
-#         :^^:.^^                  ^^.:^^:         
-#      .^^:. .~^                    ^~. .:^^.      
-#      :!   :!^^^:..:^^:.  .:^^:..:^^^!:   !:      
-#      :!   :^^::::^~:.:^~~^:.:~^::::^^.   !:      
-#      .^^^:   .:^^::.   ^^   .::^^:.   :^^^.      
-#     ^~  .:^^:.   ^!^   ^^   ^!^.  .:^^:.  ~^     
-#     !7~.   .:^^:.      ^^      .:^^:.   .~7!.    
-#    .!!7!~:.    .^^^:.  ^^  .:^^^.    .:~!7!!.    
-#     ^7!!77!~^:.   .^!: ^^ :!~.   .:^~!77!!7^     
-#      ^77!!!!77!~^:     ^^     :^~!77!!!!7!^      
-#       :~!77^:!!777!:   ^^   :!777!!^^!7!~.       
-#         .:^^ :!!!!~!~  ^^  ~!~!!!!: ^^:.         
-#               !!!! .~: ^^ :~. !!!!               
-#              .!77~   . !! .   ~77!.              
-#              .^~!7!^.  ..  .^!7!~^.              
-#               ..:^!7!~.  .~!7!^:..               
-#               .:^^~7!7!^^!7!7~^^:.               
-#                  .:^!777777!^:.                  
-#                      :!77!:                      
-#                        ^^                        
-#                                                  
+#               .^~.            .~^.
+#            :^^!~.              .~!^^:
+#         :^^:.^^                  ^^.:^^:
+#      .^^:. .~^                    ^~. .:^^.
+#      :!   :!^^^:..:^^:.  .:^^:..:^^^!:   !:
+#      :!   :^^::::^~:.:^~~^:.:~^::::^^.   !:
+#      .^^^:   .:^^::.   ^^   .::^^:.   :^^^.
+#     ^~  .:^^:.   ^!^   ^^   ^!^.  .:^^:.  ~^
+#     !7~.   .:^^:.      ^^      .:^^:.   .~7!.
+#    .!!7!~:.    .^^^:.  ^^  .:^^^.    .:~!7!!.
+#     ^7!!77!~^:.   .^!: ^^ :!~.   .:^~!77!!7^
+#      ^77!!!!77!~^:     ^^     :^~!77!!!!7!^
+#       :~!77^:!!777!:   ^^   :!777!!^^!7!~.
+#         .:^^ :!!!!~!~  ^^  ~!~!!!!: ^^:.
+#               !!!! .~: ^^ :~. !!!!
+#              .!77~   . !! .   ~77!.
+#              .^~!7!^.  ..  .^!7!~^.
+#               ..:^!7!~.  .~!7!^:..
+#               .:^^~7!7!^^!7!7~^^:.
+#                  .:^!777777!^:.
+#                      :!77!:
+#                        ^^
+#
 # ~/.config/aliases
 
 ### ALIASES ###
@@ -71,9 +71,6 @@ alias pacdiff='sudo -H DIFFPROG=meld pacdiff'
 alias please='sudo'
 alias upd="/usr/bin/update"
 
-# Cleanup Orphaned Packages
-alias cleanup='sudo pacman -Rns (pacman -Qtdq)'
-
 # termbin
 alias tb="nc termbin.com 9999"
 
@@ -86,9 +83,6 @@ alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 # Aliases For dotfiles Bare Git Repository
 alias config="/usr/bin/git --git-dir=/.git --work-tree=/"
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME"
-alias sysupdate='sudo pacman -Syu --noconfirm; yay -Sau --noconfirm; sudo snap refresh; sudo pacman -Qqm > ~/Documents/PKGLIST/Foreign.txt; sudo pacman -Qqn > ~/Documents/PKGLIST/Native.txt; sudo pacman -Qqdt > ~/Documents/PKGLIST/Orphans.txt; sudo snap list > ~/Documents/PKGLIST/Snaps.txt'
-#alias packupdate='dotfiles add -u && dotfiles commit -S -am "Updated package lists, run commands, and other configuration files." && dotfiles push'
-#alias dotsync='dotfiles fetch --all && dotfiles reset --hard origin/master'
 
 # root privileges
 alias doas="doas --"
@@ -131,17 +125,13 @@ alias l.="exa -a | egrep '^\.'"                             # Show Only dotfiles
 alias ip="ip -color"
 
 # Replace some more things with better alternatives
-alias cat='bat --style header --style rules --style snip --style changes --style header'
+alias cat='bat --style header --style snip --style changes --style header'
 [ ! -x /usr/bin/yay ] && [ -x /usr/bin/paru ] && alias yay='paru'
 
 # pacman and yay
-alias pacsyu='sudo pacman -Syyu'                 # update only standard pkgs
-alias yaysua='yay -Sua --noconfirm'              # update only AUR pkgs (yay)
-alias yaysyu='yay -Syu --noconfirm'              # update standard pkgs and AUR pkgs (yay)
-#alias parsua='paru -Sua --noconfirm'             # update only AUR pkgs (paru)
-#alias parsyu='paru -Syu --noconfirm'             # update standard pkgs and AUR pkgs (paru)
 alias unlock='sudo rm /var/lib/pacman/db.lck'    # remove pacman lock
 alias cleanup='sudo pacman -Rns (pacman -Qtdq)'  # remove orphaned packages
+alias sysupdate='sudo pacman -Syu --noconfirm; sudo pacman -Qqn > ~/Documents/PKGLIST/Native.txt; yay -Sau --noconfirm; sudo pacman -Qqm > ~/Documents/PKGLIST/Foreign.txt; nix-channel --update && nix-env -u; nix-env -q > ~/Documents/PKGLIST/Nix.txt; flatpak update; flatpak list > ~/Documents/PKGLIST/Flatpaks.txt sudo snap refresh; sudo snap list > ~/Documents/PKGLIST/Snaps.txt; sudo pacman -Qqdt > ~/Documents/PKGLIST/Orphans.txt'
 
 # confirm before overwriting something
 alias cp="cp -i"
@@ -152,7 +142,7 @@ alias rm='rm -i'
 alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
 alias lynx='lynx -cfg=~/.lynx/lynx.cfg -lss=~/.lynx/lynx.lss -vikeys'
-alias vifm='~/.config/vifm/scripts/vifmrun'
+#alias vifm='~/.config/vifm/scripts/vifmrun'
 alias ncmpcpp='ncmpcpp ncmpcpp_directory=$HOME/.config/ncmpcpp/'
 alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc -O MOCDir="$XDG_CONFIG_HOME"/moc'
 
@@ -165,45 +155,12 @@ alias pscpu='ps auxf | sort -nr -k 3'
 # Merge Xresources
 alias merge='xrdb -merge ~/.Xresources'
 
-# git
-#alias addup='git add -u'
-#alias addall='git add .'
-#alias branch='git branch'
-#alias checkout='git checkout'
-#alias clone='git clone'
-#alias commit='git commit -m'
-#alias fetch='git fetch'
-#alias pull='git pull origin'
-#alias push='git push origin'
-#alias stat='git status'  # 'status' is protected name so using 'stat' instead
-#alias tag='git tag'
-#alias newtag='git tag -a'
-
 # gpg encryption
 # verify signature for ISOs
 alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
 # receive the key of a developer
 alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
 
-# switch between shells
-# I do not recommend switching default SHELL from bash.
-alias tobash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
-alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Now log out.'"
-alias tofish="sudo chsh $USER -s /bin/fish && echo 'Now log out.'"
-
 # the terminal rickroll
 alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
 
-# youtube-dl
-#alias yta-aac="youtube-dl --extract-audio --audio-format aac "
-#alias yta-best="youtube-dl --extract-audio --audio-format best "
-#alias yta-flac="youtube-dl --extract-audio --audio-format flac "
-#alias yta-m4a="youtube-dl --extract-audio --audio-format m4a "
-#alias yta-mp3="youtube-dl --extract-audio --audio-format mp3 "
-#alias yta-opus="youtube-dl --extract-audio --audio-format opus "
-#alias yta-vorbis="youtube-dl --extract-audio --audio-format vorbis "
-#alias yta-wav="youtube-dl --extract-audio --audio-format wav "
-#alias ytv-best="youtube-dl -f bestvideo+bestaudio "
-
-# Unlock LBRY tips
-#alias tips='lbrynet txo spend --type=support --is_not_my_input --blocking'
