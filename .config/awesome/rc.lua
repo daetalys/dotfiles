@@ -602,7 +602,7 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- Autostart Hook
 awful.spawn.with_shell("xrdb -merge ~/.Xresources")
 awful.spawn.with_shell("xmodmap ~/.Xmodmap")
-awful.spawn.with_shell("feh --bg-scale XDG_PICTURES_DIR/wallpapers/2D7478E3-402D-4C8B-AB1C-032F461A9BB5.jpg")
+awful.spawn.with_shell("feh --bg-scale $XDG_PICTURES_DIR/wallpapers/2D7478E3-402D-4C8B-AB1C-032F461A9BB5.jpg")
 awful.spawn.with_shell("picom --config $HOME/.config/picom.conf")
 --awful.spawn.easy_async("pipewire", function()
 --    awful.spawn.easy_async("pipewire-pulse", function()
