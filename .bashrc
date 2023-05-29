@@ -111,7 +111,7 @@ if [ -d "$HOME/.local/share/flatpak/exports/share" ]; then
 fi
 
 # SSH settings
-export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR}/ssh-agent.socket" # Set the SSH_AUTH_SOCK environment variable to the socket path for the user-level ssh-agent service, enabling the shell to communicate with the agent for key management and authentication.
+export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR}/gcr/ssh" # Set the SSH_AUTH_SOCK environment variable to the socket path for the user-level ssh-agent service, enabling the shell to communicate with the agent for key management and authentication.
 
 [[ $- != *i* ]] && return # Check if the current shell is interactive; if not, exit early and skip the rest of the script.
 
