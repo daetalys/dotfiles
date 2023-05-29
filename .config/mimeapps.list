@@ -1,29 +1,33 @@
 [Added Associations]
+application/octet-stream=org.kde.kdeconnect_open.desktop;
+image/jpeg=feh.desktop;
+image/png=gimp.desktop;
 inode/directory=spacefm.desktop;spacefm-find.desktop;org.kde.dolphin.desktop;
 text/plain=vscodium.desktop;codium.desktop;emacs.desktop;vim.desktop;okularApplication_txt.desktop;
+video/mpeg=vlc.desktop;
+x-scheme-handler/geo=qwant-maps-geo-handler.desktop;
 x-scheme-handler/http=firefox.desktop;
 x-scheme-handler/https=firefox.desktop;brave-browser.desktop;
 x-scheme-handler/mailto=thunderbird.desktop;userapp-Thunderbird-73Y1E1.desktop;
 x-scheme-handler/mid=userapp-Thunderbird-73Y1E1.desktop;
-image/jpeg=feh.desktop;
-image/png=gimp.desktop;
+x-scheme-handler/tel=org.kde.kdeconnect.handler.desktop;
 x-scheme-handler/tg=userapp-Telegram Desktop-QL4VK1.desktop;
-video/mpeg=vlc.desktop;
-application/octet-stream=org.kde.kdeconnect_open.desktop;
 
 [Default Applications]
+application/octet-stream=org.kde.kdeconnect_open.desktop;
+image/jpeg=feh.desktop;
+image/png=gimp.desktop;
 inode/directory=spacefm.desktop;
+message/rfc822=userapp-Thunderbird-73Y1E1.desktop
 text/plain=vscodium.desktop;codium.desktop;emacs.desktop;vim.desktop
+video/mpeg=vlc.desktop;
 x-scheme-handler/bitwarden=Electron.desktop
+x-scheme-handler/geo=qwant-maps-geo-handler.desktop;
 x-scheme-handler/http=firefox.desktop;
 x-scheme-handler/https=firefox.desktop;
 x-scheme-handler/magnet=org.qbittorrent.qBittorrent.desktop
-x-scheme-handler/mailto=userapp-Thunderbird-73Y1E1.desktop
-x-scheme-handler/obsidian=obsidian.desktop
-message/rfc822=userapp-Thunderbird-73Y1E1.desktop
+x-scheme-handler/mailto=thunderbird.desktop;
 x-scheme-handler/mid=userapp-Thunderbird-73Y1E1.desktop
-image/jpeg=feh.desktop;
-image/png=gimp.desktop;
+x-scheme-handler/obsidian=obsidian.desktop
+x-scheme-handler/tel=org.kde.kdeconnect.handler.desktop;
 x-scheme-handler/tg=userapp-Telegram Desktop-QL4VK1.desktop
-video/mpeg=vlc.desktop;
-application/octet-stream=org.kde.kdeconnect_open.desktop;
