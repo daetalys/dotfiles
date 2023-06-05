@@ -37,7 +37,30 @@ This code configures Elpaca, a package manager for Emacs.
          (build (expand-file-name "elpaca/" elpaca-builds-directory))
          (order (cdr elpaca-order))
          (default-directory repo))
-    ;; Omitted rest of the Elpaca setup code for brevity
+         (add-to-list 'load-path (if (file-exists-p build) build repo))
+    (unless (file-exists-p repo)
+      (make-directory repo t)
+      (when (< emacs-major-version 28) (require 'subr-x))
+      (condition-case-unless-debug err
+	  (if-let ((buffer (pop-to-buffer-same-window "*elpaca-bootstrap*"))
+		   ((zerop (call-process "git" nil buffer t "clone"
+					 (plist-get order :repo) repo)))
+		   ((zerop (call-process "git" nil buffer t "checkout"
+					 (or (plist-get order :ref) "--"))))
+		   (emacs (concat invocation-directory invocation-name))
+		   ((zerop (call-process emacs nil buffer nil "-Q" "-L" "." "--batch"
+					 "--eval" "(byte-recompile-directory \".\" 0 'force)")))
+		   ((require 'elpaca))
+		   ((elpaca-generate-autoloads "elpaca" repo)))
+	      (kill-buffer buffer)
+	    (error "%s" (with-current-buffer buffer (buffer-string))))
+	((error) (warn "%s" err) (delete-directory repo 'recursive))))
+    (unless (require 'elpaca-autoloads nil t)
+      (require 'elpaca)
+      (elpaca-generate-autoloads "elpaca" repo)
+      (load "./elpaca-autoloads")))
+  (add-hook 'after-init-hook #'elpaca-process-queues)
+  (elpaca `(,@elpaca-order))
 #+end_src
 
 ** Load Evil Mode
@@ -107,13 +130,33 @@ Here, we specify the different fonts Emacs should use in different contexts.
 
 #+begin_src emacs-lisp
   ;; Define the default font
-  (set-face-attribute 'default nil
+   (set-face-attribute 'default nil
     :font "Fira Code"
     :height 110
     :weight 'medium)
-  
-  ;; Define other font settings
-  ;; Rest of the font configuration code omitted for brevity
+  (set-face-attribute 'variable-pitch nil
+    :font "Fira Code"
+    :height 120
+    :weight 'medium)
+  (set-face-attribute 'fixed-pitch nil
+    :font "Fira Code"
+    :height 110
+    :weight 'medium)
+  ;; Makes commented text and keywords italics.
+  ;; This is working in emacsclient but not emacs.
+  ;; Your font must have an italic face available.
+  (set-face-attribute 'font-lock-comment-face nil
+    :slant 'italic)
+  (set-face-attribute 'font-lock-keyword-face nil
+    :slant 'italic)
+
+  ;; This sets the default font on all graphical frames created after restarting Emacs.
+  ;; Does the same thing as 'set-face-attribute default' above, but emacsclient fonts
+  ;; are not right unless I also add this method of setting the default font.
+  (add-to-list 'default-frame-alist '(font . "JetBrains Mono-11"))
+
+  ;; Uncomment the following line if line spacing needs adjusting.
+  (setq-default line-spacing 0.12)
 #+end_src
 
 * GRAPHICAL USER INTERFACE TWEAKS
@@ -161,11 +204,20 @@ This code enables "org-bullets", which replaces asterisks with more attractive b
 Which-key is a package that displays available keybindings in popup windows.
 
 #+begin_src emacs-lisp
-  (use-package which-key
+    (use-package which-key
     :init
-    (which-key-mode 1)
+      (which-key-mode 1)
     :config
-    ;; Configure various aspects of which-key
-    ;; Rest of the which-key configuration code omitted for brevity
-    )
+    (setq which-key-side-window-location 'bottom
+	  which-key-sort-order #'which-key-key-order-alpha
+	  which-key-sort-uppercase-first nil
+	  which-key-add-column-padding 1
+	  which-key-max-display-columns nil
+	  which-key-min-display-lines 6
+	  which-key-side-window-slot -10
+	  which-key-side-window-max-height 0.25
+	  which-key-idle-delay 0.8
+	  which-key-max-description-length 25
+	  which-key-allow-imprecise-window-fit t
+	  which-key-separator " → " ))
 #+end_src
