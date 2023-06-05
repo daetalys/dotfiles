@@ -80,13 +80,13 @@
   (general-evil-setup)
 
   ;; set up 'SPC' as the global leader key
-  (general-create-definer Dætalys/leader-keys
+  (general-create-definer daetalytica/leader-keys
     :states '(normal insert visual emacs)
     :keymaps 'override
     :prefix "SPC" ;; set leader
     :global-prefix "M-SPC") ;; access leader in insert mode
 
-  (Dætalys/leader-keys
+  (daetalytica/leader-keys
     "b" '(:ignore t :wk "buffer")
     "bb" '(switch-to-buffer :wk "Switch buffer")
     "bk" '(kill-this-buffer :wk "Kill this buffer")
@@ -97,15 +97,15 @@
 )
 
 (set-face-attribute 'default nil
-  :font "JetBrains Mono"
+  :font "Fira Code"
   :height 110
   :weight 'medium)
 (set-face-attribute 'variable-pitch nil
-  :font "Ubuntu"
+  :font "Fira Code"
   :height 120
   :weight 'medium)
 (set-face-attribute 'fixed-pitch nil
-  :font "JetBrains Mono"
+  :font "Fira Code"
   :height 110
   :weight 'medium)
 ;; Makes commented text and keywords italics.
