@@ -37,5 +37,9 @@ fi
 
 # Start X
 if [[ "$(tty)" = "/dev/tty1" ]]; then
-	startx
+    startx
+elif [[ "$(tty)" = "/dev/tty2" ]]; then
+    qtile start -b wayland
+elif [[ "$(tty)" = "/dev/tty7" ]]; then
+    start plasma-wayland
 fi
