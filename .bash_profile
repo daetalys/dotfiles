@@ -43,5 +43,5 @@ elif [[ "$(tty)" = "/dev/tty2" ]]; then
 elif [[ "$(tty)" = "/dev/tty3" ]]; then
     Hyprland
 elif [[ "$(tty)" = "/dev/tty7" ]]; then
-    start plasma-wayland
+    startplasma-wayland
 fi
