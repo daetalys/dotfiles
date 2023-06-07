@@ -35,6 +35,8 @@ elif [[ -f /etc/bashrc ]]; then
     . /etc/bashrc
 fi
 
+export QT_QPA_PLATFORMTHEME='qt5ct'
+
 # Start X
 if [[ "$(tty)" = "/dev/tty1" ]]; then
     qtile start -b wayland
