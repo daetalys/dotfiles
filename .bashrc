@@ -360,23 +360,14 @@ alias tb="nc termbin.com 9999"
 # Show high-priority systemd journal entries
 alias jctl="journalctl -p 3 -xb"
 
-# Check if the `exa` program is installed
-if command -v exa &> /dev/null; then
-    # If it's installed, create the alias
-    alias ls='exa -al --color=always --icons --group-directories-first --git'
-fi
+# Wrappers for common tools
+[ -x /usr/bin/bat ] && alias cat='bat --style header --style snip --style changes --style header'
+[ -x /usr/bin/exa ] && alias ls='exa -al --color=always --icons --group-directories-first --git'
+[ -x /usr/bin/lvim ] && alias vim='lvim'
+#[ ! -x /usr/bin/yay ] && [ -x /usr/bin/paru ] && alias yay='paru'
 
 # Colorize 'ip' command output
 alias ip="ip -color"
-
-# Check if the `bat` program is installed
-if command -v bat &> /dev/null; then
-    # If it's installed, create the alias
-    alias cat='bat --style header --style snip --style changes --style header'
-fi
-
-# Use 'paru' if 'yay' is not available
-#[ ! -x /usr/bin/yay ] && [ -x /usr/bin/paru ] && alias yay='paru'
 
 # Customize 'lynx', 'vifm', 'ncmpcpp', and 'mocp' commands with config paths
 #alias lynx='lynx -cfg=~/.lynx/lynx.cfg -lss=~/.lynx/lynx.lss -vikeys'
