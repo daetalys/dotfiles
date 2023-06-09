@@ -45,6 +45,7 @@ gpsd
 grammalecte
 gtest
 gulp
+haskell-connection
 heaptrack
 hitori
 hsetroot

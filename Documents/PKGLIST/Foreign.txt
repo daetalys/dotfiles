@@ -1,6 +1,7 @@
 apg
 font-bh-ttf
 gphotofs
+haskell-connection
 hollywood
 intel-oneapi-compiler-shared-opencl-cpu
 iwdgui

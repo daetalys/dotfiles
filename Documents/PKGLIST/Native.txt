@@ -391,10 +391,15 @@ haskell-commonmark-pandoc
 haskell-comonad
 haskell-conduit
 haskell-conduit-extra
-haskell-connection
 haskell-constraints
 haskell-contravariant
 haskell-cookie
+haskell-crypton
+haskell-crypton-connection
+haskell-crypton-x509
+haskell-crypton-x509-store
+haskell-crypton-x509-system
+haskell-crypton-x509-validation
 haskell-cryptonite
 haskell-data-array-byte
 haskell-data-default
