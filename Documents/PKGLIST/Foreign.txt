@@ -1,7 +1,11 @@
 apg
+epub-thumbnailer-git
 font-bh-ttf
 gphotofs
 haskell-connection
+haskell-x509-store
+haskell-x509-system
+haskell-x509-validation
 hollywood
 intel-oneapi-compiler-shared-opencl-cpu
 iwdgui
