@@ -28,7 +28,7 @@
 #                      :!77!:
 #                        ^^
 #
-# Source definitions
+# Source Bourne Again SHell Run Commands
 if [[ -f ~/.bashrc ]]; then
     . ~/.bashrc
 elif [[ -f /etc/bashrc ]]; then
@@ -37,13 +37,13 @@ fi
 
 export QT_QPA_PLATFORMTHEME='qt5ct'
 
-# Start X
+# Init Session Interface Environment
 if [[ "$(tty)" = "/dev/tty1" ]]; then
     qtile start -b wayland
 elif [[ "$(tty)" = "/dev/tty2" ]]; then
     startx
 elif [[ "$(tty)" = "/dev/tty3" ]]; then
     Hyprland
-elif [[ "$(tty)" = "/dev/tty7" ]]; then
+elif [[ "$(tty)" = "/dev/tty6" ]]; then
     startplasma-wayland
 fi
