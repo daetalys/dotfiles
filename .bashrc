@@ -363,6 +363,7 @@ alias jctl="journalctl -p 3 -xb"
 # Wrappers for common tools
 [ -x /usr/bin/bat ] && alias cat='bat --style header --style snip --style changes --style header'
 [ -x /usr/bin/exa ] && alias ls='exa -al --color=always --icons --group-directories-first --git'
+[ -x /usr/bin/lfrun ] && alias lf='lfrun'
 [ -x /usr/bin/lvim ] && alias vim='lvim'
 #[ ! -x /usr/bin/yay ] && [ -x /usr/bin/paru ] && alias yay='paru'
 
@@ -371,7 +372,7 @@ alias ip="ip -color"
 
 # Customize 'lynx', 'vifm', 'ncmpcpp', and 'mocp' commands with config paths
 #alias lynx='lynx -cfg=~/.lynx/lynx.cfg -lss=~/.lynx/lynx.lss -vikeys'
-#alias vifm='~/.config/vifm/scripts/vifmrun'
+alias vifm='~/.config/vifm/scripts/vifmrun'
 alias ncmpcpp='ncmpcpp ncmpcpp_directory=$HOME/.config/ncmpcpp/'
 alias mocp='mocp -M "$XDG_CONFIG_HOME"/moc -O MOCDir="$XDG_CONFIG_HOME"/moc'
 
