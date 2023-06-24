@@ -1,85 +1,84 @@
 # Dotfiles
 
-This repository contains personal dotfiles and system configuration files for an Arch Linux setup. It is organized in a way that makes it easy to manage and deploy the configuration files across different machines.
+This repository is your one-stop destination for managing and deploying personal dotfiles and system configurations for an Arch Linux setup. The repository is structured to simplify and streamline the process across various machines.
 
-## Repository Structure
+## Structure of the Repository
 
-- **dotconfig**: This directory contains all personal dotfiles and configuration files for various applications and tools.
-- **sysconfig**: This directory contains system-level configuration files, such as Pacman and SSH configuration files. This directory is managed as a Git submodule.
+- **.files**: This directory holds your personal dotfiles and configurations for various applications and tools.
+- **sysconfig**: This directory houses system-level configuration files, including Pacman and SSH configurations. This directory functions as a Git submodule.
 
-## Setup Scripts
+## Scripts to Automate Setup
 
-Two setup scripts are provided to automate the process of moving, linking, and deploying the configuration files:
+Two scripts are provided to automate the process of moving, linking, and deploying the configuration files:
 
-1. **setup.sh**: This script moves the specified dotfiles and configuration files from your home directory into the "dotconfig" repository, and creates symbolic links to them in their original locations. Run this script only once when initially setting up the repository.
+1. **setup.sh**: This script transfers the dotfiles and configuration files you specify from your home directory into the ".files" repository. It then creates symbolic links for them at their original locations. This script is intended for one-time use during the initial setup of the repository.
 
-2. **install.sh**: This script is used to deploy the dotfiles and system-level configuration files on a new machine or to update the existing setup. It creates symbolic links to the files in their appropriate locations.
+2. **install.sh**: This script first requests the directory containing your dotfiles, then creates that directory if it doesn't exist (user approval required). It then deploys the dotfiles and, if the user agrees, system-level configuration files. Symbolic links are created at the appropriate locations.
 
 ## Usage
 
 ### Initial Setup
 
-1. Clone this repository to your desired location, usually your home directory:
+1. Clone the repository to your chosen location (usually the home directory):
 
-```git clone https://github.com/daetalys/dotfiles $HOME/.dotconfig```
+    ```
+    git clone https://github.com/daetalys/dotfiles $HOME/.files
+    ```
 
+2. Run the `setup.sh` script to move your existing dotfiles and configuration files into the repository, and create symbolic links for them:
 
-2. Run the `setup.sh` script to move your existing dotfiles and configuration files into the repository, and create symbolic links to them:
+    ```
+    $HOME/.files/setup.sh
+    ```
 
-```$HOME/.dotconfig/setup.sh```
+3. Stage, commit, and push your changes to the remote repository:
 
-
-3. Commit and push your changes to the remote repository:
-
-```
-cd $HOME/.dotconfig
-git add .
-git commit -m "Initial commit of dotfiles"
-git push
-```
-
+    ```
+    cd $HOME/.files
+    git add .
+    git commit -m "Initial commit of dotfiles"
+    git push
+    ```
 
 ### Deploying on a New Machine
 
-1. Clone this repository to your desired location:
+1. Clone the repository to your desired location:
 
-```
-git clone https://github.com/daetalys/dotfiles $HOME/.dotconfig
-```
-
+    ```
+    git clone https://github.com/daetalys/dotfiles $HOME/.files
+    ```
 
 2. Navigate to the repository directory and update the submodules:
 
-```
-cd $HOME/.dotconfig
-git submodule update --init --recursive
-```
-
+    ```
+    cd $HOME/.files
+    git submodule update --init --recursive
+    ```
 
 3. Run the `install.sh` script to deploy the dotfiles and system-level configuration files:
 
-```$HOME/.dotconfig/install.sh```
-
+    ```
+    $HOME/.files/install.sh
+    ```
 
 ## Updating the Repository
 
-Whenever you make changes to your dotfiles or system-level configuration files, remember to commit and push the changes to the remote repository.
+Whenever you make changes to your dotfiles or system-level configuration files, remember to commit and push the changes to the remote repository. 
 
-To update the "sysconfig" submodule in the main "dotconfig" repository, execute the following commands:
+To update the "sysconfig" submodule in the main ".files" repository, execute the following commands:
 
-```
-cd $HOME/.dotconfig/sysconfig
-git pull origin master
-cd ..
-git add sysconfig
-git commit -m "Update sysconfig submodule"
-git push
-```
+    ```
+    cd $HOME/.files/sysconfig
+    git pull origin master
+    cd ..
+    git add sysconfig
+    git commit -m "Update sysconfig submodule"
+    git push
+    ```
 
-
-And when updating the existing setup on a machine, make sure to run `git submodule update --init --recursive` before executing the `install.sh` script.
+Before running the `install.sh` script to update the existing setup on any machine, always run `git submodule update --init --recursive`.
 
 ## Notes
 
-- Ensure that you don't include sensitive information (like passwords or API keys) in your repository. Consider encrypting sensitive files or using a tool like `pass` to manage secrets.
+- Do not include sensitive information (like passwords or API keys) in your repository. Consider encrypting sensitive files or using a tool like `pass` to manage secrets.
 - If you encounter issues with permissions or system-level files, ensure that you have the necessary privileges to access and modify those files.

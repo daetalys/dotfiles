@@ -1,98 +1,77 @@
 #!/bin/bash
 
-dotfiles_dir="$HOME/.dotconfig"
-sysconfig_dir="$HOME/.dotconfig/sysconfig"
+# Ask the user for the directory containing the dotfiles
+read -p "Please enter the directory containing the dotfiles: " dotfiles_dir
+dotfiles_dir=${dotfiles_dir:-"$HOME/.files"}
 
-# List of dotfiles and configuration directories to be linked
+# Check if directory exists
+if [ ! -d "$dotfiles_dir" ]; then
+  echo "The directory $dotfiles_dir does not exist."
+  # Ask the user if they want to create the directory
+  read -p "Do you want to create this directory? (y/n) " create_dir
+
+  if [ "$create_dir" == "y" ]; then
+    echo "Creating directory $dotfiles_dir"
+    mkdir -p "$dotfiles_dir"
+  else
+    echo "Exiting."
+    exit 1
+  fi
+fi
+
+# Define the list of dotfiles
 dotfiles=(
-  ".bash_profile"
   ".bashrc"
-  ".blackman/*"
-  ".config/alacritty/*"
-  ".config/aliases"
-  ".config/awesome/*"
-  ".config/fish/*"
-  ".config/gtk-2.0/*"
-  ".config/gtk-3.0/*"
-  ".config/gtk-4.0/*"
-  ".config/kcminputrc"
-  ".config/kded5rc"
-  ".config/kdeglobals"
-  ".config/kglobalshortcutsrc"
-  ".config/kgpgrc"
-  ".config/kscreenlockerrc"
-  ".config/ksplashrc"
-  ".config/kwinrc"
-  ".config/latte/*"
-  ".config/lattedockrc"
-  ".config/leftwm/*"
-  ".config/lxsession/*"
-  ".config/lxsession-default-apps/*"
-  ".config/mimeapps.list"
-  ".config/neofetch/*"
-  ".config/nitrogen/*"
-  ".config/openbox/*"
-  ".config/pavucontrol.ini"
-  ".config/powermanagementprofilesrc"
-  ".config/qBittorrent/*"
-  ".config/qtile/*"
-  ".config/spectrwm/*"
-  ".config/starship.toml"
-  ".config/terminator/*"
-  ".config/torrc"
-  ".config/touchpadrc"
-  ".config/user-dirs.dirs"
-  ".config/volumeicon/*"
-  ".config/xmobar/*"
-  ".config/xmonad/*"
-  ".config/xsettingsd/*"
-  ".config/yakuakerc"
-  ".conkyrc"
-  ".doom.d/*"
-  ".emacs.d/*"
-  ".gitconfig"
-  ".gitignore"
-  ".gnupg/gpg.conf"
-  ".gnupg/otrust.lst"
-  ".gnupg/pubring.kbx"
-  ".icons/*"
-  ".local/share/color-schemes/*"
-  ".local/share/dbus-1/*"
-  ".local/share/icons/*"
-  ".local/share/networkmanagement/*"
-  ".local/share/plasma/*"
-  ".local/share/themes/*"
-  ".profile"
-  ".ssh/authorized_keys"
-  ".ssh/known_hosts"
-  ".themes/*"
-  ".vim/*"
-  ".vimrc"
-  ".Xauthority"
-  ".Xdefaults"
-  ".xinitrc"
-  ".xmonad/*"
-  ".Xresources"
-  ".zshenv"
+  ".config/*"
   ".zshrc"
-)
-
-# List of system-level configuration files to be linked
-sysconfig_files=(
-  ("/etc/pacman.conf" "pacman.conf")
-  ("/etc/ssh/sshd_config" "sshd_config")
-  ("/etc/X11/xorg.conf.d/00-keyboard.conf" "00-keyboard.conf")
-  ("/etc/X11/xorg.conf.d/40-libinput.conf" "40-libinput.conf")
+#...Add more here as needed...#
 )
 
 # Create symlinks for dotfiles
 for dotfile in "${dotfiles[@]}"; do
-  ln -sf "$dotfiles_dir/$dotfile" "$HOME/$dotfile"
+  if [ -e "$dotfiles_dir/$dotfile" ]; then
+    echo "Creating symlink for $dotfile"
+    ln -sf "$dotfiles_dir/$dotfile" "$HOME/$dotfile"
+  else
+    echo "$dotfile not found in $dotfiles_dir"
+  fi
 done
 
-# Create symlinks for sysconfig files
-for sysconfig_file in "${sysconfig_files[@]}"; do
-  sudo ln -sf "$sysconfig_dir/${sysconfig_file[1]}" "${sysconfig_file[0]}"
-done
+# Ask the user if they want to install system-level configuration files
+read -p "Do you want to install system-level configuration files? (y/n) " install_sysconfig
 
-echo "Dotfiles and system-level configuration files installed successfully."
+if [ "$install_sysconfig" == "y" ]; then
+  sysconfig_dir="$dotfiles_dir/sysconfig"
+
+  # Check if sysconfig directory exists
+  if [ ! -d "$sysconfig_dir" ]; then
+    echo "The directory $sysconfig_dir does not exist. Skipping system-level configuration files."
+  else
+    # Define the list of system-level configuration files
+    sysconfig_src_files=(
+      "/etc/pacman.conf"
+      "/etc/ssh/sshd_config"
+      "/etc/X11/xorg.conf.d/00-keyboard.conf"
+      "/etc/X11/xorg.conf.d/40-libinput.conf"
+    )
+
+    sysconfig_dest_files=(
+      "pacman.conf"
+      "sshd_config"
+      "00-keyboard.conf"
+      "40-libinput.conf"
+    )
+
+    # Create symlinks for system-level configuration files
+    for ((i=0; i<${#sysconfig_src_files[@]}; i++)); do
+      if [ -e "$sysconfig_dir/${sysconfig_dest_files[i]}" ]; then
+        echo "Creating symlink for ${sysconfig_dest_files[i]}"
+        sudo ln -sf "$sysconfig_dir/${sysconfig_dest_files[i]}" "${sysconfig_src_files[i]}"
+      else
+        echo "${sysconfig_dest_files[i]} not found in $sysconfig_dir"
+      fi
+    done
+  fi
+fi
+
+echo "Installation complete."
