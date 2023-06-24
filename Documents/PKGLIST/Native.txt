@@ -50,6 +50,7 @@ bash-language-server
 bat
 bc
 bcg729
+beautyline
 bigsh0t
 binutils
 bison
@@ -84,6 +85,7 @@ ca-certificates-utils
 cabextract
 cairo
 cairomm
+candy-icons-git
 cantarell-fonts
 canto-daemon
 catdoc
@@ -98,6 +100,7 @@ chaotic-keyring
 chaotic-mirrorlist
 chmlib
 chromaprint
+chrono-date
 cifs-utils
 clang
 clazy
@@ -170,6 +173,7 @@ egl-wayland
 eglexternalplatform
 electron
 electron24
+electron25
 element-desktop
 element-web
 elinks
@@ -297,6 +301,7 @@ graphviz
 grep
 grilo
 grilo-plugins
+grim
 groff
 gsettings-desktop-schemas
 gsfonts
@@ -313,6 +318,7 @@ gst-plugins-base-libs
 gst-plugins-ugly
 gstreamer
 gtest
+gtk-layer-shell
 gtk-update-icon-cache
 gtk2
 gtk3
@@ -451,6 +457,7 @@ haskell-lpeg
 haskell-lua
 haskell-memory
 haskell-microlens
+haskell-microlens-ghc
 haskell-microlens-mtl
 haskell-microlens-th
 haskell-mime-types
@@ -571,6 +578,7 @@ hwdata
 hwloc
 hyphen
 hyprland
+hyprpaper
 i2c-tools
 iana-etc
 ibus
@@ -628,10 +636,12 @@ kcodecs
 kcompletion
 kconfig
 kconfigwidgets
+kcontacts
 kcoreaddons
 kcrash
 kdbusaddons
 kdeclarative
+kdeconnect
 kded
 kdnssd
 kdoctools
@@ -643,6 +653,7 @@ khal
 ki18n
 kiconthemes
 kio
+kirigami-addons
 kirigami2
 kitemviews
 kjobwidgets
@@ -651,6 +662,8 @@ knewstuff
 knotifications
 kpackage
 kparts
+kpeople
+kpeoplevcard
 krb5
 kservice
 ktexteditor
@@ -666,6 +679,7 @@ languagetool
 lapack
 lapce
 lasem
+lazygit
 lcms2
 ldb
 ldns
@@ -808,6 +822,7 @@ libevdev
 libevent
 libexif
 libexttextcat
+libfakekey
 libfdk-aac
 libffi
 libfontenc
@@ -872,6 +887,7 @@ libmalcontent
 libmanette
 libmatroska
 libmaxminddb
+libmbim
 libmd
 libmediaart
 libmediainfo
@@ -886,6 +902,7 @@ libmodplug
 libmp4v2
 libmpc
 libmpcdec
+libmpdclient
 libmpeg2
 libmspack
 libmspub
@@ -937,6 +954,8 @@ libpulse
 libpurple
 libpwquality
 libqb
+libqmi
+libqrtr-glib
 libqxp
 libraqm
 libraw
@@ -1103,7 +1122,6 @@ lv2
 lvm2
 lxappearance-gtk3
 lxsession-gtk3
-lynx
 lz4
 lzo
 lzop
@@ -1142,12 +1160,15 @@ mkinitcpio-busybox
 mlocate
 mobile-broadband-provider-info
 moc
+modemmanager
+modemmanager-qt
 moreutils
 mpfr
 mpg123
 msgpack-c
 mtdev
 mtools
+mullvad-browser-bin
 mypaint-brushes1
 nasm
 nccl
@@ -1295,6 +1316,7 @@ pixman
 pkcs11-helper
 pkgconf
 pkgfile
+playerctl
 plotutils
 polkit
 polkit-qt5
@@ -1308,10 +1330,10 @@ portsmf
 postfix
 potrace
 power-profiles-daemon
+ppp
 pps-tools
 presage
 procps-ng
-profile-sync-daemon
 protobuf
 protobuf-c
 protonmail-bridge-bin
@@ -1321,6 +1343,7 @@ psmisc
 pstoedit
 ptex
 pugixml
+pulseaudio-qt
 pybind11
 pystring
 python
@@ -1365,11 +1388,8 @@ python-fastjsonschema
 python-feedparser
 python-filelock
 python-fissix
-python-flask
-python-flask-babel
 python-fonttools
 python-future
-python-gevent
 python-gmpy2
 python-gnupg
 python-gobject
@@ -1380,7 +1400,6 @@ python-icalendar
 python-idna
 python-importlib-metadata
 python-inflect
-python-itsdangerous
 python-iwlib
 python-jaraco.classes
 python-jaraco.context
@@ -1391,7 +1410,6 @@ python-jeepney
 python-jinja
 python-keyring
 python-kiwisolver
-python-langdetect
 python-lsp-jsonrpc
 python-lsp-server
 python-lxml
@@ -1461,7 +1479,6 @@ python-setuptools
 python-sgmllib3k
 python-six
 python-soupsieve
-python-speaklater
 python-stack-data
 python-sympy
 python-systemd
@@ -1479,18 +1496,19 @@ python-validate-pyproject
 python-volatile
 python-wcwidth
 python-websockets
-python-werkzeug
 python-wheel
 python-xcffib
 python-xkbcommon
 python-yaml
 python-zipp
-python-zope-event
-python-zope-interface
 qbittorrent
 qca-qt5
+qcustomplot
+qhexedit2
 qhull
+qqc2-desktop-style
 qrencode
+qscintilla-qt5
 qt5-base
 qt5-charts
 qt5-declarative
@@ -1641,7 +1659,6 @@ sdl12-compat
 sdl2
 sdl2_image
 seahorse
-searx
 seatd
 sed
 semver
@@ -1674,6 +1691,7 @@ speexdsp
 spirv-tools
 sqlcipher
 sqlite
+sqlitebrowser
 squashfs-tools
 sratom
 srt
@@ -1689,6 +1707,9 @@ suil
 suitesparse
 svt-av1
 svt-hevc
+sweet-folders-icons-git
+sweet-kde-theme-git
+sweet-theme-full-git
 syndication
 syntax-highlighting
 sysfsutils
@@ -1718,12 +1739,16 @@ terminus-font
 tevent
 texinfo
 texlab
+texlive-basic
 texlive-bin
-texlive-core
+texlive-fontsrecommended
 texlive-formatsextra
+texlive-latex
 texlive-latexextra
+texlive-latexrecommended
+texlive-mathscience
 texlive-pictures
-texlive-science
+texlive-plaingeneric
 thin-provisioning-tools
 threadweaver
 thunderbird
@@ -1756,6 +1781,8 @@ ttf-liberation
 ttf-linux-libertine
 ttf-ms-fonts
 ttf-opensans
+ttf-roboto
+ttf-ubuntu-font-family
 twolame
 tzdata
 udftools
@@ -1773,8 +1800,6 @@ usbguard
 usbmuxd
 util-linux
 util-linux-libs
-uwsgi
-uwsgi-plugin-python
 v4l-utils
 vamp-plugin-sdk
 vde2
@@ -1800,6 +1825,7 @@ vulkan-intel
 vulkan-validation-layers
 w3m
 wavpack
+waybar-hyprland-git
 wayland
 wayland-protocols
 webkit2gtk
@@ -1807,7 +1833,6 @@ webp-pixbuf-loader
 webrtc-audio-processing
 wget
 which
-whoogle
 wildmidi
 wireless_tools
 wireplumber
