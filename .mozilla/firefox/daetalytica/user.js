@@ -86,7 +86,7 @@ user_pref("browser.sessionstore.interval", 60000);
 user_pref("browser.sessionstore.privacy_level", 2);
 user_pref("browser.shell.checkDefaultBrowser", false);
 user_pref("browser.shell.shortcutFavicons", false);
-user_pref("browser.startup.homepage", "https://search.daetalytica.io");
+user_pref("browser.startup.homepage", "https://searx.daetalytica.io");
 user_pref("browser.startup.homepage_override.mstone", "ignore");
 user_pref("browser.startup.page", 1);
 user_pref("browser.tabs.crashReporting.sendReport", false);
