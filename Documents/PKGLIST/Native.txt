@@ -20,6 +20,7 @@ appstream
 apr
 apr-util
 arch-install-scripts
+archinstall
 archlinux-keyring
 archstrike-keyring
 archstrike-mirrorlist
@@ -222,6 +223,7 @@ freeglut
 freerdp
 freetype2
 fribidi
+fstrm
 fuse-common
 fuse2
 fuse3
@@ -567,6 +569,7 @@ hicolor-icon-theme
 hidapi
 highlight
 highway
+hiredis
 hsetroot
 hslua-cli
 hspell
@@ -1162,13 +1165,14 @@ mobile-broadband-provider-info
 moc
 modemmanager
 modemmanager-qt
+monero
+monero-gui
 moreutils
 mpfr
 mpg123
 msgpack-c
 mtdev
 mtools
-mullvad-browser-bin
 mypaint-brushes1
 nasm
 nccl
@@ -1791,6 +1795,7 @@ ueberzug
 ufw
 unace
 unarchiver
+unbound
 unibilium
 unoconv
 unrar

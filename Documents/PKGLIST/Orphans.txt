@@ -19,6 +19,7 @@ embree
 encfs
 exfatprogs
 f2fs-tools
+fontforge
 freerdp
 gavl
 geocode-glib
@@ -96,6 +97,7 @@ telepathy-haze
 telepathy-morse
 telepathy-salut
 texlab
+tinycompress
 translate-shell
 udftools
 unarchiver
