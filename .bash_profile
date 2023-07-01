@@ -39,11 +39,9 @@ export QT_QPA_PLATFORMTHEME='qt5ct'
 
 # Init Session Interface Environment
 if [[ "$(tty)" = "/dev/tty1" ]]; then
-    qtile start -b wayland
-elif [[ "$(tty)" = "/dev/tty2" ]]; then
     startx
+elif [[ "$(tty)" = "/dev/tty2" ]]; then
+    qtile start -b wayland
 elif [[ "$(tty)" = "/dev/tty3" ]]; then
     Hyprland
-elif [[ "$(tty)" = "/dev/tty6" ]]; then
-    startplasma-wayland
 fi
