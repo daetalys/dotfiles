@@ -1,4 +1,7 @@
 apg
+archstrike-keyring
+archstrike-mirrorlist
+archstrike-wallpapers
 epub-thumbnailer-git
 font-bh-ttf
 gphotofs
@@ -30,6 +33,7 @@ shell-color-scripts
 snixembed-git
 spacefm
 speedometer
+trezor-bridge-bin
 ttf-envy-code-r
 ttf-mononoki
 udevil

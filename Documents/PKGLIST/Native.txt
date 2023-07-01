@@ -22,9 +22,6 @@ apr-util
 arch-install-scripts
 archinstall
 archlinux-keyring
-archstrike-keyring
-archstrike-mirrorlist
-archstrike-wallpapers
 argon2
 argyllcms
 aribb24
