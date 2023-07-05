@@ -190,6 +190,40 @@ alias free='free -m'
 alias tarnow='tar -acf '
 alias untar='tar -zxvf '
 
+# This shell function, named 'cx', simplifies the process of creating archives 
+# from various directories. It takes two arguments - the directory to be 
+# archived and the name of the archive file to be created. The function checks
+# the archive file extension and applies the appropriate compression command.
+# If the provided directory does not exist or is not a directory, an error
+# message is displayed.
+#
+# Usage:
+#   cx <directoryname> <filename>
+#
+# Example:
+#   cx dir archive.tar.gz  # compresses the directory 'dir' into 'archive.tar.gz'
+cx ()
+{
+  if [ -d "$1" ]; then
+    case $2 in
+      *.tar.bz2)   tar cjf $2 $1   ;;
+      *.tar.gz)    tar czf $2 $1   ;;
+      *.bz2)       bzip2 -c $1 > $2   ;;
+      *.gz)        gzip -c $1 > $2    ;;
+      *.tar)       tar cf $2 $1    ;;
+      *.tbz2)      tar cjf $2 $1   ;;
+      *.tgz)       tar czf $2 $1   ;;
+      *.zip)       zip -r $2 $1     ;;
+      *.7z)        7z a $2 $1      ;;
+      *.tar.xz)    tar cJf $2 $1    ;;
+      *.tar.zst)   tar --zstd -cf $2 $1    ;;
+      *)           echo "'$2' is not a valid archive file extension for cx()" ;;
+    esac
+  else
+    echo "'$1' is not a valid directory"
+  fi
+}
+
 # This shell function, named 'ex', simplifies the process of extracting files
 # from various archive formats. It takes a single argument, which should be
 # the file you want to extract. The function checks the file extension and
@@ -305,12 +339,12 @@ sysupdate() {
     pacman -Qqm > "${DOCS_DIR}/PKGLIST/Foreign.txt"
   fi
 
-  # Update Nix packages
-  if command -v nix-channel >/dev/null 2>&1; then
-    nix-channel --update
-    nix-env -u
-    nix-env -q > "${DOCS_DIR}/PKGLIST/Nix.txt"
-  fi
+  # # Update Nix packages
+  # if command -v nix-channel >/dev/null 2>&1; then
+  #   nix-channel --update
+  #   nix-env -u
+  #   nix-env -q > "${DOCS_DIR}/PKGLIST/Nix.txt"
+  # fi
 
   # Update Flatpaks
   if command -v flatpak >/dev/null 2>&1; then
@@ -326,6 +360,8 @@ sysupdate() {
 
   # Get orphans list
   pacman -Qqdt > "${DOCS_DIR}/PKGLIST/Orphans.txt"
+  pacman -Qqe > "${DOCS_DIR}/PKGLIST/Explicit.txt"
+  pacman -Qqd | grep -Fxv -f "${DOCS_DIR}/PKGLIST/Orphans.txt" > "${DOCS_DIR}/PKGLIST/Dependencies.txt"
 }
 
 # Manage mirror lists
