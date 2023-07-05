@@ -15,7 +15,7 @@ dblatex
 ddcutil
 dmraid
 dvgrab
-embree
+embree3
 encfs
 exfatprogs
 f2fs-tools
