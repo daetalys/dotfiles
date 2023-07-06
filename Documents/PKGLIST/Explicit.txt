@@ -22,6 +22,7 @@ beautyline
 bison
 bitwarden
 bitwarden-cli
+blackarch-config-lxdm
 blackarch-devtools
 blackarch-keyring
 blackarch-mirrorlist
