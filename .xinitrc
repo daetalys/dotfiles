@@ -34,7 +34,6 @@ fi
 
 # export DESKTOP_SESSION=plasma
 # exec startplasma-x11
-feh --bg-scale $HOME/Pictures/wallpapers/2D7478E3-402D-4C8B-AB1C-032F461A9BB5.jpg &
 picom --config $HOME/.config/picom.conf &
 pipewire &
 pipewire-pulse &
@@ -42,8 +41,8 @@ wireplumber &
 pa-applet &
 nm-applet &
 lxpolkit &
-kdeconnectd &
-kdeconnect-indicator &
-/usr/bin/dunst &
+mullvad-exclude kdeconnectd &
+mullvad-exclude kdeconnect-indicator &
+dunst &
 # exec awesome
-# exec qtile start
+exec qtile start
