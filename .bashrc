@@ -44,7 +44,7 @@ export XDG_CACHE_HOME="$HOME/.cache"               # User-specific cache directo
 export XDG_DATA_HOME="$HOME/.local/share"          # User-specific data directory
 export XDG_STATE_HOME="$HOME/.local/state"         # User-specific state directory
 export XDG_RUNTIME_DIR="/run/user/$UID"            # User-specific runtime directory (usually on a tmpfs)
-export XDG_DATA_DIRS="/usr/local/share:/usr/share" # System-wide data directories (colon-separated list)
+export XDG_DATA_DIRS="/var/lib/flatpak/exports/share:/home/daetalys/.local/share/flatpak/exports/share:/usr/local/share:/usr/share:${XDG_DATA_DIRS}" # System-wide data directories (colon-separated list)
 export XDG_CONFIG_DIRS="/etc/xdg"                  # System-wide configuration directories (colon-separated list)
 
 # XDG User Directories Specification
@@ -340,11 +340,11 @@ sysupdate() {
   fi
 
   # # Update Nix packages
-  # if command -v nix-channel >/dev/null 2>&1; then
-  #   nix-channel --update
-  #   nix-env -u
-  #   nix-env -q > "${DOCS_DIR}/PKGLIST/Nix.txt"
-  # fi
+  if command -v nix-channel >/dev/null 2>&1; then
+    nix-channel --update
+    nix-env -u
+    nix-env -q > "${DOCS_DIR}/PKGLIST/Nix.txt"
+  fi
 
   # Update Flatpaks
   if command -v flatpak >/dev/null 2>&1; then
@@ -398,7 +398,7 @@ alias jctl="journalctl -p 3 -xb"
 
 # Wrappers for common tools
 [ -x /usr/bin/bat ] && alias cat='bat --style header --style snip --style changes --style header'
-[ -x /usr/bin/exa ] && alias ls='exa -al --color=always --icons --group-directories-first --git'
+[ -x /usr/bin/eza ] && alias ls='eza -al --color=always --icons --group-directories-first --git'
 [ -x /usr/bin/lfrun ] && alias lf='lfrun'
 [ -x /usr/bin/lvim ] && alias vim='lvim'
 #[ ! -x /usr/bin/yay ] && [ -x /usr/bin/paru ] && alias yay='paru'
