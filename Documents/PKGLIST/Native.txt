@@ -65,7 +65,6 @@ bigsh0t
 binutils
 bison
 bitwarden
-bitwarden-cli
 blackarch-config-gtk
 blackarch-keyring
 blackarch-mirrorlist
@@ -133,7 +132,6 @@ composer
 conan
 confuse
 coreutils
-cpio
 cppcheck
 cppdap
 cpu-x-git
@@ -171,11 +169,11 @@ djvulibre
 dkms
 dmenu
 dmraid
-dnsmasq
 dnssec-anchors
 docbook-xml
 docbook-xsl
 docx2txt
+dos2unix
 dosfstools
 dotconf
 dotnet-host
@@ -196,11 +194,11 @@ eglexternalplatform
 electron
 electron24
 electron25
+electrum
 element-desktop
 element-web
 elinks
 ell
-emacs
 embree
 embree3
 encfs
@@ -636,7 +634,6 @@ imake
 imath
 imlib2
 inetutils
-iniparser
 inkscape
 innoextract
 intel-gmmlib
@@ -781,7 +778,6 @@ lib32-libtirpc
 lib32-libunistring
 lib32-libunwind
 lib32-libvorbis
-lib32-libwebp
 lib32-libx11
 lib32-libxau
 lib32-libxcb
@@ -860,9 +856,11 @@ libcdr
 libcerf
 libcgif
 libcloudproviders
+libcmis
 libcolord
 libconfig
 libcpuid
+libcss
 libcue
 libcups
 libdaemon
@@ -878,6 +876,7 @@ libdeflate
 libdiscid
 libdisplay-info
 libdmapsharing
+libdom
 libdovi
 libdrm
 libdv
@@ -930,6 +929,7 @@ libgxps
 libhandy
 libharu
 libheif
+libhubbub
 libibus
 libice
 libid3tag
@@ -949,7 +949,7 @@ libjffi
 libjpeg-turbo
 libjxl
 libkate
-libkdcraw
+libkdcraw5
 libksba
 liblangtag
 liblc3
@@ -960,7 +960,6 @@ liblqr
 liblrdf
 libltc
 libluv
-liblzf
 libmad
 libmalcontent
 libmanette
@@ -1014,13 +1013,13 @@ libogg
 libomxil-bellagio
 libopenmpt
 liborcus
-libotf
 libotr
 libp11-kit
 libpackagekit-glib
 libpagemaker
 libpamac-aur
 libpaper
+libparserutils
 libpcap
 libpciaccess
 libpgm
@@ -1048,6 +1047,7 @@ libsamplerate
 libsasl
 libsbsms
 libseccomp
+libsecp256k1
 libsecret
 libsidplayfp
 libsigc++
@@ -1081,9 +1081,6 @@ libtirpc
 libtommath
 libtool
 libtorrent-rasterbar
-libtpms
-libtraceevent
-libtracefs
 libunibreak
 libuninameslist
 libunistring
@@ -1110,6 +1107,7 @@ libvorbis
 libvpx
 libvterm
 libwacom
+libwapcaplet
 libwbclient
 libwebp
 libwireplumber
@@ -1201,8 +1199,6 @@ lz4
 lzip
 lzo
 lzop
-m17n-db
-m17n-lib
 m4
 mailcap
 maim
@@ -1215,6 +1211,7 @@ man-pages
 mariadb
 mariadb-clients
 mariadb-libs
+materialx
 mathjax
 maven
 mawk
@@ -1240,7 +1237,6 @@ mkinitcpio-busybox
 mlocate
 mlt
 mobile-broadband-provider-info
-moc
 modemmanager
 modemmanager-qt5
 mold
@@ -1261,7 +1257,6 @@ nasm
 nawk
 nccl
 ncurses
-ndctl
 neofetch
 neon
 neovim
@@ -1273,7 +1268,6 @@ nettle
 network-manager-applet
 networkmanager
 networkmanager-openvpn
-nftables
 nilfs-utils
 ninja
 nm-connection-editor
@@ -1447,13 +1441,19 @@ pulseaudio-qt
 purpose5
 pybind11
 pyside2
+pyside6
 pystring
 python
 python-aaf2
+python-aiohttp
+python-aiohttp-socks
+python-aiorpcx
+python-aiosignal
 python-annotated-types
 python-appdirs
 python-argcomplete
 python-asttokens
+python-async-timeout
 python-atomicwrites
 python-attrs
 python-autocommand
@@ -1463,6 +1463,7 @@ python-backcall
 python-bcrypt
 python-beautifulsoup4
 python-bidict
+python-bitstring
 python-blinker
 python-bottle
 python-bowler
@@ -1495,7 +1496,9 @@ python-distro
 python-dnspython
 python-docopt
 python-docstring-to-markdown
+python-docutils
 python-dulwich
+python-ecdsa
 python-engineio
 python-entrypoints
 python-eventlet
@@ -1511,6 +1514,7 @@ python-flask-babel
 python-flask-httpauth
 python-flask-socketio
 python-fonttools
+python-frozenlist
 python-future
 python-gevent
 python-gevent-websocket
@@ -1523,6 +1527,7 @@ python-httplib2
 python-hyperlink
 python-icalendar
 python-idna
+python-imagesize
 python-importlib-metadata
 python-incremental
 python-inflect
@@ -1538,6 +1543,7 @@ python-jaraco.text
 python-jedi
 python-jeepney
 python-jinja
+python-jsonrpclib-pelix
 python-jupyter-client
 python-jupyter-core
 python-keyring
@@ -1558,6 +1564,7 @@ python-moreorless
 python-mpd2
 python-mpmath
 python-msgpack
+python-multidict
 python-mysqlclient
 python-nest-asyncio
 python-netifaces
@@ -1566,12 +1573,14 @@ python-node-semver
 python-nspektr
 python-numpy
 python-olefile
+python-opengl
 python-ordered-set
 python-packaging
 python-pandas
 python-parso
 python-patch-ng
 python-patiencediff
+python-pbkdf2
 python-pexpect
 python-pickleshare
 python-pip
@@ -1587,8 +1596,10 @@ python-protonvpn-nm-lib
 python-psutil
 python-ptyprocess
 python-pure-eval
+python-pyaes
 python-pycparser
 python-pycryptodome
+python-pycryptodomex
 python-pycups
 python-pycurl
 python-pydantic
@@ -1607,6 +1618,7 @@ python-pyqt5-sip
 python-pyserial
 python-pysocks
 python-pytest
+python-python-socks
 python-pythondialog
 python-pytorch
 python-pytz
@@ -1625,9 +1637,20 @@ python-sgmllib3k
 python-shiboken2
 python-simple-term-menu
 python-six
+python-snowballstemmer
 python-socketio
 python-soupsieve
 python-speaklater
+python-sphinx
+python-sphinx-alabaster-theme
+python-sphinx_rtd_theme
+python-sphinxcontrib-applehelp
+python-sphinxcontrib-devhelp
+python-sphinxcontrib-htmlhelp
+python-sphinxcontrib-jquery
+python-sphinxcontrib-jsmath
+python-sphinxcontrib-qthelp
+python-sphinxcontrib-serializinghtml
 python-stack-data
 python-stem
 python-sympy
@@ -1654,6 +1677,7 @@ python-wheel
 python-xcffib
 python-xkbcommon
 python-yaml
+python-yarl
 python-zipp
 python-zope-event
 python-zope-interface
@@ -1682,7 +1706,6 @@ qt5-sensors
 qt5-serialport
 qt5-speech
 qt5-svg
-qt5-tools
 qt5-translations
 qt5-wayland
 qt5-webchannel
@@ -1694,6 +1717,7 @@ qt5-xmlpatterns
 qt5ct
 qt6-5compat
 qt6-base
+qt6-declarative
 qt6-doc
 qt6-multimedia
 qt6-multimedia-ffmpeg
@@ -1838,6 +1862,7 @@ shadow
 shapelib
 shared-mime-info
 shell-color-scripts
+shiboken6
 signal-desktop
 signon-kwallet-extension
 signon-plugin-oauth2
@@ -1898,7 +1923,6 @@ telegram-desktop-bin
 tenacity-git
 terminus-font
 tevent
-texinfo
 texlab
 texlive-basic
 texlive-bin
@@ -1963,6 +1987,7 @@ unzip
 upower
 usbguard
 usbmuxd
+usd
 util-linux
 util-linux-libs
 uwsgi
@@ -1970,7 +1995,6 @@ uwsgi-plugin-python
 v4l-utils
 vala
 vamp-plugin-sdk
-vde2
 veracrypt
 verdict
 vice
@@ -1979,8 +2003,6 @@ vid.stab
 vifm
 vim
 vim-runtime
-virtualbox
-virtualbox-host-modules-arch
 vkd3d
 vlc
 vmaf
@@ -2020,9 +2042,9 @@ wireshark-qt
 wkhtmltopdf
 wl-clipboard
 wlroots
+wlroots0.16
 woff2
 wofi
-wolfssl
 wpa_supplicant
 wpebackend-fdo
 wxwidgets-common
@@ -2082,11 +2104,12 @@ xz
 yaml-cpp
 yarn
 yasm
-yay
 zbar
+zenity
 zeromq
 zimg
 zip
+zix
 zlib
 zsh
 zsh-syntax-highlighting

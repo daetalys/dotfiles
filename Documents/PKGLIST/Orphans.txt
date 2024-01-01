@@ -47,6 +47,7 @@ hsetroot
 ibus
 imake
 innoextract
+ispell
 itstool
 jfsutils
 languagetool
@@ -79,7 +80,6 @@ nccl
 noise-suppression-for-voice
 nvm
 openconnect
-openshadinglanguage
 opentimelineio
 optipng
 packagekit-qt5
@@ -94,7 +94,6 @@ python-installer
 python-lsp-server
 python-node-semver
 python-nspektr
-python-protobuf
 python-pytest
 re2
 recordmydesktop
@@ -107,7 +106,6 @@ searx
 shapelib
 slock
 system-config-printer
-texinfo
 texlab
 tinycompress
 translate-shell
@@ -124,6 +122,7 @@ wasi-libc++
 wasi-libc++abi
 waybar
 whoogle
+wlroots
 wlroots0.15
 xlockmore
 xorg-server-xvfb

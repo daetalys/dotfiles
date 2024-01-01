@@ -13,6 +13,7 @@ iwgtk
 jekyll
 jmtpfs
 metis
+moc
 nanominer
 pmount
 python-pillow95

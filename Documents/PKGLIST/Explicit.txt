@@ -23,7 +23,6 @@ bat
 beautyline
 bison
 bitwarden
-bitwarden-cli
 blackarch-config-gtk
 blackarch-keyring
 blackarch-mirrorlist
@@ -49,8 +48,8 @@ dmenu
 docx2txt
 dunst
 edex-ui-bin
+electrum
 element-desktop
-emacs
 endeavouros-keyring
 endeavouros-mirrorlist
 epub-thumbnailer-git
@@ -218,8 +217,6 @@ ufw
 veracrypt
 vifm
 vim
-virtualbox
-virtualbox-host-modules-arch
 vlc
 vscodium
 waybackurls
@@ -237,7 +234,6 @@ xmr-stak-rx
 xorg-server
 xorg-xinit
 xorg-xwayland
-yay
 zsh
 zsh-syntax-highlighting
 zsnes
