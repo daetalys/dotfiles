@@ -84,8 +84,6 @@ gvfs-smb
 handbrake
 hollywood
 htop
-hyprland
-hyprpaper
 inkscape
 intel-ucode
 iwd
@@ -217,6 +215,7 @@ ufw
 veracrypt
 vifm
 vim
+virt-manager-meta
 vlc
 vscodium
 waybackurls

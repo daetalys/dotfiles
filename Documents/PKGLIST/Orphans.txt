@@ -22,10 +22,11 @@ dotnet-sdk
 dump_syms
 dvgrab
 electron24
+electron26
 encfs
 firejail-git
 fontforge
-foot
+foot-terminfo
 freerdp
 gamemode
 gavl
@@ -66,7 +67,6 @@ libwlocate
 lld
 lsb-release
 maim
-mako
 maliit-keyboard
 mathjax
 maven
@@ -82,6 +82,7 @@ nvm
 openconnect
 opentimelineio
 optipng
+otf-font-awesome
 packagekit-qt5
 perl-file-which
 perl-mozilla-ca
@@ -95,7 +96,6 @@ python-lsp-server
 python-node-semver
 python-nspektr
 python-pytest
-re2
 recordmydesktop
 ruby-unicode-display-width
 rustup
@@ -120,7 +120,6 @@ vulkan-tools
 wasi-compiler-rt
 wasi-libc++
 wasi-libc++abi
-waybar
 whoogle
 wlroots
 wlroots0.15
