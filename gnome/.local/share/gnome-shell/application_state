@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="kwalletmanager5-kwalletd.desktop" score="0" last-seen="0"/>
+    <application id="brave-browser.desktop" score="54" last-seen="1684363875"/>
+    <application id="org.gnome.Settings.desktop" score="50" last-seen="1684364227"/>
+    <application id="bitwarden.desktop" score="4" last-seen="1684364229"/>
+    <application id="org.gnome.Epiphany.desktop" score="1" last-seen="1684363252"/>
+  </context>
+</application-state>
