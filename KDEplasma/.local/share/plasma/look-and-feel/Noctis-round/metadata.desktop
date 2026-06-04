@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Noctis-round
+X-KDE-PluginInfo-Author=DharamDhurandhar
+X-KDE-PluginInfo-Category=Plasma Look And Feel
+X-KDE-PluginInfo-Email=rkstrdee@gmail.com
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-License=GPL 3+
+X-KDE-PluginInfo-Name=Noctis-round
+X-KDE-PluginInfo-Version=0.1
+X-KDE-PluginInfo-Website=https://github.com/rkstrdee/Noctis
+X-KDE-ServiceTypes=Plasma/LookAndFeel
+
+X-KPackage-Dependencies=kns://colorschemes.knsrc/api.kde-look.org/1610049,kns://plasma-themes.knsrc/api.kde-look.org/1610052,kns://icons.knsrc/api.kde-look.org/1279924,kns://wallpaper.knsrc/api.kde-look.org/1610199

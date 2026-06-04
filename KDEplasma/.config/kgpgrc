@@ -1,0 +1,30 @@
+[Editor]
+LVDS1 XPosition 1600x900=0
+LVDS1 YPosition 1600x900=0
+State=AAAA/wAAAAD9AAAAAAAAA1AAAACpAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Encryption]
+encrypt_files_to=true
+file key=C8D8684341692765
+
+[GPG Settings]
+gpg_config_path[$e]=$HOME/.gnupg/gpg.conf
+
+[General Options]
+First run=false
+
+[MainWindow]
+LVDS1 XPosition 1600x900=0
+LVDS1 YPosition 1600x900=0
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAAAAA1AAAACpAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Servers]
+Server_List=hkp://pool.sks-keyservers.net,hkp://pool.sks-keyservers.net,hkp://subkeys.pgp.net,hkp://search.keyserver.net,hkp://pgp.dtype.org,hkp://wwwkeys.pgp.net
+
+[User Interface]
+AutoStart=true
+decrypt_menu=EncryptedFiles
+sign_menu=AllFiles
