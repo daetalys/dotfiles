@@ -1,0 +1,80 @@
+* {
+    border: #316ab7;
+    border-radius: 0;
+    font-family: FiraCode Nerd Font;
+    font-size: 10pt;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+    color: white;
+}
+
+tooltip {
+  background: #1d1f21;
+  border: 1px solid #316ab7;
+}
+
+tooltip label {
+  color: white;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background: transparent;
+    color: white;
+}
+
+#workspaces button.focused {
+    background: transparent;
+    border-bottom: 1px solid #6298e0;
+}
+
+#workspaces button.active {
+    background: transparent;
+    border-bottom: 1px solid #6298e0;
+}
+
+#workspaces button.urgent {
+  background: transparent;
+  color: #c40000;
+}
+
+#battery {
+  padding-right: 10px;
+  color: #a3be8c;
+}
+
+#battery.warning {
+  padding-right: 10px;
+  background: transparent;
+  color: #e3c401;
+}
+
+#battery.critical {
+  padding-right: 10px;
+  color: #c40000;
+}
+
+#keyboard-state {
+  padding-right: 10px;
+}
+
+#pulseaudio {
+	padding-right: 10px;
+  color: indigo;
+}
+
+#clock {
+	padding-right: 10px;
+  /* color: #a3be8c; */
+}
+
+#tray {
+	padding-right: 10px;
+}
+
+#custom-updates {
+  padding-right: 10px;
+}
