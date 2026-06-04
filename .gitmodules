@@ -1,3 +1,0 @@
-[submodule "sysconfig"]
-	path = sysconfig
-	url = git@github.com:daetalys/sysconfig.git
