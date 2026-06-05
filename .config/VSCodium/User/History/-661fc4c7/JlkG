@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = git@github.com:daetalys/dotfiles.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	pushurl = git@github.com:daetalys/dotfiles.git
+	pushurl = git@gitlab.com:daetalys/dotfiles.git
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master

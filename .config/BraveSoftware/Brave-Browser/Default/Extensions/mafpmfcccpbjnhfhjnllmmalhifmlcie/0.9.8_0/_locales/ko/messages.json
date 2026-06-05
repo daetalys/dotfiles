@@ -1,0 +1,92 @@
+{
+   "appDesc": {
+      "message": "검열 국가 사용자의 Tor 접속을 돕기 위해 내 네트워크 연결 제공하기."
+   },
+   "badgeLocalStorageOff": {
+      "message": "로컬 스토리지가 비활성화 되어있습니다."
+   },
+   "bugTracker": {
+      "message": "Tor 프로젝트 GitLab에서 \u003Ca href=\"https://gitlab.onionize.space/\">계정을 요청\u003C/a>한 다음 Snowflake 프로젝트에서 \u003Ca href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues\">새 이슈를 엽니다\u003C/a>."
+   },
+   "consent": {
+      "message": "동의"
+   },
+   "consented": {
+      "message": "모든 설정이 끝났어요! Snowflake 프록시를 실행해 주셔서 감사해요!"
+   },
+   "descriptive": {
+      "message": "경험하신 버그를 가능한 자세히 설명해 티켓에 담아주세요. 로그 메시지도 같이 담아주시면 Tor 프로젝트 측에서 버그를 재현하는 데 도움이 됩니다."
+   },
+   "extensionConsent": {
+      "message": "기본 기능을 제공하기 위해 Snowflake 프록시(브라우저에 설치한 부가 기능)는 프록시의 네트워크 설정에 관한 일부 메타데이터를 Snowflake 브로커에 전송해요. 전송되는 메타데이터는 각각 프록시의 IP 주소(귀하의 IP 주소), 보고된 NAT 유형, 프록시(귀하가 설치한 부가 기능)가 실행 중인 Snowflake 프로토콜의 버전, 프록시(귀하가 설치한 부가 기능)가 웹 확장 프로그램임을 나타내는 사실, 프록시(귀하가 설치한 부가 기능)에 이미 연결된 클라이언트 수와 같아요. 이러한 데이터는 연결 설정 및 집계 통계에만 사용되며 브로커에 저장되지 않습니다. 수집하고 표시하는 정보에 대한 자세한 내용은 \u003Ca href=\"https://addons.mozilla.org/ko/firefox/addon/torproject-snowflake/privacy\">개인정보처리방침\u003C/a>을 참조해주세요. 준비되면 아래 버튼을 클릭하여 Snowflake 프록시를 활성화하세요."
+   },
+   "extensionOnboard": {
+      "message": "Snowflake 웹 확장 프로그램을 설치해 주셔서 감사합니다!"
+   },
+   "extensionOptout": {
+      "message": "이 부가 기능은 Snowflake 프록시로 동작하는 데 필요한 최소한의 데이터만 전송합니다. 위에 열거한 데이터의 전송이나 당사의 개인정보 처리방침의 어떤 부분이라도 불편하시다면, Snowflake 애드온을 제거하실 것을 권장합니다."
+   },
+   "faq": {
+      "message": "Snowflake 사용에 대한 지원 요청"
+   },
+   "fileBug": {
+      "message": "Snowflake를 사용 중이든 실행 중이든 관계없이 문제가 발생하는 경우, bug report 제출을 고려해보세요.   Bug report를 제출하는 방법에는 두 가지가 있습니다:"
+   },
+   "installExtension": {
+      "message": "Snowflake 프록시가 전적으로 자원봉사로 운영된다는 것을 알고 있었나요? 다시 말해서, 사용자는 귀하와 같은 자원봉사자에 의해 운영되는 임의의 Snowflake 자원봉사 프록시와 연결됩니다! 그러므로, 만일 귀하가 사람들이 검열을 피할 수 있도록 돕고 싶다면, Snowflake 프록시를 설치하고 운영하는 것을 고려해보세요. 유일한 전제조건은 해당 국가의 인터넷이 아직 심하게 검열되지 \u003Cstrong>않았다는\u003C/strong> 것입니다."
+   },
+   "popupBridgeUnreachable": {
+      "message": "브리지에 연결하지 못했습니다."
+   },
+   "popupConsent": {
+      "message": "동의 페이지 열기"
+   },
+   "popupDescOn": {
+      "message": "지난 24시간 동안 Snowflake가 검열을 우회하는 데 도움을 준 사용자 수: $1"
+   },
+   "popupEnabled": {
+      "message": "활성화됨"
+   },
+   "popupLearnMore": {
+      "message": "더 알아보기"
+   },
+   "popupNeedConsent": {
+      "message": "Snowflake를 활성화하기 전에 개인정보 처리 방침에 동의해 주세요."
+   },
+   "popupRetry": {
+      "message": "다시 시도하기"
+   },
+   "popupRetrying": {
+      "message": "다시 시도 중..."
+   },
+   "popupRunInBackground": {
+      "message": "브라우저가 닫혀 있을 때에도 계속 실행하기"
+   },
+   "popupStatusOff": {
+      "message": "Snowflake가 꺼져 있습니다"
+   },
+   "popupStatusOn": {
+      "message": "현재 연결된 사용자 수: $1"
+   },
+   "popupStatusReady": {
+      "message": "내 Snowflake가 검열 우회를 도울 준비가 됐습니다"
+   },
+   "popupWebRTCOff": {
+      "message": "WebRTC 기능이 탐지되지 않았습니다."
+   },
+   "remove": {
+      "message": "Snowflake 부가 기능 제거하기"
+   },
+   "reportingBugs": {
+      "message": "버그 보고"
+   },
+   "sharedAccount": {
+      "message": "식별자를 생성하고 로그인하여 \u003Ca href=\"https://anonticket.onionize.space/\">익명 티켓\u003C/a>을 제출하세요. 그런 다음, \u003Cstrong>모든 프로젝트 목록\u003C/strong>에서 Snowflake 프로젝트를 찾아 새 이슈를 생성하세요."
+   },
+   "support": {
+      "message": "Snowflake를 사용하여 Tor에 접속하는 동안 문제가 발생하는 경우, \u003Ca href=\"https://t.me/TorProjectSupportBot\">Telegram\u003C/a>에서 Tor 지원 채널에 문의하실 수 있습니다. \u003Ca href=\"https://support.torproject.org/ko/censorship/\">Tor Support Portal\u003C/a>과 \u003Ca href=\"https://forum.torproject.org/tag/snowflake\">Tor Forum\u003C/a>에서 답변을 찾아볼 수도 있습니다."
+   },
+   "volunteer": {
+      "message": "Snowflake 프록시를 설치하고 실행 중인 전 세계 수천 명의 자원봉사자와 함께하실 수 있습니다. 사람들이 Snowflake 프록시를 통해 어떤 웹 사이트에 액세스하는지는 걱정할 필요가 없습니다. 눈에 보이는 브라우징 IP 주소는 귀하의 Tor 종료 노드가 아니라 그들의 Tor 종료 노드의 IP일 것입니다."
+   }
+}

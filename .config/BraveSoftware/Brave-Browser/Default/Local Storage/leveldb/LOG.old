@@ -1,0 +1,45 @@
+2026/06/03-18:10:43.625 5 Reusing MANIFEST /home/daetalys/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2026/06/03-18:10:43.630 5 Recovering log #141
+2026/06/03-18:10:43.631 5 Reusing old log /home/daetalys/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000141.log 
+2026/06/03-18:11:00.374 5 Level-0 table #146: started
+2026/06/03-18:11:00.381 5 Level-0 table #146: 97497 bytes OK
+2026/06/03-18:11:00.386 5 Delete type=0 #141
+2026/06/03-18:17:55.139 7 Level-0 table #148: started
+2026/06/03-18:17:55.656 7 Level-0 table #148: 19137 bytes OK
+2026/06/03-18:17:56.213 7 Delete type=0 #145
+2026/06/03-18:43:54.937 5 Level-0 table #150: started
+2026/06/03-18:43:54.951 5 Level-0 table #150: 17670 bytes OK
+2026/06/03-18:43:54.955 5 Delete type=0 #147
+2026/06/03-19:12:46.052 7 Level-0 table #152: started
+2026/06/03-19:12:46.064 7 Level-0 table #152: 17494 bytes OK
+2026/06/03-19:12:46.068 7 Delete type=0 #149
+2026/06/03-19:12:46.069 7 Compacting 4@0 + 1@1 files
+2026/06/03-19:12:46.101 7 Generated table #153@0: 389 keys, 923331 bytes
+2026/06/03-19:12:46.101 7 Compacted 4@0 + 1@1 files => 923331 bytes
+2026/06/03-19:12:46.102 7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/03-19:12:46.104 7 Delete type=2 #146
+2026/06/03-19:12:46.104 7 Delete type=2 #143
+2026/06/03-19:12:46.104 7 Delete type=2 #152
+2026/06/03-19:12:46.104 7 Delete type=2 #148
+2026/06/03-19:12:46.104 7 Delete type=2 #150
+2026/06/03-19:13:55.568 7 Level-0 table #155: started
+2026/06/03-19:13:55.571 7 Level-0 table #155: 82692 bytes OK
+2026/06/03-19:13:55.573 7 Delete type=0 #151
+2026/06/03-19:31:20.310 5 Level-0 table #157: started
+2026/06/03-19:31:20.351 5 Level-0 table #157: 16079 bytes OK
+2026/06/03-19:31:20.355 5 Delete type=0 #154
+2026/06/03-19:32:20.311 7 Level-0 table #159: started
+2026/06/03-19:32:20.351 7 Level-0 table #159: 13959 bytes OK
+2026/06/03-19:32:20.354 7 Delete type=0 #156
+2026/06/03-19:53:54.936 7 Level-0 table #161: started
+2026/06/03-19:53:54.949 7 Level-0 table #161: 19614 bytes OK
+2026/06/03-19:53:54.952 7 Delete type=0 #158
+2026/06/03-19:53:54.952 7 Compacting 4@0 + 1@1 files
+2026/06/03-19:53:54.974 7 Generated table #162@0: 393 keys, 923721 bytes
+2026/06/03-19:53:54.974 7 Compacted 4@0 + 1@1 files => 923721 bytes
+2026/06/03-19:53:54.975 7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/03-19:53:54.976 7 Delete type=2 #159
+2026/06/03-19:53:54.976 7 Delete type=2 #161
+2026/06/03-19:53:54.976 7 Delete type=2 #157
+2026/06/03-19:53:54.976 7 Delete type=2 #153
+2026/06/03-19:53:54.976 7 Delete type=2 #155

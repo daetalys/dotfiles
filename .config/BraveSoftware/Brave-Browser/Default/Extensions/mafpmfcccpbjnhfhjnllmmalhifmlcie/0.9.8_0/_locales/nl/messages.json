@@ -1,0 +1,92 @@
+{
+   "appDesc": {
+      "message": "Sta gebruikers in gecensureerde landen toe om je netwerkverbinding te gebruiken om toegang te krijgen tot het Tor-netwerk."
+   },
+   "badgeLocalStorageOff": {
+      "message": "Lokale opslag is niet ingeschakeld."
+   },
+   "bugTracker": {
+      "message": "\u003Ca href=\"https://gitlab.onionize.space/\">Vraag een account aan\u003C/a> bij het Tor Project GitLab, \u003Ca href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues\">open daarna een nieuwe issue\u003C/a> in het Sneeuwvlok-project."
+   },
+   "consent": {
+      "message": "Ik ga akkoord"
+   },
+   "consented": {
+      "message": "Helemaal klaar! Bedankt om een snowflake proxy te draaien!"
+   },
+   "descriptive": {
+      "message": "Probeer zo uitvoerig mogelijk te zijn in uw ticket en sluit zo mogelijk logboekberichten bij die ons kunnen helpen de bug te reproduceren."
+   },
+   "extensionConsent": {
+      "message": "Om basisfunctionaliteit te voorzien sturen Snowflake proxies (de extensie die u in uw browser installeerde) bepaalde metadata over de netwerkconfiguratie van de proxy naar de Snowflake broker. De volgende items is het totaal van de gestuurde metadata: het IP adres van de proxy (uw IP adres), uw type van NAT, de versie van het Snowflake protocol dat uw proxy aanbiedt, het feit dat de proxy (de extensie die u heeft geïnstalleerd) een web extensie is, en het aantal gebruikers die verbonden zijn met de proxy (met de extensie die u heeft geïnstalleerd). Deze metadata wordt uitsluitend gebruikt om de verbinding op te bouwen en geaggregeerde statistieken aan te maken, en wordt niet opgeslagen in de broker. Gelieve ons \u003Ca href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/privacy\">privacybeleid\u003C/a> de lezen voor meer details over welke informatie we verzamelen en publiceren. Wanneer u er klaar voor bent, kan u toestemming verlenen om uw Snowflake proxy te activeren door op de knop hieronder te klikken."
+   },
+   "extensionOnboard": {
+      "message": "Bedankt voor het installeren van de Snowflake web extensie!"
+   },
+   "extensionOptout": {
+      "message": "Deze extensie stuurt enkel de minimale hoeveelheid data door die nodig is om te functioneren als Snowflake proxy. Indien u bedenkingen heeft bij de verzending van de hierboven opgelijste data, of met een onderdeel van ons privacybeleid, raden we u aan de Snowflake extensie te verwijderen."
+   },
+   "faq": {
+      "message": "Ondersteuning zoeken met gebruik van Sneeuwvlok"
+   },
+   "fileBug": {
+      "message": "Als je problemen tegenkomt met Sneeuwvlok - of je deze nu gebruikt of draait -, overweeg dan een foutrapport in te sturen. · · Er zijn twee manieren om een foutrapport in te dienen:"
+   },
+   "installExtension": {
+      "message": "Wist je dat Sneeuwvlok-proxies volledig beheerd worden door vrijwilligers? In andere woorden wordt een gebruiker gekoppeld aan een willekeurige vrijwillige-Sneeuwvlok-proxy die wordt gedraaid door een vrijwilliger zoals jij! Dus als je mensen wilt helpen censuur te passeren, overweeg dan een Sneeuwvlok-proxy te installeren en draaien. De enige voorwaarde is dat het internet in jouw land \u003Cstrong>niet\u003C/strong> al hevig gecensureerd is."
+   },
+   "popupBridgeUnreachable": {
+      "message": "Kon geen verbinding maken met de brug."
+   },
+   "popupConsent": {
+      "message": "Open de toestemmingspagina"
+   },
+   "popupDescOn": {
+      "message": "Aantal gebruikers die dankzij uw Snowflake de afgelopen 24 uur censuur hebben kunnen omzeilen: $1"
+   },
+   "popupEnabled": {
+      "message": "Ingeschakeld"
+   },
+   "popupLearnMore": {
+      "message": "Meer info"
+   },
+   "popupNeedConsent": {
+      "message": "Gelieve akkoord te gaan met ons privacybeleid voordat u Snowflake inschakelt."
+   },
+   "popupRetry": {
+      "message": "Opnieuw proberen"
+   },
+   "popupRetrying": {
+      "message": "Opnieuw proberen..."
+   },
+   "popupRunInBackground": {
+      "message": "Blijf draaien als de browser is afgesloten"
+   },
+   "popupStatusOff": {
+      "message": "Snowflake staat uit"
+   },
+   "popupStatusOn": {
+      "message": "Aantal momenteel verbonden gebruikers: $1"
+   },
+   "popupStatusReady": {
+      "message": "Uw Snowflake kan nu gebruikers helpen censuur te omzeilen"
+   },
+   "popupWebRTCOff": {
+      "message": "WebRTC-functie is niet gedetecteerd."
+   },
+   "remove": {
+      "message": "De Snowflake extensie verwijderen"
+   },
+   "reportingBugs": {
+      "message": "Bugs melden"
+   },
+   "sharedAccount": {
+      "message": "Dien een \u003Ca href=\"https://anonticket.onionize.space/\">anoniem ticket\u003C/a> in door een identifier te genereren en daarmee in te loggen. Vind daarna het Sneeuwvlok-project in de \u003Cstrong>Lijst van alle projecten\u003C/strong> en maak een nieuw issue."
+   },
+   "support": {
+      "message": "Als je problemen tegenkomt terwijl je probeert te verbinden met Tor via Sneeuwvlok, kan het Tor-ondersteuningskanaal bereikt worden op \u003Ca href=\"https://t.me/TorProjectSupportBot\">Telegram\u003C/a>. Je kunt ook bladeren door het \u003Ca href=\"https://support.torproject.org/censorship/\">Tor Ondersteuningsportaal\u003C/a> en het \u003Ca href=\"https://forum.torproject.org/tag/snowflake\">Tor Forum\u003C/a> naar antwoorden."
+   },
+   "volunteer": {
+      "message": "Je kunt meedoen met duizenden vrijwilligers over de hele wereld die een Sneeuwvlok-proxy hebben geïnstalleerd en draaien. Er is geen reden om je zorgen te maken welke websites mensen bezoeken via jouw Sneeuwvlok-proxy. Hun zichtbare browse-IP-adres zal overeenkomen met hun Tor-uitgangsnode, niet dat van jou."
+   }
+}

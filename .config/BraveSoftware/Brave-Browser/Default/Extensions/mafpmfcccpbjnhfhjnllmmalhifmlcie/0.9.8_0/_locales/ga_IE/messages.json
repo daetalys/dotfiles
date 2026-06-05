@@ -1,0 +1,92 @@
+{
+    "popupStatusReady": {
+        "message": "Tá do Snowflake réidh chun cabhrú le húsáideoirí cinsireacht a sheachaint"
+    },
+    "appDesc": {
+        "message": "Lig d’úsáideoirí i dtíortha cinsireachta do nasc líonra a úsáid chun rochtain a fháil ar líonra Tor."
+    },
+    "popupEnabled": {
+        "message": "Cumasaithe"
+    },
+    "popupRunInBackground": {
+        "message": "Coinnigh ar siúl nuair a bhíonn an brabhsálaí dúnta"
+    },
+    "popupLearnMore": {
+        "message": "Foghlaim níos mó"
+    },
+    "popupStatusOff": {
+        "message": "Tá Snowflake as"
+    },
+    "popupBridgeUnreachable": {
+        "message": "Níorbh fhéidir ceangal leis an droichead."
+    },
+    "popupDescOn": {
+        "message": "Líon na n-úsáideoirí a chabhraigh le do Cháithníní Sneachta dul timpeall ar chinsireacht le 24 uair an chloig anuas: $1"
+    },
+    "popupStatusOn": {
+        "message": "Líon na n-úsáideoirí atá nasctha faoi láthair: $1"
+    },
+    "popupWebRTCOff": {
+        "message": "Ní bhraitear gné WebRTC."
+    },
+    "popupRetry": {
+        "message": "Bain triail eile as"
+    },
+    "popupRetrying": {
+        "message": "Ag triail arís..."
+    },
+    "extensionOnboard": {
+        "message": "Go raibh maith agat as an síneadh gréasáin Snowflake a shuiteáil!"
+    },
+    "extensionOptout": {
+        "message": "Ní tharchuireann an breiseán seo ach an méid íosta sonraí a theastaíonn chun feidhmiú mar sheachvótálaí gcáithnínísneachta. Má tá tú míchompordach le tarchur na sonraí thuasluaite nó le haon chuid dár bpolasaí príobháideachais, molaimid duit an breiseán Snowflake a bhaint."
+    },
+    "remove": {
+        "message": "Bain an breiseán Snowflake amach"
+    },
+    "consent": {
+        "message": "Aontaím"
+    },
+    "extensionConsent": {
+        "message": "Chun feidhmiúlacht bhunúsach a sholáthar, seolann seachvótálaithe Snowflake (an breiseán atá suiteáilte agat i do bhrabhsálaí) roinnt meiteashonraí chuig bróicéir na gcáithníní Sneachta faoi shocrú líonraithe an tseachfhreastalaí. Is éard atá sa mheiteashonraí seo, go hiomlán: seoladh IP an seachfhreastalaí (do sheoladh IP), do chineál NAT tuairiscithe, an leagan den phrótacal gcáithnínísneachta atá á rith agat (an seachfhreastalaí), an fíoras go bhfuil an seachfhreastalaí (an breiseán atá suiteáilte agat) ann. webextension, agus líon na gcliant atá ceangailte leis an seachfhreastalaí cheana féin (leis an addon atá suiteáilte agat). Ní úsáidtear na sonraí seo ach amháin chun an nasc agus na statacha comhiomlána a bhunú agus ní stóráiltear iad ag an mbróicéir. Féach ar ár <a href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/privacy\">polasaí príobháideachais</a> le haghaidh tuilleadh sonraí faoin bhfaisnéis a bhailímid agus a thaispeánaimid. Nuair atá tú réidh, is féidir leat toiliú chun do sheachfhreastalaí gcáithnínísneachta a chumasú trí chliceáil ar an gcnaipe thíos."
+    },
+    "popupNeedConsent": {
+        "message": "Toiligh lenár mbeartas príobháideachais sula gcumasaíonn tú Snowflake."
+    },
+    "consented": {
+        "message": "Tá tú réidh! Go raibh maith agat as seachfhreastalaí gcáithnínísneachta a reáchtáil!"
+    },
+    "popupConsent": {
+        "message": "Oscail leathanach toilithe"
+    },
+    "badgeLocalStorageOff": {
+        "message": "Níl an stóráil áitiúil cumasaithe."
+    },
+    "installExtension": {
+        "message": "An raibh a fhios agat gur oibrithe deonacha a fheidhmíonn seachvótálaithe gcáithnínísneachta ar fad? I bhfocail eile, déantar úsáideoir a mheaitseáil le seachfhreastalaí randamach de chuid Snowflake, atá á reáchtáil ag oibrí deonach cosúil leatsa! Mar sin, más mian leat cabhrú le daoine an chinsireacht a sheachbhóthar, smaoinigh ar sheachvótálaí gcáithnínísneachta a shuiteáil agus a rith. Is é an t-aon réamhriachtanas ná <strong>nach bhfuil </strong>an tIdirlíon i do thír féin cinsireachta go mór cheana féin."
+    },
+    "volunteer": {
+        "message": "Is féidir leat a bheith páirteach sna mílte oibrithe deonacha ó ar fud an domhain a bhfuil seachfhreastalaí gcáithnínísneachta suiteáilte agus á rith acu. Ní gá a bheith buartha faoi na suíomhanna gréasáin a bhfuil rochtain ag daoine orthu trí do sheachvótálaí Snowflake. Meaitseálfaidh a seoladh IP brabhsála sofheicthe a nód scoir Tor, ní do cheann féin."
+    },
+    "reportingBugs": {
+        "message": "Fabhtanna a Thuairisciú"
+    },
+    "fileBug": {
+        "message": "Má bhíonn fadhbanna agat le Snowflake - bíodh sé á úsáid nó á rith agat - smaoinigh ar thuairisc fabht a chomhdú. Tá dhá bhealach ann chun tuairisc fabht a chomhdú:"
+    },
+    "sharedAccount": {
+        "message": "Comhdaigh <a href=\"https://anonticket.onionize.space/\">ticéad gan ainm</a> trí aitheantóir a ghiniúint agus logáil isteach leis. Ansin, aimsigh an tionscadal Snowflake sa <strong>Liosta de na tionscadail uile</strong> agus cruthaigh saincheist nua."
+    },
+    "bugTracker": {
+        "message": "<a href=\"https://gitlab.onionize.space/\">Iarr cuntas</a> ag GitLab Tionscadal Tor, ansin <a href=\"https://gitlab.torproject.org/tpo/anti- cinsireacht/iompar-pluggable/cáithnínísneachta/-/issues\">eagrán nua a oscailt</a> sa tionscadal Snowflake."
+    },
+    "descriptive": {
+        "message": "Déan iarracht le do thoil a bheith chomh tuairisciúil agus is féidir le do thicéad agus más féidir cuir san áireamh teachtaireachtaí loga a chabhróidh linn an fabht a atáirgeadh."
+    },
+    "faq": {
+        "message": "Ag lorg tacaíochta maidir le húsáid Snowflake"
+    },
+    "support": {
+        "message": "Má bhíonn fadhbanna agat agus tú ag iarraidh ceangal le Tor le Snowflake, is féidir teacht ar an gcainéal tacaíochta Tor ar <a href=\"https://t.me/TorProjectSupportBot\">Telegram</a>. Is féidir leat an <a href=\"https://support.torproject.org/ga/censorship/\">Tairseach Tacaíochta Tor</a> agus an <a href=\"https://forum.torproject.org/tag/) a bhrabhsáil freisin gcáithnínísneachta\">Fóram Tor</a> le haghaidh freagraí."
+    }
+}

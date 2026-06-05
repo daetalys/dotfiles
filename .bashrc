@@ -38,6 +38,8 @@
 # if not, skipping the rest of the script.
 # =============================================================================
 
+[[ $- == *i* ]] && source "$HOME/.local/share/blesh/ble.sh" --attach=none
+
 # XDG Base Directory Specification
 export XDG_CONFIG_HOME="$HOME/.config"             # User-specific configuration directory
 export XDG_CACHE_HOME="$HOME/.cache"               # User-specific cache directory
@@ -53,24 +55,24 @@ export XDG_DOCUMENTS_DIR="$HOME/Documents"       # Documents directory
 export XDG_DOWNLOAD_DIR="$HOME/Downloads"        # Downloads directory
 export XDG_MUSIC_DIR="$HOME/Music"               # Music directory
 export XDG_PICTURES_DIR="$HOME/Pictures"         # Pictures directory
+export XDG_PROJECTS_DIR="$HOME/Projects"         # Projects directory
 export XDG_PUBLICSHARE_DIR="$HOME/Public"        # Public sharing directory
 export XDG_TEMPLATES_DIR="$HOME/Templates"       # Templates directory
 export XDG_VIDEOS_DIR="$HOME/Videos"             # Videos directory
 
 # Terminal settings
-export TERMINAL="alacritty"                      # Terminal emulator name
+export TERMINAL="ghostty"                      # Terminal emulator name
 export TERM="xterm-256color"                     # Terminal type and capabilities (256-color support)
 export COLORTERM="truecolor"                     # Terminal color mode (true color support)
 
 # Default applications
 export VISUAL="vscodium"                          # Default visual text editor
 export EDITOR="vim"                               # Default command-line text editor
-export ALTERNATE_EDITOR=""                        # Fallback editor for emacsclient
+export ALTERNATE_EDITOR="vim"                     # Fallback editor for emacsclient
 export READER="evince"                            # Default PDF/document viewer
-export BROWSER="firefox"                          # Default web browser
+export BROWSER="brave"                            # Default web browser
 export PAGER="less"                               # Default pager for command output
 export MANPAGER="sh -c 'col -bx | bat -l man -p'" # Default pager for man pages using bat with man syntax highlighting
-export WM="awesomewm"                             # Default window manager
 
 # Shell history settings
 export HISTCONTROL=ignoredups:erasedups          # Prevent duplicate entries in shell command history
@@ -109,6 +111,11 @@ fi
 if [ -d "$HOME/.local/share/flatpak/exports/share" ]; then
   PATH="$HOME/.local/share/flatpak/exports/share:$PATH"
 fi
+
+# >>> grok installer >>>
+export PATH="$HOME/.grok/bin:$PATH"
+[[ -r "$HOME/.grok/completions/bash/grok.bash" ]] && source "$HOME/.grok/completions/bash/grok.bash"
+# <<< grok installer <<<
 
 # SSH settings
 export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR}/gcr/ssh" # Set the SSH_AUTH_SOCK environment variable to the socket path for the user-level ssh-agent service, enabling the shell to communicate with the agent for key management and authentication.
@@ -466,3 +473,5 @@ else
 fi
 
 colorscript random # Run the 'colorscript' command with the 'random' argument to display random ASCII art with colors in the terminal.
+
+[[ ${BLE_VERSION-} ]] && ble-attach

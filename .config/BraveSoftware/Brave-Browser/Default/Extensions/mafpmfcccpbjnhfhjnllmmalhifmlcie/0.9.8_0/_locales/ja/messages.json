@@ -1,0 +1,92 @@
+{
+   "appDesc": {
+      "message": "検閲下のユーザーがあなたのネットワークを使って Tor ネットワークに接続できるようにします。"
+   },
+   "badgeLocalStorageOff": {
+      "message": "ローカルストレージが有効になっていません。"
+   },
+   "bugTracker": {
+      "message": "Tor Project の GitLab から\u003Ca href=\"https://gitlab.onionize.space/\">アカウントをリクエスト\u003C/a>し、Snowflake プロジェクトで\u003Ca href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues\">課題を開きます\u003C/a>。"
+   },
+   "consent": {
+      "message": "同意する"
+   },
+   "consented": {
+      "message": "準備完了です！この度はブリッジを運用していただきありがとうございます。"
+   },
+   "descriptive": {
+      "message": "バグに関する情報をできるだけ詳細にご説明ください。可能であればバグを再現するのに役立つログメッセージも記載してください。"
+   },
+   "extensionConsent": {
+      "message": "基本的な機能を提供するために、Snowflake プロキシ (ブラウザーにインストールしたアドオン) は、プロキシのネットワーク設定に関するメタデータを Snowflake ブローカーに送信します。このメタデータは、プロキシの IP アドレス (あなたの IP アドレス)、報告された NAT タイプ、あなた (プロキシ) が実行している Snowflake プロトコルのバージョン、プロキシ (インストールしたアドオン) がウェブ拡張機能であるという事実、プロキシ (インストールしたアドオン) にすでに接続されているクライアントの数です。このデータは、接続および集約統計の確立にのみ使用され、ブローカーには格納されません。収集および表示する情報の詳細につきましては、\u003Ca href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/privacy\">プライバシーポリシー\u003C/a>をご覧ください。準備ができましたら、下のボタンをクリックして Snowflake プロキシを有効にすることに同意いただけます。"
+   },
+   "extensionOnboard": {
+      "message": "Snowflake ウェブ拡張機能をインストールしていただき、ありがとうございます！"
+   },
+   "extensionOptout": {
+      "message": "このアドオンは、Snowflake プロキシとして実行するために必要最小限のデータのみを送信します。上記のデータの送信またはプライバシーポリシーの一部に不快感を覚える場合は、Snowflake アドオンを削除することをお勧めいたします。"
+   },
+   "faq": {
+      "message": "Snowflake の使用に関するサポートを求める"
+   },
+   "fileBug": {
+      "message": "Snowflake を使用中、または実行中に問題が発生した場合は、バグレポートの提出をご検討ください。 バグレポートを提出する方法は、次の2つがあります。"
+   },
+   "installExtension": {
+      "message": "Snowflake プロキシはすべてボランティアによって運用されていることをご存知ですか？つまり、ユーザーは、あなたのようなボランティアによって運用されているランダムな Snowflake ボランティアプロキシと一致するのです。 したがって、人々の検閲回避を支援したい場合は、Snowflake プロキシをインストールして実行することをご検討ください。 唯一の前提条件は、お住まいの国のインターネットがまだ厳しく検閲されて\u003Cstrong>いない\u003C/strong>ことです。"
+   },
+   "popupBridgeUnreachable": {
+      "message": "ブリッジに接続できませんでした。"
+   },
+   "popupConsent": {
+      "message": "同意ページを開く"
+   },
+   "popupDescOn": {
+      "message": "Snowflake が過去 24 時間に検閲回避を支援したユーザーの数: $1"
+   },
+   "popupEnabled": {
+      "message": "有効にする"
+   },
+   "popupLearnMore": {
+      "message": "詳細情報"
+   },
+   "popupNeedConsent": {
+      "message": "Snowflake を有効にする前に、プライバシーポリシーに同意してください。"
+   },
+   "popupRetry": {
+      "message": "再試行"
+   },
+   "popupRetrying": {
+      "message": "再試行中..."
+   },
+   "popupRunInBackground": {
+      "message": "ブラウザーを閉じても実行し続ける"
+   },
+   "popupStatusOff": {
+      "message": "Snowflake は無効です"
+   },
+   "popupStatusOn": {
+      "message": "現在接続しているユーザー数: $1"
+   },
+   "popupStatusReady": {
+      "message": "Snowflake はユーザーの検閲回避を支援する準備ができています"
+   },
+   "popupWebRTCOff": {
+      "message": "WebRTC 機能が検出されませんでした。"
+   },
+   "remove": {
+      "message": "Snowflake アドオンを削除する"
+   },
+   "reportingBugs": {
+      "message": "バグを報告する"
+   },
+   "sharedAccount": {
+      "message": "識別子を生成してログインし、\u003Ca href=\"https://anonticket.onionize.space/\">匿名チケット\u003C/a>を提出します。 次に、\u003Cstrong>すべてのプロジェクトのリスト\u003C/strong>から Snowflake プロジェクトを見つけて、新しい課題を作成します。"
+   },
+   "support": {
+      "message": "Snowflake を使用して Tor に接続しようとして問題が発生した場合は、Tor サポートチャンネルに \u003Ca href=\"https://t.me/TorProjectSupportBot\">Telegram\u003C/a> で連絡することができます。また、 \u003Ca href=\"https://support.torproject.org/ja/censorship/\">Tor サポートポータル\u003C/a>と \u003Ca href=\"https://forum.torproject.org/tag/snowflake\">Tor Forum\u003C/a> で回答を得ることもできます。"
+   },
+   "volunteer": {
+      "message": "Snowflake プロキシをインストールして実行している世界中の何千人ものボランティアに参加できます。 ユーザーがSnowflake プロキシを介してアクセスしているウェブサイトについて心配する必要はありません。 彼らの目に見えるブラウジング IP アドレスは、あなたのものではなく、Tor 出口ノードと一致します。"
+   }
+}

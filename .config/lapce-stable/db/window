@@ -1,0 +1,21 @@
+{
+  "size": {
+    "width": 1236.0,
+    "height": 646.0
+  },
+  "pos": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "maximised": false,
+  "tabs": {
+    "active_tab": 0,
+    "workspaces": [
+      {
+        "kind": "Local",
+        "path": null,
+        "last_open": 0
+      }
+    ]
+  }
+}

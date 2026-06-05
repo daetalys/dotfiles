@@ -2,10 +2,11 @@
 	ui = auto
 [commit]
     gpgsign = true
+	verbose = true
 [core]
 	editor = vim
 [credential]
-	helper = /usr/local/bin/git-credential-libsecret
+	helper = keepassxc -vv --git-groups
 [diff]
 	colorMoved = zebra
 [filter "lfs"]
@@ -24,6 +25,7 @@
 	displayCommentPrefix = true
 	showStash = true
 	showUntrackedFiles = no
+	branch = true
 [tag]
 	gpgSign = true
 [user]

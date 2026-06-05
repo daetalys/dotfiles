@@ -1,0 +1,92 @@
+{
+    "appDesc": {
+        "message": "Lejojuni përdoruesve në vende me censurë të përdorin lidhjen tuaj të rrjetit për të hyrë në rrjetin Tor."
+    },
+    "popupEnabled": {
+        "message": "E aktivizuar"
+    },
+    "popupRunInBackground": {
+        "message": "Vazhdo funksionimin, kur mbyllet shfletuesi"
+    },
+    "popupLearnMore": {
+        "message": "Mësoni më tepër"
+    },
+    "popupStatusOff": {
+        "message": "Snowflake është i çaktivizuar"
+    },
+    "popupStatusOn": {
+        "message": "Numër përdoruesish të lidhur aktualisht: $1"
+    },
+    "popupStatusReady": {
+        "message": "Snowflake-u juaj është gati të ndihmojë përdorues të anashkalojnë censurimin"
+    },
+    "popupWebRTCOff": {
+        "message": "S’u pikas veçoria WebRTC."
+    },
+    "popupBridgeUnreachable": {
+        "message": "S’u lidh dot me urën."
+    },
+    "popupDescOn": {
+        "message": "Numër përdoruesish që Snowflake-u juaj ka ndihmuar të anashkalojnë censurimin në 24 orët e fundit: $1"
+    },
+    "popupRetry": {
+        "message": "Riprovo"
+    },
+    "popupRetrying": {
+        "message": "Po riprovohet …"
+    },
+    "extensionOptout": {
+        "message": "Kjo shtesë transmeton vetëm sasinë minimum të të dhënave të domosdoshme për funksionuar si ndërmjetës Snowflake. Nëse s’jeni rehat me transmetimin e të dhënave të treguara më sipër, apo me çfarëdo pjese të rregullave tona të privatësisë, rekomandojmë ta hiqni shtesën Snowflake."
+    },
+    "remove": {
+        "message": "Hiq shtesën Snowflake"
+    },
+    "consent": {
+        "message": "Pranoj"
+    },
+    "extensionOnboard": {
+        "message": "Faleminderit që instaloni zgjerimin Snowflake!"
+    },
+    "extensionConsent": {
+        "message": "Për të dhënë funksionim elementar, ndërmjetësit Snowflake (shtesa që instaluat në shfletuesin tuaj) dërgojnë ca tejtëdhëna te shërbimi Snowflake rreth ujdisjes së ndërmjetësit në rrjet. Këto tejtëdhëna janë: adresa IP e ndërmjetësit (adresa juaj IP), lloji NAT që raportohet për ju, versioni i protokollit Snowflake (ndërmjetësi) që po xhironi, fakti që ndërmjetësi (shtesa që keni instaluar) është një zgjerim web dhe numri i klientëve tashmë të lidhur te ndërmjetësi (te shtesa që keni instaluar). Këto të dhëna përdoren vetëm për vendosjen e lidhjes dhe statistika të përmbledhura dhe nuk depozitohen te shërbimi. Ju lutemi, për më tepër hollësi mbi informacionin që grumbullojmë dhe shfaqim, shihni <a href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/privacy\">rregullat tona të privatësisë</a>. Kur të jeni gati, mund të jepni pranimin për aktivizimin e ndërmjetësit Snowflake, duke klikuar butonin më poshtë."
+    },
+    "popupNeedConsent": {
+        "message": "Ju lutemi, jepni pranimin e rregullave tona të privatësisë, para se të aktivizohet Snowflake-u."
+    },
+    "consented": {
+        "message": "Mbaruat! Faleminderit që xhironi një ndërmjetës Snowflake!"
+    },
+    "popupConsent": {
+        "message": "Hap faqe pranimi"
+    },
+    "badgeLocalStorageOff": {
+        "message": "Depozita vendore s’është aktivizuar."
+    },
+    "installExtension": {
+        "message": "A dinit se ndërmjetësit Snowflake mbahen në punë tërësisht nga vullnetarë? Me fjalë të tjera, një përdoruesi i përshoqërohet një ndërmjetës kuturu Snowflake vullnetari, që mbahet në punë nga një vullnetar si ju! Ndaj, nëse dëshironi të ndihmoni njerëzit të anashkalojnë censurimin, shihni mundësinë e instalimit dhe xhirimit të një ndërmjetësi Snowflake. E vetmja kërkesë paraprake është që Interneti në vendin tuaj të <strong>mos</strong> jetë i censuruar rëndë."
+    },
+    "volunteer": {
+        "message": "Mund të bëheni tok me mijëra vullnetarë nga anembanë bota që kanë të instaluar dhe xhirojnë Snowflake. S’ka nevojë të vrisni mendjen se cilët sajte përdorin njerëzit përmes ndërmjetësit tuaj Snowflake. Adresa IP e dukshme e tyre do të lidhet me nyjën dalëse Tor, jo tuajën."
+    },
+    "reportingBugs": {
+        "message": "Njoftim të Metash"
+    },
+    "fileBug": {
+        "message": "Nëse hasni probleme me Snowflake-un - qoftë kur e përdorni, apo mbani në punë një ndërmjetës -, ju lutemi, shihni mundësinë e parashtrimit të një njoftimi të mete.  Ka dy rrugë për të parashtruar njoftim të mete:"
+    },
+    "sharedAccount": {
+        "message": "Parashtroni një <a href=\"https://anonticket.onionize.space/\">pusullë anonime</a> duke prodhuar një identifikues dhe duke hyrë me të. Mandej, gjeni projektin Snowflake te <strong>Lista e krejt projekteve</strong> dhe krijoni një çështje të re."
+    },
+    "bugTracker": {
+        "message": "<a href=\"https://gitlab.onionize.space/\">Kërkoni një llogari</a> te Tor Project GitLab, mandej <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues\">hapni një çështje të re</a> te projekti Snowflake."
+    },
+    "descriptive": {
+        "message": "Ju lutemi, përpiquni të jeni sa më i hollësishëm sa mundet me çështjen tuaj, dhe mundësisht përfshini mesazhe regjistri, të cilat do të na ndihmojnë të riprodhojmë të metën."
+    },
+    "faq": {
+        "message": "Po kërkoni asistencë mbi përdorimin e Snowflake-ut"
+    },
+    "support": {
+        "message": "Nëse hasni probleme teksa provoni të lidheni me Tor-in duke përdorur Snowflake-un, kanali i asistencës për Tor-in mund të përdoret përmes <a href=\"https://t.me/TorProjectSupportBot\">Telegram-it</a>. Për përgjigje mundeni edhe të shfletoni <a href=\"https://support.torproject.org/censorship/\">Portalin e Asistencës së Tor-it</a> dhe <a href=\"https://forum.torproject.org/tag/snowflake\">Forumin e Tor-it</a>."
+    }
+}

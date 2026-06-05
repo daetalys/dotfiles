@@ -1,0 +1,92 @@
+{
+   "appDesc": {
+      "message": "Umožněte uživatelům v cenzurovaných zemích používat vaše síťové připojení pro přístup k síti Tor."
+   },
+   "badgeLocalStorageOff": {
+      "message": "Místní úložiště není zapnuto."
+   },
+   "bugTracker": {
+      "message": "\u003Ca href=\"https://gitlab.onionize.space/\">Požádejte o účet \u003C/a> na GitLabu projektu Tor, potom \u003Ca href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues\">otevřete nový požadavek\u003C/a> v projektu Snowflake."
+   },
+   "consent": {
+      "message": "Souhlasím"
+   },
+   "consented": {
+      "message": "Vše je připraveno! Děkujeme, že provozujete snowflake proxy!"
+   },
+   "descriptive": {
+      "message": "Popište prosím svůj problém co nejpodrobněji a, pokud je to možné, připojte i zprávy z logů, které nám pomohou bug reprodukovat."
+   },
+   "extensionConsent": {
+      "message": "Kvůli zajištění základní funkčnosti, Snowflake proxy (doplněk, který jste nainstalovali do vašeho prohlížeče) odesílají Snowflake brokerovi některá metadata o síťovém nastavení proxy. Tato metadata jsou: IP adresa proxy (vaše IP adresa), vámi hlášený typ NAT, verze snowflake protokolu který vy (proxy) používáte, fakt že proxy (doplněk, který jste nainstalovali) je webovým rozšířením a počet klientů již připojených k proxy (k vámi nainstalovanému doplňku). Tato data jsou použita pouze k navázání připojení a ke shromáždění statistiky a nejsou uložena u brokera. Prosím, podívejte se na naše \u003Ca href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/privacy\">zásady ochrany soukromí\u003C/a> pro podrobnosti k informacím, které sbíráme a zobrazujeme. Až budete připraveni, můžete souhlasit a zapnout vaší Snowflake proxy kliknutím na tlačítko níže."
+   },
+   "extensionOnboard": {
+      "message": "Děkujeme za instalaci webového rozšíření Snowflake!"
+   },
+   "extensionOptout": {
+      "message": "Tento doplněk přenáší jen minimální množství dat nutných k fungování jako Snowflake proxy. Pokud nesouhlasíte s přenosem dat uvedených výše, nebo s jakoukoli částí našich zásad ochrany soukromí, doporučujeme vám odebrat doplněk Snowflake."
+   },
+   "faq": {
+      "message": "Hledám podporu s používáním Snowflake"
+   },
+   "fileBug": {
+      "message": "Pokud se setkáte s problémy s aplikací Snowflake - ať už ji používáte, nebo ji spouštíte - zvažte nahlášení chyby.  Existují dva způsoby, jak podat hlášení o chybě:"
+   },
+   "installExtension": {
+      "message": "Věděli jste, že Snowflake proxy jsou provozovány výhradně dobrovolníky? Jinak řečeno, uživateli je přiřazeno náhodné Snowflake proxy, které provozuje dobrovolník, jako jste vy! Pokud tedy chcete lidem pomoci obejít cenzuru, zvažte nainstalování a provozování Snowflake proxy. Jedinou podmínkou je, aby internet ve vaší zemi nebyl \u003Cstrong>silně cenzurován\u003C/strong>."
+   },
+   "popupBridgeUnreachable": {
+      "message": "Nelze se připojit k mostu."
+   },
+   "popupConsent": {
+      "message": "Otevřít stránku souhlasu"
+   },
+   "popupDescOn": {
+      "message": "Počet uživatelů, kterým pomohl váš Snowflake obejít cenzuru za posledních 24 hodin: $1"
+   },
+   "popupEnabled": {
+      "message": "Zapnuto"
+   },
+   "popupLearnMore": {
+      "message": "Zjistit více"
+   },
+   "popupNeedConsent": {
+      "message": "Před zapnutím Snowflake prosím vyjádřete souhlas s našimi zásadami ochrany soukromí."
+   },
+   "popupRetry": {
+      "message": "Opakovat"
+   },
+   "popupRetrying": {
+      "message": "Opakování ..."
+   },
+   "popupRunInBackground": {
+      "message": "Pokračovat v běhu po zavření prohlížeče"
+   },
+   "popupStatusOff": {
+      "message": "Snowflake je vypnutý"
+   },
+   "popupStatusOn": {
+      "message": "Počet momentálně připojených uživatelů:$1"
+   },
+   "popupStatusReady": {
+      "message": "Váš Snowflake je připraven pomáhat uživatelům obejít cenzuru"
+   },
+   "popupWebRTCOff": {
+      "message": "WebRTC rozšíření nebylo detekováno."
+   },
+   "remove": {
+      "message": "Odebrat doplněk Snowflake"
+   },
+   "reportingBugs": {
+      "message": "Hlášení chyb"
+   },
+   "sharedAccount": {
+      "message": "Podejte \u003Ca href=\"https://anonticket.onionize.space/\">anonymní požadavek na podporu\u003C/a> vygenerováním identifikátoru a přihlášením se pomocí něj. Poté najděte projekt Snowflake v \u003Cstrong>Seznamu všech projektů\u003C/strong> a vytvořte nový požadavek/hlášení."
+   },
+   "support": {
+      "message": "Pokud se při pokusu o připojení k síti Tor pomocí Snowflake setkáte s problémy, kanál podpory Tor je dostupný na \u003Ca href=\"https://t.me/TorProjectSupportBot\">Telegramu\u003C/a>. Odpovědi můžete také prohlížet na \u003Ca href=\"https://support.torproject.org/censorship/\">Portálu podpory Tor\u003C/a> a na \u003Ca href=\"https://forum.torproject.org/tag/snowflake\">Tor Fóru\u003C/a>."
+   },
+   "volunteer": {
+      "message": "Můžete se připojit k tisícům dobrovolníků z celého světa, kteří mají nainstalovaný a spuštěný proxy server Snowflake. Nemusíte si dělat starosti s tím, na které webové stránky lidé přistupují prostřednictvím vašeho proxy serveru Snowflake. Jejich viditelná IP adresa při prohlížení bude odpovídat jejich výstupnímu uzlu Tor, nikoliv vaší."
+   }
+}

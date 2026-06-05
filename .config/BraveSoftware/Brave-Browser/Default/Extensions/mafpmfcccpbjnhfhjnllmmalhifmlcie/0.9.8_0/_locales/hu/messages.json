@@ -1,0 +1,92 @@
+{
+   "appDesc": {
+      "message": "Lehetővé teszi a cenzorált országok felhasználói számára, hogy a hálózati kapcsolatát használja a Tor hálózat elérésére."
+   },
+   "badgeLocalStorageOff": {
+      "message": "Helyi tárolás nem engedélyezett."
+   },
+   "bugTracker": {
+      "message": "\u003Ca href=\"https://gitlab.onionize.space/\">Igényeljen egy fiókot\u003C/a> a Tor Project GitLab-jához, majd \u003Ca href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues\">nyisson egy hibajegyet\u003C/a> a Snowflake projektben."
+   },
+   "consent": {
+      "message": "Elfogadom"
+   },
+   "consented": {
+      "message": "Minden beállításra került! Köszönjük hogy futtat egy snowflake proxy-t!"
+   },
+   "descriptive": {
+      "message": "Kérjük legyen annyira leíró, amennyire lehet a hibajegyében és ha van rá lehetősége csatolja a logot, ami segítheti a probléma reprodukálását."
+   },
+   "extensionConsent": {
+      "message": "Az alapvető funkcionalitás biztosításához a Snowflake proxy-k (a bővítmény, amit telepítettél a böngésződbe) küld valamennyi adatot a Snowflake brókernek a proxy hálózati konfigurációjáról. Ez a metaadat, részletesen: a proxy IP címe (az Ön IP címe), a NAT típusa, a futtatott snowflake (proxy) protokoll verziója, a tény, hogy a proxy (a telepített addon) egy böngésző bővítmény és a csatlakozott kliensek száma a proxy-ban (a telepített bővítményben). Ez az adat csak a kapcsolat felépítéséhez és aggregált statisztikákhoz szükséges és nem kerül a bróker által tárolásra. Tekintsw meg \u003Ca href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/privacy\">adatvédelmi szabályzatunkat\u003C/a> további részletekért, hogy milyen információt gyűjtünk és jelenítünk meg. Ha készen áll, megadhatja hozzájárulását a lenti gombbal, így engedélyezve a Snowflake proxy futtatását."
+   },
+   "extensionOnboard": {
+      "message": "Köszönjük a Snowflake böngésző bővítmény telepítését!"
+   },
+   "extensionOptout": {
+      "message": "Ez a bővítmény csak a minimális adatot viszi át ahhoz, hogy egy Snowflake proxy-ként működjön. Ha kényelmetlennek érzi a fent említett adatok átvitelét vagy az adatvédelmi szabályzatunk bármely részét, ajánljuk, hogy távolítsa el a Snowflake bővítményt."
+   },
+   "faq": {
+      "message": "Segítség kérése a Snowflake használatához"
+   },
+   "fileBug": {
+      "message": "Ha problémát tapasztal a Snowflake használata vagy futtatása során, kérjük, fontolja meg egy hibajelentés benyújtását. A hibajelentés benyújtásának két módja van:"
+   },
+   "installExtension": {
+      "message": "Tudta, hogy a Snowflake proxykat teljes egészében önkéntesek üzemeltetik? Más szavakkal, a felhasználókat egy véletlenszerűen kiválasztott Snowflake önkéntes proxyhoz rendelik, amelyet egy olyan önkéntes üzemeltet, mint ön! Ha tehát segíteni szeretne az embereknek a cenzúra megkerülésében, fontolja meg ön is egy Snowflake proxy telepítését és üzemeltetését. Az egyetlen előfeltétel, hogy az internet az ön országában \u003Cstrong>még\u003C/strong> ne legyen erősen cenzúrázva."
+   },
+   "popupBridgeUnreachable": {
+      "message": "Sikertelen a hídhoz csatlakozás."
+   },
+   "popupConsent": {
+      "message": "Elfogadó oldal megnyitása"
+   },
+   "popupDescOn": {
+      "message": "Az Ön Snowflake-je az elmúlt 24 órában ennyi felhasználónak segített a cenzúra elkerülésében: $1"
+   },
+   "popupEnabled": {
+      "message": "Engedélyezve"
+   },
+   "popupLearnMore": {
+      "message": "További információ"
+   },
+   "popupNeedConsent": {
+      "message": "Kérjük fogadja el adatvédelmi szabályzatunkat mielőtt engedélyezi a Snowflake-et."
+   },
+   "popupRetry": {
+      "message": "Újra"
+   },
+   "popupRetrying": {
+      "message": "Újra próbálkozás ..."
+   },
+   "popupRunInBackground": {
+      "message": "Fusson tovább a böngésző bezárását követően"
+   },
+   "popupStatusOff": {
+      "message": "A Snowflake kikapcsolt"
+   },
+   "popupStatusOn": {
+      "message": "Jelenleg kapcsolódott felhasználók száma: $1"
+   },
+   "popupStatusReady": {
+      "message": "Az ön Snowflake-je kész arra, hogy segítse a cenzúra elkerülését"
+   },
+   "popupWebRTCOff": {
+      "message": "WebRTC szolgáltatás nem észlelt."
+   },
+   "remove": {
+      "message": "A Snowflake bővítmény eltávolítása"
+   },
+   "reportingBugs": {
+      "message": "Hibajelentés"
+   },
+   "sharedAccount": {
+      "message": "Nyújtson be egy \u003Ca href=\"https://anonticket.onionize.space/\">névtelen jegyet\u003C/a> úgy, hogy létrehoz egy azonosítót, és bejelentkezik. Ezután keresse meg a Snowflake projektet a \u003Cstrong>List of all projects\u003C/strong> (az összes projekt listája) menüpont alatt, és hozzon létre egy új jegyet (create a new issue)."
+   },
+   "support": {
+      "message": "Ha problémát tapasztal a Snowflake használatával a Torhoz való csatlakozás során, a Tor támogatási csatornája a \u003Ca href=\"https://t.me/TorProjectSupportBot\">Telegram\u003C/a> alkalmazáson érhető el. Válaszokat találhat a \u003Ca href=\"https://support.torproject.org/censorship/\">Tor támogatási portálon\u003C/a> és a \u003Ca href=\"https://forum.torproject.org/tag/snowflake\">Tor fórumon\u003C/a> is."
+   },
+   "volunteer": {
+      "message": "Csatlakozhat a világ minden tájáról származó több ezer önkénteshez, aki Snowflake proxyt telepített és futtat. Nem kell aggódnia amiatt, hogy az emberek milyen weboldalakra lépnek be a Snowflake proxyján keresztül. A látható böngészési IP-címük az ő Tor kilépési csomópontjuknak fog megfelelni, nem az önének."
+   }
+}

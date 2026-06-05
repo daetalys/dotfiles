@@ -1,0 +1,60 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icons/icon_128.png",
+         "16": "icons/icon_16.png",
+         "32": "icons/icon_32.png",
+         "48": "icons/icon_48.png",
+         "96": "icons/icon_96.png"
+      },
+      "default_popup": "popup/popup.html",
+      "default_title": "SimpleLogin"
+   },
+   "background": {
+      "service_worker": "background.js",
+      "type": "module"
+   },
+   "browser_specific_settings": {
+      "gecko": {
+         "id": "addon@simplelogin",
+         "strict_min_version": "109.0"
+      }
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "description": "Open the extension action menu",
+         "suggested_key": {
+            "default": "Ctrl+Shift+S"
+         }
+      },
+      "generate-random-alias": {
+         "description": "Generate a random email alias",
+         "suggested_key": {
+            "default": "Ctrl+Shift+X"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "css": [ "content_script/input_tools.css" ],
+      "exclude_matches": [ "https://app.simplelogin.io/dashboard/*" ],
+      "js": [ "content_script/input_tools.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "Easily create a different email for each website to hide your real email. Protect your inbox against spams, phishing, data breaches",
+   "host_permissions": [ "https://*.simplelogin.io/*", "http://*/*", "https://*/*" ],
+   "icons": {
+      "128": "icons/icon_128.png",
+      "16": "icons/icon_16.png",
+      "32": "icons/icon_32.png",
+      "48": "icons/icon_48.png",
+      "96": "icons/icon_96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApNhxTTS7RZLScXNumaJhyE3nFES666Svsakns/JRXKGlteAxO3cEU00mzgrO4T78cyVQAIifU5MVRZEGsRzcMpQreSFhlnpS3ItLprx+ngnIgPv/xX1aYv5sxLm8fXZVm/9614inUqkZBeT8jkshTyfDf0Lyp1uyHuLD206gWLlXjcQUrFvih6J2xSOZIw9ccCuKRaCw6CtKNfOfOjplokdtSe+hAZ1e4txtLIwmopSwjvw3z17XgXu/D1HbVcWpqhIq/3clkKQRkhIGa0aS3M5dPK/x2clZBfBG0nUIwBvbxVZ+JADbRcjoOAWaddf/kr0KW+Fx8sUnc8K8uIxfpwIDAQAB",
+   "manifest_version": 3,
+   "name": "SimpleLogin by Proton: Secure Email Aliases",
+   "permissions": [ "activeTab", "storage", "contextMenus", "scripting", "tabs" ],
+   "short_name": "SimpleLogin",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.7"
+}

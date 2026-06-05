@@ -1,0 +1,27 @@
+2026/06/03-18:10:43.619 646 Reusing MANIFEST /home/daetalys/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2026/06/03-18:10:43.625 646 Recovering log #130
+2026/06/03-18:10:43.627 646 Reusing old log /home/daetalys/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000130.log 
+2026/06/03-18:10:47.245 654 Level-0 table #134: started
+2026/06/03-18:10:47.247 654 Level-0 table #134: 77728 bytes OK
+2026/06/03-18:10:47.249 654 Delete type=0 #130
+2026/06/03-18:17:03.458 655 Level-0 table #136: started
+2026/06/03-18:17:03.469 655 Level-0 table #136: 72648 bytes OK
+2026/06/03-18:17:03.471 655 Delete type=0 #133
+2026/06/03-18:50:19.560 655 Level-0 table #138: started
+2026/06/03-18:50:19.599 655 Level-0 table #138: 59134 bytes OK
+2026/06/03-18:50:19.601 655 Delete type=0 #135
+2026/06/03-18:50:19.602 655 Compacting 4@0 + 1@1 files
+2026/06/03-18:50:19.619 655 Generated table #139@0: 5130 keys, 407479 bytes
+2026/06/03-18:50:19.619 655 Compacted 4@0 + 1@1 files => 407479 bytes
+2026/06/03-18:50:19.621 655 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/03-18:50:19.621 655 Delete type=2 #138
+2026/06/03-18:50:19.621 655 Delete type=2 #131
+2026/06/03-18:50:19.621 655 Delete type=2 #129
+2026/06/03-18:50:19.621 655 Delete type=2 #134
+2026/06/03-18:50:19.621 655 Delete type=2 #136
+2026/06/03-19:25:30.844 654 Level-0 table #141: started
+2026/06/03-19:25:30.855 654 Level-0 table #141: 66564 bytes OK
+2026/06/03-19:25:30.857 654 Delete type=0 #137
+2026/06/03-19:43:16.912 645 Level-0 table #143: started
+2026/06/03-19:43:16.925 645 Level-0 table #143: 74068 bytes OK
+2026/06/03-19:43:16.926 645 Delete type=0 #140

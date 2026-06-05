@@ -1,0 +1,92 @@
+{
+   "appDesc": {
+      "message": "Permiteți utilizatorilor din țările cenzurate să vă folosească conexiunea la rețea pentru a permite acces la rețeaua Tor."
+   },
+   "badgeLocalStorageOff": {
+      "message": "Local storage is not enabled."
+   },
+   "bugTracker": {
+      "message": "\u003Ca href=\"https://gitlab.onionize.space/\">Solicitați un cont\u003C/a> la Tor Project pe GitLab, apoi \u003Ca href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues\">deschideți o nouă problemă\u003C/a> în proiectul Snowflake."
+   },
+   "consent": {
+      "message": "I consent"
+   },
+   "consented": {
+      "message": "You're all set! Thank you for running a snowflake proxy!"
+   },
+   "descriptive": {
+      "message": "Vă rugăm să fiți cât mai detaliat cu privire la eroare și să scrieți, dacă este posibil,  si un mesaj pentru a ne ajuta să indentificăm eroarea."
+   },
+   "extensionConsent": {
+      "message": "To provide basic functionality, Snowflake proxies (the addon you have installed in your browser) send some metadata to the Snowflake broker about the proxy's networking setup. This metadata is, exhaustively: the IP address of the proxy (your IP address), your reported NAT type, the version of the snowflake protocol you (the proxy) is running, the fact that the proxy (the addon you have installed) is a webextension, and the number of clients already connected to the proxy (to the addon you have installed). This data is used only for the establishment of the connection and aggregate statics and is not stored at the broker. Please view our \u003Ca href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/privacy\">privacy policy\u003C/a> for more details on the information we collect and display. When you are ready, you can consent to enable your Snowflake proxy by clicking the button below."
+   },
+   "extensionOnboard": {
+      "message": "Thank you for installing the Snowflake web extension!"
+   },
+   "extensionOptout": {
+      "message": "This addon only transmits the minimal amount of data required to perform as a Snowflake proxy. If you are uncomfortable with the transmission of data enumerated above or with any part of our privacy policy, we recommend you remove the Snowflake addon."
+   },
+   "faq": {
+      "message": "Căutăm asistență pentru utilizarea Snowflake"
+   },
+   "fileBug": {
+      "message": "Dacă întâmpinați probleme cu Snowflake - indiferent dacă îl utilizați sau îl executați -, vă rugăm să luați în considerare depunerea unui raport de eroare. Există două moduri de a trimite un raport de eroare:"
+   },
+   "installExtension": {
+      "message": "Știați că proxy-urile Snowflake sunt operate în întregime de voluntari? Cu alte cuvinte, un utilizator se potrivește cu un proxy voluntar de Snowflake aleatoriu este condus de un voluntar ca tine! Deci, dacă doriți să ajutați oamenii să ocolească cenzura, luați în considerare instalarea și rularea unui proxy Snowflake. Singura condiție prealabilă este ca internetul din țara dumneavoastră să nu fie deja cenzurat."
+   },
+   "popupBridgeUnreachable": {
+      "message": "Nu s-a putut conecta la punte."
+   },
+   "popupConsent": {
+      "message": "Open consent page"
+   },
+   "popupDescOn": {
+      "message": "Numărul de utilizatori pe care Snowflake de pe dispozitivul dvs. i-a ajutat să ocolească cenzura în ultimile 24 de ore: $1"
+   },
+   "popupEnabled": {
+      "message": "Activat"
+   },
+   "popupLearnMore": {
+      "message": "Află mai mult"
+   },
+   "popupNeedConsent": {
+      "message": "Please consent to our privacy policy before enabling Snowflake."
+   },
+   "popupRetry": {
+      "message": "Încearcă din nou"
+   },
+   "popupRetrying": {
+      "message": "Reîncercare..."
+   },
+   "popupRunInBackground": {
+      "message": "Keep running when the browser is closed"
+   },
+   "popupStatusOff": {
+      "message": "Snowflake este închis"
+   },
+   "popupStatusOn": {
+      "message": "Numărul de utilzatori conectați în prezent: $1"
+   },
+   "popupStatusReady": {
+      "message": "Snowflake de pe dispozitivul dvs. este gata să ajute utilizatorii să ocolească cenzura"
+   },
+   "popupWebRTCOff": {
+      "message": "Funcția WebRTC nu este detectată."
+   },
+   "remove": {
+      "message": "Remove the Snowflake addon"
+   },
+   "reportingBugs": {
+      "message": "Raportarea erorilor"
+   },
+   "sharedAccount": {
+      "message": "Scrieți un \u003Ca href=\"https://anonticket.onionize.space/\">bilet anonim\u003C/a> prin generarea unui identificator și conectarea cu acesta. Apoi, găsiți proiectul Snowflake în \u003Cstrong>lista tuturor proiectelor\u003C/strong> și creați o nouă problemă."
+   },
+   "support": {
+      "message": "Dacă întâmpinați probleme în timp ce încercați să vă conectați la Tor folosind Snowflake, canalul de suport Tor poate fi accesat prin \u003Ca href=\"https://t.me/TorProjectSupportBot\">Telegram\u003C/a>. De asemenea, puteți naviga pe \u003Ca href=\"https://support.torproject.org/censorship/\">portalul de suport Tor\u003C/a> și pe \u003Ca href=\"https://forum.torproject.org/tag/snowflake\">forumul Tor\u003C/a> pentru răspunsuri."
+   },
+   "volunteer": {
+      "message": "Vă puteți alătura miilor de voluntari din întreaga lume care au un proxy Snowflake instalat și rulat. Nu este nevoie să vă faceți griji cu privire la site-urile web pe care oamenii le accesează prin proxy-ul dumneavoastră Snowflake. Adresa lor IP de navigare vizibilă se va potrivi cu nodul lor de ieșire Tor, nu cu al tău."
+   }
+}

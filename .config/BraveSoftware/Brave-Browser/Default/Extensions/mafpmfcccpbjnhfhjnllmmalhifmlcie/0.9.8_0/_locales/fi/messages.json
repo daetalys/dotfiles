@@ -1,0 +1,92 @@
+{
+   "appDesc": {
+      "message": "Salli sensuroiduissa maissa olevien käyttäjien käyttää verkkoyhteyttäsi Tor-verkkoon yhdistäessä."
+   },
+   "badgeLocalStorageOff": {
+      "message": "Paikallinen tallennussijainti ei ole sallittu."
+   },
+   "bugTracker": {
+      "message": "\u003Ca href=\"https://gitlab.onionize.space/\">Pyydä tili\u003C/a> Tor-projektin GitLabiin, jonka jälkeen voit avata Snowflake-projektiin \u003Ca href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues\">uuden ongelmatapauksen\u003C/a>."
+   },
+   "consent": {
+      "message": "Hyväksyn"
+   },
+   "consented": {
+      "message": "Kaikki on valmiina! Kiitos snowflake-välityspalvelimen pyörittämisestä!"
+   },
+   "descriptive": {
+      "message": "Pyri kuvailemaan ongelmasi mahdollisimman tarkasti ja jos mahdollista, sisällytä lokiviestit, jotka voivat auttaa meitä sen todentamisessa."
+   },
+   "extensionConsent": {
+      "message": "Tarjotakseen perustoiminnallisuuden, Snowflake välityspalvelimet (asentamasi selaimen lisäosa) lähettää jotakin metadataa välityspalvelinten asetuksista Snowflake-välittäjälle. Tämä metadata koostuu: välityspalvelimen IP-osoitteesta (IP-osoitteesi), raportoimastasi NAT-tyypistä, käyttämästäsi (välityspalvelimen) snowflake:n protokollan versiosta, tiedon siitä että välityspalvelin (asentamasi lisäosa) on laajennus, ja tiedon välityspalvelimen käyttäjien määrästä. Tätä dataa käytetään ainoastaan yhteyden muodostukseen ja koottuun tilastointiin, eikä dataa säilötä välittäjään. Katso \u003Ca href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/privacy\">tietosuojalausekkeemme\u003C/a> saadaksesi lisätietoa keräämästämme ja esittämästämme datasta. Kun olet valmis, voit hyväksyä Snowflake-välityspalvelimen käyttöönoton klikkaamalla alla olevaa painiketta."
+   },
+   "extensionOnboard": {
+      "message": "Kiitos Snowflake-laajennuksen asentamisesta!"
+   },
+   "extensionOptout": {
+      "message": "Tämä lisäosa lähettää ainoastaan minimaalisen määrän dataa, joka vaaditaan Snowflake-välityspalvelimen muodostamiseen. Jos et tahdo yllä lueteltua tai tietosuojakäytännössä mainittua dataa lähetettävän, suosittelemme poistamaan Snowflake-lisäosan."
+   },
+   "faq": {
+      "message": "Etsitkö tukea Snowflaken käyttöön"
+   },
+   "fileBug": {
+      "message": "Jos kohtaat Snowflaken kanssa ongelmia, olitpa sitten käyttäjä tai ylläpitäjä, harkitse vikailmoituksen tekemistä. Tämä onnistuu kahdella tavalla:"
+   },
+   "installExtension": {
+      "message": "Tiesitkö, että Snowflake-välityspalvelimet ovat vapaaehtoisten ylläpitämiä? Toisin sanoen, jokainen käyttäjä paritetaan satunnaisen, kaltaisesi vapaaehtoisen ylläpitämän Snowflake-välityspalvelimen kanssa. Jos haluat auttaa muita kiertämään sensuuria, harkitse oman Snowflake-välityspalvelimen asentamiosta ja ylläpitämistä. Ainoa vaatimus on, että Internet \u003Cstrong>ei\u003C/strong> ole omassa maassasi jo valmiiksi vahvasti sensuroitu."
+   },
+   "popupBridgeUnreachable": {
+      "message": "Ei voitu yhdistää siltaan."
+   },
+   "popupConsent": {
+      "message": "Avaa suostumus-sivu"
+   },
+   "popupDescOn": {
+      "message": "Sinun Snowflake on auttanut viimeisen 24 tunnin aikana seuraavan määrän käyttäjiä kiertämään sensuuria: $1"
+   },
+   "popupEnabled": {
+      "message": "Käytössä"
+   },
+   "popupLearnMore": {
+      "message": "Lue lisää"
+   },
+   "popupNeedConsent": {
+      "message": "Ole hyvä ja hyväksy tietosuojakäytäntömme ennne Snowflake:n kytkemistä päälle."
+   },
+   "popupRetry": {
+      "message": "Yritä uudelleen"
+   },
+   "popupRetrying": {
+      "message": "Yritetään uudelleen..."
+   },
+   "popupRunInBackground": {
+      "message": "Pidä käynnissä kun selain on suljettu"
+   },
+   "popupStatusOff": {
+      "message": "Snowflake on pois päältä"
+   },
+   "popupStatusOn": {
+      "message": "Yhteyden muodostaneita käyttäjiä nyt: $1"
+   },
+   "popupStatusReady": {
+      "message": "Snowflake on valmis auttamaan käyttäjiä sensuurin kiertämisessä"
+   },
+   "popupWebRTCOff": {
+      "message": "WebRTC-ominaisuutta ei havaittu."
+   },
+   "remove": {
+      "message": "Poista Snowflake-lisäosa"
+   },
+   "reportingBugs": {
+      "message": "Vikojen ilmoittaminen"
+   },
+   "sharedAccount": {
+      "message": "Lähetä \u003Ca href=\"https://anonticket.onionize.space/\">nimetön tapaus\u003C/a> luomalla tunniste ja kirjautumalla sillä sisään. Etsi sitten Snowflake kohdasta \u003Cstrong>List of all projects\u003C/strong> ja luo uusi ongelmaraportti."
+   },
+   "support": {
+      "message": "Jos kohtaat ongelmia yhdistäessäsi Tor-verkkoon Snowflaken avulla, tavoitat Torin tukikikavan \u003Ca href=\"https://t.me/TorProjectSupportBot\">Telegramilla\u003C/a>. Voit etsiä vastauksia myös \u003Ca href=\"https://support.torproject.org/censorship/\">Torin tukisivustolta\u003C/a> ja \u003Ca href=\"https://forum.torproject.org/tag/snowflake\">keskustelualueelta\u003C/a>."
+   },
+   "volunteer": {
+      "message": "Voit liittyä tuhansien vapaaehtoisten Snowflake-välityspalvelinylläpitäjien maailmanlaajuiseen joukkoon. Sinun ei tarvitse huolehtia mitä verkkosivustoja Snowflake-välityspalvelimesi kautta käytetään, koska heidän ulospäin näkyvä IP-osoite on sinun osoitteesi sijaan käytetyn Tor-päätössolmun osoite."
+   }
+}

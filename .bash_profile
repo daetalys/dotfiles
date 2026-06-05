@@ -35,13 +35,7 @@ elif [[ -f /etc/bashrc ]]; then
     . /etc/bashrc
 fi
 
-export QT_QPA_PLATFORMTHEME='qt5ct'
-
 # Init Session Interface Environment
 if [[ "$(tty)" = "/dev/tty1" ]]; then
-    qtile start -b wayland
-elif [[ "$(tty)" = "/dev/tty2" ]]; then
-    Hyprland
-elif [[ "$(tty)" = "/dev/tty5" ]]; then
-    startx
+    exec start-hyprland
 fi

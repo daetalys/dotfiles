@@ -1,0 +1,42 @@
+2026/06/04-16:53:45.428 47e9 Reusing MANIFEST /home/daetalys/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2026/06/04-16:53:45.435 47e9 Recovering log #142
+2026/06/04-16:53:45.438 47e9 Reusing old log /home/daetalys/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000142.log 
+2026/06/04-16:53:49.547 47e9 Level-0 table #146: started
+2026/06/04-16:53:49.549 47e9 Level-0 table #146: 74231 bytes OK
+2026/06/04-16:53:49.550 47e9 Delete type=0 #142
+2026/06/04-16:53:50.130 47db Level-0 table #148: started
+2026/06/04-16:53:50.133 47db Level-0 table #148: 385440 bytes OK
+2026/06/04-16:53:50.134 47db Delete type=0 #145
+2026/06/04-16:53:50.134 47db Compacting 4@0 + 1@1 files
+2026/06/04-16:53:50.141 47db Generated table #149@0: 5144 keys, 405381 bytes
+2026/06/04-16:53:50.141 47db Compacted 4@0 + 1@1 files => 405381 bytes
+2026/06/04-16:53:50.142 47db compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/04-16:53:50.142 47db Delete type=2 #146
+2026/06/04-16:53:50.143 47db Delete type=2 #143
+2026/06/04-16:53:50.143 47db Delete type=2 #141
+2026/06/04-16:53:50.143 47db Delete type=2 #139
+2026/06/04-16:53:50.143 47db Delete type=2 #148
+2026/06/04-17:22:04.954 47e9 Level-0 table #151: started
+2026/06/04-17:22:04.991 47e9 Level-0 table #151: 71633 bytes OK
+2026/06/04-17:22:04.994 47e9 Delete type=0 #147
+2026/06/04-17:37:07.323 47e9 Level-0 table #153: started
+2026/06/04-17:37:07.336 47e9 Level-0 table #153: 75550 bytes OK
+2026/06/04-17:37:07.337 47e9 Delete type=0 #150
+2026/06/04-17:42:17.399 47ec Level-0 table #155: started
+2026/06/04-17:42:17.401 47ec Level-0 table #155: 79086 bytes OK
+2026/06/04-17:42:17.403 47ec Delete type=0 #152
+2026/06/04-18:03:58.474 47ec Level-0 table #157: started
+2026/06/04-18:03:58.477 47ec Level-0 table #157: 72403 bytes OK
+2026/06/04-18:03:58.480 47ec Delete type=0 #154
+2026/06/04-18:03:58.480 47ec Compacting 4@0 + 1@1 files
+2026/06/04-18:03:58.495 47ec Generated table #158@0: 5146 keys, 404739 bytes
+2026/06/04-18:03:58.496 47ec Compacted 4@0 + 1@1 files => 404739 bytes
+2026/06/04-18:03:58.497 47ec compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/04-18:03:58.497 47ec Delete type=2 #157
+2026/06/04-18:03:58.498 47ec Delete type=2 #149
+2026/06/04-18:03:58.498 47ec Delete type=2 #153
+2026/06/04-18:03:58.498 47ec Delete type=2 #155
+2026/06/04-18:03:58.498 47ec Delete type=2 #151
+2026/06/04-18:48:02.804 47db Level-0 table #160: started
+2026/06/04-18:48:02.845 47db Level-0 table #160: 58643 bytes OK
+2026/06/04-18:48:02.847 47db Delete type=0 #156

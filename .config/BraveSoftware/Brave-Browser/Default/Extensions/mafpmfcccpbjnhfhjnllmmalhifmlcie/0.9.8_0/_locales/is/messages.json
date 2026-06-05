@@ -1,0 +1,92 @@
+{
+    "appDesc": {
+        "message": "Leyfðu notendum í ritskoðuðum löndum að nota nettenginguna þína við að fá aðgang að Tor-netinu."
+    },
+    "popupEnabled": {
+        "message": "Virkt"
+    },
+    "popupWebRTCOff": {
+        "message": "WebRTC-eiginleikinn fannst ekki."
+    },
+    "popupRetry": {
+        "message": "Reyna aftur"
+    },
+    "popupRetrying": {
+        "message": "Prófa aftur ..."
+    },
+    "popupDescOn": {
+        "message": "Fjöldi notenda sem Snowflake-tilvikið þitt hefur hjálpað við að komast framhjá ritskoðun á síðustu 24 klukkustundum: $1"
+    },
+    "popupLearnMore": {
+        "message": "Fræðast frekar"
+    },
+    "popupStatusOff": {
+        "message": "Slökkt er á Snowflake"
+    },
+    "popupStatusOn": {
+        "message": "Fjöldi notenda sem núna eru tengdir: $1"
+    },
+    "popupBridgeUnreachable": {
+        "message": "Tókst ekki að tengjast brúnni."
+    },
+    "popupRunInBackground": {
+        "message": "Halda í gangi þegar vafra er lokað"
+    },
+    "popupStatusReady": {
+        "message": "Snowflake-tilvikið þitt er reiðubúið að hjálpa notendum við að komast framhjá ritskoðun"
+    },
+    "extensionOnboard": {
+        "message": "Takk fyrir að setja inn Snowflake-vefviðbótina!"
+    },
+    "extensionOptout": {
+        "message": "Þessi viðbót sendir aðeins þau lágmarksgögn sem nauðsynleg eru til að virka sem Snowflake-milliþjónn. Ef þér finnst óþægilegt að notuð séu þessi gögn sem talin eru upp hér að ofan eða ert ekki sátt/ur við einhverja hluta persónuverndarstefu okkar, þá mælum við með að þú fjarlægir Snowflake-viðbótina."
+    },
+    "remove": {
+        "message": "Fjalægja Snowflake-viðbótina"
+    },
+    "consent": {
+        "message": "Ég samþykki"
+    },
+    "extensionConsent": {
+        "message": "Til að setja upp grunnvirkni eru Snowflake-milliþjónar (viðbótin sem þú settir upp í vafranum þínum) að senda ýmis lýsigögn til Snowflake-miðlara um stillingar netkerfis milliþjónsins. Þessi lýsigögn eru: IP-vistfang milliþjónsins (þitt IP-vistfang), uppgefin tegund NAT, útgáfa snowflake-samskiptamáta sem þú (milliþjónninn) ert að keyra, sú staðreynd að milliþjónninn (viðbótin sem þú settir upp) sé vefviðbót, og fjöldi biðlara/forrita sem þegar eru tengd við milliþjóninn (við viðbótina sem þú settir upp). Þessi gögn eru einungis notuð til að koma á tengingunni og til söfnunar á tölfræði, og eru upplýsingarnar ekki geymdar hjá miðlaranum. Endilega skoðaðu <a href=\"https://addons.mozilla.org/en-US/firefox/addon/torproject-snowflake/privacy\">stefnu okkar um meðferð persónuupplýsinga</a> til að sjá nánar hvaða uplýsingum við söfnum og birtum. Þegar þú ert svo tilbúin/n, geturðu gefið samþykki þitt til að virkja Snowflake-milliþjóninn þinn með því að smella á hnappinn hér fyrir neðan."
+    },
+    "popupNeedConsent": {
+        "message": "Samþykktu stefnu okkar varðandi meðferð persónulegra gagna áður en þú virkjar Snowflake."
+    },
+    "consented": {
+        "message": "Nú er allt tilbúið! Takk fyrir að keyra snowflake-milliþjón!"
+    },
+    "popupConsent": {
+        "message": "Opna síðu fyrir samþykki"
+    },
+    "badgeLocalStorageOff": {
+        "message": "Geymslurými á tækinu er ekki virkjað."
+    },
+    "installExtension": {
+        "message": "Vissir þú að Snowflake-milliþjónar eru alfarið reknir af sjálfboðaliðum? Með öðrum orðum, notandi er paraður tilviljanakennt við milliþjón Snowflake-sjálfboðaliða, sem gæti eins verið þú! Þannig að ef þig langar að hjálpa fólki við að komast framhjá ritskoðun, ættirðu að íhuga að setja upp og keyra Snowflake-milliþjón. Einu kröfurnar eru að internetið í landinu þínu sé <strong>ekki</strong> alvarlega ritskoðað nú um stundir."
+    },
+    "volunteer": {
+        "message": "Þú getur gengið til liðs við þúsundir annarra sjálfboðaliða úti um víða veröld sem eru með Snowflake-milliþjón uppsettann og í gangi. Það þarf ekki að hafa neinar áhyggjur af því hvaða vefsíður fólk sé að skoða í gegnum Snowflake-milliþjóninn þinn. Sýnilega IP-vistfangið þeirra mun samsvara Tor-útgangsgátt þeirra, ekki IP-vistfanginu þínu."
+    },
+    "reportingBugs": {
+        "message": "Tilkynna villur"
+    },
+    "fileBug": {
+        "message": "Ef þú lendir í vandamálum með Snowflake - hvort sem þú ert að nýta þér það eða keyra það - þá skaltu íhuga að senda inn skýrslu.  Tvær leiðir eru til að senda inn villuskýrslu:"
+    },
+    "sharedAccount": {
+        "message": "Sendu inn <a href=\"https://anonticket.onionize.space/\">nafnlausa verkbeiðni</a> með því að útbúa auðkenni og skrá þig inn með því. Síðan skaltu finna Snowflake-verkefnið í <strong>Listi yfir öll verkefni</strong> og útbúa nýja verkbeiðni."
+    },
+    "bugTracker": {
+        "message": "<a href=\"https://gitlab.onionize.space/\">Biddu um aðgang</a> á GitLab-þjóni Tor-verkefnisins, síðan ættirðu að <a href=\"https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/issues\">opna nýja verkbeiðni</a> í Snowflake-verkefninu."
+    },
+    "descriptive": {
+        "message": "Reyndu að gera verkbeiðnina eins greinargóða og lýsandi og auðið er, hafa jafnvel með þau skilaboð úr atvikaskráningu (log) sem geta hjálpað við að endurgera villuna."
+    },
+    "faq": {
+        "message": "Leita að aðstoð við að nota Snowflake"
+    },
+    "support": {
+        "message": "Ef þú rekst á vandamál við að tengjast við Tor með Snowflake, þá er hægt að nýta aðstoðarrás Tor á <a href=\"https://t.me/TorProjectSupportBot\">Telegram</a>. Þú getur líka skoðað <a href=\"https://support.torproject.org/censorship/\">Tor-aðstoðargáttina</a> og <a href=\"https://forum.torproject.org/tag/snowflake\">Tor-spjallsvæðið</a> til að fá svör og lausnir."
+    }
+}
